@@ -1,34 +1,24 @@
-# This is the main production Dockerfile.
-# It depends on medplum-server.tar.gz which is created by scripts/build-docker-server.sh.
-# This is a production ready image.
-# It does not include any development dependencies.
-
-# Builds multiarch docker images
-# https://docs.docker.com/build/building/multi-platform/
-# https://www.docker.com/blog/multi-arch-build-and-images-the-simple-way/
-
-# Supported architectures:
-# linux/amd64, linux/arm64, linux/arm/v7
-# https://github.com/docker-library/official-images#architectures-other-than-amd64
-
 FROM node:20-slim
 
 ENV NODE_ENV=production
 
-WORKDIR /usr/src/medplum
+WORKDIR /usr/src/medivyx
 
-# Add the application files
+# Add the built server bundle
 ADD ./medplum-server.tar.gz ./
 
-# Install dependencies, create non-root user, and set permissions in one layer
 RUN npm ci && \
-  groupadd -r medplum && \
-  useradd -r -g medplum medplum && \
-  chown -R medplum:medplum /usr/src/medplum
+    groupadd -r medivyx && \
+    useradd -r -g medivyx medivyx && \
+    chown -R medivyx:medivyx /usr/src/medivyx
 
-EXPOSE 5000 8103
+USER medivyx
 
-# Switch to the non-root user
-USER medplum
+EXPOSE 8103
 
-ENTRYPOINT [ "node", "--require", "./packages/server/dist/otel/instrumentation.js", "packages/server/dist/index.js" ]
+ENTRYPOINT [
+  "node",
+  "--require",
+  "./packages/server/dist/otel/instrumentation.js",
+  "packages/server/dist/index.js"
+]
