@@ -68,3 +68,16 @@ export function partition<T, PassType extends T>(
   }
   return [pass, fail];
 }
+
+/**
+ * Returns the display name for a resource type.
+ * Customizes ServiceRequest to show as "Diagnostic Request".
+ * @param resourceType - The resource type string.
+ * @returns The display name for the resource type.
+ */
+export function getResourceTypeDisplayName(resourceType: string): string {
+  if (resourceType === 'ServiceRequest') {
+    return 'Diagnostic Request';
+  }
+  return resourceType;
+}

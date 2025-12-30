@@ -15,6 +15,7 @@ import { Document, ResourceForm, useMedplum } from '@medplum/react';
 import type { FC, JSX } from 'react';
 import { useCallback, useEffect, useState } from 'react';
 import { useParams } from 'react-router';
+import { getResourceTypeDisplayName } from '../utils';
 import { ProfileTabs } from './ProfileTabs';
 import { cleanResource } from './utils';
 
@@ -27,7 +28,7 @@ export function ProfilesPage(): JSX.Element | null {
   useEffect(() => {
     medplum
       .readResource(resourceType, id)
-      .then((resource) => setResource(deepClone(resource)))
+      .then((resource) => setResource(deepClone(resource) as Resource))
       .catch((err) => {
         showNotification({ color: 'red', message: normalizeErrorString(err) });
       });
@@ -39,7 +40,7 @@ export function ProfilesPage(): JSX.Element | null {
 
   return (
     <Document>
-      <Title order={2}>Available {resourceType} profiles</Title>
+      <Title order={2}>Available {getResourceTypeDisplayName(resourceType)} profiles</Title>
       <Stack>
         <>
           <ProfileTabs resource={resource} currentProfile={currentProfile} onChange={setCurrentProfile} />
@@ -75,21 +76,21 @@ const ProfileDetail: FC<ProfileDetailProps> = ({ profile, resource, onResourceUp
   const handleSubmit = useCallback(
     (newResource: Resource): void => {
       setOutcome(undefined);
-      const cleanedResource = cleanResource(newResource);
+      const cleanedResource = cleanResource(newResource) as Resource;
       if (active) {
-        addProfileToResource(cleanedResource, profile.url);
+        addProfileToResource(cleanedResource as any, profile.url);
       } else {
-        removeProfileFromResource(cleanedResource, profile.url);
+        removeProfileFromResource(cleanedResource as any, profile.url);
       }
 
       medplum
-        .updateResource(cleanedResource)
+        .updateResource(cleanedResource as any)
         .then((resp) => {
-          onResourceUpdated(resp);
+          onResourceUpdated(resp as Resource);
           showNotification({ color: 'green', message: 'Success' });
         })
         .catch((err) => {
-          setOutcome(normalizeOperationOutcome(err));
+          setOutcome(normalizeOperationOutcome(err) as OperationOutcome);
           showNotification({ color: 'red', message: normalizeErrorString(err), autoClose: false });
         });
     },
@@ -106,7 +107,12 @@ const ProfileDetail: FC<ProfileDetailProps> = ({ profile, resource, onResourceUp
         data-testid="profile-toggle"
       />
       {active ? (
-        <ResourceForm profileUrl={profile.url} defaultValue={resource} onSubmit={handleSubmit} outcome={outcome} />
+        <ResourceForm
+          profileUrl={profile.url}
+          defaultValue={resource as any}
+          onSubmit={handleSubmit as any}
+          outcome={outcome as any}
+        />
       ) : (
         <form
           noValidate

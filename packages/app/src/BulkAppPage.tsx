@@ -4,6 +4,7 @@ import { Title } from '@mantine/core';
 import { Document, Loading, MedplumLink, useSearchResources } from '@medplum/react';
 import type { JSX } from 'react';
 import { useParams } from 'react-router';
+import { getResourceTypeDisplayName } from './utils';
 
 export function BulkAppPage(): JSX.Element {
   const { resourceType } = useParams() as {
@@ -21,7 +22,7 @@ export function BulkAppPage(): JSX.Element {
   if (questionnaires.length === 0) {
     return (
       <Document>
-        <Title>No apps for {resourceType}</Title>
+        <Title>No apps for {getResourceTypeDisplayName(resourceType)}</Title>
         <MedplumLink to={`/${resourceType}`}>Return to search page</MedplumLink>
       </Document>
     );

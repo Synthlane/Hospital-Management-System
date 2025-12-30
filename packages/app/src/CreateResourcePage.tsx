@@ -4,10 +4,11 @@ import { Badge, Group, Paper, ScrollArea, Tabs, Text, useMantineTheme } from '@m
 import type { JSX } from 'react';
 import { useState } from 'react';
 import { Outlet, useNavigate, useParams } from 'react-router';
+import { getResourceTypeDisplayName } from './utils';
 
 const tabs = ['Form'] as const;
 // const tabs = ['Form', 'JSON', 'Profiles'] as const;
-const BETA_TABS: (typeof tabs)[number][] = ['Profiles'];
+const BETA_TABS: string[] = [];
 const defaultTab = tabs[0].toLowerCase();
 
 export function CreateResourcePage(): JSX.Element {
@@ -35,7 +36,7 @@ export function CreateResourcePage(): JSX.Element {
     <>
       <Paper>
         <Text p="md" fw={500}>
-          New&nbsp;{resourceType}
+          New&nbsp;{resourceType ? getResourceTypeDisplayName(resourceType) : ''}
         </Text>
         <ScrollArea>
           <Tabs defaultValue={defaultTab} value={currentTab} onChange={onTabChange}>

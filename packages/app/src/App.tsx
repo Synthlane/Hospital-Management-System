@@ -65,11 +65,19 @@ function userConfigToMenu(config: UserConfiguration | undefined): NavbarMenu[] {
       .map((menu) => ({
         title: menu.title,
         links:
-          menu.link?.map((link) => ({
-            label: link.name,
-            href: link.target as string,
-            icon: getIcon(link.target as string),
-          })) || [],
+          menu.link?.map((link) => {
+            // Customize label for ServiceRequest to show as "Diagnostic Request"
+            let label = link.name;
+            const target = link.target as string;
+            if (target?.includes('/ServiceRequest')) {
+              label = 'Diagnostic Request';
+            }
+            return {
+              label,
+              href: target,
+              icon: getIcon(target),
+            };
+          }) || [],
       })) || [];
 
   result.push({

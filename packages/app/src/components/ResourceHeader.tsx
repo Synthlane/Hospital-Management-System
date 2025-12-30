@@ -4,19 +4,25 @@ import { getDisplayString, getReferenceString } from '@medplum/core';
 import type { CodeableConcept, Identifier, Reference, Resource } from '@medplum/fhirtypes';
 import { InfoBar, MedplumLink, useResource } from '@medplum/react';
 import type { JSX, ReactNode } from 'react';
+import { getResourceTypeDisplayName } from '../utils';
 
 export interface ResourceHeaderProps {
   readonly resource: Resource | Reference;
 }
 
 export function ResourceHeader(props: ResourceHeaderProps): JSX.Element | null {
-  const resource = useResource(props.resource);
+  const resource = useResource(props.resource as Reference | Partial<Resource> | undefined);
   if (!resource) {
     return null;
   }
 
   const entries: { key: string; value: string | ReactNode | undefined }[] = [
-    { key: 'Type', value: <MedplumLink to={`/${resource.resourceType}`}>{resource.resourceType}</MedplumLink> },
+    {
+      key: 'Type',
+      value: (
+        <MedplumLink to={`/${resource.resourceType}`}>{getResourceTypeDisplayName(resource.resourceType)}</MedplumLink>
+      ),
+    },
   ];
 
   function addEntry(key: string | undefined, value: string | undefined): void {
@@ -52,19 +58,19 @@ export function ResourceHeader(props: ResourceHeaderProps): JSX.Element | null {
     }
   }
 
-  if ('category' in resource) {
-    addConcept('Category', resource.category);
+  if ('category' in resource && resource.category) {
+    addConcept('Category', resource.category as CodeableConcept[] | CodeableConcept | string[] | string | undefined);
   }
 
-  if (resource.resourceType !== 'Bot' && 'code' in resource) {
-    addConcept('Code', resource.code);
+  if (resource.resourceType !== 'Bot' && 'code' in resource && resource.code) {
+    addConcept('Code', resource.code as CodeableConcept[] | CodeableConcept | string[] | string | undefined);
   }
 
-  if ('identifier' in resource) {
+  if ('identifier' in resource && resource.identifier) {
     if (Array.isArray(resource.identifier)) {
-      resource.identifier.forEach(addIdentifier);
+      resource.identifier.forEach((id) => addIdentifier(id as Identifier | undefined));
     } else {
-      addIdentifier(resource.identifier);
+      addIdentifier(resource.identifier as Identifier | undefined);
     }
   }
 
