@@ -24,6 +24,7 @@ import { RangeDisplay } from '../RangeDisplay/RangeDisplay';
 import { RatioDisplay } from '../RatioDisplay/RatioDisplay';
 import { ReferenceDisplay } from '../ReferenceDisplay/ReferenceDisplay';
 import { ResourceArrayDisplay } from '../ResourceArrayDisplay/ResourceArrayDisplay';
+import { StatusBadge } from '../StatusBadge/StatusBadge';
 
 export interface ResourcePropertyDisplayProps {
   readonly property?: InternalSchemaElement;
@@ -94,8 +95,24 @@ export function ResourcePropertyDisplay(props: ResourcePropertyDisplayProps): JS
     );
   }
 
+  // Check if this is a status field - render as StatusBadge
+  const isStatusField = props.path?.endsWith('.status') || props.property?.path?.endsWith('.status');
+  if (isStatusField && typeof value === 'string') {
+    return <StatusBadge status={value} />;
+  }
+
+  // Check if this is an active field - render as StatusBadge
+  const isActiveField = props.path?.endsWith('.active') || props.property?.path?.endsWith('.active');
+  if (isActiveField && typeof value === 'boolean') {
+    return <StatusBadge status={value ? 'active' : 'inactive'} />;
+  }
+
   switch (propertyType) {
     case PropertyType.boolean:
+      // For active field, we already handled it above, but keep this for other booleans
+      if (isActiveField) {
+        return <StatusBadge status={value ? 'active' : 'inactive'} />;
+      }
       return <>{value === undefined ? '' : Boolean(value).toString()}</>;
     case PropertyType.SystemString:
     case PropertyType.string:

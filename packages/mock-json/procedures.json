@@ -1,61 +1,29 @@
 [
   {
     "resourceType": "Procedure",
-    "id": "dcdc2c33-1323-4cfc-8c76-90bf3aa1e227",
+    "id": "8883732b-6b44-419a-9f89-81a0fd6e9883",
     "status": "completed",
     "code": {
       "coding": [
         {
           "system": "http://snomed.info/sct",
-          "code": "113091000",
-          "display": "Magnetic resonance imaging of brain"
+          "code": "443253003",
+          "display": "Ultrasound scan abdomen"
         }
       ],
-      "text": "MRI Brain"
+      "text": "Abdominal Ultrasound"
     },
     "subject": {
-      "reference": "Patient/31605e01-57b2-4775-a72d-b1303ef91ddd"
+      "reference": "Patient/bcbc531d-b0b3-4acd-b06e-4cccc9fc0e9b"
     },
     "encounter": {
-      "reference": "Encounter/ca6f6b71-8c05-4d47-ae61-8d406f4c0ce7"
+      "reference": "Encounter/cbb2e763-5944-4101-8c8b-3078ab0387f2"
     },
-    "performedDateTime": "2024-10-07T12:46:26.273Z",
+    "performedDateTime": "2024-01-04T12:53:20.526Z",
     "performer": [
       {
         "actor": {
-          "reference": "Practitioner/03708371-fc71-4143-a217-53da263e51cf"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/ba61b8f8-0f92-4acd-b73c-0404138d2866"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "5ac9aeb4-9e8f-4a00-be2a-1b405676316d",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "410528000",
-          "display": "Nebulization therapy"
-        }
-      ],
-      "text": "Nebulization"
-    },
-    "subject": {
-      "reference": "Patient/31605e01-57b2-4775-a72d-b1303ef91ddd"
-    },
-    "encounter": {
-      "reference": "Encounter/b31a9d95-315e-4e12-a67c-688d5906bf4d"
-    },
-    "performedDateTime": "2025-04-21T08:43:14.396Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/a74fea4f-5e08-4135-a08f-35db054cbf51"
+          "reference": "Practitioner/6925811a-1636-463a-9488-78f2f7b3a190"
         }
       }
     ],
@@ -65,327 +33,7 @@
   },
   {
     "resourceType": "Procedure",
-    "id": "b7e56333-b786-43d2-9e39-3dbba13bbbb3",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "443253003",
-          "display": "Ultrasound scan abdomen"
-        }
-      ],
-      "text": "Abdominal Ultrasound"
-    },
-    "subject": {
-      "reference": "Patient/31605e01-57b2-4775-a72d-b1303ef91ddd"
-    },
-    "encounter": {
-      "reference": "Encounter/824da212-03fb-43be-bbe7-a1db0a6f87c1"
-    },
-    "performedDateTime": "2024-08-16T13:07:13.154Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/37a67a0c-9b0b-4dbf-baed-fa4fd556e7fb"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/5500dca2-43bc-4672-8f67-53e0ab388ecd"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "f43fe35f-13d6-4709-8613-f8053b8e12fe",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "387713003",
-          "display": "Wound dressing"
-        }
-      ],
-      "text": "Wound Dressing"
-    },
-    "subject": {
-      "reference": "Patient/31605e01-57b2-4775-a72d-b1303ef91ddd"
-    },
-    "encounter": {
-      "reference": "Encounter/c7e103e7-49d0-4df6-bde6-69a8b433ac18"
-    },
-    "performedDateTime": "2024-08-14T03:15:49.388Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/3497f9cf-3ffd-4c74-a644-0ad595bb6cea"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/5500dca2-43bc-4672-8f67-53e0ab388ecd"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "222fcfb3-5d29-4165-840d-d541e9dee520",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "387713003",
-          "display": "Wound dressing"
-        }
-      ],
-      "text": "Wound Dressing"
-    },
-    "subject": {
-      "reference": "Patient/d1787de3-d14b-4753-a94f-5fdc9b969e59"
-    },
-    "encounter": {
-      "reference": "Encounter/5b827299-79df-482e-a615-bd501d383a82"
-    },
-    "performedDateTime": "2025-07-11T03:04:46.074Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/c07315da-6ad6-4146-958a-1f15d5b6e605"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "5f013f79-5a28-441f-a764-1a52963342df",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "241615005",
-          "display": "Blood pressure measurement"
-        }
-      ],
-      "text": "Blood Pressure Check"
-    },
-    "subject": {
-      "reference": "Patient/d81a0f39-8296-4f38-b223-3be19ff03069"
-    },
-    "encounter": {
-      "reference": "Encounter/717075bd-7846-4b21-a4bf-fddf499b5038"
-    },
-    "performedDateTime": "2024-07-31T12:30:49.407Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/0382b1f4-d881-4ba8-8de1-d736c08cc126"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/ba61b8f8-0f92-4acd-b73c-0404138d2866"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "753ad8e7-5530-4d92-8ce2-322f04320a43",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "241615005",
-          "display": "Colonoscopy"
-        }
-      ],
-      "text": "Colonoscopy"
-    },
-    "subject": {
-      "reference": "Patient/13cc00fb-1f1f-4175-9c75-e92eee0be49c"
-    },
-    "encounter": {
-      "reference": "Encounter/b79c3a03-bd6f-4ed8-a057-4f8c2a1576b8"
-    },
-    "performedDateTime": "2025-05-30T08:48:24.227Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/247bc194-3e39-4fba-9bc5-c72eabce4121"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/ba61b8f8-0f92-4acd-b73c-0404138d2866"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "7299f589-c026-4c2c-8eb5-133c2dac60c4",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "168499009",
-          "display": "Physical examination"
-        }
-      ],
-      "text": "Physical Exam"
-    },
-    "subject": {
-      "reference": "Patient/01efa35a-5db6-4851-85f1-a098bd6c4f99"
-    },
-    "encounter": {
-      "reference": "Encounter/527ba571-b706-4dee-85b1-88fa11d1e7cc"
-    },
-    "performedDateTime": "2025-05-14T05:13:47.904Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/7551c989-9465-4328-9f60-e1c76671b247"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "920fe1a8-a9da-4f3f-9aa9-ca9f1f2f07e8",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "241615005",
-          "display": "Echocardiogram"
-        }
-      ],
-      "text": "Echocardiogram"
-    },
-    "subject": {
-      "reference": "Patient/01efa35a-5db6-4851-85f1-a098bd6c4f99"
-    },
-    "encounter": {
-      "reference": "Encounter/a29fca5a-0f15-4c67-bafe-f06f3aa76639"
-    },
-    "performedDateTime": "2025-11-22T07:11:06.748Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/f51d021d-b293-4590-844b-76dc203745d1"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/3f6ba871-c251-4af6-a038-8e6b02cd578b"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "8363cad0-3711-4b74-b6ab-8ab9326f7aba",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "443253003",
-          "display": "Ultrasound scan abdomen"
-        }
-      ],
-      "text": "Abdominal Ultrasound"
-    },
-    "subject": {
-      "reference": "Patient/f2813ffc-5a0e-448d-8fda-593f0b65ff4e"
-    },
-    "encounter": {
-      "reference": "Encounter/c0aedb76-bf6f-4cb7-b536-7d00b3aa1cf3"
-    },
-    "performedDateTime": "2024-09-13T03:01:09.269Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/247bc194-3e39-4fba-9bc5-c72eabce4121"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "19481b4d-9e89-4f87-8713-2b8863a1dea1",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "410528000",
-          "display": "Nebulization therapy"
-        }
-      ],
-      "text": "Nebulization"
-    },
-    "subject": {
-      "reference": "Patient/655a5c2d-4dc4-42b5-a17d-80cf8b402ba2"
-    },
-    "encounter": {
-      "reference": "Encounter/b0a6a7c4-eede-42c5-94a0-6db86a1cd14c"
-    },
-    "performedDateTime": "2025-11-12T03:26:05.134Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/c07315da-6ad6-4146-958a-1f15d5b6e605"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/5500dca2-43bc-4672-8f67-53e0ab388ecd"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "a21f842e-8c3e-4b26-b667-b99525e310a1",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "443253003",
-          "display": "Ultrasound scan abdomen"
-        }
-      ],
-      "text": "Abdominal Ultrasound"
-    },
-    "subject": {
-      "reference": "Patient/655a5c2d-4dc4-42b5-a17d-80cf8b402ba2"
-    },
-    "encounter": {
-      "reference": "Encounter/42b367b0-72a4-422b-9a2d-b43b1c0bf00f"
-    },
-    "performedDateTime": "2024-09-12T04:05:36.107Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/c07315da-6ad6-4146-958a-1f15d5b6e605"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "b1c5932a-de0e-4929-92a1-77efd420443d",
+    "id": "72a089ca-037a-4bf6-900e-4e2829ac7790",
     "status": "completed",
     "code": {
       "coding": [
@@ -398,496 +46,16 @@
       "text": "Endoscopy"
     },
     "subject": {
-      "reference": "Patient/655a5c2d-4dc4-42b5-a17d-80cf8b402ba2"
+      "reference": "Patient/661c179c-59de-4a67-b97f-6b61f527388b"
     },
     "encounter": {
-      "reference": "Encounter/67c9b575-9967-46d9-b326-a9372a992e6f"
+      "reference": "Encounter/e777b019-e6b9-4693-afcc-29a28d960edd"
     },
-    "performedDateTime": "2025-04-21T04:34:53.204Z",
+    "performedDateTime": "2024-06-23T13:25:19.520Z",
     "performer": [
       {
         "actor": {
-          "reference": "Practitioner/5e46412d-e1cb-492d-8d91-97f905feb502"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/5500dca2-43bc-4672-8f67-53e0ab388ecd"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "8707e719-3deb-4d03-b6a0-6cb9c4cf197d",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "241615005",
-          "display": "Blood pressure measurement"
-        }
-      ],
-      "text": "Blood Pressure Check"
-    },
-    "subject": {
-      "reference": "Patient/737583da-492e-4cbe-9339-9b624df005a9"
-    },
-    "encounter": {
-      "reference": "Encounter/49f2c1f9-8a08-4480-8a89-1e646f000b36"
-    },
-    "performedDateTime": "2025-11-03T08:20:45.774Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/101746b1-0eaa-41f0-a750-35de0c881415"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "a6cfe330-dea5-4cb3-9c9d-0c56ba115274",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "410528000",
-          "display": "Nebulization therapy"
-        }
-      ],
-      "text": "Nebulization"
-    },
-    "subject": {
-      "reference": "Patient/737583da-492e-4cbe-9339-9b624df005a9"
-    },
-    "encounter": {
-      "reference": "Encounter/fbb73bba-0caf-4725-bb21-d3bbffe9452c"
-    },
-    "performedDateTime": "2025-07-14T06:56:26.776Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/c07315da-6ad6-4146-958a-1f15d5b6e605"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/6c8264a2-eccf-45fa-90c2-72f454766c9e"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "94e10f6e-a36b-4ab2-96f5-17f8934931c7",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "241615005",
-          "display": "Endoscopy"
-        }
-      ],
-      "text": "Endoscopy"
-    },
-    "subject": {
-      "reference": "Patient/737583da-492e-4cbe-9339-9b624df005a9"
-    },
-    "encounter": {
-      "reference": "Encounter/8321c428-89e2-49f1-9b30-19fb7d38f396"
-    },
-    "performedDateTime": "2024-05-04T12:32:56.371Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/b8215c12-341d-42a4-ac10-44867ab70708"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/6c8264a2-eccf-45fa-90c2-72f454766c9e"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "ba75733c-4791-4228-a9a5-306e0ac3f04e",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "399208008",
-          "display": "Urinalysis"
-        }
-      ],
-      "text": "Urine Test"
-    },
-    "subject": {
-      "reference": "Patient/9736553d-caa1-4184-a149-3fee97ba8167"
-    },
-    "encounter": {
-      "reference": "Encounter/5c24a32e-82bb-4c5e-82f0-3e24cebd1842"
-    },
-    "performedDateTime": "2025-09-03T03:48:38.780Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/0382b1f4-d881-4ba8-8de1-d736c08cc126"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/3f6ba871-c251-4af6-a038-8e6b02cd578b"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "c3fe9cac-396d-40b2-af13-155a7ba13e8e",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "410528000",
-          "display": "Nebulization therapy"
-        }
-      ],
-      "text": "Nebulization"
-    },
-    "subject": {
-      "reference": "Patient/9736553d-caa1-4184-a149-3fee97ba8167"
-    },
-    "encounter": {
-      "reference": "Encounter/4f92e517-2f54-4e4b-a282-7cee277b7225"
-    },
-    "performedDateTime": "2025-07-20T13:09:04.205Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/5be2ebf0-54b7-454f-b191-2d6358e3dffb"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/3f6ba871-c251-4af6-a038-8e6b02cd578b"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "63662f38-9b42-4ccf-971e-56093ef3f589",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "443253003",
-          "display": "Ultrasound scan abdomen"
-        }
-      ],
-      "text": "Abdominal Ultrasound"
-    },
-    "subject": {
-      "reference": "Patient/9736553d-caa1-4184-a149-3fee97ba8167"
-    },
-    "encounter": {
-      "reference": "Encounter/af4be657-de73-45d7-852e-17c6bf094b78"
-    },
-    "performedDateTime": "2024-11-09T09:18:07.221Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/0382b1f4-d881-4ba8-8de1-d736c08cc126"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/5500dca2-43bc-4672-8f67-53e0ab388ecd"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "3bb93ab5-eafa-46ab-8729-f88c50ca3602",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "301095005",
-          "display": "Electrocardiogram"
-        }
-      ],
-      "text": "ECG"
-    },
-    "subject": {
-      "reference": "Patient/9736553d-caa1-4184-a149-3fee97ba8167"
-    },
-    "encounter": {
-      "reference": "Encounter/e7313be8-ff64-420b-af8d-58bc8ef5beae"
-    },
-    "performedDateTime": "2024-08-24T08:26:52.693Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/3497f9cf-3ffd-4c74-a644-0ad595bb6cea"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/6c8264a2-eccf-45fa-90c2-72f454766c9e"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "da6278ff-9b9a-496d-9c71-e44ade769a04",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "241615005",
-          "display": "Colonoscopy"
-        }
-      ],
-      "text": "Colonoscopy"
-    },
-    "subject": {
-      "reference": "Patient/9736553d-caa1-4184-a149-3fee97ba8167"
-    },
-    "encounter": {
-      "reference": "Encounter/b4001df7-c3c7-4eae-b2c5-5370e1bc45ba"
-    },
-    "performedDateTime": "2025-04-24T08:36:08.939Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/e579ed34-90d8-4659-8527-f28e237edcb6"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "9b97d9eb-1748-426e-97b1-afefe994ab26",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "399208008",
-          "display": "Urinalysis"
-        }
-      ],
-      "text": "Urine Test"
-    },
-    "subject": {
-      "reference": "Patient/631d6cab-a03b-45b7-b612-be343e4d430b"
-    },
-    "encounter": {
-      "reference": "Encounter/72a6a6a9-89db-4a72-82f0-268f1f7c5cde"
-    },
-    "performedDateTime": "2024-03-28T10:04:30.257Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/101746b1-0eaa-41f0-a750-35de0c881415"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/3f6ba871-c251-4af6-a038-8e6b02cd578b"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "2d73f22d-8faf-4d32-ac87-a6a54e1ba3d9",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "241615005",
-          "display": "Echocardiogram"
-        }
-      ],
-      "text": "Echocardiogram"
-    },
-    "subject": {
-      "reference": "Patient/631d6cab-a03b-45b7-b612-be343e4d430b"
-    },
-    "encounter": {
-      "reference": "Encounter/ecb98be0-3d46-44e5-8e4e-dabfcdd583d5"
-    },
-    "performedDateTime": "2024-11-14T10:46:47.426Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/415113f8-f20e-465f-89d6-994d52991b57"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/5500dca2-43bc-4672-8f67-53e0ab388ecd"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "1352ee29-0ea6-47fd-9370-a0181c62b374",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "443253003",
-          "display": "Ultrasound scan abdomen"
-        }
-      ],
-      "text": "Abdominal Ultrasound"
-    },
-    "subject": {
-      "reference": "Patient/631d6cab-a03b-45b7-b612-be343e4d430b"
-    },
-    "encounter": {
-      "reference": "Encounter/9d8d208d-ce98-446b-a660-ae14a400c741"
-    },
-    "performedDateTime": "2025-07-03T08:44:29.687Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/5be2ebf0-54b7-454f-b191-2d6358e3dffb"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/3f6ba871-c251-4af6-a038-8e6b02cd578b"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "0acb3f6a-b461-4a4a-9179-49e4294edd9b",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "410528000",
-          "display": "Nebulization therapy"
-        }
-      ],
-      "text": "Nebulization"
-    },
-    "subject": {
-      "reference": "Patient/631d6cab-a03b-45b7-b612-be343e4d430b"
-    },
-    "encounter": {
-      "reference": "Encounter/8f009bc1-3309-4118-93a9-cde0a7e75b5e"
-    },
-    "performedDateTime": "2025-03-18T11:17:00.085Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/b064c1cf-dc50-4b41-9d1f-a047a2d819e8"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/3f6ba871-c251-4af6-a038-8e6b02cd578b"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "2f5cc954-3b33-4741-a57c-0d2a5e9e224d",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "301095005",
-          "display": "Electrocardiogram"
-        }
-      ],
-      "text": "ECG"
-    },
-    "subject": {
-      "reference": "Patient/60c29339-ee71-4e6e-8ec4-dcf26c1e32b4"
-    },
-    "encounter": {
-      "reference": "Encounter/7305ba37-6399-49f2-af37-9fc387cb1b0d"
-    },
-    "performedDateTime": "2025-03-10T07:31:45.843Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/81c28517-fbb4-463e-a0ea-7ee03be7c49f"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/6c8264a2-eccf-45fa-90c2-72f454766c9e"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "a5ca07c4-ea72-42c6-b35a-ad369ec50cb5",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "410528000",
-          "display": "Nebulization therapy"
-        }
-      ],
-      "text": "Nebulization"
-    },
-    "subject": {
-      "reference": "Patient/60c29339-ee71-4e6e-8ec4-dcf26c1e32b4"
-    },
-    "encounter": {
-      "reference": "Encounter/944c889b-9f68-4ff2-93ca-d0a07f527a4f"
-    },
-    "performedDateTime": "2025-08-27T09:22:53.196Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/5e46412d-e1cb-492d-8d91-97f905feb502"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/3f6ba871-c251-4af6-a038-8e6b02cd578b"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "05758e3c-7994-4cae-9a67-4133297cc35b",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "168499009",
-          "display": "Physical examination"
-        }
-      ],
-      "text": "Physical Exam"
-    },
-    "subject": {
-      "reference": "Patient/60c29339-ee71-4e6e-8ec4-dcf26c1e32b4"
-    },
-    "encounter": {
-      "reference": "Encounter/b23c63fe-cc76-4968-a15b-29a98cc73cf0"
-    },
-    "performedDateTime": "2024-06-07T11:59:32.928Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/8fcc861a-a1b7-47eb-8568-bb031eb59ad8"
+          "reference": "Practitioner/6925811a-1636-463a-9488-78f2f7b3a190"
         }
       }
     ],
@@ -897,2599 +65,7 @@
   },
   {
     "resourceType": "Procedure",
-    "id": "ea9adc69-7ac0-4d96-babd-0631bf7e0051",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "168499009",
-          "display": "Physical examination"
-        }
-      ],
-      "text": "Physical Exam"
-    },
-    "subject": {
-      "reference": "Patient/4c54c9be-2d88-4a2e-88d7-1b3876a2fdc2"
-    },
-    "encounter": {
-      "reference": "Encounter/04eac661-6b69-4808-ae05-4f36ff7e9f99"
-    },
-    "performedDateTime": "2025-07-06T07:19:52.393Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/3497f9cf-3ffd-4c74-a644-0ad595bb6cea"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/ba61b8f8-0f92-4acd-b73c-0404138d2866"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "faf18783-0017-4d74-ba2d-3352fbc46bbf",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "443253003",
-          "display": "Ultrasound scan abdomen"
-        }
-      ],
-      "text": "Abdominal Ultrasound"
-    },
-    "subject": {
-      "reference": "Patient/d096c265-440d-4b17-881a-903e198fbbef"
-    },
-    "encounter": {
-      "reference": "Encounter/b99e4778-485e-496e-ba7e-7a0e46347059"
-    },
-    "performedDateTime": "2024-12-20T13:42:17.487Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/101746b1-0eaa-41f0-a750-35de0c881415"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/3f6ba871-c251-4af6-a038-8e6b02cd578b"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "f9658af0-8b18-4d30-95c6-b7f592fd25fc",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "241615005",
-          "display": "Echocardiogram"
-        }
-      ],
-      "text": "Echocardiogram"
-    },
-    "subject": {
-      "reference": "Patient/d096c265-440d-4b17-881a-903e198fbbef"
-    },
-    "encounter": {
-      "reference": "Encounter/92edf3d7-c81a-44da-87d9-d0f363bfc2b8"
-    },
-    "performedDateTime": "2025-07-18T10:44:25.465Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/247bc194-3e39-4fba-9bc5-c72eabce4121"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/5500dca2-43bc-4672-8f67-53e0ab388ecd"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "80670049-452c-4661-95a2-8bf8de01f4ce",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "241615005",
-          "display": "Echocardiogram"
-        }
-      ],
-      "text": "Echocardiogram"
-    },
-    "subject": {
-      "reference": "Patient/d096c265-440d-4b17-881a-903e198fbbef"
-    },
-    "encounter": {
-      "reference": "Encounter/096b7bc6-6910-4627-acb7-69fb93cf69aa"
-    },
-    "performedDateTime": "2025-05-24T09:43:26.364Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/5e46412d-e1cb-492d-8d91-97f905feb502"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/6c8264a2-eccf-45fa-90c2-72f454766c9e"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "f435f50e-e6db-4c83-ab8b-56f337e85e80",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "443253003",
-          "display": "Ultrasound scan abdomen"
-        }
-      ],
-      "text": "Abdominal Ultrasound"
-    },
-    "subject": {
-      "reference": "Patient/d096c265-440d-4b17-881a-903e198fbbef"
-    },
-    "encounter": {
-      "reference": "Encounter/21986ab2-0c4e-4f0b-8d26-f4494ce7c830"
-    },
-    "performedDateTime": "2025-09-06T04:31:14.370Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/b064c1cf-dc50-4b41-9d1f-a047a2d819e8"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "71f116fa-51ea-4cb2-8faa-1f33d55e28e1",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "241615005",
-          "display": "Endoscopy"
-        }
-      ],
-      "text": "Endoscopy"
-    },
-    "subject": {
-      "reference": "Patient/adc1cc81-115c-4b51-98df-f0aae93bd3be"
-    },
-    "encounter": {
-      "reference": "Encounter/818d01f7-9bb0-4a9f-8024-46ad81551d03"
-    },
-    "performedDateTime": "2025-10-10T10:56:40.243Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/5e46412d-e1cb-492d-8d91-97f905feb502"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/6c8264a2-eccf-45fa-90c2-72f454766c9e"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "77e9c598-0e39-4169-bfe7-059bd54460a8",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "387713003",
-          "display": "Wound dressing"
-        }
-      ],
-      "text": "Wound Dressing"
-    },
-    "subject": {
-      "reference": "Patient/adc1cc81-115c-4b51-98df-f0aae93bd3be"
-    },
-    "encounter": {
-      "reference": "Encounter/5e22e0c9-d845-4282-88b0-7311bdf36e65"
-    },
-    "performedDateTime": "2025-10-20T06:56:04.929Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/3497f9cf-3ffd-4c74-a644-0ad595bb6cea"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "c221649b-e44b-4457-907b-43c1233976b1",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "399208008",
-          "display": "Urinalysis"
-        }
-      ],
-      "text": "Urine Test"
-    },
-    "subject": {
-      "reference": "Patient/95acf353-2849-4d67-9541-3b32e9938515"
-    },
-    "encounter": {
-      "reference": "Encounter/2cb03923-5529-4ba5-b573-bfe7291249f2"
-    },
-    "performedDateTime": "2025-03-16T13:03:28.562Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/a73a85bd-1c74-445e-96e1-d2bb9a2afe52"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/ba61b8f8-0f92-4acd-b73c-0404138d2866"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "99e04fcc-87b2-44aa-98e5-1d45a0c4a177",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "241615005",
-          "display": "Endoscopy"
-        }
-      ],
-      "text": "Endoscopy"
-    },
-    "subject": {
-      "reference": "Patient/95acf353-2849-4d67-9541-3b32e9938515"
-    },
-    "encounter": {
-      "reference": "Encounter/7b7c9468-5a2b-4782-9983-77782ebfa486"
-    },
-    "performedDateTime": "2025-01-19T14:18:01.196Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/4718c19c-d800-4339-9803-3634500bdb80"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/5500dca2-43bc-4672-8f67-53e0ab388ecd"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "7e60c7fa-1305-437c-9a9c-90e1b1bdc132",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "399208008",
-          "display": "Urinalysis"
-        }
-      ],
-      "text": "Urine Test"
-    },
-    "subject": {
-      "reference": "Patient/95acf353-2849-4d67-9541-3b32e9938515"
-    },
-    "encounter": {
-      "reference": "Encounter/6dde7cfc-3ccb-4673-8813-4fb2900117ea"
-    },
-    "performedDateTime": "2025-11-09T06:56:25.243Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/b064c1cf-dc50-4b41-9d1f-a047a2d819e8"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/ba61b8f8-0f92-4acd-b73c-0404138d2866"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "8645a01c-3427-409d-8e1c-06d95e9e6dc1",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "399208008",
-          "display": "Urinalysis"
-        }
-      ],
-      "text": "Urine Test"
-    },
-    "subject": {
-      "reference": "Patient/b2db4db4-c4ab-4b77-b276-0b02a3ce271a"
-    },
-    "encounter": {
-      "reference": "Encounter/2e093923-aeda-40bc-8c5d-701d02d83bdc"
-    },
-    "performedDateTime": "2024-10-04T13:40:35.681Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/54761d33-aaff-46d5-add4-be034d7bbc1f"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "8996059f-ba71-4527-b14b-5dfc2a978d7c",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "168499009",
-          "display": "Physical examination"
-        }
-      ],
-      "text": "Physical Exam"
-    },
-    "subject": {
-      "reference": "Patient/b2db4db4-c4ab-4b77-b276-0b02a3ce271a"
-    },
-    "encounter": {
-      "reference": "Encounter/577b0a72-6279-4a4b-8fd2-bd86c5264863"
-    },
-    "performedDateTime": "2024-08-15T03:18:17.223Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/6bd48b23-30b7-4b59-aa05-7c3ecd5ac83e"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "6bcfb8c7-27d2-4102-8019-9be9dd3f32c6",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "387713003",
-          "display": "Wound dressing"
-        }
-      ],
-      "text": "Wound Dressing"
-    },
-    "subject": {
-      "reference": "Patient/b2db4db4-c4ab-4b77-b276-0b02a3ce271a"
-    },
-    "encounter": {
-      "reference": "Encounter/301e0a94-4e30-4f56-9a74-10c34817802b"
-    },
-    "performedDateTime": "2025-09-24T09:15:30.860Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/5be2ebf0-54b7-454f-b191-2d6358e3dffb"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/3f6ba871-c251-4af6-a038-8e6b02cd578b"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "86245c24-2983-40fe-9c75-fce4c2018376",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "443253003",
-          "display": "Ultrasound scan abdomen"
-        }
-      ],
-      "text": "Abdominal Ultrasound"
-    },
-    "subject": {
-      "reference": "Patient/b2db4db4-c4ab-4b77-b276-0b02a3ce271a"
-    },
-    "encounter": {
-      "reference": "Encounter/be99bd48-a7e9-4255-a493-25d7801c91d7"
-    },
-    "performedDateTime": "2025-02-08T09:59:20.614Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/247bc194-3e39-4fba-9bc5-c72eabce4121"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/ba61b8f8-0f92-4acd-b73c-0404138d2866"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "dee59755-300d-409b-a9ae-6719afb2e02e",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "113091000",
-          "display": "Magnetic resonance imaging of brain"
-        }
-      ],
-      "text": "MRI Brain"
-    },
-    "subject": {
-      "reference": "Patient/b2db4db4-c4ab-4b77-b276-0b02a3ce271a"
-    },
-    "encounter": {
-      "reference": "Encounter/08503dc7-f081-48a7-aec8-5bf432c7e954"
-    },
-    "performedDateTime": "2025-11-07T10:49:23.342Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/4718c19c-d800-4339-9803-3634500bdb80"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "ae809efa-01f6-4e61-8d50-b4ca92c17125",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "387713003",
-          "display": "Wound dressing"
-        }
-      ],
-      "text": "Wound Dressing"
-    },
-    "subject": {
-      "reference": "Patient/b2db4db4-c4ab-4b77-b276-0b02a3ce271a"
-    },
-    "encounter": {
-      "reference": "Encounter/7c99dd61-c2e2-4044-b7ce-849456772608"
-    },
-    "performedDateTime": "2024-11-09T03:13:23.340Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/5e46412d-e1cb-492d-8d91-97f905feb502"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/3f6ba871-c251-4af6-a038-8e6b02cd578b"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "5a8be10c-d582-4606-af7b-0f85658a0ae6",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "387713003",
-          "display": "Wound dressing"
-        }
-      ],
-      "text": "Wound Dressing"
-    },
-    "subject": {
-      "reference": "Patient/209a3c1c-a55c-4a1f-a073-3c3abd52102c"
-    },
-    "encounter": {
-      "reference": "Encounter/4f34d78a-2adc-4b5e-a012-0bf36901d699"
-    },
-    "performedDateTime": "2025-09-30T13:11:54.493Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/0382b1f4-d881-4ba8-8de1-d736c08cc126"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/5500dca2-43bc-4672-8f67-53e0ab388ecd"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "102181a7-9e3d-48a3-a306-9cd068063aec",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "241615005",
-          "display": "Echocardiogram"
-        }
-      ],
-      "text": "Echocardiogram"
-    },
-    "subject": {
-      "reference": "Patient/209a3c1c-a55c-4a1f-a073-3c3abd52102c"
-    },
-    "encounter": {
-      "reference": "Encounter/24f9b6f1-8f9b-4023-989f-b8235e2011bc"
-    },
-    "performedDateTime": "2025-10-25T10:41:27.219Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/3497f9cf-3ffd-4c74-a644-0ad595bb6cea"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "f27a04b0-44c3-408e-88f9-35a58648b4c7",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "443253003",
-          "display": "Ultrasound scan abdomen"
-        }
-      ],
-      "text": "Abdominal Ultrasound"
-    },
-    "subject": {
-      "reference": "Patient/209a3c1c-a55c-4a1f-a073-3c3abd52102c"
-    },
-    "encounter": {
-      "reference": "Encounter/d2e530e2-c0f8-41bf-874d-052a20afe655"
-    },
-    "performedDateTime": "2024-02-17T10:00:11.940Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/101746b1-0eaa-41f0-a750-35de0c881415"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/6c8264a2-eccf-45fa-90c2-72f454766c9e"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "b5c91cc4-5803-4908-844e-3b83c6586fbf",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "443253003",
-          "display": "Ultrasound scan abdomen"
-        }
-      ],
-      "text": "Abdominal Ultrasound"
-    },
-    "subject": {
-      "reference": "Patient/209a3c1c-a55c-4a1f-a073-3c3abd52102c"
-    },
-    "encounter": {
-      "reference": "Encounter/60087ab7-df4d-491c-86f0-97525ac1ffb6"
-    },
-    "performedDateTime": "2024-10-25T07:58:05.344Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/7551c989-9465-4328-9f60-e1c76671b247"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/6c8264a2-eccf-45fa-90c2-72f454766c9e"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "2232baf1-98c0-40fe-b643-d8d6bf3a365a",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "410528000",
-          "display": "Nebulization therapy"
-        }
-      ],
-      "text": "Nebulization"
-    },
-    "subject": {
-      "reference": "Patient/313731e1-5332-4133-9c12-a799efdf8bb8"
-    },
-    "encounter": {
-      "reference": "Encounter/b02614b3-13a6-4871-b693-0392d1fd7d2e"
-    },
-    "performedDateTime": "2024-10-03T05:34:40.644Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/3972afa1-0b07-48e8-9638-4b73d699c275"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/ba61b8f8-0f92-4acd-b73c-0404138d2866"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "928506bb-6032-467c-a666-1c2385d30c7a",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "387713003",
-          "display": "Wound dressing"
-        }
-      ],
-      "text": "Wound Dressing"
-    },
-    "subject": {
-      "reference": "Patient/313731e1-5332-4133-9c12-a799efdf8bb8"
-    },
-    "encounter": {
-      "reference": "Encounter/c4819880-d8dc-4106-9a34-8b9fc6757748"
-    },
-    "performedDateTime": "2024-08-21T05:01:58.558Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/948ba7c8-0934-4909-b2d5-7b53bd7e6d56"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/ba61b8f8-0f92-4acd-b73c-0404138d2866"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "da4463e7-d4fa-47de-9015-3c54a1698ced",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "399208008",
-          "display": "Urinalysis"
-        }
-      ],
-      "text": "Urine Test"
-    },
-    "subject": {
-      "reference": "Patient/313731e1-5332-4133-9c12-a799efdf8bb8"
-    },
-    "encounter": {
-      "reference": "Encounter/10293f21-ab7e-443d-9230-18686ff12109"
-    },
-    "performedDateTime": "2025-08-27T09:15:47.064Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/3972afa1-0b07-48e8-9638-4b73d699c275"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "765db0e6-c937-4f2e-9616-3a2f0faef7a9",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "241615005",
-          "display": "Colonoscopy"
-        }
-      ],
-      "text": "Colonoscopy"
-    },
-    "subject": {
-      "reference": "Patient/b9812c15-bd02-44a7-a9f3-3c56f975b30d"
-    },
-    "encounter": {
-      "reference": "Encounter/8825c809-a28a-489f-8a25-5c37aeee09a6"
-    },
-    "performedDateTime": "2025-12-14T04:12:15.851Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/8fcc861a-a1b7-47eb-8568-bb031eb59ad8"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "6d028837-c45c-44e4-9879-c6c1528c9964",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "241615005",
-          "display": "Endoscopy"
-        }
-      ],
-      "text": "Endoscopy"
-    },
-    "subject": {
-      "reference": "Patient/dc18cab4-f8d0-4ed9-87b1-1671d31b089a"
-    },
-    "encounter": {
-      "reference": "Encounter/1c4f58b5-e915-45a4-88eb-e183f780a184"
-    },
-    "performedDateTime": "2024-12-30T12:49:26.192Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/03708371-fc71-4143-a217-53da263e51cf"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/5500dca2-43bc-4672-8f67-53e0ab388ecd"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "874f73db-e8cf-471f-a649-daa83c7d4f9a",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "168499009",
-          "display": "Physical examination"
-        }
-      ],
-      "text": "Physical Exam"
-    },
-    "subject": {
-      "reference": "Patient/dc18cab4-f8d0-4ed9-87b1-1671d31b089a"
-    },
-    "encounter": {
-      "reference": "Encounter/83e636fb-92b4-4418-971b-733641069c08"
-    },
-    "performedDateTime": "2024-03-31T08:46:25.729Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/6716e427-2d75-4238-a100-3773f2ce4c74"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/3f6ba871-c251-4af6-a038-8e6b02cd578b"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "f64b2c56-46d9-45bd-8363-2c5aa338a8e0",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "241615005",
-          "display": "Blood pressure measurement"
-        }
-      ],
-      "text": "Blood Pressure Check"
-    },
-    "subject": {
-      "reference": "Patient/cacc12cd-6126-4305-9195-370498ecb3eb"
-    },
-    "encounter": {
-      "reference": "Encounter/3be45536-dca2-45f9-911a-a437c2f64def"
-    },
-    "performedDateTime": "2025-10-13T09:35:28.348Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/eb7cfafc-e104-495b-bfc9-dc0dcd5d3268"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/3f6ba871-c251-4af6-a038-8e6b02cd578b"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "6448c5d3-37af-4143-92cb-907ad81c42bb",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "168499009",
-          "display": "Physical examination"
-        }
-      ],
-      "text": "Physical Exam"
-    },
-    "subject": {
-      "reference": "Patient/cacc12cd-6126-4305-9195-370498ecb3eb"
-    },
-    "encounter": {
-      "reference": "Encounter/b2d52aa3-4855-41ba-85df-96ee1bf38da7"
-    },
-    "performedDateTime": "2024-01-14T08:01:19.043Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/101746b1-0eaa-41f0-a750-35de0c881415"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/5500dca2-43bc-4672-8f67-53e0ab388ecd"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "37457195-7d08-4b87-a2ff-8aab2fef0561",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "113091000",
-          "display": "Magnetic resonance imaging of brain"
-        }
-      ],
-      "text": "MRI Brain"
-    },
-    "subject": {
-      "reference": "Patient/cacc12cd-6126-4305-9195-370498ecb3eb"
-    },
-    "encounter": {
-      "reference": "Encounter/80fe638d-69c2-4f32-bda9-f7b2b6e6f9dc"
-    },
-    "performedDateTime": "2024-09-14T04:11:29.171Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/03708371-fc71-4143-a217-53da263e51cf"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/6c8264a2-eccf-45fa-90c2-72f454766c9e"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "f0efd912-1f07-42b1-817c-3bd20125e866",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "241615005",
-          "display": "Blood pressure measurement"
-        }
-      ],
-      "text": "Blood Pressure Check"
-    },
-    "subject": {
-      "reference": "Patient/35d2043c-e901-437c-9dde-3ab09e12ccef"
-    },
-    "encounter": {
-      "reference": "Encounter/f47c6890-1565-4829-b6ec-a86cf49e48eb"
-    },
-    "performedDateTime": "2025-09-10T04:57:37.516Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/6bd48b23-30b7-4b59-aa05-7c3ecd5ac83e"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/3f6ba871-c251-4af6-a038-8e6b02cd578b"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "c425cb79-a166-4497-834d-c9f86c655cd9",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "168499009",
-          "display": "Physical examination"
-        }
-      ],
-      "text": "Physical Exam"
-    },
-    "subject": {
-      "reference": "Patient/22473330-389f-48b2-bce0-a7020a3b6808"
-    },
-    "encounter": {
-      "reference": "Encounter/5c4a46fd-0315-4299-8928-e2fb614220e7"
-    },
-    "performedDateTime": "2024-02-28T12:31:12.507Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/25f32b6f-ad36-497a-91d3-38ec36cadca2"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/ba61b8f8-0f92-4acd-b73c-0404138d2866"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "768555af-9281-44b3-be13-60e3c8cb219a",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "399208008",
-          "display": "Urinalysis"
-        }
-      ],
-      "text": "Urine Test"
-    },
-    "subject": {
-      "reference": "Patient/c535fcde-7b37-460c-843e-e7fd8518bd97"
-    },
-    "encounter": {
-      "reference": "Encounter/946b442d-207e-4c0f-b6aa-9f0442ee00ad"
-    },
-    "performedDateTime": "2025-09-18T12:10:13.221Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/101746b1-0eaa-41f0-a750-35de0c881415"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/3f6ba871-c251-4af6-a038-8e6b02cd578b"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "a7ee98d3-c67c-4e9f-916d-62f45c3d86ac",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "241615005",
-          "display": "Echocardiogram"
-        }
-      ],
-      "text": "Echocardiogram"
-    },
-    "subject": {
-      "reference": "Patient/c535fcde-7b37-460c-843e-e7fd8518bd97"
-    },
-    "encounter": {
-      "reference": "Encounter/bf832f85-9829-426a-b615-bf1351ea0d56"
-    },
-    "performedDateTime": "2024-08-01T09:20:37.609Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/6bd48b23-30b7-4b59-aa05-7c3ecd5ac83e"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/6c8264a2-eccf-45fa-90c2-72f454766c9e"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "15a6871c-493e-4a3d-a0a3-15dc1e95ef45",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "168499009",
-          "display": "Physical examination"
-        }
-      ],
-      "text": "Physical Exam"
-    },
-    "subject": {
-      "reference": "Patient/fac9f72b-a0f0-43b5-9a16-f1ad64a96d7c"
-    },
-    "encounter": {
-      "reference": "Encounter/bfcb8a81-5174-4934-8682-14e50b01c5e0"
-    },
-    "performedDateTime": "2024-08-28T07:17:44.643Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/6bd48b23-30b7-4b59-aa05-7c3ecd5ac83e"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/ba61b8f8-0f92-4acd-b73c-0404138d2866"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "9b4b9f54-227d-4291-850a-c53bf3622505",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "399208008",
-          "display": "Urinalysis"
-        }
-      ],
-      "text": "Urine Test"
-    },
-    "subject": {
-      "reference": "Patient/fac9f72b-a0f0-43b5-9a16-f1ad64a96d7c"
-    },
-    "encounter": {
-      "reference": "Encounter/443f0782-9fe8-4ece-b5d6-0a2977218749"
-    },
-    "performedDateTime": "2025-06-23T05:02:26.267Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/e579ed34-90d8-4659-8527-f28e237edcb6"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/3f6ba871-c251-4af6-a038-8e6b02cd578b"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "4b580be7-3f7d-40cb-a9c4-cf6aecea7cfd",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "168499009",
-          "display": "Physical examination"
-        }
-      ],
-      "text": "Physical Exam"
-    },
-    "subject": {
-      "reference": "Patient/18b4c5ce-d48b-42e7-a50a-5b0ceece0961"
-    },
-    "encounter": {
-      "reference": "Encounter/78261982-a53e-4d84-85ae-9362626f63ae"
-    },
-    "performedDateTime": "2025-03-01T12:29:16.379Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/4718c19c-d800-4339-9803-3634500bdb80"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "fd523d7b-100f-4888-ac31-6bf867db0eaa",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "410528000",
-          "display": "Nebulization therapy"
-        }
-      ],
-      "text": "Nebulization"
-    },
-    "subject": {
-      "reference": "Patient/b706b294-7c49-44a2-8dfc-2b497b8780d3"
-    },
-    "encounter": {
-      "reference": "Encounter/fb621791-35c3-46e2-a3de-1c5e250689f1"
-    },
-    "performedDateTime": "2025-02-21T09:31:59.507Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/ef8a275c-0328-4574-afe0-726f12797e38"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "cc469b70-f2f3-43da-be85-2475a7dd6636",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "241615005",
-          "display": "Blood pressure measurement"
-        }
-      ],
-      "text": "Blood Pressure Check"
-    },
-    "subject": {
-      "reference": "Patient/b706b294-7c49-44a2-8dfc-2b497b8780d3"
-    },
-    "encounter": {
-      "reference": "Encounter/58cfde7d-53fd-4770-8055-cc447d295daf"
-    },
-    "performedDateTime": "2025-03-31T12:21:22.634Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/e579ed34-90d8-4659-8527-f28e237edcb6"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/5500dca2-43bc-4672-8f67-53e0ab388ecd"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "75150ddc-33b7-43d3-a6eb-8cd87f2b41f6",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "301095005",
-          "display": "Electrocardiogram"
-        }
-      ],
-      "text": "ECG"
-    },
-    "subject": {
-      "reference": "Patient/d7257e1f-5c4c-4e30-83fe-024bce58886a"
-    },
-    "encounter": {
-      "reference": "Encounter/966f3311-46a7-4e71-b4bd-00a867323e79"
-    },
-    "performedDateTime": "2025-06-05T07:27:57.109Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/03708371-fc71-4143-a217-53da263e51cf"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/5500dca2-43bc-4672-8f67-53e0ab388ecd"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "8092c112-0b35-4daf-bafa-47cc8aecb727",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "387713003",
-          "display": "Wound dressing"
-        }
-      ],
-      "text": "Wound Dressing"
-    },
-    "subject": {
-      "reference": "Patient/d7257e1f-5c4c-4e30-83fe-024bce58886a"
-    },
-    "encounter": {
-      "reference": "Encounter/0a82499e-ffe2-49af-89cf-9030b24e6b8e"
-    },
-    "performedDateTime": "2024-02-28T06:00:22.442Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/8fcc861a-a1b7-47eb-8568-bb031eb59ad8"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/6c8264a2-eccf-45fa-90c2-72f454766c9e"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "f90afdb4-1848-4e88-8c96-920b57edc2ea",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "387713003",
-          "display": "Wound dressing"
-        }
-      ],
-      "text": "Wound Dressing"
-    },
-    "subject": {
-      "reference": "Patient/d7257e1f-5c4c-4e30-83fe-024bce58886a"
-    },
-    "encounter": {
-      "reference": "Encounter/022de8df-2e87-4c65-8878-604fa5982237"
-    },
-    "performedDateTime": "2024-09-17T11:55:39.858Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/25f32b6f-ad36-497a-91d3-38ec36cadca2"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "41fff0f1-b258-44f6-968a-074b584e6dd8",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "387713003",
-          "display": "Wound dressing"
-        }
-      ],
-      "text": "Wound Dressing"
-    },
-    "subject": {
-      "reference": "Patient/d7257e1f-5c4c-4e30-83fe-024bce58886a"
-    },
-    "encounter": {
-      "reference": "Encounter/25747de6-b6a4-43b1-8273-46e522231146"
-    },
-    "performedDateTime": "2025-06-16T06:06:06.929Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/b8215c12-341d-42a4-ac10-44867ab70708"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "ed15ba85-9286-42a1-b8a1-22f2879783fc",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "113091000",
-          "display": "Magnetic resonance imaging of brain"
-        }
-      ],
-      "text": "MRI Brain"
-    },
-    "subject": {
-      "reference": "Patient/4978fdd9-1e94-4b81-96af-cbce5e988a0b"
-    },
-    "encounter": {
-      "reference": "Encounter/b3d3fd4e-1058-4dbe-b791-a8c5d925e2d7"
-    },
-    "performedDateTime": "2024-03-30T10:02:19.038Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/c07315da-6ad6-4146-958a-1f15d5b6e605"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/3f6ba871-c251-4af6-a038-8e6b02cd578b"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "92351e19-2f49-45a0-91a5-5e8e0168e587",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "241615005",
-          "display": "Colonoscopy"
-        }
-      ],
-      "text": "Colonoscopy"
-    },
-    "subject": {
-      "reference": "Patient/4978fdd9-1e94-4b81-96af-cbce5e988a0b"
-    },
-    "encounter": {
-      "reference": "Encounter/31dc0e1a-c589-454e-82b5-63fece5c0d43"
-    },
-    "performedDateTime": "2025-01-18T04:35:11.734Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/5be2ebf0-54b7-454f-b191-2d6358e3dffb"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "afb17b36-6904-44f7-a87e-e04cf71cd2e8",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "241615005",
-          "display": "Blood pressure measurement"
-        }
-      ],
-      "text": "Blood Pressure Check"
-    },
-    "subject": {
-      "reference": "Patient/4978fdd9-1e94-4b81-96af-cbce5e988a0b"
-    },
-    "encounter": {
-      "reference": "Encounter/640cab3c-585e-4626-a394-f5c8c1236f10"
-    },
-    "performedDateTime": "2025-04-27T12:11:10.778Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/0382b1f4-d881-4ba8-8de1-d736c08cc126"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/6c8264a2-eccf-45fa-90c2-72f454766c9e"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "26bf71bc-c88b-4317-b9f5-db0930c72637",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "241615005",
-          "display": "Colonoscopy"
-        }
-      ],
-      "text": "Colonoscopy"
-    },
-    "subject": {
-      "reference": "Patient/d2aebc1b-02f7-4a15-b8e4-e24141b5808a"
-    },
-    "encounter": {
-      "reference": "Encounter/9cbb8188-f914-4bd0-ab7f-3e5ce5c99f51"
-    },
-    "performedDateTime": "2024-03-10T06:57:39.576Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/7551c989-9465-4328-9f60-e1c76671b247"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/ba61b8f8-0f92-4acd-b73c-0404138d2866"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "84ed8b3d-669a-416d-9447-bb1780beb1e8",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "387713003",
-          "display": "Wound dressing"
-        }
-      ],
-      "text": "Wound Dressing"
-    },
-    "subject": {
-      "reference": "Patient/d2aebc1b-02f7-4a15-b8e4-e24141b5808a"
-    },
-    "encounter": {
-      "reference": "Encounter/cfa23cff-c522-4b19-9c66-8231033fbdc7"
-    },
-    "performedDateTime": "2025-02-15T04:57:58.867Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/b064c1cf-dc50-4b41-9d1f-a047a2d819e8"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "fe6e0ab6-91b3-49b4-9701-8c0b63525b74",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "301095005",
-          "display": "Electrocardiogram"
-        }
-      ],
-      "text": "ECG"
-    },
-    "subject": {
-      "reference": "Patient/d2aebc1b-02f7-4a15-b8e4-e24141b5808a"
-    },
-    "encounter": {
-      "reference": "Encounter/d977fcc7-24a5-4af7-8d3f-ec50004b09f7"
-    },
-    "performedDateTime": "2024-11-06T10:34:17.983Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/c07315da-6ad6-4146-958a-1f15d5b6e605"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "c366998b-33a9-474c-9995-0bc17797c897",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "410528000",
-          "display": "Nebulization therapy"
-        }
-      ],
-      "text": "Nebulization"
-    },
-    "subject": {
-      "reference": "Patient/d2aebc1b-02f7-4a15-b8e4-e24141b5808a"
-    },
-    "encounter": {
-      "reference": "Encounter/050fdea6-6faf-474a-b78a-8f579e21b6a6"
-    },
-    "performedDateTime": "2024-05-25T04:12:58.122Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/b064c1cf-dc50-4b41-9d1f-a047a2d819e8"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/ba61b8f8-0f92-4acd-b73c-0404138d2866"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "28c59e32-6176-4e72-a6af-24cbf1e0a1a9",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "241615005",
-          "display": "Echocardiogram"
-        }
-      ],
-      "text": "Echocardiogram"
-    },
-    "subject": {
-      "reference": "Patient/d2aebc1b-02f7-4a15-b8e4-e24141b5808a"
-    },
-    "encounter": {
-      "reference": "Encounter/ce0481a3-576c-4d7c-88df-d9f12c500e85"
-    },
-    "performedDateTime": "2024-07-03T11:21:24.414Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/03708371-fc71-4143-a217-53da263e51cf"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/ba61b8f8-0f92-4acd-b73c-0404138d2866"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "4c1d9d29-0af1-4232-b7f1-467204bc2c34",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "241615005",
-          "display": "Endoscopy"
-        }
-      ],
-      "text": "Endoscopy"
-    },
-    "subject": {
-      "reference": "Patient/6198a8b0-c606-4dbc-9b4b-87c7e46a59db"
-    },
-    "encounter": {
-      "reference": "Encounter/7e2189e0-6e20-4573-a167-46bd6c1f7860"
-    },
-    "performedDateTime": "2024-10-22T04:05:13.699Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/54761d33-aaff-46d5-add4-be034d7bbc1f"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/6c8264a2-eccf-45fa-90c2-72f454766c9e"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "5686fc1c-8de8-43e8-8c43-d97310450875",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "241615005",
-          "display": "Endoscopy"
-        }
-      ],
-      "text": "Endoscopy"
-    },
-    "subject": {
-      "reference": "Patient/6198a8b0-c606-4dbc-9b4b-87c7e46a59db"
-    },
-    "encounter": {
-      "reference": "Encounter/b910342d-fc4c-4dea-a0a3-e1910d5598f0"
-    },
-    "performedDateTime": "2025-10-08T05:10:39.921Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/a7524fcb-9556-4d70-ba39-db9383c68aa2"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/5500dca2-43bc-4672-8f67-53e0ab388ecd"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "27b521e3-5cbc-447b-8b80-27a334acdd15",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "301095005",
-          "display": "Electrocardiogram"
-        }
-      ],
-      "text": "ECG"
-    },
-    "subject": {
-      "reference": "Patient/6198a8b0-c606-4dbc-9b4b-87c7e46a59db"
-    },
-    "encounter": {
-      "reference": "Encounter/8129d3fd-8b29-40a9-82a8-ecda846f7baf"
-    },
-    "performedDateTime": "2025-11-13T09:17:20.863Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/0382b1f4-d881-4ba8-8de1-d736c08cc126"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/6c8264a2-eccf-45fa-90c2-72f454766c9e"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "ecdbef69-878a-474a-bc28-970446666558",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "241615005",
-          "display": "Blood pressure measurement"
-        }
-      ],
-      "text": "Blood Pressure Check"
-    },
-    "subject": {
-      "reference": "Patient/6198a8b0-c606-4dbc-9b4b-87c7e46a59db"
-    },
-    "encounter": {
-      "reference": "Encounter/dfa1135a-9311-42a8-94e9-e6d6c219ffca"
-    },
-    "performedDateTime": "2025-03-06T12:29:00.314Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/3497f9cf-3ffd-4c74-a644-0ad595bb6cea"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "d8d4080b-7649-42f3-a384-45790690899d",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "113091000",
-          "display": "Magnetic resonance imaging of brain"
-        }
-      ],
-      "text": "MRI Brain"
-    },
-    "subject": {
-      "reference": "Patient/6198a8b0-c606-4dbc-9b4b-87c7e46a59db"
-    },
-    "encounter": {
-      "reference": "Encounter/8360d3cf-0286-4dd1-ac94-a3765018819b"
-    },
-    "performedDateTime": "2024-03-29T07:20:42.913Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/eb7cfafc-e104-495b-bfc9-dc0dcd5d3268"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/ba61b8f8-0f92-4acd-b73c-0404138d2866"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "a955cec0-0354-4818-a854-2c1f7cf69e4a",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "301095005",
-          "display": "Electrocardiogram"
-        }
-      ],
-      "text": "ECG"
-    },
-    "subject": {
-      "reference": "Patient/81f697fb-6485-4db4-b5b5-7c0a4238cad4"
-    },
-    "encounter": {
-      "reference": "Encounter/214a686d-9923-417d-84d3-a30cf369e2a7"
-    },
-    "performedDateTime": "2025-10-01T11:39:28.851Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/a74fea4f-5e08-4135-a08f-35db054cbf51"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/6c8264a2-eccf-45fa-90c2-72f454766c9e"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "8e575b66-f53d-4d1d-a52e-b3828f15987c",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "241615005",
-          "display": "Blood pressure measurement"
-        }
-      ],
-      "text": "Blood Pressure Check"
-    },
-    "subject": {
-      "reference": "Patient/81f697fb-6485-4db4-b5b5-7c0a4238cad4"
-    },
-    "encounter": {
-      "reference": "Encounter/8ca2cd03-b020-458d-a130-e11c0c409b60"
-    },
-    "performedDateTime": "2025-10-26T05:39:48.177Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/45d18ae1-4dbf-4854-bd15-c231f735063f"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/6c8264a2-eccf-45fa-90c2-72f454766c9e"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "1e7acf71-0753-46ac-8527-319f15299c05",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "410528000",
-          "display": "Nebulization therapy"
-        }
-      ],
-      "text": "Nebulization"
-    },
-    "subject": {
-      "reference": "Patient/81f697fb-6485-4db4-b5b5-7c0a4238cad4"
-    },
-    "encounter": {
-      "reference": "Encounter/071f38bd-70ec-4b24-bd3a-d244dad87706"
-    },
-    "performedDateTime": "2025-03-19T11:47:15.257Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/3972afa1-0b07-48e8-9638-4b73d699c275"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/ba61b8f8-0f92-4acd-b73c-0404138d2866"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "186f1eaa-b85c-45aa-813a-65f3a34055d6",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "387713003",
-          "display": "Wound dressing"
-        }
-      ],
-      "text": "Wound Dressing"
-    },
-    "subject": {
-      "reference": "Patient/81f697fb-6485-4db4-b5b5-7c0a4238cad4"
-    },
-    "encounter": {
-      "reference": "Encounter/8dcf9742-708a-464e-84d7-45b39d414fec"
-    },
-    "performedDateTime": "2025-02-13T08:34:03.552Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/0382b1f4-d881-4ba8-8de1-d736c08cc126"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/ba61b8f8-0f92-4acd-b73c-0404138d2866"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "862a1a18-f220-49f9-b33f-347274fbb58a",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "241615005",
-          "display": "Colonoscopy"
-        }
-      ],
-      "text": "Colonoscopy"
-    },
-    "subject": {
-      "reference": "Patient/e0906e79-a4af-47fb-a344-7431672d59ce"
-    },
-    "encounter": {
-      "reference": "Encounter/785a79b7-6dec-410b-9d4c-075c51e2119a"
-    },
-    "performedDateTime": "2024-07-09T12:01:17.708Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/03708371-fc71-4143-a217-53da263e51cf"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "462eeec3-b497-49e0-ad09-060ce1c07099",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "399208008",
-          "display": "Urinalysis"
-        }
-      ],
-      "text": "Urine Test"
-    },
-    "subject": {
-      "reference": "Patient/e0906e79-a4af-47fb-a344-7431672d59ce"
-    },
-    "encounter": {
-      "reference": "Encounter/3b49fff4-7406-4f12-9d97-362c633f7393"
-    },
-    "performedDateTime": "2024-08-08T04:24:56.505Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/45d18ae1-4dbf-4854-bd15-c231f735063f"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "5290f6c5-6a0f-49e7-9492-4d11538876db",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "168499009",
-          "display": "Physical examination"
-        }
-      ],
-      "text": "Physical Exam"
-    },
-    "subject": {
-      "reference": "Patient/e0906e79-a4af-47fb-a344-7431672d59ce"
-    },
-    "encounter": {
-      "reference": "Encounter/7e25c029-e904-4c4f-a910-10a85897e781"
-    },
-    "performedDateTime": "2025-06-19T06:25:36.159Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/25f32b6f-ad36-497a-91d3-38ec36cadca2"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/ba61b8f8-0f92-4acd-b73c-0404138d2866"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "235c44e2-73b3-4957-9c4f-755fb92b2936",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "241615005",
-          "display": "Endoscopy"
-        }
-      ],
-      "text": "Endoscopy"
-    },
-    "subject": {
-      "reference": "Patient/e0906e79-a4af-47fb-a344-7431672d59ce"
-    },
-    "encounter": {
-      "reference": "Encounter/badddf24-77c1-41f2-9299-695a7ed003d5"
-    },
-    "performedDateTime": "2025-10-01T07:22:57.127Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/3972afa1-0b07-48e8-9638-4b73d699c275"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "0a04a3ef-701e-432a-b827-9c5d5d2bc04c",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "241615005",
-          "display": "Echocardiogram"
-        }
-      ],
-      "text": "Echocardiogram"
-    },
-    "subject": {
-      "reference": "Patient/e0906e79-a4af-47fb-a344-7431672d59ce"
-    },
-    "encounter": {
-      "reference": "Encounter/f938f088-dbe7-4807-997d-d2a4051d555d"
-    },
-    "performedDateTime": "2024-01-14T03:32:41.265Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/ef8a275c-0328-4574-afe0-726f12797e38"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/5500dca2-43bc-4672-8f67-53e0ab388ecd"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "a7aced38-8b9c-4f40-9259-43258049c137",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "241615005",
-          "display": "Endoscopy"
-        }
-      ],
-      "text": "Endoscopy"
-    },
-    "subject": {
-      "reference": "Patient/8e1a3db9-1a7a-4916-93a7-4469c2d7ae91"
-    },
-    "encounter": {
-      "reference": "Encounter/16b45f60-aec1-4877-88ca-7744ac2d9184"
-    },
-    "performedDateTime": "2025-03-09T09:18:38.974Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/101746b1-0eaa-41f0-a750-35de0c881415"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/ba61b8f8-0f92-4acd-b73c-0404138d2866"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "176afebc-8f23-4be9-a318-76564030b469",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "301095005",
-          "display": "Electrocardiogram"
-        }
-      ],
-      "text": "ECG"
-    },
-    "subject": {
-      "reference": "Patient/44288869-dba4-4bd1-bb85-eae9797aa84a"
-    },
-    "encounter": {
-      "reference": "Encounter/f51f4a2a-09f3-4001-96b5-0e775e37ff8b"
-    },
-    "performedDateTime": "2025-03-13T13:08:34.985Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/0382b1f4-d881-4ba8-8de1-d736c08cc126"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/3f6ba871-c251-4af6-a038-8e6b02cd578b"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "abdaed1d-c76a-45a3-8740-83fe9bf6438c",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "443253003",
-          "display": "Ultrasound scan abdomen"
-        }
-      ],
-      "text": "Abdominal Ultrasound"
-    },
-    "subject": {
-      "reference": "Patient/67fcbbe7-1c2d-465a-a0b6-865a18ea5f61"
-    },
-    "encounter": {
-      "reference": "Encounter/8af1b69a-25a0-4e9b-a7bd-3dd70fb5023b"
-    },
-    "performedDateTime": "2025-06-15T11:42:01.213Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/3972afa1-0b07-48e8-9638-4b73d699c275"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/5500dca2-43bc-4672-8f67-53e0ab388ecd"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "2e9504e5-eef0-48a4-a13d-6d2539eef440",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "399208008",
-          "display": "Urinalysis"
-        }
-      ],
-      "text": "Urine Test"
-    },
-    "subject": {
-      "reference": "Patient/67fcbbe7-1c2d-465a-a0b6-865a18ea5f61"
-    },
-    "encounter": {
-      "reference": "Encounter/a281dafd-f668-42ef-b0a0-ef27b2aa5ad8"
-    },
-    "performedDateTime": "2024-01-08T11:00:59.929Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/a7524fcb-9556-4d70-ba39-db9383c68aa2"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/5500dca2-43bc-4672-8f67-53e0ab388ecd"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "46273b78-ec09-4be2-be8b-6bf481aefdbf",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "168499009",
-          "display": "Physical examination"
-        }
-      ],
-      "text": "Physical Exam"
-    },
-    "subject": {
-      "reference": "Patient/67fcbbe7-1c2d-465a-a0b6-865a18ea5f61"
-    },
-    "encounter": {
-      "reference": "Encounter/4b5a4f08-6c0a-48a7-b930-16b51f0aa026"
-    },
-    "performedDateTime": "2025-02-27T10:21:44.939Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/6716e427-2d75-4238-a100-3773f2ce4c74"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "a87ce962-d7f0-4e49-ae5c-2463f384beb0",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "301095005",
-          "display": "Electrocardiogram"
-        }
-      ],
-      "text": "ECG"
-    },
-    "subject": {
-      "reference": "Patient/67fcbbe7-1c2d-465a-a0b6-865a18ea5f61"
-    },
-    "encounter": {
-      "reference": "Encounter/fe47a378-835d-4510-8f5d-7f14ec6a3db7"
-    },
-    "performedDateTime": "2025-08-27T07:19:26.998Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/c07315da-6ad6-4146-958a-1f15d5b6e605"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/6c8264a2-eccf-45fa-90c2-72f454766c9e"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "0db0b304-1afa-414b-af9c-2d44c67d0e7d",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "387713003",
-          "display": "Wound dressing"
-        }
-      ],
-      "text": "Wound Dressing"
-    },
-    "subject": {
-      "reference": "Patient/c2f48891-1323-4016-a437-5d7cd7543d85"
-    },
-    "encounter": {
-      "reference": "Encounter/1295af45-ade5-4e1e-8879-c6fc746f5348"
-    },
-    "performedDateTime": "2024-04-12T12:06:21.344Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/f51d021d-b293-4590-844b-76dc203745d1"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/6c8264a2-eccf-45fa-90c2-72f454766c9e"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "7f73458b-0633-48f3-89f2-567ae5b84845",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "399208008",
-          "display": "Urinalysis"
-        }
-      ],
-      "text": "Urine Test"
-    },
-    "subject": {
-      "reference": "Patient/c2f48891-1323-4016-a437-5d7cd7543d85"
-    },
-    "encounter": {
-      "reference": "Encounter/deb9a0b4-f91b-4b97-8d48-9ada8329cdbe"
-    },
-    "performedDateTime": "2024-11-05T09:26:56.577Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/45d18ae1-4dbf-4854-bd15-c231f735063f"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "972356fc-2e5a-49f4-808f-526c0ab695b7",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "168499009",
-          "display": "Physical examination"
-        }
-      ],
-      "text": "Physical Exam"
-    },
-    "subject": {
-      "reference": "Patient/c2f48891-1323-4016-a437-5d7cd7543d85"
-    },
-    "encounter": {
-      "reference": "Encounter/fad197ec-0bb0-4081-8c45-8b4cc4ee05d8"
-    },
-    "performedDateTime": "2024-09-15T13:20:44.850Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/8fcc861a-a1b7-47eb-8568-bb031eb59ad8"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/3f6ba871-c251-4af6-a038-8e6b02cd578b"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "5de5ae28-5d50-4f87-a913-9fa777be3602",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "168499009",
-          "display": "Physical examination"
-        }
-      ],
-      "text": "Physical Exam"
-    },
-    "subject": {
-      "reference": "Patient/dc5f2ddc-b207-4453-ae7c-d081d7f3c55f"
-    },
-    "encounter": {
-      "reference": "Encounter/e010ff7b-6cfa-4724-86df-fb7dfccac69c"
-    },
-    "performedDateTime": "2025-01-05T10:13:18.158Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/3497f9cf-3ffd-4c74-a644-0ad595bb6cea"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/ba61b8f8-0f92-4acd-b73c-0404138d2866"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "2b09464a-bedc-46ad-8d31-480f3d99ee64",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "241615005",
-          "display": "Echocardiogram"
-        }
-      ],
-      "text": "Echocardiogram"
-    },
-    "subject": {
-      "reference": "Patient/dc5f2ddc-b207-4453-ae7c-d081d7f3c55f"
-    },
-    "encounter": {
-      "reference": "Encounter/ddc909ff-5eb3-44a8-9283-f8958789e230"
-    },
-    "performedDateTime": "2024-05-24T07:08:15.466Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/45d18ae1-4dbf-4854-bd15-c231f735063f"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/6c8264a2-eccf-45fa-90c2-72f454766c9e"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "8936c404-93f1-4127-a2cc-8eef3b96ad45",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "301095005",
-          "display": "Electrocardiogram"
-        }
-      ],
-      "text": "ECG"
-    },
-    "subject": {
-      "reference": "Patient/dc5f2ddc-b207-4453-ae7c-d081d7f3c55f"
-    },
-    "encounter": {
-      "reference": "Encounter/5d04d8f4-24a6-47cb-b540-db016af2c0c7"
-    },
-    "performedDateTime": "2024-03-15T12:53:57.816Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/b8215c12-341d-42a4-ac10-44867ab70708"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/3f6ba871-c251-4af6-a038-8e6b02cd578b"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "feaeddcd-f268-4753-ad9d-1b29ea3a1870",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "399208008",
-          "display": "Urinalysis"
-        }
-      ],
-      "text": "Urine Test"
-    },
-    "subject": {
-      "reference": "Patient/dc5f2ddc-b207-4453-ae7c-d081d7f3c55f"
-    },
-    "encounter": {
-      "reference": "Encounter/109a9d10-c0c7-4144-9b1f-feacaedb9999"
-    },
-    "performedDateTime": "2024-02-24T09:32:36.191Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/a73a85bd-1c74-445e-96e1-d2bb9a2afe52"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/6c8264a2-eccf-45fa-90c2-72f454766c9e"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "c1d8a007-98e4-4df2-8d8a-83df23113dd6",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "301095005",
-          "display": "Electrocardiogram"
-        }
-      ],
-      "text": "ECG"
-    },
-    "subject": {
-      "reference": "Patient/ce9b56c2-ca99-494c-91de-6482a335f43e"
-    },
-    "encounter": {
-      "reference": "Encounter/59de5fe9-19d4-4175-a280-aa753784e110"
-    },
-    "performedDateTime": "2025-08-13T05:29:31.262Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/81c28517-fbb4-463e-a0ea-7ee03be7c49f"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "93e67ec2-db4d-44b4-9f54-91823d3baaf1",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "241615005",
-          "display": "Colonoscopy"
-        }
-      ],
-      "text": "Colonoscopy"
-    },
-    "subject": {
-      "reference": "Patient/ce9b56c2-ca99-494c-91de-6482a335f43e"
-    },
-    "encounter": {
-      "reference": "Encounter/314264d0-b73e-4742-ba81-1ed5e0e4c736"
-    },
-    "performedDateTime": "2025-09-14T04:20:15.664Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/6bd48b23-30b7-4b59-aa05-7c3ecd5ac83e"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/ba61b8f8-0f92-4acd-b73c-0404138d2866"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "65b7d6d7-b4f2-4952-9fa4-2d322160da48",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "241615005",
-          "display": "Endoscopy"
-        }
-      ],
-      "text": "Endoscopy"
-    },
-    "subject": {
-      "reference": "Patient/1cebded7-6377-4b6f-afcd-680c64950d7e"
-    },
-    "encounter": {
-      "reference": "Encounter/b282efe6-0ac9-4b6e-9711-3850d6135fae"
-    },
-    "performedDateTime": "2025-01-03T03:17:41.519Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/5e46412d-e1cb-492d-8d91-97f905feb502"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/6c8264a2-eccf-45fa-90c2-72f454766c9e"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "1b6d296a-55a6-4193-a16b-c77d86b089d8",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "241615005",
-          "display": "Blood pressure measurement"
-        }
-      ],
-      "text": "Blood Pressure Check"
-    },
-    "subject": {
-      "reference": "Patient/a060e052-d789-4815-86ba-9ba4d33b80ed"
-    },
-    "encounter": {
-      "reference": "Encounter/635b5992-a509-4b19-a8db-1c27b21026f7"
-    },
-    "performedDateTime": "2025-10-17T13:48:29.542Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/6bd48b23-30b7-4b59-aa05-7c3ecd5ac83e"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/3f6ba871-c251-4af6-a038-8e6b02cd578b"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "32a16ebf-f833-444f-9ccf-1c9d790a6c12",
+    "id": "915988eb-e667-4b12-aad0-1417f99db7a6",
     "status": "completed",
     "code": {
       "coding": [
@@ -3502,112 +78,16 @@
       "text": "Chest X-Ray"
     },
     "subject": {
-      "reference": "Patient/a060e052-d789-4815-86ba-9ba4d33b80ed"
+      "reference": "Patient/661c179c-59de-4a67-b97f-6b61f527388b"
     },
     "encounter": {
-      "reference": "Encounter/7bd76b81-59c0-41ef-b311-98062eac365e"
+      "reference": "Encounter/cc601212-f6ae-412d-a6f8-eeedd023383f"
     },
-    "performedDateTime": "2024-05-12T07:43:16.098Z",
+    "performedDateTime": "2024-08-24T12:15:00.501Z",
     "performer": [
       {
         "actor": {
-          "reference": "Practitioner/f51d021d-b293-4590-844b-76dc203745d1"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/3f6ba871-c251-4af6-a038-8e6b02cd578b"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "a4fff1d2-2174-4ee3-8530-e86d2737f92c",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "301095005",
-          "display": "Electrocardiogram"
-        }
-      ],
-      "text": "ECG"
-    },
-    "subject": {
-      "reference": "Patient/a060e052-d789-4815-86ba-9ba4d33b80ed"
-    },
-    "encounter": {
-      "reference": "Encounter/ef8c0fc7-78b6-49f5-bf85-aaea070ba7c9"
-    },
-    "performedDateTime": "2025-05-24T08:47:25.177Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/81c28517-fbb4-463e-a0ea-7ee03be7c49f"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/3f6ba871-c251-4af6-a038-8e6b02cd578b"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "a23d12df-e692-4c5e-95e4-b3e0daab843d",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "443253003",
-          "display": "Ultrasound scan abdomen"
-        }
-      ],
-      "text": "Abdominal Ultrasound"
-    },
-    "subject": {
-      "reference": "Patient/4afdc5d5-da0c-4a9b-b53d-bb3fceb7ac2d"
-    },
-    "encounter": {
-      "reference": "Encounter/8e46dfaa-170d-43ba-a9c8-72c9d0b45ec3"
-    },
-    "performedDateTime": "2025-04-07T10:30:08.057Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/247bc194-3e39-4fba-9bc5-c72eabce4121"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "80d9e0c5-e514-4d47-8ffb-5722c308adf2",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "241615005",
-          "display": "Endoscopy"
-        }
-      ],
-      "text": "Endoscopy"
-    },
-    "subject": {
-      "reference": "Patient/4afdc5d5-da0c-4a9b-b53d-bb3fceb7ac2d"
-    },
-    "encounter": {
-      "reference": "Encounter/e8c0d45a-f56d-4bc6-bc86-5aec8a055417"
-    },
-    "performedDateTime": "2025-07-20T06:57:53.781Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/101746b1-0eaa-41f0-a750-35de0c881415"
+          "reference": "Practitioner/6925811a-1636-463a-9488-78f2f7b3a190"
         }
       }
     ],
@@ -3617,135 +97,7 @@
   },
   {
     "resourceType": "Procedure",
-    "id": "107a4e81-fa3a-44e1-82fa-298fadf37e5e",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "241615005",
-          "display": "Endoscopy"
-        }
-      ],
-      "text": "Endoscopy"
-    },
-    "subject": {
-      "reference": "Patient/b89df30b-9705-429f-be7c-6e0232d20a31"
-    },
-    "encounter": {
-      "reference": "Encounter/d0ccf7dd-72fe-4d64-b19c-6ca8632f27c3"
-    },
-    "performedDateTime": "2025-10-28T09:21:33.562Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/8fcc861a-a1b7-47eb-8568-bb031eb59ad8"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "140ae6d2-f718-40e6-9b64-f858418fb147",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "443253003",
-          "display": "Ultrasound scan abdomen"
-        }
-      ],
-      "text": "Abdominal Ultrasound"
-    },
-    "subject": {
-      "reference": "Patient/b89df30b-9705-429f-be7c-6e0232d20a31"
-    },
-    "encounter": {
-      "reference": "Encounter/b096d4c8-8499-4357-a113-2753b4351307"
-    },
-    "performedDateTime": "2025-04-03T06:37:54.143Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/a73a85bd-1c74-445e-96e1-d2bb9a2afe52"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/6c8264a2-eccf-45fa-90c2-72f454766c9e"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "d8f5e232-3d6f-46da-b886-153c175181e6",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "241615005",
-          "display": "Colonoscopy"
-        }
-      ],
-      "text": "Colonoscopy"
-    },
-    "subject": {
-      "reference": "Patient/b89df30b-9705-429f-be7c-6e0232d20a31"
-    },
-    "encounter": {
-      "reference": "Encounter/3000f7fd-ee6c-41b4-a773-8ff3dcf95538"
-    },
-    "performedDateTime": "2025-05-02T05:18:48.398Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/247bc194-3e39-4fba-9bc5-c72eabce4121"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/ba61b8f8-0f92-4acd-b73c-0404138d2866"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "61a03b12-0bf5-4278-b6cd-9194d70bfb68",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "387713003",
-          "display": "Wound dressing"
-        }
-      ],
-      "text": "Wound Dressing"
-    },
-    "subject": {
-      "reference": "Patient/ba08c1e6-cb81-4cb1-b892-b06e245ecff8"
-    },
-    "encounter": {
-      "reference": "Encounter/c267e2ff-e396-412d-8993-e96f65f26353"
-    },
-    "performedDateTime": "2025-07-25T10:17:39.266Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/5e46412d-e1cb-492d-8d91-97f905feb502"
-        }
-      }
-    ],
-    "location": {
-      "reference": "Location/ba61b8f8-0f92-4acd-b73c-0404138d2866"
-    }
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "d49e591e-1a44-4e9a-82cd-3e5109f5daf2",
+    "id": "56bf60e0-e5a0-45fd-a758-943f0211cbd0",
     "status": "completed",
     "code": {
       "coding": [
@@ -3758,16 +110,336 @@
       "text": "Blood Pressure Check"
     },
     "subject": {
-      "reference": "Patient/ba08c1e6-cb81-4cb1-b892-b06e245ecff8"
+      "reference": "Patient/54d6e9d3-fb6b-4d0e-a50d-7588371e0c4d"
     },
     "encounter": {
-      "reference": "Encounter/11a3738f-5cef-4daa-a668-243c09c36cc6"
+      "reference": "Encounter/df3b3fb7-6bd7-4119-b914-6b156ca07658"
     },
-    "performedDateTime": "2024-12-07T07:39:28.246Z",
+    "performedDateTime": "2024-08-02T09:17:39.566Z",
     "performer": [
       {
         "actor": {
-          "reference": "Practitioner/a74fea4f-5e08-4135-a08f-35db054cbf51"
+          "reference": "Practitioner/6925811a-1636-463a-9488-78f2f7b3a190"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/3f6ba871-c251-4af6-a038-8e6b02cd578b"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "861f39f8-d902-4324-b9bf-08446df6d150",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "301095005",
+          "display": "Electrocardiogram"
+        }
+      ],
+      "text": "ECG"
+    },
+    "subject": {
+      "reference": "Patient/54d6e9d3-fb6b-4d0e-a50d-7588371e0c4d"
+    },
+    "encounter": {
+      "reference": "Encounter/bbb410a9-9fde-4bee-b2d1-9794bafd088d"
+    },
+    "performedDateTime": "2026-02-01T09:43:09.922Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/6925811a-1636-463a-9488-78f2f7b3a190"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/5500dca2-43bc-4672-8f67-53e0ab388ecd"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "a06d6a9b-1331-4b8b-ae68-2e54caa19f22",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "241615005",
+          "display": "Colonoscopy"
+        }
+      ],
+      "text": "Colonoscopy"
+    },
+    "subject": {
+      "reference": "Patient/e46fa2d6-423a-4f8c-9764-a81a3d296dd2"
+    },
+    "encounter": {
+      "reference": "Encounter/cebb0155-6573-4621-ad12-20cf3d043c31"
+    },
+    "performedDateTime": "2026-03-22T06:37:44.624Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/7f6e2c1d-080c-497f-ab41-fa1e47e9db3c"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "77fdcb74-bc63-44c4-91f0-60e5c4f0a557",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "443253003",
+          "display": "Ultrasound scan abdomen"
+        }
+      ],
+      "text": "Abdominal Ultrasound"
+    },
+    "subject": {
+      "reference": "Patient/e46fa2d6-423a-4f8c-9764-a81a3d296dd2"
+    },
+    "encounter": {
+      "reference": "Encounter/4e1b23e8-1fe1-492c-8ac1-ab82e2b3bce3"
+    },
+    "performedDateTime": "2024-06-25T10:38:46.980Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/64a0483b-e6ed-4c9d-b22e-37af9c8ce7a4"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/3f6ba871-c251-4af6-a038-8e6b02cd578b"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "4a390b02-0117-4b8e-a332-0fd990175ba2",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "168499009",
+          "display": "Physical examination"
+        }
+      ],
+      "text": "Physical Exam"
+    },
+    "subject": {
+      "reference": "Patient/d55f4a42-a7e1-4aea-ad38-b672e0b3a4e3"
+    },
+    "encounter": {
+      "reference": "Encounter/260a9d18-065e-4c8d-bfa3-7e512080f260"
+    },
+    "performedDateTime": "2024-06-03T12:37:36.086Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/cbfe154b-a7b8-4186-ad92-c9351a0d0f9d"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "fa400718-40b4-413f-9573-fec12e07f86f",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "241615005",
+          "display": "Blood pressure measurement"
+        }
+      ],
+      "text": "Blood Pressure Check"
+    },
+    "subject": {
+      "reference": "Patient/f30f13f9-66ed-4b38-90a2-f40ef931127a"
+    },
+    "encounter": {
+      "reference": "Encounter/c1d738fc-8883-4109-abb1-170824090b80"
+    },
+    "performedDateTime": "2026-03-01T03:57:35.967Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/cbfe154b-a7b8-4186-ad92-c9351a0d0f9d"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/3f6ba871-c251-4af6-a038-8e6b02cd578b"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "32f5aa56-69cc-4b94-8e45-18d56a039e3b",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "241615005",
+          "display": "Colonoscopy"
+        }
+      ],
+      "text": "Colonoscopy"
+    },
+    "subject": {
+      "reference": "Patient/ccac50d8-4712-4669-af26-6e9080e0919e"
+    },
+    "encounter": {
+      "reference": "Encounter/9b90f9ba-7a53-4662-8450-681b9914921d"
+    },
+    "performedDateTime": "2023-12-30T07:53:27.151Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/cbfe154b-a7b8-4186-ad92-c9351a0d0f9d"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/ba61b8f8-0f92-4acd-b73c-0404138d2866"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "b0ad8421-9cb2-415e-876b-0b691354d673",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "241615005",
+          "display": "Echocardiogram"
+        }
+      ],
+      "text": "Echocardiogram"
+    },
+    "subject": {
+      "reference": "Patient/ef2f96dc-1b28-493d-bae5-cdf6de44d6f8"
+    },
+    "encounter": {
+      "reference": "Encounter/0102d1a7-b856-4744-a14e-1ae68e7586e7"
+    },
+    "performedDateTime": "2026-01-09T11:44:31.791Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/d0f9ae67-9c76-4701-b522-822f9a6ae7ed"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "b26fa883-bbe5-4b3e-be64-06a218918610",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "301095005",
+          "display": "Electrocardiogram"
+        }
+      ],
+      "text": "ECG"
+    },
+    "subject": {
+      "reference": "Patient/ef2f96dc-1b28-493d-bae5-cdf6de44d6f8"
+    },
+    "encounter": {
+      "reference": "Encounter/72bd1af1-1b72-4819-8a88-99b978b7eac6"
+    },
+    "performedDateTime": "2025-04-22T11:36:08.534Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/d0f9ae67-9c76-4701-b522-822f9a6ae7ed"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/3f6ba871-c251-4af6-a038-8e6b02cd578b"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "eee75b15-4cdf-43f7-810b-c90958c5ee23",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "443253003",
+          "display": "Ultrasound scan abdomen"
+        }
+      ],
+      "text": "Abdominal Ultrasound"
+    },
+    "subject": {
+      "reference": "Patient/0e4a72b7-0c08-4367-bf8c-f4f24f3f73f0"
+    },
+    "encounter": {
+      "reference": "Encounter/1629f114-9868-4a49-b290-5ccc5c1dda48"
+    },
+    "performedDateTime": "2025-03-01T11:28:49.269Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/a16fc3b1-0800-4cc8-9288-42f85f9f8898"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "804ec6f7-d8a9-489f-a10c-376b3316e6df",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "241615005",
+          "display": "Blood pressure measurement"
+        }
+      ],
+      "text": "Blood Pressure Check"
+    },
+    "subject": {
+      "reference": "Patient/0e4a72b7-0c08-4367-bf8c-f4f24f3f73f0"
+    },
+    "encounter": {
+      "reference": "Encounter/47313ce3-92c8-4081-84cf-00c5cc7013fa"
+    },
+    "performedDateTime": "2025-01-01T07:04:05.427Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/cbfe154b-a7b8-4186-ad92-c9351a0d0f9d"
         }
       }
     ],
@@ -3777,7 +449,167 @@
   },
   {
     "resourceType": "Procedure",
-    "id": "140e8509-e55d-494d-8a5c-d1b187312c32",
+    "id": "0d6de8bf-8d6e-48f5-8ba3-c672f7299341",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "168499009",
+          "display": "Physical examination"
+        }
+      ],
+      "text": "Physical Exam"
+    },
+    "subject": {
+      "reference": "Patient/4c0d853f-eca6-4e54-bf8c-379050832e3b"
+    },
+    "encounter": {
+      "reference": "Encounter/72b408d5-17b3-4ec1-8aaf-4ced7b2dff92"
+    },
+    "performedDateTime": "2026-03-13T05:01:18.639Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/f1014375-7eda-4766-862a-2d0ed4c2028a"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/5500dca2-43bc-4672-8f67-53e0ab388ecd"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "b6fa416d-519e-47bb-86af-f8b609d8c22b",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "301095005",
+          "display": "Electrocardiogram"
+        }
+      ],
+      "text": "ECG"
+    },
+    "subject": {
+      "reference": "Patient/4c0d853f-eca6-4e54-bf8c-379050832e3b"
+    },
+    "encounter": {
+      "reference": "Encounter/dfb3cdbd-0e0e-46e0-922f-1da0d5e8a738"
+    },
+    "performedDateTime": "2026-01-05T06:09:22.304Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/f1014375-7eda-4766-862a-2d0ed4c2028a"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/3f6ba871-c251-4af6-a038-8e6b02cd578b"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "65a01563-9039-4afd-940a-930bf98d0772",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "113091000",
+          "display": "Magnetic resonance imaging of brain"
+        }
+      ],
+      "text": "MRI Brain"
+    },
+    "subject": {
+      "reference": "Patient/4c0d853f-eca6-4e54-bf8c-379050832e3b"
+    },
+    "encounter": {
+      "reference": "Encounter/f0359717-6a9d-4a0f-a815-dde37bd211ab"
+    },
+    "performedDateTime": "2025-08-18T08:41:59.595Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/f1014375-7eda-4766-862a-2d0ed4c2028a"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/3f6ba871-c251-4af6-a038-8e6b02cd578b"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "9d035ad0-3c2c-4c80-bee4-1321bc1f50cb",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "241615005",
+          "display": "Colonoscopy"
+        }
+      ],
+      "text": "Colonoscopy"
+    },
+    "subject": {
+      "reference": "Patient/cb82bd94-55ae-4f9c-bc0b-525af340fcac"
+    },
+    "encounter": {
+      "reference": "Encounter/ecae9af4-a441-4663-a818-e5baf1e79960"
+    },
+    "performedDateTime": "2026-01-05T08:11:28.296Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/afbd3f79-f17d-4809-8980-05a1062c27a3"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/3f6ba871-c251-4af6-a038-8e6b02cd578b"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "59eefa85-cbaa-4a2b-b551-a4d318e238ff",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "399208008",
+          "display": "Urinalysis"
+        }
+      ],
+      "text": "Urine Test"
+    },
+    "subject": {
+      "reference": "Patient/a67be881-98b5-4157-a9b8-d64020ec218f"
+    },
+    "encounter": {
+      "reference": "Encounter/6690ca2a-6a23-4a13-b1e9-dfaf02b7b08d"
+    },
+    "performedDateTime": "2024-01-02T09:42:29.916Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/a16fc3b1-0800-4cc8-9288-42f85f9f8898"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/ba61b8f8-0f92-4acd-b73c-0404138d2866"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "e4d46d55-7c87-4a06-9f00-b0c0f57203e7",
     "status": "completed",
     "code": {
       "coding": [
@@ -3790,21 +622,1365 @@
       "text": "Chest X-Ray"
     },
     "subject": {
-      "reference": "Patient/ba08c1e6-cb81-4cb1-b892-b06e245ecff8"
+      "reference": "Patient/a67be881-98b5-4157-a9b8-d64020ec218f"
     },
     "encounter": {
-      "reference": "Encounter/2f5319b3-a482-4f5b-8f49-735a611b7524"
+      "reference": "Encounter/47aaa324-5c6d-49d1-b77d-44bec0f1a2cb"
     },
-    "performedDateTime": "2024-05-08T08:54:35.402Z",
+    "performedDateTime": "2024-05-22T05:08:41.990Z",
     "performer": [
       {
         "actor": {
-          "reference": "Practitioner/948ba7c8-0934-4909-b2d5-7b53bd7e6d56"
+          "reference": "Practitioner/7f6e2c1d-080c-497f-ab41-fa1e47e9db3c"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/5500dca2-43bc-4672-8f67-53e0ab388ecd"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "0acbf596-faa1-474b-945d-96270ffda373",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "399208008",
+          "display": "Urinalysis"
+        }
+      ],
+      "text": "Urine Test"
+    },
+    "subject": {
+      "reference": "Patient/a67be881-98b5-4157-a9b8-d64020ec218f"
+    },
+    "encounter": {
+      "reference": "Encounter/af84a100-409d-4c6b-8b87-f99e9c4e2476"
+    },
+    "performedDateTime": "2025-06-21T09:13:56.775Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/7f6e2c1d-080c-497f-ab41-fa1e47e9db3c"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/ba61b8f8-0f92-4acd-b73c-0404138d2866"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "9b9858ab-8eaf-49e8-890a-93133c7f0088",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "399208008",
+          "display": "Urinalysis"
+        }
+      ],
+      "text": "Urine Test"
+    },
+    "subject": {
+      "reference": "Patient/eddd87c2-3a3c-4f06-85c9-a99dbeaf4f65"
+    },
+    "encounter": {
+      "reference": "Encounter/71d7563a-f32f-4c1a-a28f-e6facb22a86a"
+    },
+    "performedDateTime": "2024-07-01T05:07:02.655Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/a06bee30-ea4e-436f-a6f2-f241f0b4eca5"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/ba61b8f8-0f92-4acd-b73c-0404138d2866"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "6ca70c08-e221-43cf-b5b3-e00e6b49014f",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "241615005",
+          "display": "Blood pressure measurement"
+        }
+      ],
+      "text": "Blood Pressure Check"
+    },
+    "subject": {
+      "reference": "Patient/eddd87c2-3a3c-4f06-85c9-a99dbeaf4f65"
+    },
+    "encounter": {
+      "reference": "Encounter/c4957ce7-6012-4fbf-9253-c407a3426ad2"
+    },
+    "performedDateTime": "2026-01-11T07:20:02.086Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/a06bee30-ea4e-436f-a6f2-f241f0b4eca5"
         }
       }
     ],
     "location": {
       "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "5c99c77f-5ac1-42e0-bc55-20d5eb8122fc",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "241615005",
+          "display": "Blood pressure measurement"
+        }
+      ],
+      "text": "Blood Pressure Check"
+    },
+    "subject": {
+      "reference": "Patient/71baecfa-fdee-47cc-b711-828a7cf3a3f6"
+    },
+    "encounter": {
+      "reference": "Encounter/8b20760f-9da2-405b-8eec-00c25e1e320c"
+    },
+    "performedDateTime": "2024-01-07T13:06:42.873Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/15cf6074-66ff-4dba-840f-2acca287c5ac"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/3f6ba871-c251-4af6-a038-8e6b02cd578b"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "82541fd4-1526-407d-9367-d0585ae716ac",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "241615005",
+          "display": "Echocardiogram"
+        }
+      ],
+      "text": "Echocardiogram"
+    },
+    "subject": {
+      "reference": "Patient/71baecfa-fdee-47cc-b711-828a7cf3a3f6"
+    },
+    "encounter": {
+      "reference": "Encounter/469bb574-65da-47bd-87a1-2e4669063de7"
+    },
+    "performedDateTime": "2024-10-31T03:40:02.574Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/15cf6074-66ff-4dba-840f-2acca287c5ac"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "0b665d2c-5450-46fd-9e83-601e8bc275ab",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "241615005",
+          "display": "Blood pressure measurement"
+        }
+      ],
+      "text": "Blood Pressure Check"
+    },
+    "subject": {
+      "reference": "Patient/b08b269a-f3ea-4a8f-a808-18a5079eb89c"
+    },
+    "encounter": {
+      "reference": "Encounter/66405ac3-2610-4d99-a9e2-9c24b7a877a0"
+    },
+    "performedDateTime": "2025-03-21T07:41:20.031Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/37b83cde-53cc-43d0-9bfe-12691e53fc24"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/ba61b8f8-0f92-4acd-b73c-0404138d2866"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "637a6dd7-3901-499b-aa2e-ce1a2c54e969",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "399208008",
+          "display": "Urinalysis"
+        }
+      ],
+      "text": "Urine Test"
+    },
+    "subject": {
+      "reference": "Patient/573bc55c-51f4-46e7-a8a6-f775554b8378"
+    },
+    "encounter": {
+      "reference": "Encounter/33e54aa6-9e81-4cc8-ad4d-36ff8ce40bf5"
+    },
+    "performedDateTime": "2026-02-03T10:11:08.690Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/7937f31a-5d96-4747-95e2-cd811dfff3d6"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/6c8264a2-eccf-45fa-90c2-72f454766c9e"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "587e249c-36af-443e-8687-ca7692d7c7dc",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "399208008",
+          "display": "Urinalysis"
+        }
+      ],
+      "text": "Urine Test"
+    },
+    "subject": {
+      "reference": "Patient/573bc55c-51f4-46e7-a8a6-f775554b8378"
+    },
+    "encounter": {
+      "reference": "Encounter/b0c85c41-0c5f-4288-a4d7-c37c20216fd5"
+    },
+    "performedDateTime": "2024-10-26T12:16:22.048Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/7937f31a-5d96-4747-95e2-cd811dfff3d6"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/5500dca2-43bc-4672-8f67-53e0ab388ecd"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "9e4a28a2-ce17-4261-9e6a-5b15d274afb8",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "71651007",
+          "display": "X-Ray chest"
+        }
+      ],
+      "text": "Chest X-Ray"
+    },
+    "subject": {
+      "reference": "Patient/68613283-8f80-41ff-9b8b-b0949edeea26"
+    },
+    "encounter": {
+      "reference": "Encounter/18bce4e3-6a17-460a-991d-e2ba171bd2e7"
+    },
+    "performedDateTime": "2024-01-07T06:39:46.838Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/15cf6074-66ff-4dba-840f-2acca287c5ac"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/ba61b8f8-0f92-4acd-b73c-0404138d2866"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "159e44af-04a3-4fca-8eaf-5ff699a4b61f",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "301095005",
+          "display": "Electrocardiogram"
+        }
+      ],
+      "text": "ECG"
+    },
+    "subject": {
+      "reference": "Patient/d5204ddb-46b5-4257-b675-68ff50cac50a"
+    },
+    "encounter": {
+      "reference": "Encounter/bc07b6f4-3bff-484a-b7b6-d468a0fb88e0"
+    },
+    "performedDateTime": "2024-01-02T13:33:29.561Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/b842e867-8f52-4b0b-806e-8c153b20d78d"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/ba61b8f8-0f92-4acd-b73c-0404138d2866"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "187cadd2-b4ee-4d5b-8c64-407bf44c77e3",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "443253003",
+          "display": "Ultrasound scan abdomen"
+        }
+      ],
+      "text": "Abdominal Ultrasound"
+    },
+    "subject": {
+      "reference": "Patient/d5204ddb-46b5-4257-b675-68ff50cac50a"
+    },
+    "encounter": {
+      "reference": "Encounter/6f682bdb-03a0-4359-aa30-43b12977476c"
+    },
+    "performedDateTime": "2024-10-26T03:47:17.708Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/b842e867-8f52-4b0b-806e-8c153b20d78d"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/6c8264a2-eccf-45fa-90c2-72f454766c9e"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "1b629f3d-3c2f-40a8-8faf-b9d0fe9429d7",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "71651007",
+          "display": "X-Ray chest"
+        }
+      ],
+      "text": "Chest X-Ray"
+    },
+    "subject": {
+      "reference": "Patient/b4c8d4c0-cc8d-492c-b7ea-84d10363ca0c"
+    },
+    "encounter": {
+      "reference": "Encounter/54a945d9-4bb4-45bb-bd47-6c835f467baf"
+    },
+    "performedDateTime": "2026-03-01T11:37:24.050Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/ebbe53e5-d3d1-44df-aa0f-ccebf0a5c935"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/6c8264a2-eccf-45fa-90c2-72f454766c9e"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "f5ad45a3-467c-4878-94a5-329dbc86eaee",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "241615005",
+          "display": "Blood pressure measurement"
+        }
+      ],
+      "text": "Blood Pressure Check"
+    },
+    "subject": {
+      "reference": "Patient/e7919d94-7262-453d-9014-7fde0c03b07b"
+    },
+    "encounter": {
+      "reference": "Encounter/a8ea1389-ba15-4d98-bb72-e6981be7723b"
+    },
+    "performedDateTime": "2025-09-16T03:46:22.330Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/f1014375-7eda-4766-862a-2d0ed4c2028a"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/ba61b8f8-0f92-4acd-b73c-0404138d2866"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "b0a2522f-91ed-4f58-9ea4-07798903929a",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "71651007",
+          "display": "X-Ray chest"
+        }
+      ],
+      "text": "Chest X-Ray"
+    },
+    "subject": {
+      "reference": "Patient/a1b2c690-2296-426c-a395-3d88de60d93c"
+    },
+    "encounter": {
+      "reference": "Encounter/51d60067-d559-432c-b72c-02a852522d6e"
+    },
+    "performedDateTime": "2024-10-30T11:12:54.104Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/dcda730c-7758-4b4e-bd41-58382ed08f1f"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/5500dca2-43bc-4672-8f67-53e0ab388ecd"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "fdc9b4b5-1e8a-495f-bbd8-cab2a73023e9",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "301095005",
+          "display": "Electrocardiogram"
+        }
+      ],
+      "text": "ECG"
+    },
+    "subject": {
+      "reference": "Patient/a1b2c690-2296-426c-a395-3d88de60d93c"
+    },
+    "encounter": {
+      "reference": "Encounter/0f91af29-09cb-4371-8bf0-db543aac7df0"
+    },
+    "performedDateTime": "2025-04-23T08:59:56.959Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/de6f9622-67e2-40a3-80a2-1a87eb3186c6"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "a618a8bc-da1a-44a8-a1ee-e50892c77b79",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "241615005",
+          "display": "Blood pressure measurement"
+        }
+      ],
+      "text": "Blood Pressure Check"
+    },
+    "subject": {
+      "reference": "Patient/a81eef74-e7c9-4a9c-a2cf-0e6417dcb252"
+    },
+    "encounter": {
+      "reference": "Encounter/128927e2-9a21-4e80-91a3-8e0343c41e6b"
+    },
+    "performedDateTime": "2024-08-01T08:50:47.975Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/a06bee30-ea4e-436f-a6f2-f241f0b4eca5"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/6c8264a2-eccf-45fa-90c2-72f454766c9e"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "8c6b1d4a-58b2-4478-af41-6d9587d28be9",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "241615005",
+          "display": "Echocardiogram"
+        }
+      ],
+      "text": "Echocardiogram"
+    },
+    "subject": {
+      "reference": "Patient/08ff40fb-4590-4b49-99ca-d3a27f40938f"
+    },
+    "encounter": {
+      "reference": "Encounter/c44c9eb8-d088-4790-82b6-b30d63cfe1a4"
+    },
+    "performedDateTime": "2023-12-25T11:09:28.848Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/afbd3f79-f17d-4809-8980-05a1062c27a3"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/ba61b8f8-0f92-4acd-b73c-0404138d2866"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "daa8d28f-cc6d-4546-ac6d-62ee7f0e3e5a",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "387713003",
+          "display": "Wound dressing"
+        }
+      ],
+      "text": "Wound Dressing"
+    },
+    "subject": {
+      "reference": "Patient/08ff40fb-4590-4b49-99ca-d3a27f40938f"
+    },
+    "encounter": {
+      "reference": "Encounter/8966a7d6-4fe3-4903-94fe-824ef63e3754"
+    },
+    "performedDateTime": "2026-02-04T10:25:45.703Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/afbd3f79-f17d-4809-8980-05a1062c27a3"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/5500dca2-43bc-4672-8f67-53e0ab388ecd"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "24853645-964b-452f-92da-d3df7a3c0b6a",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "410528000",
+          "display": "Nebulization therapy"
+        }
+      ],
+      "text": "Nebulization"
+    },
+    "subject": {
+      "reference": "Patient/fe889dda-41a5-470c-bbaf-b7b4641deb09"
+    },
+    "encounter": {
+      "reference": "Encounter/ebfc96d5-693b-41cc-b668-368a809f0693"
+    },
+    "performedDateTime": "2024-09-26T08:06:46.643Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/cbfe154b-a7b8-4186-ad92-c9351a0d0f9d"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/ba61b8f8-0f92-4acd-b73c-0404138d2866"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "b3a78495-a17e-461b-b327-8044f26e2a23",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "241615005",
+          "display": "Blood pressure measurement"
+        }
+      ],
+      "text": "Blood Pressure Check"
+    },
+    "subject": {
+      "reference": "Patient/84a0b3d3-afdb-4ca5-8555-ede9d6688884"
+    },
+    "encounter": {
+      "reference": "Encounter/48fcf305-7cba-44c7-ad5a-ad06ae52ead2"
+    },
+    "performedDateTime": "2024-01-03T09:42:55.095Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/64a0483b-e6ed-4c9d-b22e-37af9c8ce7a4"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/5500dca2-43bc-4672-8f67-53e0ab388ecd"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "44487f4e-3f70-42e7-a93c-5ac683a2d2b0",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "301095005",
+          "display": "Electrocardiogram"
+        }
+      ],
+      "text": "ECG"
+    },
+    "subject": {
+      "reference": "Patient/84a0b3d3-afdb-4ca5-8555-ede9d6688884"
+    },
+    "encounter": {
+      "reference": "Encounter/02c33113-2c4e-4ef9-ad5e-722ae7379b79"
+    },
+    "performedDateTime": "2024-06-23T07:00:43.210Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/64a0483b-e6ed-4c9d-b22e-37af9c8ce7a4"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/6c8264a2-eccf-45fa-90c2-72f454766c9e"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "6f0dbc28-0cb5-494c-bd5d-c04ebcc5d11c",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "241615005",
+          "display": "Colonoscopy"
+        }
+      ],
+      "text": "Colonoscopy"
+    },
+    "subject": {
+      "reference": "Patient/181a8516-6fce-432f-bbc7-2fc7ec19b631"
+    },
+    "encounter": {
+      "reference": "Encounter/798cfd72-b125-4e31-909b-ec983550080c"
+    },
+    "performedDateTime": "2024-10-31T09:48:19.640Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/ebbe53e5-d3d1-44df-aa0f-ccebf0a5c935"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/ba61b8f8-0f92-4acd-b73c-0404138d2866"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "175ddcee-d2f2-4182-8463-8c2692638c38",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "113091000",
+          "display": "Magnetic resonance imaging of brain"
+        }
+      ],
+      "text": "MRI Brain"
+    },
+    "subject": {
+      "reference": "Patient/181a8516-6fce-432f-bbc7-2fc7ec19b631"
+    },
+    "encounter": {
+      "reference": "Encounter/9ac17f11-b01e-4a53-bd7d-da4f350d7b09"
+    },
+    "performedDateTime": "2026-02-18T12:03:16.602Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/de6f9622-67e2-40a3-80a2-1a87eb3186c6"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/5500dca2-43bc-4672-8f67-53e0ab388ecd"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "744f760c-2a3a-499f-b2a4-a6b4fac0b4f3",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "301095005",
+          "display": "Electrocardiogram"
+        }
+      ],
+      "text": "ECG"
+    },
+    "subject": {
+      "reference": "Patient/bcc66f24-cf5a-4da4-8b59-6515d0064746"
+    },
+    "encounter": {
+      "reference": "Encounter/61cb0c0c-b626-45c1-a2b4-502905ad5ec1"
+    },
+    "performedDateTime": "2024-01-03T08:28:48.837Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/37b83cde-53cc-43d0-9bfe-12691e53fc24"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/3f6ba871-c251-4af6-a038-8e6b02cd578b"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "2be19355-a96f-46eb-8512-3915d023fb10",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "301095005",
+          "display": "Electrocardiogram"
+        }
+      ],
+      "text": "ECG"
+    },
+    "subject": {
+      "reference": "Patient/bcc66f24-cf5a-4da4-8b59-6515d0064746"
+    },
+    "encounter": {
+      "reference": "Encounter/c13dfeac-093c-4d8f-9fb8-7071b02dc827"
+    },
+    "performedDateTime": "2026-02-02T05:15:50.515Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/37b83cde-53cc-43d0-9bfe-12691e53fc24"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "d11fe041-4a23-47d5-aa03-3f8ff6406030",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "387713003",
+          "display": "Wound dressing"
+        }
+      ],
+      "text": "Wound Dressing"
+    },
+    "subject": {
+      "reference": "Patient/180b87f1-decb-439c-9689-7dc493e51922"
+    },
+    "encounter": {
+      "reference": "Encounter/9bd4c7bb-b3ae-4853-bc1f-ca27f6a5a009"
+    },
+    "performedDateTime": "2026-03-04T05:14:32.501Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/074a3508-fbfb-43dc-a60b-47ad1075ed5d"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/ba61b8f8-0f92-4acd-b73c-0404138d2866"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "14c2fc81-120d-4d05-8f8e-81c4755cb8df",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "241615005",
+          "display": "Colonoscopy"
+        }
+      ],
+      "text": "Colonoscopy"
+    },
+    "subject": {
+      "reference": "Patient/3e7d3805-222f-4ff0-95e9-ad204fa36405"
+    },
+    "encounter": {
+      "reference": "Encounter/1725c22b-85eb-49b0-8736-a49e7744529f"
+    },
+    "performedDateTime": "2026-02-19T08:57:47.074Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/37b83cde-53cc-43d0-9bfe-12691e53fc24"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "e8d13c51-cfc5-4359-9e5d-24b0f059b04f",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "443253003",
+          "display": "Ultrasound scan abdomen"
+        }
+      ],
+      "text": "Abdominal Ultrasound"
+    },
+    "subject": {
+      "reference": "Patient/c219b88f-7b88-4af8-a231-6f888b1c010a"
+    },
+    "encounter": {
+      "reference": "Encounter/bc794ddc-0251-4369-a0a4-faf67b51b8f0"
+    },
+    "performedDateTime": "2023-12-24T06:09:01.854Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/15cf6074-66ff-4dba-840f-2acca287c5ac"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/ba61b8f8-0f92-4acd-b73c-0404138d2866"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "240e1f68-508f-4848-90f0-a85151fcfebb",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "301095005",
+          "display": "Electrocardiogram"
+        }
+      ],
+      "text": "ECG"
+    },
+    "subject": {
+      "reference": "Patient/c219b88f-7b88-4af8-a231-6f888b1c010a"
+    },
+    "encounter": {
+      "reference": "Encounter/7308f7ab-cc53-4e0c-80f5-4f7f8f0917a5"
+    },
+    "performedDateTime": "2024-06-28T11:34:08.090Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/15cf6074-66ff-4dba-840f-2acca287c5ac"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/6c8264a2-eccf-45fa-90c2-72f454766c9e"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "138eb772-977b-42bc-8fe5-c46919d78785",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "241615005",
+          "display": "Colonoscopy"
+        }
+      ],
+      "text": "Colonoscopy"
+    },
+    "subject": {
+      "reference": "Patient/c219b88f-7b88-4af8-a231-6f888b1c010a"
+    },
+    "encounter": {
+      "reference": "Encounter/a8337bb6-76b2-4425-b5c9-a94e1d993c08"
+    },
+    "performedDateTime": "2024-10-29T11:58:44.244Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/a06bee30-ea4e-436f-a6f2-f241f0b4eca5"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/5500dca2-43bc-4672-8f67-53e0ab388ecd"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "e053d6f8-19a0-49d6-99a1-39636502d89a",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "71651007",
+          "display": "X-Ray chest"
+        }
+      ],
+      "text": "Chest X-Ray"
+    },
+    "subject": {
+      "reference": "Patient/c219b88f-7b88-4af8-a231-6f888b1c010a"
+    },
+    "encounter": {
+      "reference": "Encounter/92ae439f-5536-430e-a9cc-6ab0cf3ac171"
+    },
+    "performedDateTime": "2026-03-29T10:58:50.078Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/a06bee30-ea4e-436f-a6f2-f241f0b4eca5"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/6c8264a2-eccf-45fa-90c2-72f454766c9e"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "e9225e62-ebaa-46ee-964e-2a53a415b8ec",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "443253003",
+          "display": "Ultrasound scan abdomen"
+        }
+      ],
+      "text": "Abdominal Ultrasound"
+    },
+    "subject": {
+      "reference": "Patient/ae05033b-b630-4fb6-9131-23a0593d0e2d"
+    },
+    "encounter": {
+      "reference": "Encounter/8a6ce85c-7c9b-4331-adfa-9dc891d2d248"
+    },
+    "performedDateTime": "2025-06-21T06:43:41.896Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/afbd3f79-f17d-4809-8980-05a1062c27a3"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "b4897a2f-1324-49ea-9d75-79feb52502d0",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "241615005",
+          "display": "Colonoscopy"
+        }
+      ],
+      "text": "Colonoscopy"
+    },
+    "subject": {
+      "reference": "Patient/de0a55e6-860c-4297-ab06-de3203691e5e"
+    },
+    "encounter": {
+      "reference": "Encounter/f279d2e8-19ae-4247-978d-f244c7532071"
+    },
+    "performedDateTime": "2023-12-31T09:07:03.257Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/2f2708d2-9b5c-4555-bfd1-b2b570b46101"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/ba61b8f8-0f92-4acd-b73c-0404138d2866"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "9f2bc735-8822-4aae-9292-a60cca421ef2",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "410528000",
+          "display": "Nebulization therapy"
+        }
+      ],
+      "text": "Nebulization"
+    },
+    "subject": {
+      "reference": "Patient/de0a55e6-860c-4297-ab06-de3203691e5e"
+    },
+    "encounter": {
+      "reference": "Encounter/f26d9f3e-b81f-46a8-a38f-2f460231aba0"
+    },
+    "performedDateTime": "2026-01-23T06:26:49.443Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/37b83cde-53cc-43d0-9bfe-12691e53fc24"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/5500dca2-43bc-4672-8f67-53e0ab388ecd"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "29eb26a7-eb17-46d1-ba14-bd91980a30f2",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "443253003",
+          "display": "Ultrasound scan abdomen"
+        }
+      ],
+      "text": "Abdominal Ultrasound"
+    },
+    "subject": {
+      "reference": "Patient/c86e7f2c-6f9e-4d29-b938-addaef88a171"
+    },
+    "encounter": {
+      "reference": "Encounter/3a8f398a-12b9-43d7-a939-6d34bf96fd29"
+    },
+    "performedDateTime": "2026-01-28T06:00:06.577Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/7f6e2c1d-080c-497f-ab41-fa1e47e9db3c"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/6c8264a2-eccf-45fa-90c2-72f454766c9e"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "e08d6bbd-0ae9-4f3f-97a2-2c82b98fd1fa",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "168499009",
+          "display": "Physical examination"
+        }
+      ],
+      "text": "Physical Exam"
+    },
+    "subject": {
+      "reference": "Patient/c5042fa1-4579-4f69-afb6-50d9f86d7bc1"
+    },
+    "encounter": {
+      "reference": "Encounter/132e105d-ad71-4024-8777-3f22efc17781"
+    },
+    "performedDateTime": "2023-12-25T04:12:47.425Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/dcda730c-7758-4b4e-bd41-58382ed08f1f"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/3f6ba871-c251-4af6-a038-8e6b02cd578b"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "b953b558-e9ba-4146-89df-a2a70686adac",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "241615005",
+          "display": "Echocardiogram"
+        }
+      ],
+      "text": "Echocardiogram"
+    },
+    "subject": {
+      "reference": "Patient/c5042fa1-4579-4f69-afb6-50d9f86d7bc1"
+    },
+    "encounter": {
+      "reference": "Encounter/10e83b4c-bb6f-48f7-bea2-b9bb9a846bbe"
+    },
+    "performedDateTime": "2026-03-07T08:11:18.072Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/dcda730c-7758-4b4e-bd41-58382ed08f1f"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "4c960776-8ebe-47c7-96c0-bd6c33ef82c6",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "387713003",
+          "display": "Wound dressing"
+        }
+      ],
+      "text": "Wound Dressing"
+    },
+    "subject": {
+      "reference": "Patient/3996d08a-c148-48e2-9d95-8b821c162a87"
+    },
+    "encounter": {
+      "reference": "Encounter/8c8cbbd6-cdb0-45fd-86af-153ec72e1397"
+    },
+    "performedDateTime": "2023-12-25T10:46:56.885Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/7f6e2c1d-080c-497f-ab41-fa1e47e9db3c"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/28598954-3dce-4701-a76d-e78e6e65839d"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "535e9340-9d0b-45b9-8284-9e80838b8b20",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "301095005",
+          "display": "Electrocardiogram"
+        }
+      ],
+      "text": "ECG"
+    },
+    "subject": {
+      "reference": "Patient/61b81fbd-ff16-40aa-be78-54f5ddea0c68"
+    },
+    "encounter": {
+      "reference": "Encounter/a446838e-d0ec-4abb-9f9a-a92c673f6023"
+    },
+    "performedDateTime": "2024-05-04T10:48:21.840Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/d0146842-0e7f-4d00-b2e0-f99184efceca"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/3f6ba871-c251-4af6-a038-8e6b02cd578b"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "41c2a51e-6a10-4daf-8928-5c3c32926489",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "241615005",
+          "display": "Echocardiogram"
+        }
+      ],
+      "text": "Echocardiogram"
+    },
+    "subject": {
+      "reference": "Patient/61b81fbd-ff16-40aa-be78-54f5ddea0c68"
+    },
+    "encounter": {
+      "reference": "Encounter/2c9d347b-6a39-4d34-807a-5dc1a4c340d3"
+    },
+    "performedDateTime": "2025-04-26T03:39:40.955Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/d0146842-0e7f-4d00-b2e0-f99184efceca"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/ba61b8f8-0f92-4acd-b73c-0404138d2866"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "c428b401-74ea-4ec1-963e-119fabc0f4dc",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "241615005",
+          "display": "Blood pressure measurement"
+        }
+      ],
+      "text": "Blood Pressure Check"
+    },
+    "subject": {
+      "reference": "Patient/e256141d-cd9b-4c55-a8d5-3488362398c2"
+    },
+    "encounter": {
+      "reference": "Encounter/70f951f7-8f5f-47a6-bc85-fafa20a7c2dd"
+    },
+    "performedDateTime": "2024-10-31T05:58:45.989Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/074a3508-fbfb-43dc-a60b-47ad1075ed5d"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/3f6ba871-c251-4af6-a038-8e6b02cd578b"
+    }
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "045d5515-7f1e-4a03-852c-2568a8ed58fe",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "241615005",
+          "display": "Blood pressure measurement"
+        }
+      ],
+      "text": "Blood Pressure Check"
+    },
+    "subject": {
+      "reference": "Patient/782f4472-d8b8-4f79-a3c9-2d2a0bc7575f"
+    },
+    "encounter": {
+      "reference": "Encounter/a84e3da5-6bf8-42ff-98ce-cf6df6f50a85"
+    },
+    "performedDateTime": "2024-01-05T04:39:03.194Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/d0f9ae67-9c76-4701-b522-822f9a6ae7ed"
+        }
+      }
+    ],
+    "location": {
+      "reference": "Location/3f6ba871-c251-4af6-a038-8e6b02cd578b"
     }
   }
 ]

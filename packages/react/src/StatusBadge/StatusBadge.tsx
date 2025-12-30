@@ -29,7 +29,8 @@ import type { JSX } from 'react';
 
 const statusToColor: Record<string, DefaultMantineColor> = {
   draft: 'blue',
-  active: 'blue',
+  active: 'green',
+  inactive: 'gray',
   'on-hold': 'yellow',
   revoked: 'red',
   completed: 'green',
