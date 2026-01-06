@@ -17,11 +17,11 @@ services:
       - ./postgres/:/docker-entrypoint-initdb.d/
     command: postgres -c config_file=/usr/local/etc/postgres/postgres.conf
     ports:
-      - '5432:5432'
+      - '5433:5432'
 
   redis:
     image: redis:7
     restart: always
     command: redis-server --requirepass medplum
     ports:
-      - '6379:6379'
+      - '6380:6379'

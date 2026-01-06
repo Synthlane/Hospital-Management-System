@@ -18,14 +18,14 @@
   "registerEnabled": true,
   "database": {
     "host": "localhost",
-    "port": 5432,
+    "port": 5433,
     "dbname": "synthhms",
     "username": "admin",
     "password": "abcdEF@12"
   },
   "redis": {
     "host": "localhost",
-    "port": 6379,
+    "port": 6380,
     "password": "medplum"
   },
   "binaryStorage": "file:binary"
