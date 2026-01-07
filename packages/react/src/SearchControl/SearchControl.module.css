@@ -33,3 +33,16 @@
   height: 21px;
   border-radius: 21px;
 }
+
+/* Prevent status badge truncation - only for status badges */
+.table {
+  /* Only target badges within table cells (status badges) */
+  td :global(.mantine-Badge-root) {
+    white-space: nowrap !important;
+    overflow: visible !important;
+    text-overflow: clip !important;
+    max-width: none !important;
+    min-width: fit-content !important;
+    display: inline-block !important;
+  }
+}
