@@ -28,7 +28,7 @@ export function Header(props: HeaderProps): JSX.Element {
   const [userMenuOpened, setUserMenuOpened] = useState(false);
 
   return (
-    <MantineAppShell.Header p={8} style={{ zIndex: 101 }}>
+    <MantineAppShell.Header p={8} style={{ zIndex: 101, backgroundColor: '#215795' }}>
       <Group justify="space-between">
         <Group gap="xs">
           <UnstyledButton className={classes.logoButton} onClick={props.navbarToggle}>

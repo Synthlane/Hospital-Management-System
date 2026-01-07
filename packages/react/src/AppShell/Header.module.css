@@ -1,10 +1,56 @@
+/* Global styles for header to ensure white text and icons */
+:global(.mantine-AppShell-header) {
+  color: white;
+
+  * {
+    color: inherit;
+  }
+
+  svg {
+    color: white;
+  }
+
+  button {
+    color: white;
+  }
+
+  /* Target PillsInput placeholder specifically */
+  .mantine-PillsInput-field::placeholder {
+    color: rgba(255, 255, 255, 0.9) !important;
+    opacity: 1 !important;
+  }
+
+  .mantine-PillsInput-field::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.9) !important;
+    opacity: 1 !important;
+  }
+
+  .mantine-PillsInput-field::-moz-placeholder {
+    color: rgba(255, 255, 255, 0.9) !important;
+    opacity: 1 !important;
+  }
+
+  .mantine-PillsInput-field:-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.9) !important;
+    opacity: 1 !important;
+  }
+}
+
 .logoButton {
   padding: var(--mantine-spacing-xs) var(--mantine-spacing-sm);
   border-radius: var(--mantine-radius-sm);
   transition: background-color 100ms ease;
 
   &:hover {
-    background-color: var(--mantine-primary-color-light-hover);
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  img {
+    filter: brightness(0) invert(1);
+  }
+
+  svg {
+    color: white;
   }
 }
 
@@ -12,9 +58,21 @@
   padding: var(--mantine-spacing-xs) var(--mantine-spacing-sm);
   border-radius: var(--mantine-radius-sm);
   transition: background-color 100ms ease;
+  color: white;
 
   &:hover {
-    background-color: var(--mantine-primary-color-light-hover);
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  svg {
+    color: white;
+  }
+
+  /* Lighten avatar background for better contrast */
+  :global(.mantine-Avatar-root) {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    color: #215795 !important;
+    font-weight: 600;
   }
 }
 
@@ -22,12 +80,36 @@
   font-weight: 500;
   line-height: 1px;
   margin-right: 3px;
+  color: white;
 
-  @media (max-width: $mantine-breakpoint-xs) {
+  @media (max-width: 36em) {
     display: none;
   }
 }
 
 .userActive {
-  background-color: var(--mantine-primary-color-light-hover);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Global placeholder styles for search input in header */
+:global(.mantine-AppShell-header .mantine-PillsInput-field) {
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.9) !important;
+    opacity: 1 !important;
+  }
+
+  &::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.9) !important;
+    opacity: 1 !important;
+  }
+
+  &::-moz-placeholder {
+    color: rgba(255, 255, 255, 0.9) !important;
+    opacity: 1 !important;
+  }
+
+  &:-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.9) !important;
+    opacity: 1 !important;
+  }
 }

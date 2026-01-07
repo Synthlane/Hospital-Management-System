@@ -10,3 +10,24 @@ body,
 .grecaptcha-badge {
   visibility: hidden;
 }
+
+/* Make search input placeholder visible in header */
+.mantine-AppShell-header .mantine-PillsInput-field::placeholder {
+  color: rgba(255, 255, 255, 0.9) !important;
+  opacity: 1 !important;
+}
+
+.mantine-AppShell-header .mantine-PillsInput-field::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.9) !important;
+  opacity: 1 !important;
+}
+
+.mantine-AppShell-header .mantine-PillsInput-field::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.9) !important;
+  opacity: 1 !important;
+}
+
+.mantine-AppShell-header .mantine-PillsInput-field:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.9) !important;
+  opacity: 1 !important;
+}

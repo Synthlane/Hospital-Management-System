@@ -8,7 +8,6 @@ import type { JSX, MouseEventHandler, ReactNode, SyntheticEvent } from 'react';
 import { Fragment, useState } from 'react';
 import { BookmarkDialog } from '../BookmarkDialog/BookmarkDialog';
 import { MedplumLink } from '../MedplumLink/MedplumLink';
-import { ResourceTypeInput } from '../ResourceTypeInput/ResourceTypeInput';
 import classes from './Navbar.module.css';
 
 export interface NavbarLink {
@@ -45,17 +44,18 @@ export function Navbar(props: NavbarProps): JSX.Element {
     }
   }
 
-  function navigateResourceType(resourceType: string | undefined): void {
-    if (resourceType) {
-      navigate(`/${resourceType}`);
-    }
-  }
+  // function navigateResourceType(resourceType: string | undefined): void {
+  //   if (resourceType) {
+  //     navigate(`/${resourceType}`);
+  //   }
+  // }
 
   return (
     <>
-      <MantineAppShell.Navbar>
+      <MantineAppShell.Navbar style={{ backgroundColor: '#215795' }}>
         <ScrollArea p="xs">
-          {!props.resourceTypeSearchDisabled && (
+          {/* Sidebar searchbar commented out per user request */}
+          {/* {!props.resourceTypeSearchDisabled && (
             <MantineAppShell.Section mb="sm">
               <ResourceTypeInput
                 key={window.location.pathname}
@@ -65,7 +65,7 @@ export function Navbar(props: NavbarProps): JSX.Element {
                 onChange={(newValue) => navigateResourceType(newValue)}
               />
             </MantineAppShell.Section>
-          )}
+          )} */}
           <MantineAppShell.Section grow>
             {props.menus?.map((menu) => (
               <Fragment key={`menu-${menu.title}`}>
