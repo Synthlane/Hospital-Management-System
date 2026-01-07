@@ -5,12 +5,13 @@ import type { JSX } from 'react';
 export interface LogoProps {
   readonly size: number;
   readonly fill?: string;
+  readonly src?: string;
 }
 
 export function Logo(props: LogoProps): JSX.Element {
-  const overrideUrl = import.meta.env.MEDPLUM_LOGO_URL;
+  const overrideUrl = props.src || import.meta.env.MEDPLUM_LOGO_URL;
   if (overrideUrl) {
-    return <img src={overrideUrl} alt="Logo" style={{ maxHeight: props.size }} />;
+    return <img src={overrideUrl} alt="Logo" style={{ height: props.size, width: props.size }} />;
   }
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" style={{ width: props.size, height: props.size }}>

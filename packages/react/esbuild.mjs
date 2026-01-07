@@ -1,3 +1,5 @@
+// SPDX-FileCopyrightText: Copyright Orangebot, Inc. and Medplum contributors
+// SPDX-License-Identifier: Apache-2.0
 /* global console */
 /* global process */
 /* eslint no-console: "off" */
@@ -12,7 +14,15 @@ const options = {
   entryPoints: ['./src/index.ts'],
   bundle: true,
   platform: 'browser',
-  loader: { '.ts': 'ts', '.tsx': 'tsx' },
+  loader: {
+    '.ts': 'ts',
+    '.tsx': 'tsx',
+    '.avif': 'file',
+    '.png': 'file',
+    '.jpg': 'file',
+    '.jpeg': 'file',
+    '.svg': 'file',
+  },
   resolveExtensions: ['.js', '.ts', '.tsx'],
   target: 'es2021',
   tsconfig: 'tsconfig.json',
