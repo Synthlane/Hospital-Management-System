@@ -1,58 +1,7 @@
 [
   {
     "resourceType": "Condition",
-    "id": "9d8677e1-8e22-45e8-abb5-3343d2bfc6b0",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "resolved",
-          "display": "Resolved"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "25064002",
-          "display": "Type 1 diabetes mellitus"
-        }
-      ],
-      "text": "Type 1 Diabetes"
-    },
-    "subject": {
-      "reference": "Patient/bcbc531d-b0b3-4acd-b06e-4cccc9fc0e9b"
-    },
-    "onsetDateTime": "2024-10-02T13:41:53.212Z",
-    "recordedDate": "2024-10-02T13:41:53.212Z",
-    "recorder": {
-      "reference": "Practitioner/c8d47fd2-da73-4e2b-b6b0-8c42bb81a3e6"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "c84b1a1e-6812-49f7-9d9b-baba14ae4ccd",
+    "id": "9b34ee82-d1d4-4a46-9c8a-f07d2fd5512c",
     "clinicalStatus": {
       "coding": [
         {
@@ -76,59 +25,8 @@
         "coding": [
           {
             "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "363418001",
-          "display": "Hypothyroidism"
-        }
-      ],
-      "text": "Hypothyroidism"
-    },
-    "subject": {
-      "reference": "Patient/bcbc531d-b0b3-4acd-b06e-4cccc9fc0e9b"
-    },
-    "onsetDateTime": "2024-04-23T01:50:52.166Z",
-    "recordedDate": "2024-04-23T01:50:52.166Z",
-    "recorder": {
-      "reference": "Practitioner/f1014375-7eda-4766-862a-2d0ed4c2028a"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "0b6c19af-68de-416e-8255-2bd1c8ab4748",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "resolved",
-          "display": "Resolved"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
+            "code": "problem-list-item",
+            "display": "Problem List Item"
           }
         ]
       }
@@ -138,23 +36,19 @@
         {
           "system": "http://snomed.info/sct",
           "code": "13645005",
-          "display": "Chronic obstructive lung disease"
+          "display": "Chronic obstructive pulmonary disease"
         }
       ],
       "text": "COPD"
     },
     "subject": {
-      "reference": "Patient/bcbc531d-b0b3-4acd-b06e-4cccc9fc0e9b"
+      "reference": "Patient/f148d8e1-89df-4275-bcb5-e4484537ae6c"
     },
-    "onsetDateTime": "2025-12-01T10:37:00.254Z",
-    "recordedDate": "2025-12-01T10:37:00.254Z",
-    "recorder": {
-      "reference": "Practitioner/e3832b4d-6227-4a6d-bad0-2ea91d2895d1"
-    }
+    "onsetDateTime": "2025-06-25T18:30:15.236Z"
   },
   {
     "resourceType": "Condition",
-    "id": "7d9b0fae-f9c6-4b26-b150-c632df227374",
+    "id": "fb4c5503-1e06-4c1b-917f-1de0edeffb31",
     "clinicalStatus": {
       "coding": [
         {
@@ -178,8 +72,8 @@
         "coding": [
           {
             "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
+            "code": "problem-list-item",
+            "display": "Problem List Item"
           }
         ]
       }
@@ -188,24 +82,20 @@
       "coding": [
         {
           "system": "http://snomed.info/sct",
-          "code": "197480006",
-          "display": "Hyperlipidemia"
+          "code": "51615001",
+          "display": "Pulmonary fibrosis"
         }
       ],
-      "text": "Hyperlipidemia"
+      "text": "Pulmonary Fibrosis"
     },
     "subject": {
-      "reference": "Patient/661c179c-59de-4a67-b97f-6b61f527388b"
+      "reference": "Patient/139aac9a-8f92-4f40-aee1-18802fd23e47"
     },
-    "onsetDateTime": "2024-07-16T06:22:20.483Z",
-    "recordedDate": "2024-07-16T06:22:20.483Z",
-    "recorder": {
-      "reference": "Practitioner/c3c181eb-0595-432f-a79b-f42db762c573"
-    }
+    "onsetDateTime": "2024-02-17T04:14:54.521Z"
   },
   {
     "resourceType": "Condition",
-    "id": "3d1a255b-a886-411e-af19-49226eb2f847",
+    "id": "84336cd9-880a-4c2c-bf7f-65b04c47cf44",
     "clinicalStatus": {
       "coding": [
         {
@@ -229,8 +119,102 @@
         "coding": [
           {
             "system": "http://snomed.info/sct",
-            "code": "404684003",
-            "display": "Clinical finding"
+            "code": "problem-list-item",
+            "display": "Problem List Item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "13645005",
+          "display": "Chronic obstructive pulmonary disease"
+        }
+      ],
+      "text": "COPD"
+    },
+    "subject": {
+      "reference": "Patient/989edb37-f524-4939-ae53-6ab488a680a6"
+    },
+    "onsetDateTime": "2025-07-08T00:19:24.494Z"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "7388426b-f762-48e6-a421-6a81bc32ebbe",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "problem-list-item",
+            "display": "Problem List Item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "13645005",
+          "display": "Chronic obstructive pulmonary disease"
+        }
+      ],
+      "text": "COPD"
+    },
+    "subject": {
+      "reference": "Patient/91e04d92-9e8c-41cf-9673-850878d3711b"
+    },
+    "onsetDateTime": "2024-01-20T01:43:23.037Z"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "d5e8ab7b-2c76-443b-b68e-61c0f3ee3c5a",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "problem-list-item",
+            "display": "Problem List Item"
           }
         ]
       }
@@ -246,17 +230,13 @@
       "text": "Viral Pneumonia"
     },
     "subject": {
-      "reference": "Patient/54d6e9d3-fb6b-4d0e-a50d-7588371e0c4d"
+      "reference": "Patient/71fcd092-8285-48da-92e7-25ea8723ad5b"
     },
-    "onsetDateTime": "2024-02-28T15:30:38.388Z",
-    "recordedDate": "2024-02-28T15:30:38.388Z",
-    "recorder": {
-      "reference": "Practitioner/e3832b4d-6227-4a6d-bad0-2ea91d2895d1"
-    }
+    "onsetDateTime": "2025-06-12T16:15:57.936Z"
   },
   {
     "resourceType": "Condition",
-    "id": "5dc11044-0ef1-4acc-9a55-d30f307c19e1",
+    "id": "47b1b148-3700-47e9-a67d-09ebc26f837f",
     "clinicalStatus": {
       "coding": [
         {
@@ -280,8 +260,8 @@
         "coding": [
           {
             "system": "http://snomed.info/sct",
-            "code": "404684003",
-            "display": "Clinical finding"
+            "code": "problem-list-item",
+            "display": "Problem List Item"
           }
         ]
       }
@@ -290,177 +270,255 @@
       "coding": [
         {
           "system": "http://snomed.info/sct",
-          "code": "195967001",
+          "code": "49436004",
+          "display": "Cardiac arrhythmia"
+        }
+      ],
+      "text": "Cardiac Arrhythmia"
+    },
+    "subject": {
+      "reference": "Patient/f93c6ba3-778a-4208-83cd-97b8f88c2a6f"
+    },
+    "onsetDateTime": "2024-07-10T02:05:36.085Z"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "57909b07-721e-4afe-9fa2-24c9a24246da",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "problem-list-item",
+            "display": "Problem List Item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "22298006",
+          "display": "Myocardial infarction"
+        }
+      ],
+      "text": "Myocardial Infarction"
+    },
+    "subject": {
+      "reference": "Patient/d150623e-e3ae-4317-8fdc-f55a05d76c0c"
+    },
+    "onsetDateTime": "2025-10-17T17:56:13.446Z"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "2a27dffd-3e68-4532-b21f-13cbed57cf25",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "problem-list-item",
+            "display": "Problem List Item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "22298006",
+          "display": "Myocardial infarction"
+        }
+      ],
+      "text": "Myocardial Infarction"
+    },
+    "subject": {
+      "reference": "Patient/a54df523-f442-4b13-ad5d-f41d03a9e794"
+    },
+    "onsetDateTime": "2024-11-02T19:07:15.151Z"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "21b9f2b4-19e6-46d3-9e52-d2ac18bc55e8",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "problem-list-item",
+            "display": "Problem List Item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "22298006",
+          "display": "Myocardial infarction"
+        }
+      ],
+      "text": "Myocardial Infarction"
+    },
+    "subject": {
+      "reference": "Patient/9616618b-c691-434e-bcff-3e9fe8ab8da7"
+    },
+    "onsetDateTime": "2025-08-17T18:02:22.340Z"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "fd632b01-e4a9-4d36-8056-188aaedec90f",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "problem-list-item",
+            "display": "Problem List Item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "84114007",
+          "display": "Valvular heart disease"
+        }
+      ],
+      "text": "Valvular Heart Disease"
+    },
+    "subject": {
+      "reference": "Patient/3080af09-748e-4ac6-9c04-7b65fa308ec2"
+    },
+    "onsetDateTime": "2024-08-03T23:59:16.254Z"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "018418ec-74e5-4d7b-8d1f-4522adc469fd",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "problem-list-item",
+            "display": "Problem List Item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "32398004",
           "display": "Bronchitis"
         }
       ],
       "text": "Bronchitis"
     },
     "subject": {
-      "reference": "Patient/54d6e9d3-fb6b-4d0e-a50d-7588371e0c4d"
+      "reference": "Patient/784c9dd3-c508-4788-afae-9507a00e1a56"
     },
-    "onsetDateTime": "2025-10-26T09:00:15.377Z",
-    "recordedDate": "2025-10-26T09:00:15.377Z",
-    "recorder": {
-      "reference": "Practitioner/de6f9622-67e2-40a3-80a2-1a87eb3186c6"
-    }
+    "onsetDateTime": "2025-11-23T00:31:17.057Z"
   },
   {
     "resourceType": "Condition",
-    "id": "92be3d44-fc98-4436-9ca3-cc9cbb4f5c9b",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "resolved",
-          "display": "Resolved"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "363418001",
-          "display": "Hypothyroidism"
-        }
-      ],
-      "text": "Hypothyroidism"
-    },
-    "subject": {
-      "reference": "Patient/e46fa2d6-423a-4f8c-9764-a81a3d296dd2"
-    },
-    "onsetDateTime": "2025-07-01T16:48:11.846Z",
-    "recordedDate": "2025-07-01T16:48:11.846Z",
-    "recorder": {
-      "reference": "Practitioner/dcda730c-7758-4b4e-bd41-58382ed08f1f"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "0c904922-5f03-4989-97bb-83932c7a5d95",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "resolved",
-          "display": "Resolved"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "414915002",
-          "display": "Obesity"
-        }
-      ],
-      "text": "Obesity"
-    },
-    "subject": {
-      "reference": "Patient/e46fa2d6-423a-4f8c-9764-a81a3d296dd2"
-    },
-    "onsetDateTime": "2024-03-27T03:09:13.673Z",
-    "recordedDate": "2024-03-27T03:09:13.673Z",
-    "recorder": {
-      "reference": "Practitioner/dabb0efc-5e1b-4c26-a2e9-86a03f58f470"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "c4cce8ee-b29d-4728-8777-cf24adc5e172",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "resolved",
-          "display": "Resolved"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "13645005",
-          "display": "Chronic obstructive lung disease"
-        }
-      ],
-      "text": "COPD"
-    },
-    "subject": {
-      "reference": "Patient/e46fa2d6-423a-4f8c-9764-a81a3d296dd2"
-    },
-    "onsetDateTime": "2025-08-19T12:33:08.326Z",
-    "recordedDate": "2025-08-19T12:33:08.326Z",
-    "recorder": {
-      "reference": "Practitioner/d0f9ae67-9c76-4701-b522-822f9a6ae7ed"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "fb544b03-cfdd-4759-90ad-752b2ed74bc2",
+    "id": "fabbc1bf-fdf1-40f7-9341-81946e55d9d5",
     "clinicalStatus": {
       "coding": [
         {
@@ -484,8 +542,8 @@
         "coding": [
           {
             "system": "http://snomed.info/sct",
-            "code": "404684003",
-            "display": "Clinical finding"
+            "code": "problem-list-item",
+            "display": "Problem List Item"
           }
         ]
       }
@@ -494,24 +552,20 @@
       "coding": [
         {
           "system": "http://snomed.info/sct",
-          "code": "42399007",
-          "display": "Upper respiratory tract infection"
+          "code": "32398004",
+          "display": "Bronchitis"
         }
       ],
-      "text": "URI"
+      "text": "Bronchitis"
     },
     "subject": {
-      "reference": "Patient/e46fa2d6-423a-4f8c-9764-a81a3d296dd2"
+      "reference": "Patient/eaf88d7e-4802-45bc-8fb3-3b629f3021bf"
     },
-    "onsetDateTime": "2024-10-14T00:51:13.007Z",
-    "recordedDate": "2024-10-14T00:51:13.007Z",
-    "recorder": {
-      "reference": "Practitioner/d0f9ae67-9c76-4701-b522-822f9a6ae7ed"
-    }
+    "onsetDateTime": "2024-08-08T05:53:17.180Z"
   },
   {
     "resourceType": "Condition",
-    "id": "01aee1e6-49e6-4631-8891-a658f9b3feab",
+    "id": "f3e341e6-3382-4b96-ac80-249c57298827",
     "clinicalStatus": {
       "coding": [
         {
@@ -535,8 +589,8 @@
         "coding": [
           {
             "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
+            "code": "problem-list-item",
+            "display": "Problem List Item"
           }
         ]
       }
@@ -545,24 +599,20 @@
       "coding": [
         {
           "system": "http://snomed.info/sct",
-          "code": "197480006",
-          "display": "Hyperlipidemia"
+          "code": "233604007",
+          "display": "Sleep apnea"
         }
       ],
-      "text": "Hyperlipidemia"
+      "text": "Sleep Apnea"
     },
     "subject": {
-      "reference": "Patient/d55f4a42-a7e1-4aea-ad38-b672e0b3a4e3"
+      "reference": "Patient/90714eda-40d6-4cb0-9407-b99d09a7b85c"
     },
-    "onsetDateTime": "2024-02-02T03:55:57.703Z",
-    "recordedDate": "2024-02-02T03:55:57.703Z",
-    "recorder": {
-      "reference": "Practitioner/1a13ce58-8677-4a0e-a68f-dcbb9acd25ba"
-    }
+    "onsetDateTime": "2024-06-26T00:01:09.748Z"
   },
   {
     "resourceType": "Condition",
-    "id": "f3ba5ab0-3bda-41a8-9de9-61cfa61ff6f0",
+    "id": "c4c2b472-facf-4932-9a1d-a02d93555dd1",
     "clinicalStatus": {
       "coding": [
         {
@@ -586,416 +636,8 @@
         "coding": [
           {
             "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "38341003",
-          "display": "Hypertensive disorder"
-        }
-      ],
-      "text": "Hypertension"
-    },
-    "subject": {
-      "reference": "Patient/f30f13f9-66ed-4b38-90a2-f40ef931127a"
-    },
-    "onsetDateTime": "2025-07-27T18:12:57.760Z",
-    "recordedDate": "2025-07-27T18:12:57.760Z",
-    "recorder": {
-      "reference": "Practitioner/38b924c8-81e4-4aac-ba1f-6587337a979b"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "b84d7581-82a4-4c4a-ba9c-bfcfd275c065",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "35489007",
-          "display": "Anxiety disorder"
-        }
-      ],
-      "text": "Anxiety"
-    },
-    "subject": {
-      "reference": "Patient/f30f13f9-66ed-4b38-90a2-f40ef931127a"
-    },
-    "onsetDateTime": "2024-03-26T18:26:09.705Z",
-    "recordedDate": "2024-03-26T18:26:09.705Z",
-    "recorder": {
-      "reference": "Practitioner/858c0c15-c9a1-4ead-921e-b119d44e6bde"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "e19d33c9-0e29-41cf-a3e7-6d8f31f7e977",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "resolved",
-          "display": "Resolved"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "195080001",
-          "display": "Osteoarthritis"
-        }
-      ],
-      "text": "Osteoarthritis"
-    },
-    "subject": {
-      "reference": "Patient/ccac50d8-4712-4669-af26-6e9080e0919e"
-    },
-    "onsetDateTime": "2024-11-20T08:03:28.996Z",
-    "recordedDate": "2024-11-20T08:03:28.996Z",
-    "recorder": {
-      "reference": "Practitioner/dcf9a4ab-6997-49cc-adcf-c9209d095d3d"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "d8d1a7af-cfa4-498c-b410-8ee519f438cc",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "404684003",
-            "display": "Clinical finding"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "444814009",
-          "display": "Viral pneumonia"
-        }
-      ],
-      "text": "Viral Pneumonia"
-    },
-    "subject": {
-      "reference": "Patient/ccac50d8-4712-4669-af26-6e9080e0919e"
-    },
-    "onsetDateTime": "2024-01-06T10:12:56.256Z",
-    "recordedDate": "2024-01-06T10:12:56.256Z",
-    "recorder": {
-      "reference": "Practitioner/4d2df459-e2b0-4559-ac31-53a5e6bebe1e"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "f56f8f1f-bd2c-43f4-b0ec-8bb1249105e6",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "resolved",
-          "display": "Resolved"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "25064002",
-          "display": "Type 1 diabetes mellitus"
-        }
-      ],
-      "text": "Type 1 Diabetes"
-    },
-    "subject": {
-      "reference": "Patient/ccac50d8-4712-4669-af26-6e9080e0919e"
-    },
-    "onsetDateTime": "2024-08-22T18:12:06.293Z",
-    "recordedDate": "2024-08-22T18:12:06.293Z",
-    "recorder": {
-      "reference": "Practitioner/cbfe154b-a7b8-4186-ad92-c9351a0d0f9d"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "5d41c798-54bf-4970-a954-f5fc40c16eb0",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "resolved",
-          "display": "Resolved"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "197480006",
-          "display": "Hyperlipidemia"
-        }
-      ],
-      "text": "Hyperlipidemia"
-    },
-    "subject": {
-      "reference": "Patient/ccac50d8-4712-4669-af26-6e9080e0919e"
-    },
-    "onsetDateTime": "2025-05-16T22:50:10.807Z",
-    "recordedDate": "2025-05-16T22:50:10.807Z",
-    "recorder": {
-      "reference": "Practitioner/a16fc3b1-0800-4cc8-9288-42f85f9f8898"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "838afd89-01fa-4800-8d67-16514f6cc485",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "363418001",
-          "display": "Hypothyroidism"
-        }
-      ],
-      "text": "Hypothyroidism"
-    },
-    "subject": {
-      "reference": "Patient/ef2f96dc-1b28-493d-bae5-cdf6de44d6f8"
-    },
-    "onsetDateTime": "2025-12-16T14:06:02.059Z",
-    "recordedDate": "2025-12-16T14:06:02.059Z",
-    "recorder": {
-      "reference": "Practitioner/532a98b9-a806-420c-9d56-2f111b5df06a"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "f25d88df-d16c-49a8-be67-28143492752f",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "16114001",
-          "display": "Depressive disorder"
-        }
-      ],
-      "text": "Depression"
-    },
-    "subject": {
-      "reference": "Patient/0e4a72b7-0c08-4367-bf8c-f4f24f3f73f0"
-    },
-    "onsetDateTime": "2025-01-11T16:35:12.545Z",
-    "recordedDate": "2025-01-11T16:35:12.545Z",
-    "recorder": {
-      "reference": "Practitioner/afbd3f79-f17d-4809-8980-05a1062c27a3"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "c2a2e38b-d055-4e07-a80f-571e924dc742",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
+            "code": "problem-list-item",
+            "display": "Problem List Item"
           }
         ]
       }
@@ -1011,68 +653,13 @@
       "text": "Asthma"
     },
     "subject": {
-      "reference": "Patient/0e4a72b7-0c08-4367-bf8c-f4f24f3f73f0"
+      "reference": "Patient/b0730d39-4a54-4034-830f-dc7e917bf879"
     },
-    "onsetDateTime": "2025-07-10T07:59:20.282Z",
-    "recordedDate": "2025-07-10T07:59:20.282Z",
-    "recorder": {
-      "reference": "Practitioner/f1014375-7eda-4766-862a-2d0ed4c2028a"
-    }
+    "onsetDateTime": "2024-02-09T02:42:31.079Z"
   },
   {
     "resourceType": "Condition",
-    "id": "28844196-b8c9-495a-9d6e-82658f2af7f9",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "resolved",
-          "display": "Resolved"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "404684003",
-            "display": "Clinical finding"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "195967001",
-          "display": "Bronchitis"
-        }
-      ],
-      "text": "Bronchitis"
-    },
-    "subject": {
-      "reference": "Patient/0e4a72b7-0c08-4367-bf8c-f4f24f3f73f0"
-    },
-    "onsetDateTime": "2024-10-31T21:52:43.807Z",
-    "recordedDate": "2024-10-31T21:52:43.807Z",
-    "recorder": {
-      "reference": "Practitioner/15cf6074-66ff-4dba-840f-2acca287c5ac"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "46136d97-1cf0-4b2c-9fdf-d6e7f60cda8d",
+    "id": "b55ca052-0dbd-4be1-9952-4bcc19e2b908",
     "clinicalStatus": {
       "coding": [
         {
@@ -1096,8 +683,854 @@
         "coding": [
           {
             "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
+            "code": "problem-list-item",
+            "display": "Problem List Item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "32398004",
+          "display": "Bronchitis"
+        }
+      ],
+      "text": "Bronchitis"
+    },
+    "subject": {
+      "reference": "Patient/c3804f0f-2a6e-4c1c-946e-3bb9cb941642"
+    },
+    "onsetDateTime": "2024-08-15T03:33:02.408Z"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "cfa205bc-4e78-4fe0-ac3e-1ec4bf9413c3",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "problem-list-item",
+            "display": "Problem List Item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "44054006",
+          "display": "Chronic sinusitis"
+        }
+      ],
+      "text": "Chronic Sinusitis"
+    },
+    "subject": {
+      "reference": "Patient/9ef9160a-62e2-4f7f-9647-7ce0d7096a87"
+    },
+    "onsetDateTime": "2025-06-05T19:05:57.902Z"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "e63e2920-c653-4cf7-afac-6e79c59f060b",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "problem-list-item",
+            "display": "Problem List Item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "233604007",
+          "display": "Pneumonia"
+        }
+      ],
+      "text": "Pneumonia"
+    },
+    "subject": {
+      "reference": "Patient/3fda44dc-22bc-40a0-b839-d1b86318db66"
+    },
+    "onsetDateTime": "2024-04-11T22:50:33.866Z"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "74b51745-ebdd-4bad-840f-218cc52bdbeb",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "problem-list-item",
+            "display": "Problem List Item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "396275006",
+          "display": "Gallstones"
+        }
+      ],
+      "text": "Gallstones"
+    },
+    "subject": {
+      "reference": "Patient/4ea57f89-80d9-4bbe-b684-074823d7cb24"
+    },
+    "onsetDateTime": "2024-11-06T04:24:19.609Z"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "e552ebb6-0c45-4e94-bdf3-efbb2a5c6f85",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "problem-list-item",
+            "display": "Problem List Item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "399068003",
+          "display": "Intestinal obstruction"
+        }
+      ],
+      "text": "Intestinal Obstruction"
+    },
+    "subject": {
+      "reference": "Patient/0abba909-d1f2-4d7c-bdbe-deb5ed22bfc7"
+    },
+    "onsetDateTime": "2025-10-03T08:04:59.228Z"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "838389ec-2b06-4bcb-9ca3-14abd87efa1d",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "problem-list-item",
+            "display": "Problem List Item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "429040005",
+          "display": "Hernia"
+        }
+      ],
+      "text": "Hernia"
+    },
+    "subject": {
+      "reference": "Patient/6e63b24c-f756-4a63-9aef-363d8f50563b"
+    },
+    "onsetDateTime": "2024-12-08T08:15:46.428Z"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "129ceac2-5044-4c27-a1d3-cc5eb9b10082",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "problem-list-item",
+            "display": "Problem List Item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "396275006",
+          "display": "Gallstones"
+        }
+      ],
+      "text": "Gallstones"
+    },
+    "subject": {
+      "reference": "Patient/a0b6664f-1826-4cc7-83da-5b2e4bd198c8"
+    },
+    "onsetDateTime": "2025-02-21T03:07:38.536Z"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "c84a4a63-6ded-482d-815f-79c89b048576",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "problem-list-item",
+            "display": "Problem List Item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "399068003",
+          "display": "Cholecystitis"
+        }
+      ],
+      "text": "Cholecystitis"
+    },
+    "subject": {
+      "reference": "Patient/3f5f7c5f-8467-4f09-889d-3772c98338f0"
+    },
+    "onsetDateTime": "2024-04-01T06:48:58.579Z"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "67da9845-37b3-44bd-8e67-8871854fa788",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "problem-list-item",
+            "display": "Problem List Item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "429040005",
+          "display": "Knee injury"
+        }
+      ],
+      "text": "Knee Injury"
+    },
+    "subject": {
+      "reference": "Patient/4c16b378-6b5e-4761-a094-57c284f76351"
+    },
+    "onsetDateTime": "2024-10-05T23:45:33.102Z"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "b7aef8f6-b0b0-42ea-a056-bd0474475393",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "problem-list-item",
+            "display": "Problem List Item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "125605004",
+          "display": "Hip fracture"
+        }
+      ],
+      "text": "Hip Fracture"
+    },
+    "subject": {
+      "reference": "Patient/900a03f4-8308-4679-a8d7-3e96c03f395e"
+    },
+    "onsetDateTime": "2024-12-07T23:23:45.204Z"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "8c23b4c6-3510-4fd1-8ff4-52885115d921",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "problem-list-item",
+            "display": "Problem List Item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "24700007",
+          "display": "Multiple sclerosis"
+        }
+      ],
+      "text": "Multiple Sclerosis"
+    },
+    "subject": {
+      "reference": "Patient/a1bfdb28-23bf-4e02-b988-bf24bdb57e72"
+    },
+    "onsetDateTime": "2024-01-08T15:30:22.242Z"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "7e46e5e3-b149-4278-9e69-f9985ed81237",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "problem-list-item",
+            "display": "Problem List Item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "49049000",
+          "display": "Parkinson disease"
+        }
+      ],
+      "text": "Parkinson Disease"
+    },
+    "subject": {
+      "reference": "Patient/1fd09660-dc13-4999-8007-44c8ba484493"
+    },
+    "onsetDateTime": "2024-05-20T12:40:32.532Z"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "37f1c14c-7152-4e9c-886b-1e36d1daf20e",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "problem-list-item",
+            "display": "Problem List Item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "26929004",
+          "display": "Alzheimer disease"
+        }
+      ],
+      "text": "Alzheimer Disease"
+    },
+    "subject": {
+      "reference": "Patient/1ffe00f8-445b-4b2b-b00d-6158ee63d654"
+    },
+    "onsetDateTime": "2025-07-24T22:12:48.566Z"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "e858ec10-e86a-477e-8a8a-545b158f7973",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "problem-list-item",
+            "display": "Problem List Item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "26929004",
+          "display": "Alzheimer disease"
+        }
+      ],
+      "text": "Alzheimer Disease"
+    },
+    "subject": {
+      "reference": "Patient/1bbca7f3-c6ce-4639-8fcd-3d3a6c3c1f5d"
+    },
+    "onsetDateTime": "2025-07-05T01:18:18.542Z"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "0ff23159-8d41-44b5-9ae1-4b4646c0ead7",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "problem-list-item",
+            "display": "Problem List Item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "302870006",
+          "display": "Peripheral neuropathy"
+        }
+      ],
+      "text": "Peripheral Neuropathy"
+    },
+    "subject": {
+      "reference": "Patient/30ccc35f-3c36-493a-aa22-f69596f68460"
+    },
+    "onsetDateTime": "2025-08-17T02:31:51.260Z"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "2f939f0b-d03d-46a9-bbdf-2c830ad17207",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "problem-list-item",
+            "display": "Problem List Item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "49049000",
+          "display": "Parkinson disease"
+        }
+      ],
+      "text": "Parkinson Disease"
+    },
+    "subject": {
+      "reference": "Patient/0cbfeb5d-1eda-4e36-96ec-b2e11b1084a4"
+    },
+    "onsetDateTime": "2024-07-14T14:43:46.704Z"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "32181c12-cfb6-4473-91b3-ad82bf61cb50",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "problem-list-item",
+            "display": "Problem List Item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "363418001",
+          "display": "Hypothyroidism"
+        }
+      ],
+      "text": "Hypothyroidism"
+    },
+    "subject": {
+      "reference": "Patient/7808fcff-07b4-4406-908b-2652cd116c23"
+    },
+    "onsetDateTime": "2025-08-17T01:44:40.780Z"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "ee760f13-57ae-4ec8-9acb-b657080c3d68",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "problem-list-item",
+            "display": "Problem List Item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "363418001",
+          "display": "Hypothyroidism"
+        }
+      ],
+      "text": "Hypothyroidism"
+    },
+    "subject": {
+      "reference": "Patient/4e04e425-ebeb-47ed-aa67-a45f24fbf34d"
+    },
+    "onsetDateTime": "2025-01-24T19:39:50.076Z"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "3fdf7432-4607-43c8-acc6-09f97e20f129",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "problem-list-item",
+            "display": "Problem List Item"
           }
         ]
       }
@@ -1107,23 +1540,19 @@
         {
           "system": "http://snomed.info/sct",
           "code": "25064002",
-          "display": "Type 1 diabetes mellitus"
+          "display": "Diabetes mellitus type 1"
         }
       ],
       "text": "Type 1 Diabetes"
     },
     "subject": {
-      "reference": "Patient/0e4a72b7-0c08-4367-bf8c-f4f24f3f73f0"
+      "reference": "Patient/ce35c9b4-c66b-4226-afd8-1447256c7a44"
     },
-    "onsetDateTime": "2024-03-30T23:37:09.577Z",
-    "recordedDate": "2024-03-30T23:37:09.577Z",
-    "recorder": {
-      "reference": "Practitioner/37b83cde-53cc-43d0-9bfe-12691e53fc24"
-    }
+    "onsetDateTime": "2025-03-19T02:46:37.964Z"
   },
   {
     "resourceType": "Condition",
-    "id": "2f9b637e-9f2e-4d4b-92ec-21b969565ca1",
+    "id": "97b2f1e8-30ed-4450-bf19-36fffbcfdeba",
     "clinicalStatus": {
       "coding": [
         {
@@ -1147,875 +1576,8 @@
         "coding": [
           {
             "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "197480006",
-          "display": "Hyperlipidemia"
-        }
-      ],
-      "text": "Hyperlipidemia"
-    },
-    "subject": {
-      "reference": "Patient/4c0d853f-eca6-4e54-bf8c-379050832e3b"
-    },
-    "onsetDateTime": "2024-04-26T00:44:26.224Z",
-    "recordedDate": "2024-04-26T00:44:26.224Z",
-    "recorder": {
-      "reference": "Practitioner/ab9081a8-974a-4e47-877b-a4d11d0f775e"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "c7badfd9-b687-427e-851e-398986fbfc76",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "resolved",
-          "display": "Resolved"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "404684003",
-            "display": "Clinical finding"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "195967001",
-          "display": "Bronchitis"
-        }
-      ],
-      "text": "Bronchitis"
-    },
-    "subject": {
-      "reference": "Patient/4c0d853f-eca6-4e54-bf8c-379050832e3b"
-    },
-    "onsetDateTime": "2025-03-19T11:55:12.691Z",
-    "recordedDate": "2025-03-19T11:55:12.691Z",
-    "recorder": {
-      "reference": "Practitioner/da3e1551-2e2f-4cfc-a775-fd778a5b6d40"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "b3dde255-d57c-426b-80f3-c6a399de7567",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "414915002",
-          "display": "Obesity"
-        }
-      ],
-      "text": "Obesity"
-    },
-    "subject": {
-      "reference": "Patient/cb82bd94-55ae-4f9c-bc0b-525af340fcac"
-    },
-    "onsetDateTime": "2025-11-03T11:41:28.340Z",
-    "recordedDate": "2025-11-03T11:41:28.340Z",
-    "recorder": {
-      "reference": "Practitioner/532a98b9-a806-420c-9d56-2f111b5df06a"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "fb143d61-a359-4570-96f0-0988f9fdfa3b",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "363418001",
-          "display": "Hypothyroidism"
-        }
-      ],
-      "text": "Hypothyroidism"
-    },
-    "subject": {
-      "reference": "Patient/a67be881-98b5-4157-a9b8-d64020ec218f"
-    },
-    "onsetDateTime": "2024-04-28T20:10:15.270Z",
-    "recordedDate": "2024-04-28T20:10:15.270Z",
-    "recorder": {
-      "reference": "Practitioner/38b924c8-81e4-4aac-ba1f-6587337a979b"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "93ff2f44-5d34-4fb7-be57-30eb00c95801",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "404684003",
-            "display": "Clinical finding"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "444814009",
-          "display": "Viral pneumonia"
-        }
-      ],
-      "text": "Viral Pneumonia"
-    },
-    "subject": {
-      "reference": "Patient/a67be881-98b5-4157-a9b8-d64020ec218f"
-    },
-    "onsetDateTime": "2024-06-25T23:25:00.652Z",
-    "recordedDate": "2024-06-25T23:25:00.652Z",
-    "recorder": {
-      "reference": "Practitioner/f1014375-7eda-4766-862a-2d0ed4c2028a"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "fe5cc39a-de5b-4495-9ed3-4b45d279e00e",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "404684003",
-            "display": "Clinical finding"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "195967001",
-          "display": "Bronchitis"
-        }
-      ],
-      "text": "Bronchitis"
-    },
-    "subject": {
-      "reference": "Patient/a67be881-98b5-4157-a9b8-d64020ec218f"
-    },
-    "onsetDateTime": "2024-07-01T16:08:19.177Z",
-    "recordedDate": "2024-07-01T16:08:19.177Z",
-    "recorder": {
-      "reference": "Practitioner/b47c82ea-0ad2-4ea9-87e5-b76e2e07dfff"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "8e175a76-e085-4af1-a07b-b7f39170b556",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "72892002",
-          "display": "Anemia"
-        }
-      ],
-      "text": "Anemia"
-    },
-    "subject": {
-      "reference": "Patient/eddd87c2-3a3c-4f06-85c9-a99dbeaf4f65"
-    },
-    "onsetDateTime": "2025-05-17T01:12:57.029Z",
-    "recordedDate": "2025-05-17T01:12:57.029Z",
-    "recorder": {
-      "reference": "Practitioner/d0f9ae67-9c76-4701-b522-822f9a6ae7ed"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "2bd38dab-c12a-453a-a10c-b83b4a32b4ed",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "197480006",
-          "display": "Hyperlipidemia"
-        }
-      ],
-      "text": "Hyperlipidemia"
-    },
-    "subject": {
-      "reference": "Patient/eddd87c2-3a3c-4f06-85c9-a99dbeaf4f65"
-    },
-    "onsetDateTime": "2025-11-30T00:57:49.414Z",
-    "recordedDate": "2025-11-30T00:57:49.414Z",
-    "recorder": {
-      "reference": "Practitioner/b47c82ea-0ad2-4ea9-87e5-b76e2e07dfff"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "7acfdbcc-48b2-4538-9a53-e1d4d3300dec",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "161891005",
-          "display": "Low back pain"
-        }
-      ],
-      "text": "Low back pain"
-    },
-    "subject": {
-      "reference": "Patient/eddd87c2-3a3c-4f06-85c9-a99dbeaf4f65"
-    },
-    "onsetDateTime": "2025-10-20T20:26:57.614Z",
-    "recordedDate": "2025-10-20T20:26:57.614Z",
-    "recorder": {
-      "reference": "Practitioner/074a3508-fbfb-43dc-a60b-47ad1075ed5d"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "7f2fc1a5-e9a4-4ca3-b2b8-957e83307009",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "404684003",
-            "display": "Clinical finding"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "195967001",
-          "display": "Bronchitis"
-        }
-      ],
-      "text": "Bronchitis"
-    },
-    "subject": {
-      "reference": "Patient/eddd87c2-3a3c-4f06-85c9-a99dbeaf4f65"
-    },
-    "onsetDateTime": "2024-05-11T04:55:25.291Z",
-    "recordedDate": "2024-05-11T04:55:25.291Z",
-    "recorder": {
-      "reference": "Practitioner/6925811a-1636-463a-9488-78f2f7b3a190"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "d3acfa01-323a-440e-8575-751214751491",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "72892002",
-          "display": "Anemia"
-        }
-      ],
-      "text": "Anemia"
-    },
-    "subject": {
-      "reference": "Patient/71baecfa-fdee-47cc-b711-828a7cf3a3f6"
-    },
-    "onsetDateTime": "2025-05-13T02:07:16.588Z",
-    "recordedDate": "2025-05-13T02:07:16.588Z",
-    "recorder": {
-      "reference": "Practitioner/d0f9ae67-9c76-4701-b522-822f9a6ae7ed"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "78020187-b726-43d7-ab40-86f23491cfd7",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "resolved",
-          "display": "Resolved"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "16114001",
-          "display": "Depressive disorder"
-        }
-      ],
-      "text": "Depression"
-    },
-    "subject": {
-      "reference": "Patient/71baecfa-fdee-47cc-b711-828a7cf3a3f6"
-    },
-    "onsetDateTime": "2025-12-12T05:29:30.360Z",
-    "recordedDate": "2025-12-12T05:29:30.360Z",
-    "recorder": {
-      "reference": "Practitioner/c3c181eb-0595-432f-a79b-f42db762c573"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "dba42a18-ae75-4558-b6c5-76ad6f3e4164",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "38341003",
-          "display": "Hypertensive disorder"
-        }
-      ],
-      "text": "Hypertension"
-    },
-    "subject": {
-      "reference": "Patient/71baecfa-fdee-47cc-b711-828a7cf3a3f6"
-    },
-    "onsetDateTime": "2025-05-21T05:13:56.642Z",
-    "recordedDate": "2025-05-21T05:13:56.642Z",
-    "recorder": {
-      "reference": "Practitioner/740fc045-0d09-419e-9eac-bffd85e3643d"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "19d262a5-23c7-4d08-a265-0ff3b9bc0d03",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "404684003",
-            "display": "Clinical finding"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "195967001",
-          "display": "Bronchitis"
-        }
-      ],
-      "text": "Bronchitis"
-    },
-    "subject": {
-      "reference": "Patient/71baecfa-fdee-47cc-b711-828a7cf3a3f6"
-    },
-    "onsetDateTime": "2024-11-12T11:54:01.707Z",
-    "recordedDate": "2024-11-12T11:54:01.707Z",
-    "recorder": {
-      "reference": "Practitioner/f1014375-7eda-4766-862a-2d0ed4c2028a"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "ce755792-1118-41a4-9fb8-c1db206b7e40",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "363418001",
-          "display": "Hypothyroidism"
-        }
-      ],
-      "text": "Hypothyroidism"
-    },
-    "subject": {
-      "reference": "Patient/b08b269a-f3ea-4a8f-a808-18a5079eb89c"
-    },
-    "onsetDateTime": "2024-03-02T10:44:36.107Z",
-    "recordedDate": "2024-03-02T10:44:36.107Z",
-    "recorder": {
-      "reference": "Practitioner/d0146842-0e7f-4d00-b2e0-f99184efceca"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "cce1a8eb-246a-435c-81ad-099446c75257",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "195967001",
-          "display": "Asthma"
-        }
-      ],
-      "text": "Asthma"
-    },
-    "subject": {
-      "reference": "Patient/b08b269a-f3ea-4a8f-a808-18a5079eb89c"
-    },
-    "onsetDateTime": "2024-05-24T06:17:41.755Z",
-    "recordedDate": "2024-05-24T06:17:41.755Z",
-    "recorder": {
-      "reference": "Practitioner/bc91b457-e50d-4e3f-8709-4b3cca2ab902"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "182c5c11-1285-4150-b299-fc02e99a2491",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "16114001",
-          "display": "Depressive disorder"
-        }
-      ],
-      "text": "Depression"
-    },
-    "subject": {
-      "reference": "Patient/573bc55c-51f4-46e7-a8a6-f775554b8378"
-    },
-    "onsetDateTime": "2024-07-13T15:41:09.811Z",
-    "recordedDate": "2024-07-13T15:41:09.811Z",
-    "recorder": {
-      "reference": "Practitioner/cbfe154b-a7b8-4186-ad92-c9351a0d0f9d"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "bca4e0be-9169-49cb-a7be-4474d3376b67",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "resolved",
-          "display": "Resolved"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
+            "code": "problem-list-item",
+            "display": "Problem List Item"
           }
         ]
       }
@@ -2031,68 +1593,13 @@
       "text": "Type 2 Diabetes"
     },
     "subject": {
-      "reference": "Patient/68613283-8f80-41ff-9b8b-b0949edeea26"
+      "reference": "Patient/a46c3978-485f-45b6-b998-d9a67d4de1ac"
     },
-    "onsetDateTime": "2025-08-14T14:44:23.081Z",
-    "recordedDate": "2025-08-14T14:44:23.081Z",
-    "recorder": {
-      "reference": "Practitioner/ab9081a8-974a-4e47-877b-a4d11d0f775e"
-    }
+    "onsetDateTime": "2025-03-27T20:18:28.574Z"
   },
   {
     "resourceType": "Condition",
-    "id": "6704f70e-3ab7-4faa-9b23-556eb7d24a13",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "resolved",
-          "display": "Resolved"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "195967001",
-          "display": "Asthma"
-        }
-      ],
-      "text": "Asthma"
-    },
-    "subject": {
-      "reference": "Patient/d5204ddb-46b5-4257-b675-68ff50cac50a"
-    },
-    "onsetDateTime": "2024-09-09T19:26:24.243Z",
-    "recordedDate": "2024-09-09T19:26:24.243Z",
-    "recorder": {
-      "reference": "Practitioner/ebbe53e5-d3d1-44df-aa0f-ccebf0a5c935"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "04144761-97ab-4da3-9e94-d7e8fcd3feb7",
+    "id": "c5e790d5-4c29-4c0f-985c-1663171b21c8",
     "clinicalStatus": {
       "coding": [
         {
@@ -2116,8 +1623,8 @@
         "coding": [
           {
             "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
+            "code": "problem-list-item",
+            "display": "Problem List Item"
           }
         ]
       }
@@ -2133,17 +1640,13 @@
       "text": "Obesity"
     },
     "subject": {
-      "reference": "Patient/b4c8d4c0-cc8d-492c-b7ea-84d10363ca0c"
+      "reference": "Patient/442c5501-12d7-4486-972b-0427b16bb6a5"
     },
-    "onsetDateTime": "2024-05-26T05:18:45.318Z",
-    "recordedDate": "2024-05-26T05:18:45.318Z",
-    "recorder": {
-      "reference": "Practitioner/6286c354-27a8-4f31-889a-a6816d60de99"
-    }
+    "onsetDateTime": "2025-02-09T15:11:51.883Z"
   },
   {
     "resourceType": "Condition",
-    "id": "ddfe8a2d-fd39-4c7b-8d22-a6c8b2bae514",
+    "id": "3fd769b3-a4a1-4b2c-9687-bf2f8edefbaf",
     "clinicalStatus": {
       "coding": [
         {
@@ -2167,977 +1670,8 @@
         "coding": [
           {
             "system": "http://snomed.info/sct",
-            "code": "404684003",
-            "display": "Clinical finding"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "42399007",
-          "display": "Upper respiratory tract infection"
-        }
-      ],
-      "text": "URI"
-    },
-    "subject": {
-      "reference": "Patient/b4c8d4c0-cc8d-492c-b7ea-84d10363ca0c"
-    },
-    "onsetDateTime": "2025-08-31T01:40:29.646Z",
-    "recordedDate": "2025-08-31T01:40:29.646Z",
-    "recorder": {
-      "reference": "Practitioner/ebbe53e5-d3d1-44df-aa0f-ccebf0a5c935"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "95ed5311-f8f9-4770-a2b1-bafc3317c6b1",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "404684003",
-            "display": "Clinical finding"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "195967001",
-          "display": "Bronchitis"
-        }
-      ],
-      "text": "Bronchitis"
-    },
-    "subject": {
-      "reference": "Patient/b4c8d4c0-cc8d-492c-b7ea-84d10363ca0c"
-    },
-    "onsetDateTime": "2025-10-05T05:11:59.714Z",
-    "recordedDate": "2025-10-05T05:11:59.714Z",
-    "recorder": {
-      "reference": "Practitioner/740fc045-0d09-419e-9eac-bffd85e3643d"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "1ed4da4a-30b7-4a72-91dc-15c8e8eba00f",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "resolved",
-          "display": "Resolved"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "363418001",
-          "display": "Hypothyroidism"
-        }
-      ],
-      "text": "Hypothyroidism"
-    },
-    "subject": {
-      "reference": "Patient/8d36427f-364c-49e3-bc6c-12614051547c"
-    },
-    "onsetDateTime": "2024-09-13T09:11:29.719Z",
-    "recordedDate": "2024-09-13T09:11:29.719Z",
-    "recorder": {
-      "reference": "Practitioner/7405b505-fcdb-432d-812b-9451f1ece817"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "736e1662-e008-464f-98a0-08aad1dda380",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "resolved",
-          "display": "Resolved"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "35489007",
-          "display": "Anxiety disorder"
-        }
-      ],
-      "text": "Anxiety"
-    },
-    "subject": {
-      "reference": "Patient/e7919d94-7262-453d-9014-7fde0c03b07b"
-    },
-    "onsetDateTime": "2025-10-05T10:09:00.016Z",
-    "recordedDate": "2025-10-05T10:09:00.016Z",
-    "recorder": {
-      "reference": "Practitioner/c3c181eb-0595-432f-a79b-f42db762c573"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "a1d520b5-0dac-4963-8e0d-0c4937df9411",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "resolved",
-          "display": "Resolved"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "44054006",
-          "display": "Diabetes mellitus type 2"
-        }
-      ],
-      "text": "Type 2 Diabetes"
-    },
-    "subject": {
-      "reference": "Patient/473356de-8c3e-4b7c-a00d-b2a4142c3905"
-    },
-    "onsetDateTime": "2025-11-26T10:31:38.352Z",
-    "recordedDate": "2025-11-26T10:31:38.352Z",
-    "recorder": {
-      "reference": "Practitioner/4d2df459-e2b0-4559-ac31-53a5e6bebe1e"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "cb2d7cc6-12c5-427e-adff-f1409131a443",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "414915002",
-          "display": "Obesity"
-        }
-      ],
-      "text": "Obesity"
-    },
-    "subject": {
-      "reference": "Patient/473356de-8c3e-4b7c-a00d-b2a4142c3905"
-    },
-    "onsetDateTime": "2025-07-02T19:38:14.211Z",
-    "recordedDate": "2025-07-02T19:38:14.211Z",
-    "recorder": {
-      "reference": "Practitioner/c3c181eb-0595-432f-a79b-f42db762c573"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "74607092-8c76-4ed2-8029-afa919083d7e",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "72892002",
-          "display": "Anemia"
-        }
-      ],
-      "text": "Anemia"
-    },
-    "subject": {
-      "reference": "Patient/473356de-8c3e-4b7c-a00d-b2a4142c3905"
-    },
-    "onsetDateTime": "2024-07-28T03:07:16.102Z",
-    "recordedDate": "2024-07-28T03:07:16.102Z",
-    "recorder": {
-      "reference": "Practitioner/2ecedd17-01c9-4f74-973d-1cae0eb5c5b2"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "25db70ad-8ecb-4493-82b5-9dadad44fe7d",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "13645005",
-          "display": "Chronic obstructive lung disease"
-        }
-      ],
-      "text": "COPD"
-    },
-    "subject": {
-      "reference": "Patient/473356de-8c3e-4b7c-a00d-b2a4142c3905"
-    },
-    "onsetDateTime": "2025-07-31T16:21:40.050Z",
-    "recordedDate": "2025-07-31T16:21:40.050Z",
-    "recorder": {
-      "reference": "Practitioner/d0f9ae67-9c76-4701-b522-822f9a6ae7ed"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "86759210-4649-4c41-b494-dfb5781e9910",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "363418001",
-          "display": "Hypothyroidism"
-        }
-      ],
-      "text": "Hypothyroidism"
-    },
-    "subject": {
-      "reference": "Patient/a1b2c690-2296-426c-a395-3d88de60d93c"
-    },
-    "onsetDateTime": "2024-08-21T16:53:09.520Z",
-    "recordedDate": "2024-08-21T16:53:09.520Z",
-    "recorder": {
-      "reference": "Practitioner/532a98b9-a806-420c-9d56-2f111b5df06a"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "5e62d07e-2661-49a7-8668-3408f22d606a",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "414915002",
-          "display": "Obesity"
-        }
-      ],
-      "text": "Obesity"
-    },
-    "subject": {
-      "reference": "Patient/a81eef74-e7c9-4a9c-a2cf-0e6417dcb252"
-    },
-    "onsetDateTime": "2025-06-24T20:03:35.454Z",
-    "recordedDate": "2025-06-24T20:03:35.454Z",
-    "recorder": {
-      "reference": "Practitioner/dcf9a4ab-6997-49cc-adcf-c9209d095d3d"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "b50ce1d4-8931-4747-bacb-2bc9a8ae2f30",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "38341003",
-          "display": "Hypertensive disorder"
-        }
-      ],
-      "text": "Hypertension"
-    },
-    "subject": {
-      "reference": "Patient/a81eef74-e7c9-4a9c-a2cf-0e6417dcb252"
-    },
-    "onsetDateTime": "2025-05-04T02:15:50.321Z",
-    "recordedDate": "2025-05-04T02:15:50.321Z",
-    "recorder": {
-      "reference": "Practitioner/740fc045-0d09-419e-9eac-bffd85e3643d"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "d20cbb84-7924-41a8-96c1-166982c2673f",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "44054006",
-          "display": "Diabetes mellitus type 2"
-        }
-      ],
-      "text": "Type 2 Diabetes"
-    },
-    "subject": {
-      "reference": "Patient/08ff40fb-4590-4b49-99ca-d3a27f40938f"
-    },
-    "onsetDateTime": "2024-09-07T04:57:09.847Z",
-    "recordedDate": "2024-09-07T04:57:09.847Z",
-    "recorder": {
-      "reference": "Practitioner/afbd3f79-f17d-4809-8980-05a1062c27a3"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "fe0c34d6-80fb-438b-8acf-ffca51e60725",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "38341003",
-          "display": "Hypertensive disorder"
-        }
-      ],
-      "text": "Hypertension"
-    },
-    "subject": {
-      "reference": "Patient/d67fbde8-e6ea-44b5-bce5-2ddf42a0f4b6"
-    },
-    "onsetDateTime": "2024-06-08T09:44:54.675Z",
-    "recordedDate": "2024-06-08T09:44:54.675Z",
-    "recorder": {
-      "reference": "Practitioner/37b83cde-53cc-43d0-9bfe-12691e53fc24"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "02d5eb08-16e5-4ce9-bba2-f9fedbd6f196",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "197480006",
-          "display": "Hyperlipidemia"
-        }
-      ],
-      "text": "Hyperlipidemia"
-    },
-    "subject": {
-      "reference": "Patient/d67fbde8-e6ea-44b5-bce5-2ddf42a0f4b6"
-    },
-    "onsetDateTime": "2024-06-20T06:41:17.177Z",
-    "recordedDate": "2024-06-20T06:41:17.177Z",
-    "recorder": {
-      "reference": "Practitioner/cbfe154b-a7b8-4186-ad92-c9351a0d0f9d"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "72c239e4-c35a-4ed0-95aa-a79b7767b599",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "195967001",
-          "display": "Asthma"
-        }
-      ],
-      "text": "Asthma"
-    },
-    "subject": {
-      "reference": "Patient/d67fbde8-e6ea-44b5-bce5-2ddf42a0f4b6"
-    },
-    "onsetDateTime": "2025-04-30T07:06:15.457Z",
-    "recordedDate": "2025-04-30T07:06:15.457Z",
-    "recorder": {
-      "reference": "Practitioner/074a3508-fbfb-43dc-a60b-47ad1075ed5d"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "a5330702-6bb6-4ce6-9a46-83c8c19705af",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "404684003",
-            "display": "Clinical finding"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "444814009",
-          "display": "Viral pneumonia"
-        }
-      ],
-      "text": "Viral Pneumonia"
-    },
-    "subject": {
-      "reference": "Patient/eb98c73b-6d14-4b51-8a8f-21f974a48ef2"
-    },
-    "onsetDateTime": "2024-01-29T17:58:25.866Z",
-    "recordedDate": "2024-01-29T17:58:25.866Z",
-    "recorder": {
-      "reference": "Practitioner/cbfe154b-a7b8-4186-ad92-c9351a0d0f9d"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "06b25e9e-f48f-41c0-a47f-39ec31b80096",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "resolved",
-          "display": "Resolved"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "414915002",
-          "display": "Obesity"
-        }
-      ],
-      "text": "Obesity"
-    },
-    "subject": {
-      "reference": "Patient/eb98c73b-6d14-4b51-8a8f-21f974a48ef2"
-    },
-    "onsetDateTime": "2024-02-11T00:57:30.702Z",
-    "recordedDate": "2024-02-11T00:57:30.702Z",
-    "recorder": {
-      "reference": "Practitioner/d0f9ae67-9c76-4701-b522-822f9a6ae7ed"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "aa26706b-56b4-4217-9614-6cd443c11163",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "404684003",
-            "display": "Clinical finding"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "195967001",
-          "display": "Bronchitis"
-        }
-      ],
-      "text": "Bronchitis"
-    },
-    "subject": {
-      "reference": "Patient/eb98c73b-6d14-4b51-8a8f-21f974a48ef2"
-    },
-    "onsetDateTime": "2024-01-02T19:51:17.859Z",
-    "recordedDate": "2024-01-02T19:51:17.859Z",
-    "recorder": {
-      "reference": "Practitioner/afbd3f79-f17d-4809-8980-05a1062c27a3"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "afad4ca1-f647-4ad6-907d-7eadb307801d",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "197480006",
-          "display": "Hyperlipidemia"
-        }
-      ],
-      "text": "Hyperlipidemia"
-    },
-    "subject": {
-      "reference": "Patient/fe889dda-41a5-470c-bbaf-b7b4641deb09"
-    },
-    "onsetDateTime": "2024-02-12T08:03:50.888Z",
-    "recordedDate": "2024-02-12T08:03:50.888Z",
-    "recorder": {
-      "reference": "Practitioner/b5309420-8fee-4d18-9a18-43a81b8c2c62"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "efd22bca-758d-4b2d-81cd-1495e566a808",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
+            "code": "problem-list-item",
+            "display": "Problem List Item"
           }
         ]
       }
@@ -3147,23 +1681,19 @@
         {
           "system": "http://snomed.info/sct",
           "code": "25064002",
-          "display": "Type 1 diabetes mellitus"
+          "display": "Diabetes mellitus type 1"
         }
       ],
       "text": "Type 1 Diabetes"
     },
     "subject": {
-      "reference": "Patient/84a0b3d3-afdb-4ca5-8555-ede9d6688884"
+      "reference": "Patient/d744394c-9a66-4718-96c4-0e5376ab1d9c"
     },
-    "onsetDateTime": "2025-02-26T01:18:43.143Z",
-    "recordedDate": "2025-02-26T01:18:43.143Z",
-    "recorder": {
-      "reference": "Practitioner/37b83cde-53cc-43d0-9bfe-12691e53fc24"
-    }
+    "onsetDateTime": "2025-12-10T08:05:42.355Z"
   },
   {
     "resourceType": "Condition",
-    "id": "14a13765-c78a-4e59-a1c4-5e4fb5e21c33",
+    "id": "d06004bd-cab3-4a51-b2aa-271841afb1a2",
     "clinicalStatus": {
       "coding": [
         {
@@ -3187,8 +1717,8 @@
         "coding": [
           {
             "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
+            "code": "problem-list-item",
+            "display": "Problem List Item"
           }
         ]
       }
@@ -3197,24 +1727,20 @@
       "coding": [
         {
           "system": "http://snomed.info/sct",
-          "code": "235595009",
-          "display": "Gastritis"
+          "code": "414915002",
+          "display": "Obesity"
         }
       ],
-      "text": "Gastritis"
+      "text": "Obesity"
     },
     "subject": {
-      "reference": "Patient/84a0b3d3-afdb-4ca5-8555-ede9d6688884"
+      "reference": "Patient/817fd492-8fe3-4122-8b43-6b58e76bc658"
     },
-    "onsetDateTime": "2025-03-10T13:21:01.440Z",
-    "recordedDate": "2025-03-10T13:21:01.440Z",
-    "recorder": {
-      "reference": "Practitioner/15cf6074-66ff-4dba-840f-2acca287c5ac"
-    }
+    "onsetDateTime": "2025-08-08T01:48:23.726Z"
   },
   {
     "resourceType": "Condition",
-    "id": "73d8706e-6b77-4940-971e-c1819de51f78",
+    "id": "454c7b2b-1c65-40e1-9341-8e6dbaaabc2a",
     "clinicalStatus": {
       "coding": [
         {
@@ -3238,8 +1764,8 @@
         "coding": [
           {
             "system": "http://snomed.info/sct",
-            "code": "404684003",
-            "display": "Clinical finding"
+            "code": "problem-list-item",
+            "display": "Problem List Item"
           }
         ]
       }
@@ -3248,75 +1774,20 @@
       "coding": [
         {
           "system": "http://snomed.info/sct",
-          "code": "195967001",
-          "display": "Bronchitis"
+          "code": "125605004",
+          "display": "Liver cirrhosis"
         }
       ],
-      "text": "Bronchitis"
+      "text": "Liver Cirrhosis"
     },
     "subject": {
-      "reference": "Patient/84a0b3d3-afdb-4ca5-8555-ede9d6688884"
+      "reference": "Patient/98047f86-b2e3-40dc-8549-2aeba44bcd37"
     },
-    "onsetDateTime": "2024-10-29T01:30:40.173Z",
-    "recordedDate": "2024-10-29T01:30:40.173Z",
-    "recorder": {
-      "reference": "Practitioner/7f6e2c1d-080c-497f-ab41-fa1e47e9db3c"
-    }
+    "onsetDateTime": "2024-02-16T16:25:11.837Z"
   },
   {
     "resourceType": "Condition",
-    "id": "c653ef07-780c-4c3d-8ca9-e7c46ac3c3ae",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "resolved",
-          "display": "Resolved"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "16114001",
-          "display": "Depressive disorder"
-        }
-      ],
-      "text": "Depression"
-    },
-    "subject": {
-      "reference": "Patient/181a8516-6fce-432f-bbc7-2fc7ec19b631"
-    },
-    "onsetDateTime": "2025-06-24T23:16:31.352Z",
-    "recordedDate": "2025-06-24T23:16:31.352Z",
-    "recorder": {
-      "reference": "Practitioner/740fc045-0d09-419e-9eac-bffd85e3643d"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "0cc37149-d6f9-4b25-baed-57a823407ad4",
+    "id": "53b81696-8ed4-4006-b225-e9b5fca0d309",
     "clinicalStatus": {
       "coding": [
         {
@@ -3340,8 +1811,8 @@
         "coding": [
           {
             "system": "http://snomed.info/sct",
-            "code": "404684003",
-            "display": "Clinical finding"
+            "code": "problem-list-item",
+            "display": "Problem List Item"
           }
         ]
       }
@@ -3350,24 +1821,20 @@
       "coding": [
         {
           "system": "http://snomed.info/sct",
-          "code": "444814009",
-          "display": "Viral pneumonia"
+          "code": "396275006",
+          "display": "Peptic ulcer disease"
         }
       ],
-      "text": "Viral Pneumonia"
+      "text": "Peptic Ulcer Disease"
     },
     "subject": {
-      "reference": "Patient/181a8516-6fce-432f-bbc7-2fc7ec19b631"
+      "reference": "Patient/243708ad-4f75-47f1-93a6-865d75e72a12"
     },
-    "onsetDateTime": "2025-11-02T17:18:35.975Z",
-    "recordedDate": "2025-11-02T17:18:35.975Z",
-    "recorder": {
-      "reference": "Practitioner/7f6e2c1d-080c-497f-ab41-fa1e47e9db3c"
-    }
+    "onsetDateTime": "2025-03-08T01:13:47.934Z"
   },
   {
     "resourceType": "Condition",
-    "id": "1ac52642-6d15-4d3e-9eba-15e008cec329",
+    "id": "ae5613ea-044d-491d-a5b7-0edb01a6b820",
     "clinicalStatus": {
       "coding": [
         {
@@ -3391,8 +1858,8 @@
         "coding": [
           {
             "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
+            "code": "problem-list-item",
+            "display": "Problem List Item"
           }
         ]
       }
@@ -3401,177 +1868,20 @@
       "coding": [
         {
           "system": "http://snomed.info/sct",
-          "code": "38341003",
-          "display": "Hypertensive disorder"
+          "code": "396275006",
+          "display": "Pancreatitis"
         }
       ],
-      "text": "Hypertension"
+      "text": "Pancreatitis"
     },
     "subject": {
-      "reference": "Patient/181a8516-6fce-432f-bbc7-2fc7ec19b631"
+      "reference": "Patient/36672e60-ba8a-4ac3-89ae-218294af7ea0"
     },
-    "onsetDateTime": "2024-04-25T00:56:06.882Z",
-    "recordedDate": "2024-04-25T00:56:06.882Z",
-    "recorder": {
-      "reference": "Practitioner/38b924c8-81e4-4aac-ba1f-6587337a979b"
-    }
+    "onsetDateTime": "2025-12-07T20:02:16.591Z"
   },
   {
     "resourceType": "Condition",
-    "id": "96d32452-fa9d-4fcf-bad3-50a5fa2e04be",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "resolved",
-          "display": "Resolved"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "35489007",
-          "display": "Anxiety disorder"
-        }
-      ],
-      "text": "Anxiety"
-    },
-    "subject": {
-      "reference": "Patient/181a8516-6fce-432f-bbc7-2fc7ec19b631"
-    },
-    "onsetDateTime": "2024-11-22T14:54:54.905Z",
-    "recordedDate": "2024-11-22T14:54:54.905Z",
-    "recorder": {
-      "reference": "Practitioner/c8d47fd2-da73-4e2b-b6b0-8c42bb81a3e6"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "00760cfc-d5a4-4aa1-975a-2d104d2e7421",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "resolved",
-          "display": "Resolved"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "363418001",
-          "display": "Hypothyroidism"
-        }
-      ],
-      "text": "Hypothyroidism"
-    },
-    "subject": {
-      "reference": "Patient/ce285e2f-9b44-4725-b622-80a6910c89e4"
-    },
-    "onsetDateTime": "2025-02-28T22:04:18.648Z",
-    "recordedDate": "2025-02-28T22:04:18.648Z",
-    "recorder": {
-      "reference": "Practitioner/e3832b4d-6227-4a6d-bad0-2ea91d2895d1"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "425c2ae3-3427-4e95-b0bd-0d836a7e1d24",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "resolved",
-          "display": "Resolved"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "161891005",
-          "display": "Low back pain"
-        }
-      ],
-      "text": "Low back pain"
-    },
-    "subject": {
-      "reference": "Patient/ce285e2f-9b44-4725-b622-80a6910c89e4"
-    },
-    "onsetDateTime": "2025-09-06T02:35:03.778Z",
-    "recordedDate": "2025-09-06T02:35:03.778Z",
-    "recorder": {
-      "reference": "Practitioner/e3832b4d-6227-4a6d-bad0-2ea91d2895d1"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "1b762267-b517-44ce-8240-141e148f941a",
+    "id": "0f5810dd-9026-4ba5-ab4b-7f65f77a0146",
     "clinicalStatus": {
       "coding": [
         {
@@ -3595,8 +1905,8 @@
         "coding": [
           {
             "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
+            "code": "problem-list-item",
+            "display": "Problem List Item"
           }
         ]
       }
@@ -3605,24 +1915,20 @@
       "coding": [
         {
           "system": "http://snomed.info/sct",
-          "code": "195967001",
-          "display": "Asthma"
+          "code": "399068003",
+          "display": "Irritable bowel syndrome"
         }
       ],
-      "text": "Asthma"
+      "text": "IBS"
     },
     "subject": {
-      "reference": "Patient/ce285e2f-9b44-4725-b622-80a6910c89e4"
+      "reference": "Patient/48de2415-846d-4976-9129-59f5d5010376"
     },
-    "onsetDateTime": "2024-01-03T22:41:29.829Z",
-    "recordedDate": "2024-01-03T22:41:29.829Z",
-    "recorder": {
-      "reference": "Practitioner/4d2df459-e2b0-4559-ac31-53a5e6bebe1e"
-    }
+    "onsetDateTime": "2024-10-11T20:59:13.712Z"
   },
   {
     "resourceType": "Condition",
-    "id": "5e12b0c7-d849-4403-b0fc-77a7272829b1",
+    "id": "8c468230-0832-4ab1-9690-691875431c8c",
     "clinicalStatus": {
       "coding": [
         {
@@ -3646,8 +1952,8 @@
         "coding": [
           {
             "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
+            "code": "problem-list-item",
+            "display": "Problem List Item"
           }
         ]
       }
@@ -3656,24 +1962,20 @@
       "coding": [
         {
           "system": "http://snomed.info/sct",
-          "code": "72892002",
-          "display": "Anemia"
+          "code": "396275006",
+          "display": "Inflammatory bowel disease"
         }
       ],
-      "text": "Anemia"
+      "text": "IBD"
     },
     "subject": {
-      "reference": "Patient/bcc66f24-cf5a-4da4-8b59-6515d0064746"
+      "reference": "Patient/96b8e197-d9fc-47ee-9777-195a2e4ef404"
     },
-    "onsetDateTime": "2024-12-29T19:42:27.284Z",
-    "recordedDate": "2024-12-29T19:42:27.284Z",
-    "recorder": {
-      "reference": "Practitioner/074a3508-fbfb-43dc-a60b-47ad1075ed5d"
-    }
+    "onsetDateTime": "2025-03-28T23:55:48.138Z"
   },
   {
     "resourceType": "Condition",
-    "id": "2c7c72ce-69f5-42e3-bf8e-3f5ea93c4a5c",
+    "id": "5335799e-8910-4805-ad90-31f918070fe5",
     "clinicalStatus": {
       "coding": [
         {
@@ -3697,8 +1999,8 @@
         "coding": [
           {
             "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
+            "code": "problem-list-item",
+            "display": "Problem List Item"
           }
         ]
       }
@@ -3707,24 +2009,20 @@
       "coding": [
         {
           "system": "http://snomed.info/sct",
-          "code": "38341003",
-          "display": "Hypertensive disorder"
+          "code": "9014002",
+          "display": "Psoriasis"
         }
       ],
-      "text": "Hypertension"
+      "text": "Psoriasis"
     },
     "subject": {
-      "reference": "Patient/ad09c84b-7213-41af-9964-91cf583c6c12"
+      "reference": "Patient/ec16f26b-61b2-40ad-aedf-7637431c8a47"
     },
-    "onsetDateTime": "2024-05-21T22:45:22.795Z",
-    "recordedDate": "2024-05-21T22:45:22.795Z",
-    "recorder": {
-      "reference": "Practitioner/38b924c8-81e4-4aac-ba1f-6587337a979b"
-    }
+    "onsetDateTime": "2024-03-10T22:57:48.945Z"
   },
   {
     "resourceType": "Condition",
-    "id": "67e8fb14-4bc0-49a2-af87-8f88e6c5e14d",
+    "id": "dc7d3ea2-2d6d-434d-a7cb-6b1c44de2c55",
     "clinicalStatus": {
       "coding": [
         {
@@ -3748,8 +2046,337 @@
         "coding": [
           {
             "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
+            "code": "problem-list-item",
+            "display": "Problem List Item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "9014002",
+          "display": "Skin infection"
+        }
+      ],
+      "text": "Skin Infection"
+    },
+    "subject": {
+      "reference": "Patient/2071ae04-9c0a-418f-8e3f-6d734a176e9e"
+    },
+    "onsetDateTime": "2025-07-09T18:34:31.072Z"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "3c9f7b91-1ad7-44f8-a029-85e9ede60535",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "problem-list-item",
+            "display": "Problem List Item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "9014002",
+          "display": "Psoriasis"
+        }
+      ],
+      "text": "Psoriasis"
+    },
+    "subject": {
+      "reference": "Patient/24693b3f-3324-400c-b03b-6db7cf0be2a5"
+    },
+    "onsetDateTime": "2024-10-10T04:56:49.177Z"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "c9ae573e-00d1-4112-9076-96e88e690ca4",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "problem-list-item",
+            "display": "Problem List Item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "9014002",
+          "display": "Psoriasis"
+        }
+      ],
+      "text": "Psoriasis"
+    },
+    "subject": {
+      "reference": "Patient/749b1243-df88-432a-9b77-c789b442aac9"
+    },
+    "onsetDateTime": "2024-02-22T12:11:03.987Z"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "5d3712a1-3579-4968-98a1-f9425b90350f",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "problem-list-item",
+            "display": "Problem List Item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "95324001",
+          "display": "Eczema"
+        }
+      ],
+      "text": "Eczema"
+    },
+    "subject": {
+      "reference": "Patient/afd4cb6b-ec03-47fd-adaf-c05e0c9c3733"
+    },
+    "onsetDateTime": "2024-02-24T01:52:26.269Z"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "009f2656-9f3c-4cde-9d85-286a9039f393",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "problem-list-item",
+            "display": "Problem List Item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "95324001",
+          "display": "Urticaria"
+        }
+      ],
+      "text": "Urticaria"
+    },
+    "subject": {
+      "reference": "Patient/39faa0f9-288b-4596-bb92-164528ba1a7e"
+    },
+    "onsetDateTime": "2025-08-10T07:39:58.597Z"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "08d316ee-e6a3-4a3e-acfb-09251d6c3b9e",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "problem-list-item",
+            "display": "Problem List Item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "95324001",
+          "display": "Urticaria"
+        }
+      ],
+      "text": "Urticaria"
+    },
+    "subject": {
+      "reference": "Patient/ef53a0a8-d54a-4374-9114-d2e77164984f"
+    },
+    "onsetDateTime": "2024-02-14T05:35:20.542Z"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "9c446374-9a58-48ad-b712-8ccc2d7f0e11",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "problem-list-item",
+            "display": "Problem List Item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "64859009",
+          "display": "Scoliosis"
+        }
+      ],
+      "text": "Scoliosis"
+    },
+    "subject": {
+      "reference": "Patient/8a010156-4e7a-4c8e-b376-6206367257bd"
+    },
+    "onsetDateTime": "2025-08-31T12:29:35.464Z"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "051d7f53-fc1c-40cc-837a-e22f585b3143",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "problem-list-item",
+            "display": "Problem List Item"
           }
         ]
       }
@@ -3765,17 +2392,13 @@
       "text": "Osteoarthritis"
     },
     "subject": {
-      "reference": "Patient/d2e32576-f422-4177-8bc3-ef2e52830bcf"
+      "reference": "Patient/6970fb0d-8f7d-48f8-bca7-c35c14222605"
     },
-    "onsetDateTime": "2025-05-06T23:14:31.851Z",
-    "recordedDate": "2025-05-06T23:14:31.851Z",
-    "recorder": {
-      "reference": "Practitioner/e3832b4d-6227-4a6d-bad0-2ea91d2895d1"
-    }
+    "onsetDateTime": "2024-03-05T23:13:44.579Z"
   },
   {
     "resourceType": "Condition",
-    "id": "e2f42958-35ab-4ab3-963a-a0e1afdda0d0",
+    "id": "81d55528-2fcc-460e-ab29-0c37a92c9c4f",
     "clinicalStatus": {
       "coding": [
         {
@@ -3799,8 +2422,8 @@
         "coding": [
           {
             "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
+            "code": "problem-list-item",
+            "display": "Problem List Item"
           }
         ]
       }
@@ -3809,24 +2432,20 @@
       "coding": [
         {
           "system": "http://snomed.info/sct",
-          "code": "197480006",
-          "display": "Hyperlipidemia"
+          "code": "64859009",
+          "display": "Osteoporosis"
         }
       ],
-      "text": "Hyperlipidemia"
+      "text": "Osteoporosis"
     },
     "subject": {
-      "reference": "Patient/d2e32576-f422-4177-8bc3-ef2e52830bcf"
+      "reference": "Patient/2e89785f-a262-4ef1-a20d-e4f8685af81a"
     },
-    "onsetDateTime": "2025-08-01T05:19:19.756Z",
-    "recordedDate": "2025-08-01T05:19:19.756Z",
-    "recorder": {
-      "reference": "Practitioner/2c1467b0-086e-404b-8334-ebfd13796fd4"
-    }
+    "onsetDateTime": "2025-09-22T02:27:47.811Z"
   },
   {
     "resourceType": "Condition",
-    "id": "b2d181dc-8d13-4958-859c-c3a72ffa2511",
+    "id": "309dcdae-32d5-4da8-a251-b41862c109ef",
     "clinicalStatus": {
       "coding": [
         {
@@ -3850,8 +2469,8 @@
         "coding": [
           {
             "system": "http://snomed.info/sct",
-            "code": "404684003",
-            "display": "Clinical finding"
+            "code": "problem-list-item",
+            "display": "Problem List Item"
           }
         ]
       }
@@ -3860,24 +2479,20 @@
       "coding": [
         {
           "system": "http://snomed.info/sct",
-          "code": "444814009",
-          "display": "Viral pneumonia"
+          "code": "69896004",
+          "display": "Tendinitis"
         }
       ],
-      "text": "Viral Pneumonia"
+      "text": "Tendinitis"
     },
     "subject": {
-      "reference": "Patient/d2e32576-f422-4177-8bc3-ef2e52830bcf"
+      "reference": "Patient/6c99e6d3-01f8-44d5-a7bf-307cc26499a6"
     },
-    "onsetDateTime": "2024-12-29T06:40:18.359Z",
-    "recordedDate": "2024-12-29T06:40:18.359Z",
-    "recorder": {
-      "reference": "Practitioner/6925811a-1636-463a-9488-78f2f7b3a190"
-    }
+    "onsetDateTime": "2024-08-31T20:57:55.556Z"
   },
   {
     "resourceType": "Condition",
-    "id": "f858d20a-1acf-4988-b33c-4eb5074cb283",
+    "id": "c5ace590-c4b1-46ff-b088-6a6a554b9217",
     "clinicalStatus": {
       "coding": [
         {
@@ -3901,467 +2516,8 @@
         "coding": [
           {
             "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "16114001",
-          "display": "Depressive disorder"
-        }
-      ],
-      "text": "Depression"
-    },
-    "subject": {
-      "reference": "Patient/5d74aaf9-692c-4721-8499-24ac476db3a1"
-    },
-    "onsetDateTime": "2024-11-25T05:43:34.763Z",
-    "recordedDate": "2024-11-25T05:43:34.763Z",
-    "recorder": {
-      "reference": "Practitioner/b47c82ea-0ad2-4ea9-87e5-b76e2e07dfff"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "77c2723f-ce69-41e7-9354-027876f6ec11",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "resolved",
-          "display": "Resolved"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "13645005",
-          "display": "Chronic obstructive lung disease"
-        }
-      ],
-      "text": "COPD"
-    },
-    "subject": {
-      "reference": "Patient/5d74aaf9-692c-4721-8499-24ac476db3a1"
-    },
-    "onsetDateTime": "2024-07-05T18:09:14.797Z",
-    "recordedDate": "2024-07-05T18:09:14.797Z",
-    "recorder": {
-      "reference": "Practitioner/adf20968-de31-4c0b-8885-b07068280381"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "a9e129af-cc30-4cff-81f7-53e0156714f5",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "404684003",
-            "display": "Clinical finding"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "195967001",
-          "display": "Bronchitis"
-        }
-      ],
-      "text": "Bronchitis"
-    },
-    "subject": {
-      "reference": "Patient/5d74aaf9-692c-4721-8499-24ac476db3a1"
-    },
-    "onsetDateTime": "2025-07-06T01:00:55.076Z",
-    "recordedDate": "2025-07-06T01:00:55.076Z",
-    "recorder": {
-      "reference": "Practitioner/6925811a-1636-463a-9488-78f2f7b3a190"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "82ed8dcd-535f-4f04-9e90-84cf834c8159",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "resolved",
-          "display": "Resolved"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "35489007",
-          "display": "Anxiety disorder"
-        }
-      ],
-      "text": "Anxiety"
-    },
-    "subject": {
-      "reference": "Patient/54f7fda2-a6f8-499d-add3-99caff674914"
-    },
-    "onsetDateTime": "2024-08-29T12:11:31.975Z",
-    "recordedDate": "2024-08-29T12:11:31.975Z",
-    "recorder": {
-      "reference": "Practitioner/4d2df459-e2b0-4559-ac31-53a5e6bebe1e"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "9649ce86-a57f-4dd1-918c-dfcc195c8211",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "resolved",
-          "display": "Resolved"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "197480006",
-          "display": "Hyperlipidemia"
-        }
-      ],
-      "text": "Hyperlipidemia"
-    },
-    "subject": {
-      "reference": "Patient/54f7fda2-a6f8-499d-add3-99caff674914"
-    },
-    "onsetDateTime": "2025-01-08T03:50:34.301Z",
-    "recordedDate": "2025-01-08T03:50:34.301Z",
-    "recorder": {
-      "reference": "Practitioner/7937f31a-5d96-4747-95e2-cd811dfff3d6"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "bf73fd6f-1dab-411f-8c1e-0d4a6f075a87",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "363418001",
-          "display": "Hypothyroidism"
-        }
-      ],
-      "text": "Hypothyroidism"
-    },
-    "subject": {
-      "reference": "Patient/54f7fda2-a6f8-499d-add3-99caff674914"
-    },
-    "onsetDateTime": "2024-03-26T12:52:18.856Z",
-    "recordedDate": "2024-03-26T12:52:18.856Z",
-    "recorder": {
-      "reference": "Practitioner/7690fb5f-7770-48d8-b014-273dffc12c25"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "6270e4af-dd9b-4d7f-ad1f-4b5c5df8c1da",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "195080001",
-          "display": "Osteoarthritis"
-        }
-      ],
-      "text": "Osteoarthritis"
-    },
-    "subject": {
-      "reference": "Patient/54f7fda2-a6f8-499d-add3-99caff674914"
-    },
-    "onsetDateTime": "2024-03-23T20:29:55.664Z",
-    "recordedDate": "2024-03-23T20:29:55.664Z",
-    "recorder": {
-      "reference": "Practitioner/7405b505-fcdb-432d-812b-9451f1ece817"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "8705a7af-9593-4b04-a3ae-85eb41703439",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "25064002",
-          "display": "Type 1 diabetes mellitus"
-        }
-      ],
-      "text": "Type 1 Diabetes"
-    },
-    "subject": {
-      "reference": "Patient/180b87f1-decb-439c-9689-7dc493e51922"
-    },
-    "onsetDateTime": "2025-05-30T13:36:41.037Z",
-    "recordedDate": "2025-05-30T13:36:41.037Z",
-    "recorder": {
-      "reference": "Practitioner/ebbe53e5-d3d1-44df-aa0f-ccebf0a5c935"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "e3453372-5b49-497c-9d28-ebcc9935f4f1",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "16114001",
-          "display": "Depressive disorder"
-        }
-      ],
-      "text": "Depression"
-    },
-    "subject": {
-      "reference": "Patient/180b87f1-decb-439c-9689-7dc493e51922"
-    },
-    "onsetDateTime": "2025-08-24T12:06:49.234Z",
-    "recordedDate": "2025-08-24T12:06:49.234Z",
-    "recorder": {
-      "reference": "Practitioner/f1014375-7eda-4766-862a-2d0ed4c2028a"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "3339e439-a46f-4052-b817-3e8ce192eb82",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "resolved",
-          "display": "Resolved"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
+            "code": "problem-list-item",
+            "display": "Problem List Item"
           }
         ]
       }
@@ -4371,1599 +2527,14 @@
         {
           "system": "http://snomed.info/sct",
           "code": "161891005",
-          "display": "Low back pain"
+          "display": "Carpal tunnel syndrome"
         }
       ],
-      "text": "Low back pain"
+      "text": "Carpal Tunnel Syndrome"
     },
     "subject": {
-      "reference": "Patient/180b87f1-decb-439c-9689-7dc493e51922"
+      "reference": "Patient/98eaf53a-8bd9-4aa5-bc94-5c06df5bb08b"
     },
-    "onsetDateTime": "2025-10-30T07:31:59.755Z",
-    "recordedDate": "2025-10-30T07:31:59.755Z",
-    "recorder": {
-      "reference": "Practitioner/de6f9622-67e2-40a3-80a2-1a87eb3186c6"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "fdd760be-706c-4c40-84d8-9dc5224c37ff",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "72892002",
-          "display": "Anemia"
-        }
-      ],
-      "text": "Anemia"
-    },
-    "subject": {
-      "reference": "Patient/180b87f1-decb-439c-9689-7dc493e51922"
-    },
-    "onsetDateTime": "2024-04-12T05:31:35.984Z",
-    "recordedDate": "2024-04-12T05:31:35.984Z",
-    "recorder": {
-      "reference": "Practitioner/64a0483b-e6ed-4c9d-b22e-37af9c8ce7a4"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "e4fa6702-45cc-4d57-baa3-f66afa8aeb78",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "404684003",
-            "display": "Clinical finding"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "42399007",
-          "display": "Upper respiratory tract infection"
-        }
-      ],
-      "text": "URI"
-    },
-    "subject": {
-      "reference": "Patient/8d39eef3-ca44-4661-9a6c-e9c027f66199"
-    },
-    "onsetDateTime": "2025-10-20T11:43:30.982Z",
-    "recordedDate": "2025-10-20T11:43:30.982Z",
-    "recorder": {
-      "reference": "Practitioner/6925811a-1636-463a-9488-78f2f7b3a190"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "da5a8982-a441-474b-839d-803e33dc7c7c",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "363418001",
-          "display": "Hypothyroidism"
-        }
-      ],
-      "text": "Hypothyroidism"
-    },
-    "subject": {
-      "reference": "Patient/8d39eef3-ca44-4661-9a6c-e9c027f66199"
-    },
-    "onsetDateTime": "2025-05-02T07:23:08.996Z",
-    "recordedDate": "2025-05-02T07:23:08.996Z",
-    "recorder": {
-      "reference": "Practitioner/e3832b4d-6227-4a6d-bad0-2ea91d2895d1"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "94f303e0-8945-4890-80cc-04f8c10d2442",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "resolved",
-          "display": "Resolved"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "161891005",
-          "display": "Low back pain"
-        }
-      ],
-      "text": "Low back pain"
-    },
-    "subject": {
-      "reference": "Patient/8d39eef3-ca44-4661-9a6c-e9c027f66199"
-    },
-    "onsetDateTime": "2025-12-04T22:01:31.608Z",
-    "recordedDate": "2025-12-04T22:01:31.608Z",
-    "recorder": {
-      "reference": "Practitioner/6286c354-27a8-4f31-889a-a6816d60de99"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "da9d22a4-4c3a-4640-a62f-ac1fc9ddbe4b",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "resolved",
-          "display": "Resolved"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "404684003",
-            "display": "Clinical finding"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "195967001",
-          "display": "Bronchitis"
-        }
-      ],
-      "text": "Bronchitis"
-    },
-    "subject": {
-      "reference": "Patient/3e7d3805-222f-4ff0-95e9-ad204fa36405"
-    },
-    "onsetDateTime": "2024-10-31T17:38:03.818Z",
-    "recordedDate": "2024-10-31T17:38:03.818Z",
-    "recorder": {
-      "reference": "Practitioner/dabb0efc-5e1b-4c26-a2e9-86a03f58f470"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "a3988950-96a5-4aab-bfd1-216e5149f0a7",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "resolved",
-          "display": "Resolved"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "161891005",
-          "display": "Low back pain"
-        }
-      ],
-      "text": "Low back pain"
-    },
-    "subject": {
-      "reference": "Patient/c219b88f-7b88-4af8-a231-6f888b1c010a"
-    },
-    "onsetDateTime": "2025-11-18T23:45:23.450Z",
-    "recordedDate": "2025-11-18T23:45:23.450Z",
-    "recorder": {
-      "reference": "Practitioner/dabb0efc-5e1b-4c26-a2e9-86a03f58f470"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "05dbbe8f-d265-4b4d-96db-0924dd1c4587",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "235595009",
-          "display": "Gastritis"
-        }
-      ],
-      "text": "Gastritis"
-    },
-    "subject": {
-      "reference": "Patient/c219b88f-7b88-4af8-a231-6f888b1c010a"
-    },
-    "onsetDateTime": "2025-02-21T08:23:59.716Z",
-    "recordedDate": "2025-02-21T08:23:59.716Z",
-    "recorder": {
-      "reference": "Practitioner/dcf9a4ab-6997-49cc-adcf-c9209d095d3d"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "a524d9d2-05a1-4a3e-b522-49bc0bce0b76",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "13645005",
-          "display": "Chronic obstructive lung disease"
-        }
-      ],
-      "text": "COPD"
-    },
-    "subject": {
-      "reference": "Patient/c219b88f-7b88-4af8-a231-6f888b1c010a"
-    },
-    "onsetDateTime": "2025-05-31T07:24:51.751Z",
-    "recordedDate": "2025-05-31T07:24:51.751Z",
-    "recorder": {
-      "reference": "Practitioner/c3c181eb-0595-432f-a79b-f42db762c573"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "fafef3d5-7172-454e-9198-0775bc1f33b4",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "35489007",
-          "display": "Anxiety disorder"
-        }
-      ],
-      "text": "Anxiety"
-    },
-    "subject": {
-      "reference": "Patient/c219b88f-7b88-4af8-a231-6f888b1c010a"
-    },
-    "onsetDateTime": "2024-03-27T04:12:37.009Z",
-    "recordedDate": "2024-03-27T04:12:37.009Z",
-    "recorder": {
-      "reference": "Practitioner/858c0c15-c9a1-4ead-921e-b119d44e6bde"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "a2434cb5-4198-4029-b3b6-f335f23c71cf",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "404684003",
-            "display": "Clinical finding"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "195967001",
-          "display": "Bronchitis"
-        }
-      ],
-      "text": "Bronchitis"
-    },
-    "subject": {
-      "reference": "Patient/ae05033b-b630-4fb6-9131-23a0593d0e2d"
-    },
-    "onsetDateTime": "2025-01-27T01:17:27.874Z",
-    "recordedDate": "2025-01-27T01:17:27.874Z",
-    "recorder": {
-      "reference": "Practitioner/cbfe154b-a7b8-4186-ad92-c9351a0d0f9d"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "f298c2f2-9d75-4795-8260-e83629c49289",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "161891005",
-          "display": "Low back pain"
-        }
-      ],
-      "text": "Low back pain"
-    },
-    "subject": {
-      "reference": "Patient/ae05033b-b630-4fb6-9131-23a0593d0e2d"
-    },
-    "onsetDateTime": "2025-02-17T16:29:38.567Z",
-    "recordedDate": "2025-02-17T16:29:38.567Z",
-    "recorder": {
-      "reference": "Practitioner/f1014375-7eda-4766-862a-2d0ed4c2028a"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "cbd83177-83c0-4147-bd00-518c60e754d7",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "195967001",
-          "display": "Asthma"
-        }
-      ],
-      "text": "Asthma"
-    },
-    "subject": {
-      "reference": "Patient/ae05033b-b630-4fb6-9131-23a0593d0e2d"
-    },
-    "onsetDateTime": "2024-08-13T20:33:54.778Z",
-    "recordedDate": "2024-08-13T20:33:54.778Z",
-    "recorder": {
-      "reference": "Practitioner/e3832b4d-6227-4a6d-bad0-2ea91d2895d1"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "0012a46b-290a-4147-8d40-973f4b409237",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "404684003",
-            "display": "Clinical finding"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "42399007",
-          "display": "Upper respiratory tract infection"
-        }
-      ],
-      "text": "URI"
-    },
-    "subject": {
-      "reference": "Patient/de0a55e6-860c-4297-ab06-de3203691e5e"
-    },
-    "onsetDateTime": "2024-10-20T14:00:40.663Z",
-    "recordedDate": "2024-10-20T14:00:40.663Z",
-    "recorder": {
-      "reference": "Practitioner/f1014375-7eda-4766-862a-2d0ed4c2028a"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "0a05f91f-c33d-41e9-a2d6-def29928529e",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "resolved",
-          "display": "Resolved"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "195967001",
-          "display": "Asthma"
-        }
-      ],
-      "text": "Asthma"
-    },
-    "subject": {
-      "reference": "Patient/fcfe808c-31f5-45d3-a7b1-acba49772191"
-    },
-    "onsetDateTime": "2025-08-04T18:52:04.338Z",
-    "recordedDate": "2025-08-04T18:52:04.338Z",
-    "recorder": {
-      "reference": "Practitioner/7937f31a-5d96-4747-95e2-cd811dfff3d6"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "dac1a3b7-175d-43f1-8890-8cfc81e0ab7e",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "25064002",
-          "display": "Type 1 diabetes mellitus"
-        }
-      ],
-      "text": "Type 1 Diabetes"
-    },
-    "subject": {
-      "reference": "Patient/fcfe808c-31f5-45d3-a7b1-acba49772191"
-    },
-    "onsetDateTime": "2025-12-01T04:39:41.380Z",
-    "recordedDate": "2025-12-01T04:39:41.380Z",
-    "recorder": {
-      "reference": "Practitioner/dcda730c-7758-4b4e-bd41-58382ed08f1f"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "1092d50d-f652-4023-a3db-87b1cd9c290e",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "235595009",
-          "display": "Gastritis"
-        }
-      ],
-      "text": "Gastritis"
-    },
-    "subject": {
-      "reference": "Patient/fcfe808c-31f5-45d3-a7b1-acba49772191"
-    },
-    "onsetDateTime": "2025-12-14T20:13:40.398Z",
-    "recordedDate": "2025-12-14T20:13:40.398Z",
-    "recorder": {
-      "reference": "Practitioner/da3e1551-2e2f-4cfc-a775-fd778a5b6d40"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "28ddc6a8-c14e-47f1-b915-30a81ccc7990",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "resolved",
-          "display": "Resolved"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "35489007",
-          "display": "Anxiety disorder"
-        }
-      ],
-      "text": "Anxiety"
-    },
-    "subject": {
-      "reference": "Patient/c86e7f2c-6f9e-4d29-b938-addaef88a171"
-    },
-    "onsetDateTime": "2024-08-23T11:55:16.683Z",
-    "recordedDate": "2024-08-23T11:55:16.683Z",
-    "recorder": {
-      "reference": "Practitioner/adf20968-de31-4c0b-8885-b07068280381"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "ab1b8aeb-0fcc-4756-86c0-3e08f618d75a",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "35489007",
-          "display": "Anxiety disorder"
-        }
-      ],
-      "text": "Anxiety"
-    },
-    "subject": {
-      "reference": "Patient/c5042fa1-4579-4f69-afb6-50d9f86d7bc1"
-    },
-    "onsetDateTime": "2025-05-24T12:29:41.876Z",
-    "recordedDate": "2025-05-24T12:29:41.876Z",
-    "recorder": {
-      "reference": "Practitioner/0e9fceb1-2802-41d8-a0fe-285bf47f62e9"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "1da234ab-a5da-4459-ac5d-b9eefeeab152",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "404684003",
-            "display": "Clinical finding"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "195967001",
-          "display": "Bronchitis"
-        }
-      ],
-      "text": "Bronchitis"
-    },
-    "subject": {
-      "reference": "Patient/3996d08a-c148-48e2-9d95-8b821c162a87"
-    },
-    "onsetDateTime": "2025-09-05T14:41:59.000Z",
-    "recordedDate": "2025-09-05T14:41:59.000Z",
-    "recorder": {
-      "reference": "Practitioner/858c0c15-c9a1-4ead-921e-b119d44e6bde"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "f1e4f6ea-64cf-4abc-bce2-661b0c017ae3",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "72892002",
-          "display": "Anemia"
-        }
-      ],
-      "text": "Anemia"
-    },
-    "subject": {
-      "reference": "Patient/3996d08a-c148-48e2-9d95-8b821c162a87"
-    },
-    "onsetDateTime": "2024-06-10T21:36:41.977Z",
-    "recordedDate": "2024-06-10T21:36:41.977Z",
-    "recorder": {
-      "reference": "Practitioner/adf20968-de31-4c0b-8885-b07068280381"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "f5a137fa-188a-4a78-8557-489d4613d706",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "35489007",
-          "display": "Anxiety disorder"
-        }
-      ],
-      "text": "Anxiety"
-    },
-    "subject": {
-      "reference": "Patient/61b81fbd-ff16-40aa-be78-54f5ddea0c68"
-    },
-    "onsetDateTime": "2024-12-07T22:04:24.431Z",
-    "recordedDate": "2024-12-07T22:04:24.431Z",
-    "recorder": {
-      "reference": "Practitioner/a16fc3b1-0800-4cc8-9288-42f85f9f8898"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "087dbdb8-f718-4e80-ab99-0e73b252f38a",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "404684003",
-            "display": "Clinical finding"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "42399007",
-          "display": "Upper respiratory tract infection"
-        }
-      ],
-      "text": "URI"
-    },
-    "subject": {
-      "reference": "Patient/61b81fbd-ff16-40aa-be78-54f5ddea0c68"
-    },
-    "onsetDateTime": "2025-09-05T19:59:32.689Z",
-    "recordedDate": "2025-09-05T19:59:32.689Z",
-    "recorder": {
-      "reference": "Practitioner/e3832b4d-6227-4a6d-bad0-2ea91d2895d1"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "0a979a30-4246-472f-9144-8f1e7ef10f24",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "363418001",
-          "display": "Hypothyroidism"
-        }
-      ],
-      "text": "Hypothyroidism"
-    },
-    "subject": {
-      "reference": "Patient/61b81fbd-ff16-40aa-be78-54f5ddea0c68"
-    },
-    "onsetDateTime": "2024-06-25T06:51:51.816Z",
-    "recordedDate": "2024-06-25T06:51:51.816Z",
-    "recorder": {
-      "reference": "Practitioner/af98ac1b-dffe-46c2-9abc-4f90d3996e12"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "a57265a0-de19-49d6-abc9-113006e75c77",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "25064002",
-          "display": "Type 1 diabetes mellitus"
-        }
-      ],
-      "text": "Type 1 Diabetes"
-    },
-    "subject": {
-      "reference": "Patient/ca8f60f0-6834-40d9-82ef-96acf9e75b2e"
-    },
-    "onsetDateTime": "2024-09-02T11:39:11.047Z",
-    "recordedDate": "2024-09-02T11:39:11.047Z",
-    "recorder": {
-      "reference": "Practitioner/6286c354-27a8-4f31-889a-a6816d60de99"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "d25a8f48-2db6-42b0-86e9-acaa71608396",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "37796009",
-          "display": "Migraine"
-        }
-      ],
-      "text": "Migraine"
-    },
-    "subject": {
-      "reference": "Patient/e256141d-cd9b-4c55-a8d5-3488362398c2"
-    },
-    "onsetDateTime": "2025-06-06T11:36:32.764Z",
-    "recordedDate": "2025-06-06T11:36:32.764Z",
-    "recorder": {
-      "reference": "Practitioner/afbd3f79-f17d-4809-8980-05a1062c27a3"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "dee4dddd-e383-4bed-bd68-7dddd3838ace",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "resolved",
-          "display": "Resolved"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "404684003",
-            "display": "Clinical finding"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "195967001",
-          "display": "Bronchitis"
-        }
-      ],
-      "text": "Bronchitis"
-    },
-    "subject": {
-      "reference": "Patient/e256141d-cd9b-4c55-a8d5-3488362398c2"
-    },
-    "onsetDateTime": "2025-07-25T01:10:53.526Z",
-    "recordedDate": "2025-07-25T01:10:53.526Z",
-    "recorder": {
-      "reference": "Practitioner/af98ac1b-dffe-46c2-9abc-4f90d3996e12"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "f4c6bd2b-0a5c-4f3f-a32f-45780cf49db1",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "72892002",
-          "display": "Anemia"
-        }
-      ],
-      "text": "Anemia"
-    },
-    "subject": {
-      "reference": "Patient/e256141d-cd9b-4c55-a8d5-3488362398c2"
-    },
-    "onsetDateTime": "2025-01-14T03:06:54.455Z",
-    "recordedDate": "2025-01-14T03:06:54.455Z",
-    "recorder": {
-      "reference": "Practitioner/c3c181eb-0595-432f-a79b-f42db762c573"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "a32d1428-cdd3-4803-9a64-19b2a91cc166",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "404684003",
-            "display": "Clinical finding"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "42399007",
-          "display": "Upper respiratory tract infection"
-        }
-      ],
-      "text": "URI"
-    },
-    "subject": {
-      "reference": "Patient/e256141d-cd9b-4c55-a8d5-3488362398c2"
-    },
-    "onsetDateTime": "2024-12-27T01:01:32.183Z",
-    "recordedDate": "2024-12-27T01:01:32.183Z",
-    "recorder": {
-      "reference": "Practitioner/adf20968-de31-4c0b-8885-b07068280381"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "7e038e9d-ea4e-4079-bc35-5410db815673",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "13645005",
-          "display": "Chronic obstructive lung disease"
-        }
-      ],
-      "text": "COPD"
-    },
-    "subject": {
-      "reference": "Patient/782f4472-d8b8-4f79-a3c9-2d2a0bc7575f"
-    },
-    "onsetDateTime": "2025-06-05T23:15:37.058Z",
-    "recordedDate": "2025-06-05T23:15:37.058Z",
-    "recorder": {
-      "reference": "Practitioner/7405b505-fcdb-432d-812b-9451f1ece817"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "a30e096d-e578-48d8-8a82-b8db040d47b5",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "161891005",
-          "display": "Low back pain"
-        }
-      ],
-      "text": "Low back pain"
-    },
-    "subject": {
-      "reference": "Patient/782f4472-d8b8-4f79-a3c9-2d2a0bc7575f"
-    },
-    "onsetDateTime": "2024-01-16T11:10:05.247Z",
-    "recordedDate": "2024-01-16T11:10:05.247Z",
-    "recorder": {
-      "reference": "Practitioner/64a0483b-e6ed-4c9d-b22e-37af9c8ce7a4"
-    }
-  },
-  {
-    "resourceType": "Condition",
-    "id": "3b11ad1f-494f-46d2-a981-7b8a6902df6a",
-    "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-          "code": "resolved",
-          "display": "Resolved"
-        }
-      ]
-    },
-    "verificationStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-          "code": "confirmed",
-          "display": "Confirmed"
-        }
-      ]
-    },
-    "category": [
-      {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55607006",
-            "display": "Problem"
-          }
-        ]
-      }
-    ],
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "197480006",
-          "display": "Hyperlipidemia"
-        }
-      ],
-      "text": "Hyperlipidemia"
-    },
-    "subject": {
-      "reference": "Patient/782f4472-d8b8-4f79-a3c9-2d2a0bc7575f"
-    },
-    "onsetDateTime": "2025-02-03T03:33:33.715Z",
-    "recordedDate": "2025-02-03T03:33:33.715Z",
-    "recorder": {
-      "reference": "Practitioner/c8d47fd2-da73-4e2b-b6b0-8c42bb81a3e6"
-    }
+    "onsetDateTime": "2024-05-26T07:00:40.856Z"
   }
 ]

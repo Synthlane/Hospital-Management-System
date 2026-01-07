@@ -12,7 +12,9 @@
     "active": true,
     "address": [
       {
-        "line": ["123 Medical Center Drive"],
+        "line": [
+          "123 Medical Center Drive"
+        ],
         "city": "Delhi",
         "state": "Delhi",
         "postalCode": "110001",
@@ -43,7 +45,9 @@
     "active": true,
     "address": [
       {
-        "line": ["456 Health Avenue"],
+        "line": [
+          "456 Health Avenue"
+        ],
         "city": "Delhi",
         "state": "Delhi",
         "postalCode": "110002",
@@ -74,7 +78,9 @@
     "active": true,
     "address": [
       {
-        "line": ["789 Medical Plaza"],
+        "line": [
+          "789 Medical Plaza"
+        ],
         "city": "Delhi",
         "state": "Delhi",
         "postalCode": "110003",
@@ -90,37 +96,6 @@
       {
         "system": "email",
         "value": "south@citycarehospital.com",
-        "use": "work"
-      }
-    ]
-  },
-  {
-    "resourceType": "Organization",
-    "id": "7ae201a2-265f-41f1-8a01-cfca20b512a6",
-    "name": "CityCare Hospital - East Branch",
-    "partOf": {
-      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
-      "display": "CityCare Hospital"
-    },
-    "active": true,
-    "address": [
-      {
-        "line": ["321 Care Boulevard"],
-        "city": "Delhi",
-        "state": "Delhi",
-        "postalCode": "110004",
-        "country": "IN"
-      }
-    ],
-    "telecom": [
-      {
-        "system": "phone",
-        "value": "+91-11-2345-6792",
-        "use": "work"
-      },
-      {
-        "system": "email",
-        "value": "east@citycarehospital.com",
         "use": "work"
       }
     ]
@@ -147,7 +122,9 @@
     "active": true,
     "address": [
       {
-        "line": ["555 Test Center Drive"],
+        "line": [
+          "555 Test Center Drive"
+        ],
         "city": "Delhi",
         "state": "Delhi",
         "postalCode": "110005",
@@ -170,41 +147,28 @@
   {
     "resourceType": "Organization",
     "id": "060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
-    "name": "CityCare Pharmacy",
-    "partOf": {
-      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
-      "display": "CityCare Hospital"
-    },
-    "type": [
-      {
-        "coding": [
-          {
-            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
-            "code": "pharm",
-            "display": "Pharmacy"
-          }
-        ]
-      }
-    ],
+    "name": "Metro General Hospital",
     "active": true,
     "address": [
       {
-        "line": ["777 Prescription Lane"],
-        "city": "Delhi",
-        "state": "Delhi",
-        "postalCode": "110006",
+        "line": [
+          "999 Healthcare Boulevard"
+        ],
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "postalCode": "400001",
         "country": "IN"
       }
     ],
     "telecom": [
       {
         "system": "phone",
-        "value": "+91-11-2345-6794",
+        "value": "+91-22-2345-6789",
         "use": "work"
       },
       {
         "system": "email",
-        "value": "pharmacy@citycarehospital.com",
+        "value": "info@metrogeneral.com",
         "use": "work"
       }
     ]

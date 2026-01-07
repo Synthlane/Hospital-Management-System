@@ -26,56 +26,6 @@
   },
   {
     "resourceType": "Location",
-    "id": "3f6ba871-c251-4af6-a038-8e6b02cd578b",
-    "name": "CityCare - Gurgaon",
-    "managingOrganization": {
-      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161"
-    },
-    "status": "active",
-    "address": {
-      "line": [
-        "789 Sector 29"
-      ],
-      "city": "Gurgaon",
-      "state": "Haryana",
-      "postalCode": "122001",
-      "country": "IN"
-    },
-    "telecom": [
-      {
-        "system": "phone",
-        "value": "+91-124-456-7890",
-        "use": "work"
-      }
-    ]
-  },
-  {
-    "resourceType": "Location",
-    "id": "ba61b8f8-0f92-4acd-b73c-0404138d2866",
-    "name": "CityCare - Noida",
-    "managingOrganization": {
-      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161"
-    },
-    "status": "active",
-    "address": {
-      "line": [
-        "321 Sector 62"
-      ],
-      "city": "Noida",
-      "state": "Uttar Pradesh",
-      "postalCode": "201301",
-      "country": "IN"
-    },
-    "telecom": [
-      {
-        "system": "phone",
-        "value": "+91-120-456-7890",
-        "use": "work"
-      }
-    ]
-  },
-  {
-    "resourceType": "Location",
     "id": "5500dca2-43bc-4672-8f67-53e0ab388ecd",
     "name": "CityCare Central Lab",
     "managingOrganization": {
@@ -95,31 +45,6 @@
       {
         "system": "phone",
         "value": "+91-11-2345-6791",
-        "use": "work"
-      }
-    ]
-  },
-  {
-    "resourceType": "Location",
-    "id": "28598954-3dce-4701-a76d-e78e6e65839d",
-    "name": "CityCare Pharmacy",
-    "managingOrganization": {
-      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161"
-    },
-    "status": "active",
-    "address": {
-      "line": [
-        "Pharmacy Wing, Ground Floor"
-      ],
-      "city": "Delhi",
-      "state": "Delhi",
-      "postalCode": "110001",
-      "country": "IN"
-    },
-    "telecom": [
-      {
-        "system": "phone",
-        "value": "+91-11-2345-6792",
         "use": "work"
       }
     ]

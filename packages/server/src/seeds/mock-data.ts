@@ -6,7 +6,7 @@ import { existsSync, readFileSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 import { v4 } from 'uuid';
 import type { Repository } from '../fhir/repo';
-import { globalLogger } from '../logger';
+import { globalLogger } from '../logger'; 
 
 /**
  * Cache for resolved reference displays to avoid redundant database reads.
@@ -139,6 +139,7 @@ export async function seedMockData(systemRepo: Repository): Promise<void> {
     'diagnosticReports.json',
     'medicationRequests.json',
     'questionnaires.json',
+    'questionnaireResponses.json',
   ];
 
   let totalCreated = 0;
