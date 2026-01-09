@@ -105,6 +105,24 @@ export function BackboneElementDisplay(props: BackboneElementDisplayProps): JSX.
 
         // Array values provide their own DescriptionListEntry wrapper(s)
         const isArrayProperty = property.max > 1 || property.isArray;
+
+        // Special handling for Practitioner qualification.code to pass specialty
+        let qualificationSpecialty: string | undefined;
+        if (
+          props.path.match(/^Practitioner\.qualification(\[\d+\])?$/) &&
+          key === 'code' &&
+          typeof value === 'object' &&
+          value !== null &&
+          'extension' in value
+        ) {
+          // Extract specialty from the qualification's extension
+          const qualification = value as any;
+          const specialtyExtension = qualification.extension?.find(
+            (ext: any) => ext.url === 'http://hl7.org/fhir/StructureDefinition/qualification-specialty'
+          );
+          qualificationSpecialty = specialtyExtension?.valueString;
+        }
+
         const resourcePropertyDisplay = (
           <ResourcePropertyDisplay
             key={key}
@@ -115,6 +133,7 @@ export function BackboneElementDisplay(props: BackboneElementDisplayProps): JSX.
             ignoreMissingValues={props.ignoreMissingValues}
             includeArrayDescriptionListEntry={isArrayProperty}
             link={props.link}
+            qualificationSpecialty={qualificationSpecialty}
           />
         );
 

@@ -2,7 +2,14 @@
 // SPDX-License-Identifier: Apache-2.0
 import { ActionIcon, CopyButton, Flex, Tooltip } from '@mantine/core';
 import type { InternalSchemaElement } from '@medplum/core';
-import { PropertyType, formatDateTime, formatPeriod, formatTiming, isEmpty } from '@medplum/core';
+import {
+  PropertyType,
+  formatCodeableConcept,
+  formatDateTime,
+  formatPeriod,
+  formatTiming,
+  isEmpty,
+} from '@medplum/core';
 import type { ElementDefinitionType } from '@medplum/fhirtypes';
 import { IconCheck, IconCopy, IconEye, IconEyeOff } from '@tabler/icons-react';
 import type { JSX } from 'react';
@@ -40,6 +47,8 @@ export interface ResourcePropertyDisplayProps {
   readonly elementDefinitionType?: ElementDefinitionType;
   /** (Optional) If true and `property` is an array, output is wrapped with a DescriptionListEntry */
   readonly includeArrayDescriptionListEntry?: boolean;
+  /** (Optional) Specialty for Practitioner qualification.code */
+  readonly qualificationSpecialty?: string;
 }
 
 /**
@@ -145,6 +154,16 @@ export function ResourcePropertyDisplay(props: ResourcePropertyDisplayProps): JS
     case PropertyType.Attachment:
       return <AttachmentDisplay value={value} maxWidth={props.maxWidth} />;
     case PropertyType.CodeableConcept:
+      // Special handling for Practitioner qualification.code to include specialty
+      if (props.path?.match(/^Practitioner\.qualification(\[\d+\])?\.code$/)) {
+        return (
+          <PractitionerQualificationCodeDisplay
+            path={props.path}
+            value={value}
+            specialty={props.qualificationSpecialty}
+          />
+        );
+      }
       return <CodeableConceptDisplay value={value} />;
     case PropertyType.Coding:
       return <CodingDisplay value={value} />;
@@ -213,6 +232,29 @@ export function ResourcePropertyDisplay(props: ResourcePropertyDisplayProps): JS
         />
       );
   }
+}
+
+/**
+ * Displays Practitioner qualification code with specialty information.
+ * @param props - The display props.
+ * @param props.path - The path to the qualification code field.
+ * @param props.value - The CodeableConcept value to display.
+ * @param props.specialty - Optional specialty string to display alongside the code.
+ * @returns A React element.
+ */
+function PractitionerQualificationCodeDisplay(props: { path: string; value: any; specialty?: string }): JSX.Element {
+  const codeDisplay = formatCodeableConcept(props.value);
+
+  // Combine code and specialty if available
+  if (props.specialty) {
+    return (
+      <>
+        {codeDisplay} - {props.specialty}
+      </>
+    );
+  }
+
+  return <>{codeDisplay}</>;
 }
 
 interface SecretFieldDisplayProps {

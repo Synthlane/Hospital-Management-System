@@ -1,9 +1,17 @@
 // SPDX-FileCopyrightText: Copyright Orangebot, Inc. and Medplum contributors
 // SPDX-License-Identifier: Apache-2.0
-import type { Filter, InternalSchemaElement, SearchRequest } from '@medplum/core';
-import { capitalize, DEFAULT_SEARCH_COUNT, evalFhirPathTyped, formatDateTime, Operator } from '@medplum/core';
-import type { Resource, SearchParameter } from '@medplum/fhirtypes';
 import { Text } from '@mantine/core';
+import type { Filter, InternalSchemaElement, SearchRequest } from '@medplum/core';
+import {
+  capitalize,
+  DEFAULT_SEARCH_COUNT,
+  evalFhirPathTyped,
+  formatDateTime,
+  getDisplayString,
+  Operator,
+} from '@medplum/core';
+import type { Practitioner, Reference, Resource, SearchParameter } from '@medplum/fhirtypes';
+import { useResource } from '@medplum/react-hooks';
 import type { JSX } from 'react';
 import { MedplumLink } from '../MedplumLink/MedplumLink';
 import { ResourcePropertyDisplay } from '../ResourcePropertyDisplay/ResourcePropertyDisplay';
@@ -581,9 +589,19 @@ function renderPropertyValue(resource: Resource, elementDefinition: InternalSche
  * @returns A React element or null.
  */
 function renderSearchParameterValue(resource: Resource, searchParam: SearchParameter): JSX.Element | null {
+  // Special handling for Practitioner qualification-code to include specialty
+  if (resource.resourceType === 'Practitioner' && searchParam.code === 'qualification-code') {
+    return renderPractitionerQualificationWithSpecialty(resource);
+  }
+
   const value = evalFhirPathTyped(searchParam.expression as string, [{ type: resource.resourceType, value: resource }]);
   if (!value || value.length === 0) {
     return <Text c="dimmed">-</Text>;
+  }
+
+  // Special handling for Appointment practitioner to include specialty
+  if (resource.resourceType === 'Appointment' && searchParam.code === 'practitioner') {
+    return renderAppointmentPractitionerWithSpecialty(value);
   }
 
   const displays = value.map((v, index) => (
@@ -598,6 +616,134 @@ function renderSearchParameterValue(resource: Resource, searchParam: SearchParam
   ));
 
   // If all displays are null/empty, show placeholder
-  const hasContent = displays.some(display => display !== null);
+  const hasContent = displays.some((display) => display !== null);
   return hasContent ? <>{displays}</> : <Text c="dimmed">-</Text>;
+}
+
+/**
+ * Extracts the specialty from a Practitioner's qualification extension.
+ * @param practitioner - The Practitioner resource.
+ * @returns The specialty string or undefined.
+ */
+function getPractitionerSpecialty(practitioner: Practitioner): string | undefined {
+  if (!practitioner.qualification || practitioner.qualification.length === 0) {
+    return undefined;
+  }
+
+  // Get specialty from the first qualification's extension
+  const firstQualification = practitioner.qualification[0];
+  const specialtyExtension = firstQualification.extension?.find(
+    (ext) => ext.url === 'http://hl7.org/fhir/StructureDefinition/qualification-specialty'
+  );
+
+  return specialtyExtension?.valueString;
+}
+
+/**
+ * Renders Practitioner qualification code with specialty information.
+ * @param practitioner - The Practitioner resource.
+ * @returns A React element or null.
+ */
+function renderPractitionerQualificationWithSpecialty(practitioner: Resource): JSX.Element | null {
+  if (
+    practitioner.resourceType !== 'Practitioner' ||
+    !practitioner.qualification ||
+    practitioner.qualification.length === 0
+  ) {
+    return <Text c="dimmed">-</Text>;
+  }
+
+  const specialty = getPractitionerSpecialty(practitioner as Practitioner);
+
+  const qualifications = practitioner.qualification
+    .map((qual: any) => {
+      // Get qualification code display
+      const codeDisplay = qual.code?.coding?.[0]?.display || qual.code?.text || '';
+
+      // Combine code and specialty (use specialty from first qualification if available)
+      if (codeDisplay && specialty) {
+        return `${codeDisplay} - ${specialty}`;
+      } else if (codeDisplay) {
+        return codeDisplay;
+      }
+      return null;
+    })
+    .filter((display: string | null): display is string => display !== null);
+
+  if (qualifications.length === 0) {
+    return <Text c="dimmed">-</Text>;
+  }
+
+  return <>{qualifications.join(', ')}</>;
+}
+
+/**
+ * Renders Appointment practitioner references with specialty information.
+ * @param values - The evaluated FHIRPath values (should be Practitioner references).
+ * @returns A React element or null.
+ */
+function renderAppointmentPractitionerWithSpecialty(values: { type: string; value: any }[]): JSX.Element | null {
+  if (!values || values.length === 0) {
+    return <Text c="dimmed">-</Text>;
+  }
+
+  // Filter for Practitioner references and render them with specialty
+  const practitionerReferences = values
+    .filter((v) => v.type === 'Reference' && v.value?.reference?.startsWith('Practitioner/'))
+    .map((v) => v.value as Reference<Practitioner>);
+
+  if (practitionerReferences.length === 0) {
+    return <Text c="dimmed">-</Text>;
+  }
+
+  // Inline component to display practitioner with specialty
+  function PractitionerWithSpecialty({
+    reference,
+    isLast,
+  }: {
+    reference: Reference<Practitioner>;
+    isLast: boolean;
+  }): JSX.Element {
+    const practitioner = useResource(reference);
+
+    if (!practitioner) {
+      // If practitioner resource is not loaded yet, show the reference display
+      const displayString = reference.display || reference.reference || '';
+      return (
+        <span>
+          {reference.reference ? <MedplumLink to={reference}>{displayString}</MedplumLink> : <>{displayString}</>}
+          {!isLast && ', '}
+        </span>
+      );
+    }
+
+    // Get practitioner name
+    const name = getDisplayString(practitioner);
+
+    // Get specialty from qualification extension
+    const specialty = getPractitionerSpecialty(practitioner);
+
+    // Combine name and specialty
+    const displayString = specialty ? `${name} - ${specialty}` : name;
+
+    return (
+      <span>
+        {reference.reference ? <MedplumLink to={reference}>{displayString}</MedplumLink> : <>{displayString}</>}
+        {!isLast && ', '}
+      </span>
+    );
+  }
+
+  // Render each practitioner reference with specialty, separated by commas
+  return (
+    <>
+      {practitionerReferences.map((reference, index) => (
+        <PractitionerWithSpecialty
+          key={index}
+          reference={reference}
+          isLast={index === practitionerReferences.length - 1}
+        />
+      ))}
+    </>
+  );
 }
