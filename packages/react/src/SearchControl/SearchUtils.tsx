@@ -625,7 +625,7 @@ function renderSearchParameterValue(resource: Resource, searchParam: SearchParam
  * @param practitioner - The Practitioner resource.
  * @returns The specialty string or undefined.
  */
-function getPractitionerSpecialty(practitioner: Practitioner): string | undefined {
+export function getPractitionerSpecialty(practitioner: Practitioner): string | undefined {
   if (!practitioner.qualification || practitioner.qualification.length === 0) {
     return undefined;
   }

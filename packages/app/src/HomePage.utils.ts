@@ -131,7 +131,8 @@ export function getDefaultFields(resourceType: string): string[] {
 }
 
 function getDefaultFilters(resourceType: string): Filter[] | undefined {
-  return getLastSearch(resourceType)?.filters;
+  const lastSearchFilters = getLastSearch(resourceType)?.filters;
+  return lastSearchFilters;
 }
 
 function getDefaultSortRules(resourceType: string): SortRule[] {
@@ -158,10 +159,14 @@ export async function getTransactionBundle(search: SearchRequest, medplum: Medpl
     count: 1000,
     offset: 0,
   };
-  const transactionBundleSearchValues = addSearchValues(transactionBundleSearch, medplum.getUserConfiguration());
+  const userConfig = medplum.getUserConfiguration();
+  const transactionBundleSearchValues = addSearchValues(
+    transactionBundleSearch,
+    userConfig as unknown as UserConfiguration | undefined
+  );
   const bundle = await medplum.search(
     transactionBundleSearchValues.resourceType as ResourceType,
     formatSearchQuery({ ...transactionBundleSearchValues, total: 'accurate', fields: undefined })
   );
-  return convertToTransactionBundle(bundle);
+  return convertToTransactionBundle(bundle) as unknown as Bundle;
 }

@@ -138,27 +138,72 @@ export function SearchControl(props: SearchControlProps): JSX.Element {
   const total = memoizedSearch.total ?? 'accurate';
 
   const loadResults = useCallback(
-    (options?: RequestInit) => {
+    async (options?: RequestInit) => {
       setOutcome(undefined);
-      medplum
-        .requestSchema(memoizedSearch.resourceType as ResourceType)
-        .then(() =>
-          medplum.search(
-            memoizedSearch.resourceType as ResourceType,
-            formatSearchQuery({ ...memoizedSearch, total, fields: undefined }),
-            options
-          )
-        )
-        .then((response) => {
-          setState({ ...stateRef.current, searchResponse: response });
-          if (onLoad) {
-            onLoad(new SearchLoadEvent(response));
+      try {
+        await medplum.requestSchema(memoizedSearch.resourceType as ResourceType);
+        const response = await medplum.search(
+          memoizedSearch.resourceType as ResourceType,
+          formatSearchQuery({ ...memoizedSearch, total, fields: undefined }),
+          options
+        );
+
+        // For Practitioner resources, filter out admin users
+        if (memoizedSearch.resourceType === 'Practitioner' && response.entry) {
+          const projectId = medplum.getProject()?.id;
+          if (projectId) {
+            // Get all practitioner IDs from the response
+            const practitionerIds: string[] = [];
+            for (const entry of response.entry) {
+              const resource = entry.resource;
+              if (resource && resource.resourceType === 'Practitioner' && resource.id) {
+                practitionerIds.push(resource.id);
+              }
+            }
+
+            if (practitionerIds.length > 0) {
+              // Fetch ProjectMemberships for these practitioners to check if they're admins
+              const memberships = await medplum
+                .searchResources('ProjectMembership', {
+                  project: `Project/${projectId}`,
+                  'profile-type': 'Practitioner',
+                })
+                .catch(() => []);
+
+              // Get practitioner IDs that are admins
+              const adminPractitionerIds = new Set(
+                memberships
+                  .filter((m) => m.admin === true && m.profile?.reference?.startsWith('Practitioner/'))
+                  .map((m) => m.profile?.reference?.replace('Practitioner/', ''))
+                  .filter((id): id is string => id !== undefined)
+              );
+
+              // Filter out admin practitioners from the response
+              if (adminPractitionerIds.size > 0) {
+                response.entry = response.entry.filter((e) => {
+                  const resource = e.resource;
+                  if (resource?.resourceType === 'Practitioner' && resource.id) {
+                    return !adminPractitionerIds.has(resource.id);
+                  }
+                  return true;
+                });
+                // Update total if it was set
+                if (typeof response.total === 'number') {
+                  response.total = response.entry.length;
+                }
+              }
+            }
           }
-        })
-        .catch((reason) => {
-          setState({ ...stateRef.current, searchResponse: undefined });
-          setOutcome(normalizeOperationOutcome(reason));
-        });
+        }
+
+        setState({ ...stateRef.current, searchResponse: response });
+        if (onLoad) {
+          onLoad(new SearchLoadEvent(response));
+        }
+      } catch (reason) {
+        setState({ ...stateRef.current, searchResponse: undefined });
+        setOutcome(normalizeOperationOutcome(reason));
+      }
     },
     [medplum, memoizedSearch, total, onLoad]
   );

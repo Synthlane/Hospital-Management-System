@@ -2,13 +2,14 @@
 // SPDX-License-Identifier: Apache-2.0
 import { Group, Text } from '@mantine/core';
 import { getDisplayString, getReferenceString, isPopulated } from '@medplum/core';
-import type { OperationOutcome, Patient, Reference, Resource } from '@medplum/fhirtypes';
+import type { OperationOutcome, Patient, Practitioner, Reference, Resource } from '@medplum/fhirtypes';
 import { useMedplum, useResource } from '@medplum/react-hooks';
 import type { JSX, ReactNode } from 'react';
 import { forwardRef, useCallback, useState } from 'react';
 import type { AsyncAutocompleteOption, AsyncAutocompleteProps } from '../AsyncAutocomplete/AsyncAutocomplete';
 import { AsyncAutocomplete } from '../AsyncAutocomplete/AsyncAutocomplete';
 import { ResourceAvatar } from '../ResourceAvatar/ResourceAvatar';
+import { getPractitionerSpecialty } from '../SearchControl/SearchUtils';
 
 /**
  * Search parameter overrides for specific resource types.
@@ -93,9 +94,19 @@ export interface ResourceInputProps<T extends Resource = Resource> {
 }
 
 function toOption<T extends Resource>(resource: T): AsyncAutocompleteOption<T> {
+  let label = getDisplayString(resource);
+
+  // For Practitioner resources, add specialty to the label
+  if (resource.resourceType === 'Practitioner') {
+    const specialty = getPractitionerSpecialty(resource as Practitioner);
+    if (specialty) {
+      label = `${label} - ${specialty}`;
+    }
+  }
+
   return {
     value: getReferenceString(resource) ?? '',
-    label: getDisplayString(resource),
+    label,
     resource,
   };
 }
@@ -117,7 +128,43 @@ export function ResourceInput<T extends Resource = Resource>(props: ResourceInpu
         ...searchCriteria,
       });
 
-      const resources = await medplum.searchResources(resourceType, searchParams, { signal });
+      let resources = await medplum.searchResources(resourceType, searchParams, { signal });
+
+      // For Practitioner, filter out admin users client-side
+      if (resourceType === 'Practitioner' && resources.length > 0) {
+        const projectId = medplum.getProject()?.id;
+        if (projectId) {
+          // Fetch ProjectMemberships to identify admin practitioners
+          const memberships = await medplum
+            .searchResources('ProjectMembership', {
+              project: `Project/${projectId}`,
+              'profile-type': 'Practitioner',
+            })
+            .catch(() => []);
+
+          // Get practitioner IDs that are admins
+          const adminPractitionerIds = new Set(
+            memberships
+              .filter((m) => m.admin === true && m.profile?.reference?.startsWith('Practitioner/'))
+              .map((m) => m.profile?.reference?.replace('Practitioner/', ''))
+              .filter((id): id is string => id !== undefined)
+          );
+
+          // Filter out admin practitioners while preserving the bundle property
+          if (adminPractitionerIds.size > 0) {
+            const filtered = resources.filter((r) => {
+              if (r.resourceType === 'Practitioner' && r.id) {
+                return !adminPractitionerIds.has(r.id);
+              }
+              return true;
+            });
+            // Preserve the bundle property from the original ResourceArray
+            const result = Object.assign(filtered, { bundle: resources.bundle });
+            resources = result as typeof resources;
+          }
+        }
+      }
+
       return resources as unknown as T[];
     },
     [medplum, resourceType, searchCriteria]
