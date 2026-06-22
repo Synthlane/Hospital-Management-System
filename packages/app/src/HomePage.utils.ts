@@ -9,6 +9,7 @@ export const RESOURCE_TYPE_CREATION_PATHS: Partial<Record<ResourceType, string>>
   Bot: '/admin/bots/new',
   ClientApplication: '/admin/clients/new',
 };
+
 export function addSearchValues(search: SearchRequest, config: UserConfiguration | undefined): SearchRequest {
   const resourceType = search.resourceType || getDefaultResourceType(config);
   const fields = search.fields ?? getDefaultFields(resourceType);
@@ -53,7 +54,7 @@ export function getDefaultFields(resourceType: string): string[] {
       fields.push('id', '_lastUpdated');
       break;
     case 'Appointment':
-      fields.push('patient', 'practitioner', 'start', 'end', 'status', '_lastUpdated', 'description');
+      fields.push('subject', 'start', 'end', 'status', 'description', '_lastUpdated');
       break;
     case 'Bot':
       fields.push('id', '_lastUpdated');
@@ -62,7 +63,7 @@ export function getDefaultFields(resourceType: string): string[] {
       fields.push('id', '_lastUpdated');
       break;
     case 'Practitioner':
-      fields.push('name', 'gender', 'qualification-code', 'address', 'telecom', 'communication', 'active');
+      fields.push('name', 'gender', 'qualification-code', 'address', 'telecom', 'active');
       break;
     case 'Project':
       fields.push('id', '_lastUpdated');
@@ -83,7 +84,7 @@ export function getDefaultFields(resourceType: string): string[] {
       fields.push('id', '_lastUpdated', 'name', 'title', 'status');
       break;
     case 'Condition':
-      fields.push('id', '_lastUpdated', 'subject', 'code', 'clinicalStatus');
+      fields.push('subject', 'code', 'category', 'clinicalStatus', 'onsetDateTime');
       break;
     case 'Device':
       fields.push('id', '_lastUpdated', 'manufacturer', 'deviceName', 'patient');
@@ -95,30 +96,25 @@ export function getDefaultFields(resourceType: string): string[] {
       fields.push('id', '_lastUpdated', 'code[x]', 'subject');
       break;
     case 'DiagnosticReport':
-      fields.push('patient', 'code', 'date', 'status', 'performer', 'result', 'conclusion', '_lastUpdated');
+      fields.push('subject', 'code', 'effectiveDateTime', 'status', 'performer', 'conclusion', '_lastUpdated');
       break;
     case 'Observation':
       fields.push('id', '_lastUpdated', 'subject', 'code', 'status');
       break;
     case 'Encounter':
-      fields.push('id', '_lastUpdated', 'subject');
+      fields.push('subject', 'participant', 'status', 'period', '_lastUpdated');
+      break;
+    case 'MedicationRequest':
+      fields.push('subject', 'medication', 'status', 'authoredOn', 'requester');
+      break;
+    case 'Coverage':
+      fields.push('subscriber', 'payor', 'type', 'status', 'period');
+      break;
+    case 'Procedure':
+      fields.push('subject', 'code', 'status', 'performedDateTime', 'performer');
       break;
     case 'ServiceRequest':
-      fields.push(
-        '_lastUpdated',
-        'patient',
-        'code',
-        'status',
-        'authored',
-        'insurance',
-        'intent',
-        'patientInstruction',
-        'performer',
-        'priority',
-        'priority-order',
-        // 'relevantHistory',
-        'requester'
-      );
+      fields.push('subject', 'code', 'status', 'priority', 'authoredOn', 'requester', 'insurance');
       break;
     case 'Subscription':
       fields.push('id', '_lastUpdated', 'criteria');

@@ -4,8 +4,11 @@ import { MantineProvider, createTheme } from '@mantine/core';
 import '@mantine/core/styles.css';
 import { Notifications } from '@mantine/notifications';
 import '@mantine/notifications/styles.css';
-import { MedplumClient } from '@medplum/core';
+import { MedplumClient, indexStructureDefinitionBundle, indexSearchParameter } from '@medplum/core';
 import { MedplumProvider } from '@medplum/react';
+import type { SearchParameter, StructureDefinition } from '@medplum/fhirtypes';
+import preloadedSchemas from './fhir-schema-preload.json';
+import preloadedSearchParams from './fhir-search-params-preload.json';
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { RouterProvider, createBrowserRouter } from 'react-router';
@@ -27,6 +30,13 @@ export async function initApp(): Promise<void> {
       }
     },
   });
+
+  // Pre-load FHIR StructureDefinitions and SearchParameters so SearchControl
+  // skips the slow $graphql call and can resolve field names like 'patient' → subject
+  indexStructureDefinitionBundle(preloadedSchemas as unknown as StructureDefinition[]);
+  for (const sp of preloadedSearchParams as unknown as SearchParameter[]) {
+    indexSearchParameter(sp);
+  }
 
   const theme = createTheme({
     headings: {

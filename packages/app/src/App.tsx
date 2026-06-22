@@ -11,15 +11,21 @@ import {
   IconBuilding,
   IconCalendar,
   IconDatabase,
+  IconFlask,
   IconForms,
   IconId,
+  IconLayoutDashboard,
   IconLock,
   IconLockAccess,
   IconMicroscope,
   IconPackages,
+  IconPill,
   IconReceipt,
   IconReportMedical,
   IconStar,
+  IconStethoscope,
+  IconTestPipe,
+  IconVirus,
   IconWebhook,
 } from '@tabler/icons-react';
 import type { FunctionComponent, JSX } from 'react';
@@ -56,31 +62,55 @@ export function App(): JSX.Element {
   );
 }
 
+const LABEL_MAP: Record<string, string> = {
+  Patient: 'Patients',
+  Practitioner: 'Practitioners',
+  Organization: 'Organizations',
+  Appointment: 'Appointments',
+  Encounter: 'Consultations',
+  Condition: 'Diagnoses',
+  MedicationRequest: 'Prescriptions',
+  Questionnaire: 'Questionnaires',
+  ServiceRequest: 'Lab Orders',
+  DiagnosticReport: 'Lab Results',
+  LabPanels: 'Lab Panels',
+  LabAssays: 'Lab Assays',
+  Observation: 'Observations',
+};
+
 function userConfigToMenu(config: UserConfiguration | undefined): NavbarMenu[] {
   const adminMenuTitles = ['Admin', 'Super Admin'];
 
-  const result =
+  const dashboardMenu: NavbarMenu = {
+    title: '',
+    links: [
+      {
+        label: 'Dashboard',
+        href: '/dashboard',
+        icon: <IconLayoutDashboard />,
+      },
+    ],
+  };
+
+  const sectionMenus =
     config?.menu
       ?.filter((menu) => !adminMenuTitles.includes(menu.title || ''))
       .map((menu) => ({
         title: menu.title,
         links:
           menu.link?.map((link) => {
-            // Customize label for ServiceRequest to show as "Diagnostic Request"
-            let label = link.name;
+            const name = link.name as string;
             const target = link.target as string;
-            if (target?.includes('/ServiceRequest')) {
-              label = 'Diagnostic Request';
-            }
+            const label = LABEL_MAP[name] ?? name;
             return {
               label,
               href: target,
-              icon: getIcon(target),
+              icon: getIcon(target, name),
             };
           }) || [],
       })) || [];
 
-  result.push({
+  const settingsMenu: NavbarMenu = {
     title: 'Settings',
     links: [
       {
@@ -89,9 +119,9 @@ function userConfigToMenu(config: UserConfiguration | undefined): NavbarMenu[] {
         icon: <IconLock />,
       },
     ],
-  });
+  };
 
-  return result;
+  return [dashboardMenu, ...sectionMenus, settingsMenu];
 }
 
 const resourceTypeToIcon: Record<string, FunctionComponent> = {
@@ -107,11 +137,21 @@ const resourceTypeToIcon: Record<string, FunctionComponent> = {
   batch: IconPackages,
   Observation: IconMicroscope,
   Appointment: IconCalendar,
+  Encounter: IconStethoscope,
+  Condition: IconVirus,
+  MedicationRequest: IconPill,
+  LabPanels: IconFlask,
+  LabAssays: IconTestPipe,
 };
 
-function getIcon(to: string): JSX.Element | undefined {
+function getIcon(to: string, name?: string): JSX.Element | undefined {
   if (to.includes('admin/super/db')) {
     return <IconDatabase />;
+  }
+  // Match by explicit name first (for non-resource-type routes like LabPanels, LabAssays)
+  if (name && name in resourceTypeToIcon) {
+    const Icon = resourceTypeToIcon[name];
+    return <Icon />;
   }
   try {
     const resourceType = new URL(to, 'https://app.medplum.com').pathname.split('/')[1];

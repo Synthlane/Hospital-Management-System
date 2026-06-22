@@ -134,8 +134,13 @@ export function AsyncAutocomplete<T>(props: AsyncAutocompleteProps<T>): JSX.Elem
         }
       })
       .catch((err) => {
-        if (!(newAbortController.signal.aborted || err.message.includes('aborted'))) {
-          showNotification({ color: 'red', message: normalizeErrorString(err) });
+        const msg = normalizeErrorString(err);
+        const isAborted = newAbortController.signal.aborted || err.message.includes('aborted');
+        // Suppress "CodeSystem X not found" — these are external code systems (e.g. urn:ietf:bcp:47)
+        // that are not loaded in the local FHIR server. The input still works; this is not actionable.
+        const isExternalCodeSystem = msg.includes('CodeSystem') && msg.includes('not found');
+        if (!isAborted && !isExternalCodeSystem) {
+          showNotification({ color: 'red', message: msg });
         }
       })
       .finally(() => {

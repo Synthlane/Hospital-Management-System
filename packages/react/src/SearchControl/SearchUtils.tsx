@@ -539,9 +539,38 @@ export function renderValue(resource: Resource, field: SearchControlField): stri
     return formatDateTime(resource.meta?.lastUpdated);
   }
 
-  // Priority 1: InternalSchemaElement by exact match
-  if (field.elementDefinition && `${resource.resourceType}.${field.name}` === field.elementDefinition.path) {
-    return renderPropertyValue(resource, field.elementDefinition);
+  if (resource.resourceType === 'Encounter' && key === 'participant') {
+    const values = evalFhirPathTyped('Encounter.participant.individual', [{ type: resource.resourceType, value: resource }]);
+    if (!values || values.length === 0) return <Text c="dimmed">-</Text>;
+    const displays = values.map((v, i) => (
+      <ResourcePropertyDisplay
+        key={i}
+        propertyType={v.type}
+        value={v.value}
+        maxWidth={200}
+        ignoreMissingValues={true}
+        link={false}
+      />
+    ));
+    return <>{displays}</>;
+  }
+
+  // Condition.onsetDateTime: Priority 1 path check ('Condition.onsetDateTime' !== 'Condition.onset[x]') fails.
+  // Direct access handles the polymorphic JSON key.
+  if (resource.resourceType === 'Condition' && key === 'onsetDateTime') {
+    const onset = (resource as unknown as Record<string, string>).onsetDateTime;
+    return onset ? <>{formatDateTime(onset)}</> : <Text c="dimmed">-</Text>;
+  }
+
+  // Priority 1: InternalSchemaElement — exact match OR polymorphic choice-of-type match (e.g. onset[x] → onsetDateTime)
+  if (field.elementDefinition) {
+    const elemPath = field.elementDefinition.path;
+    const fullFieldPath = `${resource.resourceType}.${field.name}`;
+    const isExactMatch = fullFieldPath === elemPath;
+    const isPolyMatch = !!elemPath?.endsWith('[x]') && fullFieldPath.startsWith(elemPath.replace('[x]', ''));
+    if (isExactMatch || isPolyMatch) {
+      return renderPropertyValue(resource, field.elementDefinition);
+    }
   }
 
   // Priority 2: SearchParameter by exact match

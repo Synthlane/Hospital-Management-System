@@ -15,6 +15,7 @@ services:
     volumes:
       - ./postgres/postgres.conf:/usr/local/etc/postgres/postgres.conf
       - ./postgres/:/docker-entrypoint-initdb.d/
+      - synth_hms_postgres_data:/var/lib/postgresql/data
     command: postgres -c config_file=/usr/local/etc/postgres/postgres.conf
     ports:
       - '5433:5432'
@@ -22,6 +23,22 @@ services:
   redis:
     image: redis:7
     restart: always
-    command: redis-server --requirepass medplum
+    command: redis-server --requirepass medplum --save 60 1 --appendonly yes
+    volumes:
+      - synth_hms_redis_data:/data
     ports:
       - '6380:6379'
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - '8080:8080'
+
+volumes:
+  synth_hms_postgres_data:
+    external: true
+  synth_hms_redis_data:
+    external: true
+
+

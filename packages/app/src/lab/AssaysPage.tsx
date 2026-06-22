@@ -1,6 +1,6 @@
 // SPDX-FileCopyrightText: Copyright Orangebot, Inc. and Medplum contributors
 // SPDX-License-Identifier: Apache-2.0
-import { Table } from '@mantine/core';
+import { Group, Paper, ScrollArea, Table, Text, Title } from '@mantine/core';
 import { capitalize, formatRange, sortStringArray } from '@medplum/core';
 import type { ObservationDefinition, ObservationDefinitionQualifiedInterval } from '@medplum/fhirtypes';
 import { CodeableConceptDisplay, Loading, RangeDisplay, useSearchResources } from '@medplum/react';
@@ -14,39 +14,57 @@ export function AssaysPage(): JSX.Element {
     return <Loading />;
   }
 
+  const seenCodes = new Set<string>();
+  const uniqueAssays = assays.filter((assay) => {
+    const key = assay.code?.text ?? assay.id;
+    if (!key || seenCodes.has(key)) return false;
+    seenCodes.add(key);
+    return true;
+  });
+
   return (
-    <Table withTableBorder withRowBorders withColumnBorders>
-      <thead>
-        <tr>
-          <th>Category</th>
-          <th>Code</th>
-          <th>Method</th>
-          <th>Unit</th>
-          <th>Precision</th>
-          <th>Ranges</th>
-        </tr>
-      </thead>
-      <tbody>
-        {assays.map((assay: ObservationDefinition) => (
-          <tr key={assay.id}>
-            <td>
-              <CodeableConceptDisplay value={assay.category?.[0]} />
-            </td>
-            <td>
-              <CodeableConceptDisplay value={assay.code} />
-            </td>
-            <td>
-              <CodeableConceptDisplay value={assay.method} />
-            </td>
-            <td>{assay.quantitativeDetails?.unit?.text}</td>
-            <td>{assay.quantitativeDetails?.decimalPrecision}</td>
-            <td>
-              <IntervalsDisplay ranges={assay.qualifiedInterval} />
-            </td>
-          </tr>
-        ))}
-      </tbody>
-    </Table>
+    <Paper shadow="xs" m="md" p="xs">
+      <Group px="md" py="sm">
+        <div>
+          <Title order={4}>Lab Assays</Title>
+          <Text c="dimmed" size="sm">Individual test definitions with reference ranges and measurement units</Text>
+        </div>
+      </Group>
+      <ScrollArea>
+        <Table stickyHeader highlightOnHover>
+          <Table.Thead>
+            <Table.Tr>
+              <Table.Th>Category</Table.Th>
+              <Table.Th>Code</Table.Th>
+              <Table.Th>Method</Table.Th>
+              <Table.Th>Unit</Table.Th>
+              <Table.Th>Precision</Table.Th>
+              <Table.Th>Ranges</Table.Th>
+            </Table.Tr>
+          </Table.Thead>
+          <Table.Tbody>
+            {uniqueAssays.map((assay: ObservationDefinition) => (
+              <Table.Tr key={assay.id}>
+                <Table.Td>
+                  <CodeableConceptDisplay value={assay.category?.[0]} />
+                </Table.Td>
+                <Table.Td>
+                  <CodeableConceptDisplay value={assay.code} />
+                </Table.Td>
+                <Table.Td>
+                  <CodeableConceptDisplay value={assay.method} />
+                </Table.Td>
+                <Table.Td>{assay.quantitativeDetails?.unit?.text}</Table.Td>
+                <Table.Td>{assay.quantitativeDetails?.decimalPrecision}</Table.Td>
+                <Table.Td>
+                  <IntervalsDisplay ranges={assay.qualifiedInterval} />
+                </Table.Td>
+              </Table.Tr>
+            ))}
+          </Table.Tbody>
+        </Table>
+      </ScrollArea>
+    </Paper>
   );
 }
 

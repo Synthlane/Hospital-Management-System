@@ -1,0 +1,44 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 2px;
+  border: 1px solid var(--mantine-color-default-border);
+  border-radius: var(--mantine-radius-md);
+  overflow: hidden;
+}
+
+.dayHeader {
+  background: var(--mantine-color-default);
+  padding: 6px 4px;
+  border-bottom: 1px solid var(--mantine-color-default-border);
+}
+
+.emptyCell {
+  background: var(--mantine-color-default);
+  min-height: 80px;
+  padding: 6px;
+  opacity: 0.4;
+}
+
+.dayCell {
+  background: var(--mantine-color-body);
+  min-height: 80px;
+  padding: 6px;
+  cursor: pointer;
+  transition: background 0.15s;
+  border: 1px solid transparent;
+  overflow: hidden;
+}
+
+.dayCell:hover {
+  background: var(--mantine-color-default-hover);
+}
+
+.today {
+  border: 1.5px solid var(--mantine-color-blue-5) !important;
+  border-radius: 4px;
+}
+
+.hasAppts {
+  background: color-mix(in srgb, var(--mantine-color-body), var(--mantine-color-blue-0) 30%);
+}

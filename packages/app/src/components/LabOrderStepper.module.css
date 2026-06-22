@@ -1,0 +1,69 @@
+.container {
+  padding: 16px 24px;
+  background: var(--mantine-color-body);
+  border-bottom: 1px solid var(--mantine-color-default-border);
+}
+
+.stepWrapper {
+  flex: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.connector {
+  position: absolute;
+  top: 18px;
+  right: calc(50% + 18px);
+  left: calc(-50% + 18px);
+  height: 2px;
+  background: var(--mantine-color-default-border);
+  z-index: 0;
+}
+
+.connectorActive {
+  background: var(--mantine-color-green-5);
+}
+
+.iconBox {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  border: 2px solid;
+}
+
+.iconCompleted {
+  background: var(--mantine-color-green-1);
+  border-color: var(--mantine-color-green-5);
+  color: var(--mantine-color-green-7);
+}
+
+.iconCurrent {
+  background: var(--mantine-color-blue-1);
+  border-color: var(--mantine-color-blue-5);
+  color: var(--mantine-color-blue-7);
+}
+
+.iconPending {
+  background: var(--mantine-color-default);
+  border-color: var(--mantine-color-default-border);
+  color: var(--mantine-color-dimmed);
+}
+
+.iconCancelled {
+  background: var(--mantine-color-red-0);
+  border-color: var(--mantine-color-red-4);
+  color: var(--mantine-color-red-6);
+}
+
+.label {
+  max-width: 80px;
+  line-height: 1.3;
+}

@@ -6,8 +6,9 @@ import { getReferenceString, isGone, normalizeErrorString } from '@medplum/core'
 import type { OperationOutcome, Resource, ResourceType, ServiceRequest } from '@medplum/fhirtypes';
 import { Document, OperationOutcomeAlert, PatientHeader, useMedplum, useResource } from '@medplum/react';
 import type { JSX } from 'react';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Outlet, useNavigate, useParams } from 'react-router';
+import { LabOrderStepper } from '../components/LabOrderStepper';
 import { QuickServiceRequests } from '../components/QuickServiceRequests';
 import { QuickStatus } from '../components/QuickStatus';
 import { ResourceHeader } from '../components/ResourceHeader';
@@ -16,6 +17,14 @@ import { getPatient, getSpecimen } from '../utils';
 import { cleanResource } from './utils';
 
 function getTabs(resourceType: string): string[] {
+  if (resourceType === 'Patient') {
+    return ['Summary', 'Timeline', 'Details', 'Edit', 'Export'];
+  }
+
+  if (resourceType === 'Encounter') {
+    return ['Visit', 'Timeline', 'Details', 'Edit'];
+  }
+
   const result = ['Timeline'];
 
   if (resourceType === 'Bot') {
@@ -51,10 +60,6 @@ function getTabs(resourceType: string): string[] {
 
   result.push('Details', 'Edit');
 
-  if (resourceType === 'Patient') {
-    result.push('Export');
-  }
-
   return result;
 }
 
@@ -66,10 +71,20 @@ export function ResourcePage(): JSX.Element | null {
   const [outcome, setOutcome] = useState<OperationOutcome | undefined>();
   const value = useResource(reference, setOutcome);
   const tabs = getTabs(resourceType);
+  const defaultTab = tabs[0].toLowerCase();
   const [currentTab, setCurrentTab] = useState<string>(() => {
     const tab = window.location.pathname.split('/').pop();
-    return tab && tabs.map((t) => t.toLowerCase()).includes(tab) ? tab : tabs[0].toLowerCase();
+    return tab && tabs.map((t) => t.toLowerCase()).includes(tab) ? tab : defaultTab;
   });
+
+  // When landing at /:resourceType/:id (index route), redirect to the default tab sub-route
+  // so the correct page component renders in the Outlet instead of the fallback TimelinePage
+  useEffect(() => {
+    const lastSegment = window.location.pathname.split('/').pop();
+    if (lastSegment === id) {
+      navigate(`/${resourceType}/${id}/${defaultTab}`, { replace: true });
+    }
+  }, [id, navigate, resourceType, defaultTab]);
 
   async function restoreResource(): Promise<void> {
     const historyBundle = await medplum.readHistory(resourceType, id);
@@ -138,6 +153,9 @@ export function ResourcePage(): JSX.Element | null {
 
   return (
     <>
+      {value?.resourceType === 'ServiceRequest' && (
+        <LabOrderStepper status={(value as ServiceRequest).status} />
+      )}
       {value?.resourceType === 'ServiceRequest' && statusValueSet && (
         <QuickStatus
           key={getReferenceString(value) + '-' + value.orderDetail?.[0]?.text}

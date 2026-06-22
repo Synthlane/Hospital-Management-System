@@ -140,6 +140,8 @@ export async function seedMockData(systemRepo: Repository): Promise<void> {
     'medicationRequests.json',
     'questionnaires.json',
     'questionnaireResponses.json',
+    'observationDefinitions.json',
+    'activityDefinitions.json',
   ];
 
   let totalCreated = 0;

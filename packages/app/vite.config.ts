@@ -40,5 +40,6 @@ export default defineConfig({
       '@medplum/react': path.resolve(__dirname, '../react/src'),
       '@medplum/react-hooks': path.resolve(__dirname, '../react-hooks/src'),
     },
+    extensions: ['.tsx', '.ts', '.jsx', '.mjs', '.js', '.json'],
   },
 });

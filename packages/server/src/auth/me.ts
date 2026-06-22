@@ -100,20 +100,39 @@ export async function getUserConfiguration(
     result = { resourceType: 'UserConfiguration' };
   }
 
-  if (!result.menu) {
-    result.menu = getUserConfigurationMenu(project, membership);
-  }
+  result.menu = getUserConfigurationMenu(project, membership);
 
   return result;
 }
 
 export function getUserConfigurationMenu(project: Project, membership: ProjectMembership): UserConfigurationMenu[] {
-  const favorites = ['Patient', 'Practitioner', 'Appointment', 'Organization', 'ServiceRequest', 'DiagnosticReport', 'Questionnaire'];
-
   const result = [
     {
-      title: 'Favorites',
-      link: favorites.map((resourceType) => ({ name: resourceType, target: '/' + resourceType })),
+      title: 'Patients',
+      link: [
+        { name: 'Patient', target: '/Patient' },
+        { name: 'Practitioner', target: '/Practitioner' },
+        { name: 'Organization', target: '/Organization' },
+        { name: 'Appointment', target: '/Appointment' },
+        { name: 'Encounter', target: '/Encounter' },
+      ],
+    },
+    {
+      title: 'Clinical',
+      link: [
+        { name: 'Condition', target: '/Condition' },
+        { name: 'MedicationRequest', target: '/MedicationRequest' },
+        { name: 'Questionnaire', target: '/Questionnaire' },
+      ],
+    },
+    {
+      title: 'Lab',
+      link: [
+        { name: 'ServiceRequest', target: '/ServiceRequest' },
+        { name: 'DiagnosticReport', target: '/DiagnosticReport' },
+        { name: 'LabPanels', target: '/lab/panels' },
+        { name: 'LabAssays', target: '/lab/assays' },
+      ],
     },
   ];
 

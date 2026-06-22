@@ -57,5 +57,9 @@
   },
   "engines": {
     "node": "^20.19.0 || >=22.12.0"
+  },
+  "dependencies": {
+    "@mantine/charts": "^9.3.2",
+    "recharts": "^3.8.1"
   }
 }

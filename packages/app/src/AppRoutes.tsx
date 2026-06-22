@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: Copyright Orangebot, Inc. and Medplum contributors
+//  SPDX-FileCopyrightText: Copyright Orangebot, Inc. and Medplum contributors
 // SPDX-License-Identifier: Apache-2.0
 import type { JSX } from 'react';
 import { Route, Routes } from 'react-router';
@@ -18,8 +18,10 @@ import { SitesPage } from './admin/SitesPage';
 import { SuperAdminAsyncDashboardPage } from './admin/SuperAdminAsyncJobPage';
 import { SuperAdminPage } from './admin/SuperAdminPage';
 import { UsersPage } from './admin/UsersPage';
+import { AppointmentPage } from './appointment/AppointmentPage';
 import { BatchPage } from './BatchPage';
 import { BulkAppPage } from './BulkAppPage';
+import { DashboardPage } from './DashboardPage';
 import { ChangePasswordPage } from './ChangePasswordPage';
 import { CreateResourcePage } from './CreateResourcePage';
 import { ErrorPage } from './ErrorPage';
@@ -47,6 +49,8 @@ import { HistoryPage } from './resource/HistoryPage';
 import { JsonCreatePage } from './resource/JsonCreatePage';
 import { JsonPage } from './resource/JsonPage';
 import { PreviewPage } from './resource/PreviewPage';
+import { EncounterSummaryPage } from './resource/EncounterSummaryPage';
+import { PatientSummaryPage } from './resource/PatientSummaryPage';
 import { ProfilesPage } from './resource/ProfilesPage';
 import { QuestionnaireBotsPage } from './resource/QuestionnaireBotsPage';
 import { QuestionnaireResponsePage } from './resource/QuestionnaireResponsePage';
@@ -76,6 +80,8 @@ export function AppRoutes(): JSX.Element {
         <Route path="/changepassword" element={<ChangePasswordPage />} />
         <Route path="/security" element={<SecurityPage />} />
         <Route path="/mfa" element={<MfaPage />} />
+        <Route path="/dashboard" element={<DashboardPage />} />
+        <Route path="/Appointment" element={<AppointmentPage />} />
         <Route path="/batch" element={<BatchPage />} />
         <Route path="/bulk/:resourceType" element={<BulkAppPage />} />
         <Route path="/smart" element={<SmartSearchPage />} />
@@ -135,6 +141,8 @@ export function AppRoutes(): JSX.Element {
           <Route path="report" element={<ReportPage />} />
           <Route path="ranges" element={<ReferenceRangesPage />} />
           <Route path="subscriptions" element={<SubscriptionsPage />} />
+          <Route path="summary" element={<PatientSummaryPage />} />
+          <Route path="visit" element={<EncounterSummaryPage />} />
           <Route path="timeline" element={<TimelinePage />} />
           <Route path="tools" element={<ToolsPage />} />
           <Route path="profiles" element={<ProfilesPage />} />
