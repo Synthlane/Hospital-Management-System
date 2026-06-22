@@ -1,152 +1,7 @@
 [
   {
     "resourceType": "Procedure",
-    "id": "fa9eb74d-6eca-4283-94c9-f0620d4eb10a",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "396550006",
-          "display": "Cholecystectomy"
-        }
-      ],
-      "text": "Cholecystectomy"
-    },
-    "subject": {
-      "reference": "Patient/f148d8e1-89df-4275-bcb5-e4484537ae6c"
-    },
-    "encounter": {
-      "reference": "Encounter/21700a4e-5664-455f-be6c-13f410fbbd92"
-    },
-    "performedDateTime": "2026-02-13T11:57:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/36dd4d1b-0c6d-4234-a293-0b3553fda30a"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "d08490d7-ff52-4f05-9800-452d891e5d7c",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "443253003",
-          "display": "Ultrasound scan abdomen"
-        }
-      ],
-      "text": "Abdominal Ultrasound"
-    },
-    "subject": {
-      "reference": "Patient/139aac9a-8f92-4f40-aee1-18802fd23e47"
-    },
-    "encounter": {
-      "reference": "Encounter/13d0cf2b-ee1f-40c6-84bb-60f79e66a463"
-    },
-    "performedDateTime": "2025-06-24T12:05:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/e064e56e-2521-4f24-8d6f-16969b0bf83a"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "3fc8b964-e633-430d-97cf-be8f5a73963f",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "410528000",
-          "display": "Nebulization therapy"
-        }
-      ],
-      "text": "Nebulization"
-    },
-    "subject": {
-      "reference": "Patient/989edb37-f524-4939-ae53-6ab488a680a6"
-    },
-    "encounter": {
-      "reference": "Encounter/db8c2849-6a3c-48a3-ae17-d44fe81ce8e7"
-    },
-    "performedDateTime": "2025-10-28T06:54:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/eacdd71b-e4b0-4039-99f0-c7b18c4758e1"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "81814454-b3e3-460b-80ef-f16f049f583b",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "71651007",
-          "display": "X-Ray chest"
-        }
-      ],
-      "text": "Chest X-Ray"
-    },
-    "subject": {
-      "reference": "Patient/91e04d92-9e8c-41cf-9673-850878d3711b"
-    },
-    "encounter": {
-      "reference": "Encounter/866ae236-d789-441b-8e77-1398e488839d"
-    },
-    "performedDateTime": "2024-08-09T05:50:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/36dd4d1b-0c6d-4234-a293-0b3553fda30a"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "8446e098-e79e-45a1-8dcb-f29d4d8ac2e0",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "71651007",
-          "display": "X-Ray chest"
-        }
-      ],
-      "text": "Chest X-Ray"
-    },
-    "subject": {
-      "reference": "Patient/f93c6ba3-778a-4208-83cd-97b8f88c2a6f"
-    },
-    "encounter": {
-      "reference": "Encounter/7c07eab7-cd34-4ba0-8851-d990e97dbda2"
-    },
-    "performedDateTime": "2024-02-08T11:59:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/88b97667-1e24-4853-be8b-86b5c67e2ae1"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "13687d26-0273-44de-8804-daaad0b7f648",
+    "id": "796b2e82-ee52-4d14-a415-60a6f69e942f",
     "status": "completed",
     "code": {
       "coding": [
@@ -159,168 +14,87 @@
       "text": "MRI Brain"
     },
     "subject": {
-      "reference": "Patient/f93c6ba3-778a-4208-83cd-97b8f88c2a6f"
+      "reference": "Patient/fc4734f2-166d-4a50-b5ad-209fa11221f3",
+      "display": "Priya Patel"
     },
     "encounter": {
-      "reference": "Encounter/94584db7-2c86-4777-b8dd-c819a116670a"
+      "reference": "Encounter/c4a22ea1-e850-4965-87ff-44602aeb65aa"
     },
-    "performedDateTime": "2024-08-23T06:56:00.000Z",
+    "performedDateTime": "2025-09-28T08:28:00.000Z",
     "performer": [
       {
         "actor": {
-          "reference": "Practitioner/88b97667-1e24-4853-be8b-86b5c67e2ae1"
+          "reference": "Practitioner/da7f8001-08b7-4453-a18d-44d443278b5f",
+          "display": "Dr. Rajesh Mehta"
         }
       }
     ]
   },
   {
     "resourceType": "Procedure",
-    "id": "d69b45dd-35b6-4d95-ac13-1fcc99c4bddc",
+    "id": "2bd31e2e-2636-4813-b31b-7eb537790821",
     "status": "completed",
     "code": {
       "coding": [
         {
           "system": "http://snomed.info/sct",
-          "code": "172960003",
-          "display": "Appendectomy"
+          "code": "17711008",
+          "display": "Fracture reduction"
         }
       ],
-      "text": "Appendectomy"
+      "text": "Fracture Reduction"
     },
     "subject": {
-      "reference": "Patient/d150623e-e3ae-4317-8fdc-f55a05d76c0c"
+      "reference": "Patient/fc4734f2-166d-4a50-b5ad-209fa11221f3",
+      "display": "Priya Patel"
     },
     "encounter": {
-      "reference": "Encounter/477d8c80-75cb-4377-b1f6-600744ffd2c7"
+      "reference": "Encounter/569226e4-d04c-4bc8-b18b-c78d3b19291b"
     },
-    "performedDateTime": "2024-06-24T09:20:00.000Z",
+    "performedDateTime": "2025-09-12T08:38:00.000Z",
     "performer": [
       {
         "actor": {
-          "reference": "Practitioner/828768e6-7a92-4883-b1cb-2e8b079efb43"
+          "reference": "Practitioner/da7f8001-08b7-4453-a18d-44d443278b5f",
+          "display": "Dr. Rajesh Mehta"
         }
       }
     ]
   },
   {
     "resourceType": "Procedure",
-    "id": "90fe27f1-37dc-4bb6-8bf3-0439119db972",
+    "id": "27910aca-4c67-464d-a04b-2584f6b49263",
     "status": "completed",
     "code": {
       "coding": [
         {
           "system": "http://snomed.info/sct",
-          "code": "71651007",
-          "display": "X-Ray chest"
+          "code": "396550006",
+          "display": "Cholecystectomy"
         }
       ],
-      "text": "Chest X-Ray"
+      "text": "Cholecystectomy"
     },
     "subject": {
-      "reference": "Patient/d150623e-e3ae-4317-8fdc-f55a05d76c0c"
+      "reference": "Patient/fbac26fe-1086-4322-8b5f-29c9249c1277",
+      "display": "Riya Gupta"
     },
     "encounter": {
-      "reference": "Encounter/a0ed634a-cce7-45ff-8adf-2dccb260e973"
+      "reference": "Encounter/301b6262-e8c0-40f0-b71d-653d052e6810"
     },
-    "performedDateTime": "2025-10-24T10:10:00.000Z",
+    "performedDateTime": "2024-10-25T04:14:00.000Z",
     "performer": [
       {
         "actor": {
-          "reference": "Practitioner/d15357a2-3c4e-49f6-ad26-87d2ea299a53"
+          "reference": "Practitioner/58e2170e-aba9-438d-8c72-fc51c097d4b0",
+          "display": "Dr. Isha Malhotra"
         }
       }
     ]
   },
   {
     "resourceType": "Procedure",
-    "id": "aa545be7-1b0d-4deb-84e3-e03ca6c0436e",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "410528000",
-          "display": "Nebulization therapy"
-        }
-      ],
-      "text": "Nebulization"
-    },
-    "subject": {
-      "reference": "Patient/9616618b-c691-434e-bcff-3e9fe8ab8da7"
-    },
-    "encounter": {
-      "reference": "Encounter/3e674620-c837-4689-adbc-fea60d5a3171"
-    },
-    "performedDateTime": "2025-03-01T05:18:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/d15357a2-3c4e-49f6-ad26-87d2ea299a53"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "09496e0c-01e7-4ff9-8588-65252160ab4c",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "410528000",
-          "display": "Nebulization therapy"
-        }
-      ],
-      "text": "Nebulization"
-    },
-    "subject": {
-      "reference": "Patient/9616618b-c691-434e-bcff-3e9fe8ab8da7"
-    },
-    "encounter": {
-      "reference": "Encounter/79342522-1b44-464d-bdc1-cb33f56919ba"
-    },
-    "performedDateTime": "2024-01-29T08:26:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/76d520f1-4795-4cd8-bb15-15bec797eb7f"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "7a84f84b-e926-49a6-89de-c9b026505a6c",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "443253003",
-          "display": "Ultrasound scan abdomen"
-        }
-      ],
-      "text": "Abdominal Ultrasound"
-    },
-    "subject": {
-      "reference": "Patient/9616618b-c691-434e-bcff-3e9fe8ab8da7"
-    },
-    "encounter": {
-      "reference": "Encounter/de9f2c31-6ed4-4c9e-a9cc-398011f4602f"
-    },
-    "performedDateTime": "2026-01-14T07:03:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/00a93a24-0636-4553-aefa-58512c2c26ab"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "655c9b5f-cb95-40e5-b6c2-0c1f921048e4",
+    "id": "b97cf0ba-ffe1-442b-805f-ed6e7ebf384d",
     "status": "completed",
     "code": {
       "coding": [
@@ -333,23 +107,118 @@
       "text": "Chest X-Ray"
     },
     "subject": {
-      "reference": "Patient/9616618b-c691-434e-bcff-3e9fe8ab8da7"
+      "reference": "Patient/fbac26fe-1086-4322-8b5f-29c9249c1277",
+      "display": "Riya Gupta"
     },
     "encounter": {
-      "reference": "Encounter/64e9624f-42af-4fed-9378-1916867f11e7"
+      "reference": "Encounter/c8d74876-8064-4e63-8609-2446949e6bb3"
     },
-    "performedDateTime": "2024-09-25T12:50:00.000Z",
+    "performedDateTime": "2024-08-05T11:49:00.000Z",
     "performer": [
       {
         "actor": {
-          "reference": "Practitioner/58553756-5e66-40d5-ad0a-62b204d2d54a"
+          "reference": "Practitioner/43d0e726-0768-4b2a-ac9f-b5803e874196",
+          "display": "Dr. Ankit Reddy"
         }
       }
     ]
   },
   {
     "resourceType": "Procedure",
-    "id": "c35cde5d-1e12-43af-8b59-bd20faac7e98",
+    "id": "8c05ea55-8ad1-4b1b-82b9-0eb01bf4a7d1",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "113091000",
+          "display": "Magnetic resonance imaging of brain"
+        }
+      ],
+      "text": "MRI Brain"
+    },
+    "subject": {
+      "reference": "Patient/a89164df-33c3-454d-b429-c23b06ddc488",
+      "display": "Pooja Joshi"
+    },
+    "encounter": {
+      "reference": "Encounter/19c2c3f4-d75c-45d8-91dd-86183b890657"
+    },
+    "performedDateTime": "2025-04-01T09:36:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/11d4e487-d2f8-4c88-b9a7-0b2bed109da6",
+          "display": "Dr. Rajesh Kumar"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "251998bb-ffdc-49fd-aa2d-87f01db9e9e1",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "410528000",
+          "display": "Nebulization therapy"
+        }
+      ],
+      "text": "Nebulization"
+    },
+    "subject": {
+      "reference": "Patient/a89164df-33c3-454d-b429-c23b06ddc488",
+      "display": "Pooja Joshi"
+    },
+    "encounter": {
+      "reference": "Encounter/d59ff9aa-45e1-4157-afbc-d79c34acee97"
+    },
+    "performedDateTime": "2026-07-14T06:56:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/d8b3a01b-d9ea-4c90-a20d-3260452b1533",
+          "display": "Dr. Suresh Mehta"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "c171df7a-0bbd-4a16-b3d7-a6671d3283dd",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "387713003",
+          "display": "Wound dressing"
+        }
+      ],
+      "text": "Wound Dressing"
+    },
+    "subject": {
+      "reference": "Patient/a89164df-33c3-454d-b429-c23b06ddc488",
+      "display": "Pooja Joshi"
+    },
+    "encounter": {
+      "reference": "Encounter/38b50833-3b7c-44d3-b7b9-92786ffa8297"
+    },
+    "performedDateTime": "2025-01-31T05:18:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/f9754da8-8c72-4b42-8a86-a06f9cad64db",
+          "display": "Dr. Meera Rao"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "fc933e9b-fec7-482d-8525-e7d9e679503a",
     "status": "completed",
     "code": {
       "coding": [
@@ -362,23 +231,25 @@
       "text": "Echocardiogram"
     },
     "subject": {
-      "reference": "Patient/3080af09-748e-4ac6-9c04-7b65fa308ec2"
+      "reference": "Patient/5ea55a81-6b7e-48c3-a878-bcca8d4f79f2",
+      "display": "Prateek Shah"
     },
     "encounter": {
-      "reference": "Encounter/e91ecf15-36f7-40be-a1e1-e77bc96d08f0"
+      "reference": "Encounter/b52999e5-22a6-4508-8de6-9b2bd27af061"
     },
-    "performedDateTime": "2024-08-18T05:26:00.000Z",
+    "performedDateTime": "2026-09-01T08:41:00.000Z",
     "performer": [
       {
         "actor": {
-          "reference": "Practitioner/d15357a2-3c4e-49f6-ad26-87d2ea299a53"
+          "reference": "Practitioner/62be934f-b3ce-4fab-a8a6-8fd13e0d9819",
+          "display": "Dr. Meera Patel"
         }
       }
     ]
   },
   {
     "resourceType": "Procedure",
-    "id": "39c54a2c-1b99-4ff9-971e-3722662919fd",
+    "id": "ab4300b1-ec89-4026-894b-791b4d872559",
     "status": "completed",
     "code": {
       "coding": [
@@ -391,226 +262,25 @@
       "text": "Abdominal Ultrasound"
     },
     "subject": {
-      "reference": "Patient/3080af09-748e-4ac6-9c04-7b65fa308ec2"
+      "reference": "Patient/5ea55a81-6b7e-48c3-a878-bcca8d4f79f2",
+      "display": "Prateek Shah"
     },
     "encounter": {
-      "reference": "Encounter/cfa417fe-23c1-4e59-a928-42083ac5df19"
+      "reference": "Encounter/883d4eea-9104-42bf-b8db-50dca60b985c"
     },
-    "performedDateTime": "2026-03-19T09:17:00.000Z",
+    "performedDateTime": "2025-06-27T05:54:00.000Z",
     "performer": [
       {
         "actor": {
-          "reference": "Practitioner/36dd4d1b-0c6d-4234-a293-0b3553fda30a"
+          "reference": "Practitioner/62be934f-b3ce-4fab-a8a6-8fd13e0d9819",
+          "display": "Dr. Meera Patel"
         }
       }
     ]
   },
   {
     "resourceType": "Procedure",
-    "id": "c979497e-47ee-4ccb-8d5b-c3898d14b4b7",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "387713003",
-          "display": "Wound dressing"
-        }
-      ],
-      "text": "Wound Dressing"
-    },
-    "subject": {
-      "reference": "Patient/784c9dd3-c508-4788-afae-9507a00e1a56"
-    },
-    "encounter": {
-      "reference": "Encounter/c41ef08e-95ee-4737-93b3-4c7efb273bef"
-    },
-    "performedDateTime": "2024-06-14T03:00:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/5099d513-0645-4b59-ab2e-f947e0cb7047"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "24bf1125-4e9a-4947-b912-87e596dc619c",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "443253003",
-          "display": "Ultrasound scan abdomen"
-        }
-      ],
-      "text": "Abdominal Ultrasound"
-    },
-    "subject": {
-      "reference": "Patient/eaf88d7e-4802-45bc-8fb3-3b629f3021bf"
-    },
-    "encounter": {
-      "reference": "Encounter/61cc3232-80a3-4ca6-9c45-2c86aec14ad7"
-    },
-    "performedDateTime": "2024-04-17T06:27:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/eacdd71b-e4b0-4039-99f0-c7b18c4758e1"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "dac91c9a-0e29-4a37-bda5-cf1311cfa2da",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "387713003",
-          "display": "Wound dressing"
-        }
-      ],
-      "text": "Wound Dressing"
-    },
-    "subject": {
-      "reference": "Patient/eaf88d7e-4802-45bc-8fb3-3b629f3021bf"
-    },
-    "encounter": {
-      "reference": "Encounter/d5b0e09a-6bd1-4124-9cbd-5b8a7f30938c"
-    },
-    "performedDateTime": "2025-08-06T12:20:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/d15357a2-3c4e-49f6-ad26-87d2ea299a53"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "13d793e4-1978-486c-b5cb-2435f16d0151",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "387713003",
-          "display": "Wound dressing"
-        }
-      ],
-      "text": "Wound Dressing"
-    },
-    "subject": {
-      "reference": "Patient/b0730d39-4a54-4034-830f-dc7e917bf879"
-    },
-    "encounter": {
-      "reference": "Encounter/dbe429db-28e3-4b5c-8175-b3f5458e5fd3"
-    },
-    "performedDateTime": "2025-06-16T05:49:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/eacdd71b-e4b0-4039-99f0-c7b18c4758e1"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "923da6fc-ae18-4672-868a-78a7a7c1979d",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "71651007",
-          "display": "X-Ray chest"
-        }
-      ],
-      "text": "Chest X-Ray"
-    },
-    "subject": {
-      "reference": "Patient/b0730d39-4a54-4034-830f-dc7e917bf879"
-    },
-    "encounter": {
-      "reference": "Encounter/a59fd71a-248a-4f37-a62d-230efd32d7bc"
-    },
-    "performedDateTime": "2025-05-19T09:20:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/5099d513-0645-4b59-ab2e-f947e0cb7047"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "2745f165-1aa9-4ab3-a7b6-b3158b337b6d",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "410528000",
-          "display": "Nebulization therapy"
-        }
-      ],
-      "text": "Nebulization"
-    },
-    "subject": {
-      "reference": "Patient/b0730d39-4a54-4034-830f-dc7e917bf879"
-    },
-    "encounter": {
-      "reference": "Encounter/dd67b6d3-63e6-4e13-b8e8-3f33d9e1b73e"
-    },
-    "performedDateTime": "2025-08-19T09:04:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/5099d513-0645-4b59-ab2e-f947e0cb7047"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "8169ea8d-73d7-4684-a37d-61c44b3c84d0",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "17711008",
-          "display": "Fracture reduction"
-        }
-      ],
-      "text": "Fracture Reduction"
-    },
-    "subject": {
-      "reference": "Patient/c3804f0f-2a6e-4c1c-946e-3bb9cb941642"
-    },
-    "encounter": {
-      "reference": "Encounter/c8bb9c54-92fa-4cf9-b864-002779bb6db3"
-    },
-    "performedDateTime": "2024-12-07T06:49:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/e064e56e-2521-4f24-8d6f-16969b0bf83a"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "7122ec50-4371-4152-b269-8881e819fd03",
+    "id": "3c222693-dccd-4611-a04b-fdb54962bf94",
     "status": "completed",
     "code": {
       "coding": [
@@ -623,139 +293,25 @@
       "text": "MRI Brain"
     },
     "subject": {
-      "reference": "Patient/9ef9160a-62e2-4f7f-9647-7ce0d7096a87"
+      "reference": "Patient/5ea55a81-6b7e-48c3-a878-bcca8d4f79f2",
+      "display": "Prateek Shah"
     },
     "encounter": {
-      "reference": "Encounter/45b0bb37-b0cc-4d2a-a0e3-c95603b276b6"
+      "reference": "Encounter/7fac42aa-75e7-4c7f-a89d-9b313f2516e2"
     },
-    "performedDateTime": "2024-06-03T05:18:00.000Z",
+    "performedDateTime": "2026-03-23T08:15:00.000Z",
     "performer": [
       {
         "actor": {
-          "reference": "Practitioner/00a93a24-0636-4553-aefa-58512c2c26ab"
+          "reference": "Practitioner/62be934f-b3ce-4fab-a8a6-8fd13e0d9819",
+          "display": "Dr. Meera Patel"
         }
       }
     ]
   },
   {
     "resourceType": "Procedure",
-    "id": "6d566cd7-32d3-483f-9b6d-30dbcf4d0f53",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "387713003",
-          "display": "Wound dressing"
-        }
-      ],
-      "text": "Wound Dressing"
-    },
-    "subject": {
-      "reference": "Patient/9ef9160a-62e2-4f7f-9647-7ce0d7096a87"
-    },
-    "encounter": {
-      "reference": "Encounter/920bc94e-f1f1-420e-9156-48d910dcf776"
-    },
-    "performedDateTime": "2025-12-13T06:01:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/00a93a24-0636-4553-aefa-58512c2c26ab"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "ba192834-cbec-4df6-9baa-19745ee46e95",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "71651007",
-          "display": "X-Ray chest"
-        }
-      ],
-      "text": "Chest X-Ray"
-    },
-    "subject": {
-      "reference": "Patient/9ef9160a-62e2-4f7f-9647-7ce0d7096a87"
-    },
-    "encounter": {
-      "reference": "Encounter/0441511a-fbf1-4121-8d0c-ebd715baac1e"
-    },
-    "performedDateTime": "2024-02-18T09:02:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/5099d513-0645-4b59-ab2e-f947e0cb7047"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "3b62411c-bba6-4527-baa2-486aa0619200",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "396550006",
-          "display": "Cholecystectomy"
-        }
-      ],
-      "text": "Cholecystectomy"
-    },
-    "subject": {
-      "reference": "Patient/3fda44dc-22bc-40a0-b839-d1b86318db66"
-    },
-    "encounter": {
-      "reference": "Encounter/6b2a11d5-8d79-4ab0-ad46-3a41c7c40149"
-    },
-    "performedDateTime": "2024-08-31T05:02:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/1444dfea-04e4-4afa-9aee-2b41d32a9fb6"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "fc013081-c211-4610-b937-5ce3100b7144",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "410528000",
-          "display": "Nebulization therapy"
-        }
-      ],
-      "text": "Nebulization"
-    },
-    "subject": {
-      "reference": "Patient/3fda44dc-22bc-40a0-b839-d1b86318db66"
-    },
-    "encounter": {
-      "reference": "Encounter/9a495c07-bba0-48dc-a184-b0db9ca336cc"
-    },
-    "performedDateTime": "2025-02-10T03:21:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/76d520f1-4795-4cd8-bb15-15bec797eb7f"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "7845366f-5c8b-48b8-b2ab-74b970a6f9a9",
+    "id": "22b1ae64-fa0e-4083-8bf5-90635137b74d",
     "status": "completed",
     "code": {
       "coding": [
@@ -768,342 +324,25 @@
       "text": "MRI Brain"
     },
     "subject": {
-      "reference": "Patient/3fda44dc-22bc-40a0-b839-d1b86318db66"
+      "reference": "Patient/bc07989f-22ef-4ce0-afe8-7acbeda71a1d",
+      "display": "Shreya Patel"
     },
     "encounter": {
-      "reference": "Encounter/59c18bdf-3fe8-4cdb-9a7e-3f132efca401"
+      "reference": "Encounter/dcd050bf-364a-4781-8e32-0b7f7a857529"
     },
-    "performedDateTime": "2024-12-11T12:23:00.000Z",
+    "performedDateTime": "2026-07-07T03:36:00.000Z",
     "performer": [
       {
         "actor": {
-          "reference": "Practitioner/58553756-5e66-40d5-ad0a-62b204d2d54a"
+          "reference": "Practitioner/f1d1364c-ae78-4b73-b10d-4cb6ad5e2f0d",
+          "display": "Dr. Aditya Verma"
         }
       }
     ]
   },
   {
     "resourceType": "Procedure",
-    "id": "8a6a05ab-dbdf-4946-bd4f-ea4c58f8c959",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "241615005",
-          "display": "Echocardiogram"
-        }
-      ],
-      "text": "Echocardiogram"
-    },
-    "subject": {
-      "reference": "Patient/4ea57f89-80d9-4bbe-b684-074823d7cb24"
-    },
-    "encounter": {
-      "reference": "Encounter/0242a1f2-4332-4ab1-bb8c-d8ac20afd4e2"
-    },
-    "performedDateTime": "2024-03-27T12:14:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/828768e6-7a92-4883-b1cb-2e8b079efb43"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "18b3de07-2bd4-432b-a373-50a3dbbcd6b0",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "172960003",
-          "display": "Appendectomy"
-        }
-      ],
-      "text": "Appendectomy"
-    },
-    "subject": {
-      "reference": "Patient/4ea57f89-80d9-4bbe-b684-074823d7cb24"
-    },
-    "encounter": {
-      "reference": "Encounter/c69119f8-c3f8-43ca-a7a7-fb32152c94d1"
-    },
-    "performedDateTime": "2024-11-21T09:19:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/828768e6-7a92-4883-b1cb-2e8b079efb43"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "54dd1678-744e-4991-b65c-511a80f22553",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "443253003",
-          "display": "Ultrasound scan abdomen"
-        }
-      ],
-      "text": "Abdominal Ultrasound"
-    },
-    "subject": {
-      "reference": "Patient/0abba909-d1f2-4d7c-bdbe-deb5ed22bfc7"
-    },
-    "encounter": {
-      "reference": "Encounter/8abf0116-36fe-4859-a11f-30d59f919278"
-    },
-    "performedDateTime": "2024-11-29T04:28:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/ab9c691d-b82d-4de8-982e-bd97c2ec601d"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "dc7f2efb-713a-4a70-9204-15e8f432ee6e",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "17711008",
-          "display": "Fracture reduction"
-        }
-      ],
-      "text": "Fracture Reduction"
-    },
-    "subject": {
-      "reference": "Patient/0abba909-d1f2-4d7c-bdbe-deb5ed22bfc7"
-    },
-    "encounter": {
-      "reference": "Encounter/e99832cc-41aa-47e9-bb2a-7715f806cf2f"
-    },
-    "performedDateTime": "2024-06-03T07:13:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/ab9c691d-b82d-4de8-982e-bd97c2ec601d"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "bf5f850c-1147-4366-b72b-f5b3e6b9a27a",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "17711008",
-          "display": "Fracture reduction"
-        }
-      ],
-      "text": "Fracture Reduction"
-    },
-    "subject": {
-      "reference": "Patient/6e63b24c-f756-4a63-9aef-363d8f50563b"
-    },
-    "encounter": {
-      "reference": "Encounter/e2a713af-161c-47c7-b2cc-1042e5bd30e9"
-    },
-    "performedDateTime": "2025-12-25T09:01:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/9d495f2d-a4d9-4daf-9b3f-7900e480abcf"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "c5a5afe3-9ff1-423f-bb7d-600e42b089d1",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "396550006",
-          "display": "Cholecystectomy"
-        }
-      ],
-      "text": "Cholecystectomy"
-    },
-    "subject": {
-      "reference": "Patient/a0b6664f-1826-4cc7-83da-5b2e4bd198c8"
-    },
-    "encounter": {
-      "reference": "Encounter/e9471a8b-f0b1-464a-96e9-d2be3dda94d5"
-    },
-    "performedDateTime": "2026-02-23T05:53:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/e064e56e-2521-4f24-8d6f-16969b0bf83a"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "c4d554ff-9322-4130-98c5-963bb5052989",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "172960003",
-          "display": "Appendectomy"
-        }
-      ],
-      "text": "Appendectomy"
-    },
-    "subject": {
-      "reference": "Patient/a0b6664f-1826-4cc7-83da-5b2e4bd198c8"
-    },
-    "encounter": {
-      "reference": "Encounter/626137e9-6f5d-4315-a02d-633381b9c570"
-    },
-    "performedDateTime": "2025-12-17T06:35:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/e064e56e-2521-4f24-8d6f-16969b0bf83a"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "a8321736-2e8a-4271-993e-739cc2d16c6f",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "172960003",
-          "display": "Appendectomy"
-        }
-      ],
-      "text": "Appendectomy"
-    },
-    "subject": {
-      "reference": "Patient/a0b6664f-1826-4cc7-83da-5b2e4bd198c8"
-    },
-    "encounter": {
-      "reference": "Encounter/729092bf-e1b1-44d8-89d2-7e19e182cb14"
-    },
-    "performedDateTime": "2025-05-10T07:03:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/e064e56e-2521-4f24-8d6f-16969b0bf83a"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "02cf2485-e551-42f7-9ce6-b9c5485bee84",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "172960003",
-          "display": "Appendectomy"
-        }
-      ],
-      "text": "Appendectomy"
-    },
-    "subject": {
-      "reference": "Patient/3f5f7c5f-8467-4f09-889d-3772c98338f0"
-    },
-    "encounter": {
-      "reference": "Encounter/8ffcd59b-a0bb-49ce-a777-453acb83c0d5"
-    },
-    "performedDateTime": "2025-05-23T10:14:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/d15357a2-3c4e-49f6-ad26-87d2ea299a53"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "d81c4a66-85b9-4f51-b3e4-95b1bb045ad6",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "172960003",
-          "display": "Appendectomy"
-        }
-      ],
-      "text": "Appendectomy"
-    },
-    "subject": {
-      "reference": "Patient/3f5f7c5f-8467-4f09-889d-3772c98338f0"
-    },
-    "encounter": {
-      "reference": "Encounter/2756f963-04e7-4417-8ce6-169b6341cdb6"
-    },
-    "performedDateTime": "2025-08-02T10:18:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/e064e56e-2521-4f24-8d6f-16969b0bf83a"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "a562634a-96e2-463c-9af4-f21d7c252b49",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "172960003",
-          "display": "Appendectomy"
-        }
-      ],
-      "text": "Appendectomy"
-    },
-    "subject": {
-      "reference": "Patient/4c16b378-6b5e-4761-a094-57c284f76351"
-    },
-    "encounter": {
-      "reference": "Encounter/7d1de9bf-9c4c-49dc-8566-81c48761e470"
-    },
-    "performedDateTime": "2024-02-29T06:04:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/36dd4d1b-0c6d-4234-a293-0b3553fda30a"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "c08fe88d-c390-484a-90b7-8691711f1cee",
+    "id": "01493860-a263-4823-a68a-4a9677b2da34",
     "status": "completed",
     "code": {
       "coding": [
@@ -1116,168 +355,25 @@
       "text": "Chest X-Ray"
     },
     "subject": {
-      "reference": "Patient/4c16b378-6b5e-4761-a094-57c284f76351"
+      "reference": "Patient/768414d2-e7dd-436c-a5d4-418caf7ea7d2",
+      "display": "Varun Agarwal"
     },
     "encounter": {
-      "reference": "Encounter/ec29b5f6-5833-4ef3-91f8-57e5f2c3e985"
+      "reference": "Encounter/d1f1b137-868f-4c5e-bec2-2d6c5480743e"
     },
-    "performedDateTime": "2024-05-12T10:18:00.000Z",
+    "performedDateTime": "2026-01-01T06:22:00.000Z",
     "performer": [
       {
         "actor": {
-          "reference": "Practitioner/36dd4d1b-0c6d-4234-a293-0b3553fda30a"
+          "reference": "Practitioner/11d4e487-d2f8-4c88-b9a7-0b2bed109da6",
+          "display": "Dr. Rajesh Kumar"
         }
       }
     ]
   },
   {
     "resourceType": "Procedure",
-    "id": "b8fceadd-5de4-4772-9a27-902c29662743",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "396550006",
-          "display": "Cholecystectomy"
-        }
-      ],
-      "text": "Cholecystectomy"
-    },
-    "subject": {
-      "reference": "Patient/4c16b378-6b5e-4761-a094-57c284f76351"
-    },
-    "encounter": {
-      "reference": "Encounter/9333bd4c-7367-46b1-8f91-84e568b7d4fb"
-    },
-    "performedDateTime": "2026-01-07T12:26:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/9d495f2d-a4d9-4daf-9b3f-7900e480abcf"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "751eaa23-b2f4-419f-ac80-923c29b7feeb",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "172960003",
-          "display": "Appendectomy"
-        }
-      ],
-      "text": "Appendectomy"
-    },
-    "subject": {
-      "reference": "Patient/900a03f4-8308-4679-a8d7-3e96c03f395e"
-    },
-    "encounter": {
-      "reference": "Encounter/571a09ff-2905-4076-9dd9-439ce8475e62"
-    },
-    "performedDateTime": "2024-07-28T08:38:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/9d495f2d-a4d9-4daf-9b3f-7900e480abcf"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "c34fec2f-b0c6-4714-b0c6-063296ffc94e",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "172960003",
-          "display": "Appendectomy"
-        }
-      ],
-      "text": "Appendectomy"
-    },
-    "subject": {
-      "reference": "Patient/900a03f4-8308-4679-a8d7-3e96c03f395e"
-    },
-    "encounter": {
-      "reference": "Encounter/92bd6076-aeb6-4fb1-91ee-5163afe8d8cd"
-    },
-    "performedDateTime": "2024-02-23T12:41:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/9d495f2d-a4d9-4daf-9b3f-7900e480abcf"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "91f44283-15e0-430d-ad3f-1c0614a92b91",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "172960003",
-          "display": "Appendectomy"
-        }
-      ],
-      "text": "Appendectomy"
-    },
-    "subject": {
-      "reference": "Patient/a1bfdb28-23bf-4e02-b988-bf24bdb57e72"
-    },
-    "encounter": {
-      "reference": "Encounter/866ad986-fa71-448d-933e-b3e281c9b211"
-    },
-    "performedDateTime": "2026-02-23T03:33:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/eacdd71b-e4b0-4039-99f0-c7b18c4758e1"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "e1302f98-c596-41dd-b205-7d07234069e6",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "396550006",
-          "display": "Cholecystectomy"
-        }
-      ],
-      "text": "Cholecystectomy"
-    },
-    "subject": {
-      "reference": "Patient/a1bfdb28-23bf-4e02-b988-bf24bdb57e72"
-    },
-    "encounter": {
-      "reference": "Encounter/72f6b30c-b503-4c88-9ec4-6b6830344161"
-    },
-    "performedDateTime": "2026-04-02T11:33:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/5dddfb6c-7166-45aa-b698-58fcd630c7af"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "e84f8bd4-8053-4a7b-88db-7f8705f71e5a",
+    "id": "b9596da9-cc2d-4ce3-b2e8-069cf0dfcc85",
     "status": "completed",
     "code": {
       "coding": [
@@ -1290,429 +386,25 @@
       "text": "MRI Brain"
     },
     "subject": {
-      "reference": "Patient/1ffe00f8-445b-4b2b-b00d-6158ee63d654"
+      "reference": "Patient/50aaf61d-1107-4bd2-8bc3-5704bee20fa7",
+      "display": "Varun Malhotra"
     },
     "encounter": {
-      "reference": "Encounter/e095ff74-97e0-4671-bd88-449c33e689cb"
+      "reference": "Encounter/dca75790-42df-4939-ba8f-55e85f732f7e"
     },
-    "performedDateTime": "2025-10-03T04:03:00.000Z",
+    "performedDateTime": "2025-01-24T10:40:00.000Z",
     "performer": [
       {
         "actor": {
-          "reference": "Practitioner/eacdd71b-e4b0-4039-99f0-c7b18c4758e1"
+          "reference": "Practitioner/9d359a6d-25a8-4a26-a912-9b5ec6fc454d",
+          "display": "Dr. Vikram Verma"
         }
       }
     ]
   },
   {
     "resourceType": "Procedure",
-    "id": "10d74659-96d5-4149-99e2-cea57ba24f06",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "17711008",
-          "display": "Fracture reduction"
-        }
-      ],
-      "text": "Fracture Reduction"
-    },
-    "subject": {
-      "reference": "Patient/1ffe00f8-445b-4b2b-b00d-6158ee63d654"
-    },
-    "encounter": {
-      "reference": "Encounter/e4427563-329d-42a4-9489-532bcb1da2d6"
-    },
-    "performedDateTime": "2024-06-09T10:08:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/eacdd71b-e4b0-4039-99f0-c7b18c4758e1"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "955802f5-1e4e-477c-820e-9fbc6f300dee",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "17711008",
-          "display": "Fracture reduction"
-        }
-      ],
-      "text": "Fracture Reduction"
-    },
-    "subject": {
-      "reference": "Patient/0cbfeb5d-1eda-4e36-96ec-b2e11b1084a4"
-    },
-    "encounter": {
-      "reference": "Encounter/01509524-5416-466b-9f55-54c99e65b193"
-    },
-    "performedDateTime": "2024-06-05T10:38:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/58553756-5e66-40d5-ad0a-62b204d2d54a"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "480e1cc7-47cf-489c-a577-a09423378e04",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "443253003",
-          "display": "Ultrasound scan abdomen"
-        }
-      ],
-      "text": "Abdominal Ultrasound"
-    },
-    "subject": {
-      "reference": "Patient/4e04e425-ebeb-47ed-aa67-a45f24fbf34d"
-    },
-    "encounter": {
-      "reference": "Encounter/acf3be57-4cb0-473c-9b54-08cf9f953e94"
-    },
-    "performedDateTime": "2025-10-26T02:52:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/5099d513-0645-4b59-ab2e-f947e0cb7047"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "1818d337-932a-40bc-8542-06f11c2d58e7",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "396550006",
-          "display": "Cholecystectomy"
-        }
-      ],
-      "text": "Cholecystectomy"
-    },
-    "subject": {
-      "reference": "Patient/ce35c9b4-c66b-4226-afd8-1447256c7a44"
-    },
-    "encounter": {
-      "reference": "Encounter/1330b3d8-8349-4cd5-812e-ff1038f125b5"
-    },
-    "performedDateTime": "2025-12-02T06:54:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/5099d513-0645-4b59-ab2e-f947e0cb7047"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "720613f1-42e2-4867-8321-5ec649e14c18",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "396550006",
-          "display": "Cholecystectomy"
-        }
-      ],
-      "text": "Cholecystectomy"
-    },
-    "subject": {
-      "reference": "Patient/a46c3978-485f-45b6-b998-d9a67d4de1ac"
-    },
-    "encounter": {
-      "reference": "Encounter/90b28ebc-b662-435c-a9f5-20c09d88c4c1"
-    },
-    "performedDateTime": "2025-12-01T04:57:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/5099d513-0645-4b59-ab2e-f947e0cb7047"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "2547927e-bd79-4165-9c5c-221119bb6562",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "396550006",
-          "display": "Cholecystectomy"
-        }
-      ],
-      "text": "Cholecystectomy"
-    },
-    "subject": {
-      "reference": "Patient/a46c3978-485f-45b6-b998-d9a67d4de1ac"
-    },
-    "encounter": {
-      "reference": "Encounter/d3931b54-b1c1-4391-ad75-ad7516f06495"
-    },
-    "performedDateTime": "2024-10-29T08:31:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/5099d513-0645-4b59-ab2e-f947e0cb7047"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "1ec84386-3d96-49e3-a0c7-78b11b4b7ea5",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "172960003",
-          "display": "Appendectomy"
-        }
-      ],
-      "text": "Appendectomy"
-    },
-    "subject": {
-      "reference": "Patient/442c5501-12d7-4486-972b-0427b16bb6a5"
-    },
-    "encounter": {
-      "reference": "Encounter/840bbeb4-af66-4129-aea6-87b881d3bf9a"
-    },
-    "performedDateTime": "2026-01-14T03:04:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/5099d513-0645-4b59-ab2e-f947e0cb7047"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "b4406061-2c62-40d2-92e7-d0b7e1a0df81",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "443253003",
-          "display": "Ultrasound scan abdomen"
-        }
-      ],
-      "text": "Abdominal Ultrasound"
-    },
-    "subject": {
-      "reference": "Patient/442c5501-12d7-4486-972b-0427b16bb6a5"
-    },
-    "encounter": {
-      "reference": "Encounter/959808f8-a3ce-4beb-907c-c67dfb2f6788"
-    },
-    "performedDateTime": "2026-02-13T10:26:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/5099d513-0645-4b59-ab2e-f947e0cb7047"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "db48e470-46d5-46e2-b8b5-9c5aa6b539b0",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "443253003",
-          "display": "Ultrasound scan abdomen"
-        }
-      ],
-      "text": "Abdominal Ultrasound"
-    },
-    "subject": {
-      "reference": "Patient/d744394c-9a66-4718-96c4-0e5376ab1d9c"
-    },
-    "encounter": {
-      "reference": "Encounter/935204c7-503c-49e5-8c5a-01a09746359e"
-    },
-    "performedDateTime": "2024-12-15T09:44:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/9b2a7886-8be4-48ac-8b4e-a005654e1bf6"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "33d2a7f5-e7f6-4e23-858f-d55317c376a3",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "241615005",
-          "display": "Echocardiogram"
-        }
-      ],
-      "text": "Echocardiogram"
-    },
-    "subject": {
-      "reference": "Patient/817fd492-8fe3-4122-8b43-6b58e76bc658"
-    },
-    "encounter": {
-      "reference": "Encounter/177847c3-1d39-4805-9d3d-dd12bd90e6fa"
-    },
-    "performedDateTime": "2024-09-29T09:06:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/eacdd71b-e4b0-4039-99f0-c7b18c4758e1"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "e1f42a2b-f35c-475a-bcce-7204aaff5213",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "387713003",
-          "display": "Wound dressing"
-        }
-      ],
-      "text": "Wound Dressing"
-    },
-    "subject": {
-      "reference": "Patient/817fd492-8fe3-4122-8b43-6b58e76bc658"
-    },
-    "encounter": {
-      "reference": "Encounter/435fa150-4eb0-4ade-a2d0-8cbb316e34e6"
-    },
-    "performedDateTime": "2025-11-03T12:31:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/eacdd71b-e4b0-4039-99f0-c7b18c4758e1"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "40431263-deaa-47f9-917c-ef96c1c96045",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "410528000",
-          "display": "Nebulization therapy"
-        }
-      ],
-      "text": "Nebulization"
-    },
-    "subject": {
-      "reference": "Patient/817fd492-8fe3-4122-8b43-6b58e76bc658"
-    },
-    "encounter": {
-      "reference": "Encounter/a4bf4656-0817-4611-b871-64fae5c59f75"
-    },
-    "performedDateTime": "2026-01-15T04:37:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/76d520f1-4795-4cd8-bb15-15bec797eb7f"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "1936579c-0151-43b2-90b2-00d9fd2447d3",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "172960003",
-          "display": "Appendectomy"
-        }
-      ],
-      "text": "Appendectomy"
-    },
-    "subject": {
-      "reference": "Patient/243708ad-4f75-47f1-93a6-865d75e72a12"
-    },
-    "encounter": {
-      "reference": "Encounter/66680ec3-292b-4fa6-b71e-897f5697845b"
-    },
-    "performedDateTime": "2025-08-18T07:57:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/58553756-5e66-40d5-ad0a-62b204d2d54a"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "46184306-ff6c-42fa-a8b7-1ddddef20c03",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "387713003",
-          "display": "Wound dressing"
-        }
-      ],
-      "text": "Wound Dressing"
-    },
-    "subject": {
-      "reference": "Patient/243708ad-4f75-47f1-93a6-865d75e72a12"
-    },
-    "encounter": {
-      "reference": "Encounter/a6837522-97f8-4a71-9fd3-ec5b3cdf0ed3"
-    },
-    "performedDateTime": "2025-03-09T10:22:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/58553756-5e66-40d5-ad0a-62b204d2d54a"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "48748cbe-6a92-4b28-8382-02ada31e8bae",
+    "id": "c4d88557-71bf-432c-825d-be92d31db591",
     "status": "completed",
     "code": {
       "coding": [
@@ -1725,52 +417,25 @@
       "text": "ECG"
     },
     "subject": {
-      "reference": "Patient/36672e60-ba8a-4ac3-89ae-218294af7ea0"
+      "reference": "Patient/403cd086-ed8c-4b8f-b7aa-8f649a6758b8",
+      "display": "Rajesh Nair"
     },
     "encounter": {
-      "reference": "Encounter/00cb75a7-7bef-4869-bd33-97b85fc799f2"
+      "reference": "Encounter/b1dad884-0ee7-40f4-b7e4-1f621268bd18"
     },
-    "performedDateTime": "2025-08-03T11:53:00.000Z",
+    "performedDateTime": "2026-07-20T08:13:00.000Z",
     "performer": [
       {
         "actor": {
-          "reference": "Practitioner/e064e56e-2521-4f24-8d6f-16969b0bf83a"
+          "reference": "Practitioner/62be934f-b3ce-4fab-a8a6-8fd13e0d9819",
+          "display": "Dr. Meera Patel"
         }
       }
     ]
   },
   {
     "resourceType": "Procedure",
-    "id": "ac9e9281-98ed-4076-a386-f38fa7fd2619",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "387713003",
-          "display": "Wound dressing"
-        }
-      ],
-      "text": "Wound Dressing"
-    },
-    "subject": {
-      "reference": "Patient/48de2415-846d-4976-9129-59f5d5010376"
-    },
-    "encounter": {
-      "reference": "Encounter/40b2c313-3587-4a0e-a08f-82f01f1750f8"
-    },
-    "performedDateTime": "2024-04-12T09:51:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/58553756-5e66-40d5-ad0a-62b204d2d54a"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "684e4894-9c60-4e90-9eaa-42b9d95eb027",
+    "id": "51ba04e7-7913-4d79-9576-24ae09279712",
     "status": "completed",
     "code": {
       "coding": [
@@ -1783,284 +448,56 @@
       "text": "Cholecystectomy"
     },
     "subject": {
-      "reference": "Patient/48de2415-846d-4976-9129-59f5d5010376"
+      "reference": "Patient/403cd086-ed8c-4b8f-b7aa-8f649a6758b8",
+      "display": "Rajesh Nair"
     },
     "encounter": {
-      "reference": "Encounter/9f52c1c0-75a7-4f93-822f-7701247bdc3a"
+      "reference": "Encounter/985512b9-bd4c-4707-92bf-9537784e4bdc"
     },
-    "performedDateTime": "2025-01-11T10:57:00.000Z",
+    "performedDateTime": "2024-10-25T07:04:00.000Z",
     "performer": [
       {
         "actor": {
-          "reference": "Practitioner/828768e6-7a92-4883-b1cb-2e8b079efb43"
+          "reference": "Practitioner/7fa0e57f-70e0-49de-8e51-0f59e9f0e824",
+          "display": "Dr. Rohan Patel"
         }
       }
     ]
   },
   {
     "resourceType": "Procedure",
-    "id": "e301e441-f1c4-453e-969d-dffd9b9acec7",
+    "id": "c8de1dc1-d805-4417-837b-e9a8e04bce99",
     "status": "completed",
     "code": {
       "coding": [
         {
           "system": "http://snomed.info/sct",
-          "code": "241615005",
-          "display": "Echocardiogram"
+          "code": "113091000",
+          "display": "Magnetic resonance imaging of brain"
         }
       ],
-      "text": "Echocardiogram"
+      "text": "MRI Brain"
     },
     "subject": {
-      "reference": "Patient/96b8e197-d9fc-47ee-9777-195a2e4ef404"
+      "reference": "Patient/01394956-9eb9-4099-8eec-a71a137eab18",
+      "display": "Suresh Mehta"
     },
     "encounter": {
-      "reference": "Encounter/cb806ffc-da42-41fd-9cb6-be2c7645c8d6"
+      "reference": "Encounter/c934143a-88dd-46fb-bb8c-c471ce178598"
     },
-    "performedDateTime": "2025-10-28T11:40:00.000Z",
+    "performedDateTime": "2026-06-14T10:50:00.000Z",
     "performer": [
       {
         "actor": {
-          "reference": "Practitioner/58553756-5e66-40d5-ad0a-62b204d2d54a"
+          "reference": "Practitioner/f9754da8-8c72-4b42-8a86-a06f9cad64db",
+          "display": "Dr. Meera Rao"
         }
       }
     ]
   },
   {
     "resourceType": "Procedure",
-    "id": "82efb358-d0bc-4cf5-8757-a445f761b7b9",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "17711008",
-          "display": "Fracture reduction"
-        }
-      ],
-      "text": "Fracture Reduction"
-    },
-    "subject": {
-      "reference": "Patient/2071ae04-9c0a-418f-8e3f-6d734a176e9e"
-    },
-    "encounter": {
-      "reference": "Encounter/a2674e6c-ce7f-4279-b69a-aac546fcc97a"
-    },
-    "performedDateTime": "2025-06-21T04:12:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/00a93a24-0636-4553-aefa-58512c2c26ab"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "bd5c24f9-07b8-40b4-adc1-8be7af7d5e14",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "396550006",
-          "display": "Cholecystectomy"
-        }
-      ],
-      "text": "Cholecystectomy"
-    },
-    "subject": {
-      "reference": "Patient/24693b3f-3324-400c-b03b-6db7cf0be2a5"
-    },
-    "encounter": {
-      "reference": "Encounter/785ae5b1-26ee-49e1-866e-033bc43269d8"
-    },
-    "performedDateTime": "2026-03-19T06:44:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/eacdd71b-e4b0-4039-99f0-c7b18c4758e1"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "cd7dfc3e-f2c0-4f51-b5bc-99b1c9490759",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "71651007",
-          "display": "X-Ray chest"
-        }
-      ],
-      "text": "Chest X-Ray"
-    },
-    "subject": {
-      "reference": "Patient/24693b3f-3324-400c-b03b-6db7cf0be2a5"
-    },
-    "encounter": {
-      "reference": "Encounter/04bfca93-84f6-4225-80be-7b0a3e13623d"
-    },
-    "performedDateTime": "2024-01-20T03:29:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/9b2a7886-8be4-48ac-8b4e-a005654e1bf6"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "a735b2e6-54d5-4718-a2f8-a6d1787b2f3d",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "387713003",
-          "display": "Wound dressing"
-        }
-      ],
-      "text": "Wound Dressing"
-    },
-    "subject": {
-      "reference": "Patient/afd4cb6b-ec03-47fd-adaf-c05e0c9c3733"
-    },
-    "encounter": {
-      "reference": "Encounter/6c5df9cd-2a7f-4c48-ab7a-5df33cab8f50"
-    },
-    "performedDateTime": "2025-09-29T08:56:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/eacdd71b-e4b0-4039-99f0-c7b18c4758e1"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "24f8d6cc-c284-4249-97d4-9e0e54a50008",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "17711008",
-          "display": "Fracture reduction"
-        }
-      ],
-      "text": "Fracture Reduction"
-    },
-    "subject": {
-      "reference": "Patient/ef53a0a8-d54a-4374-9114-d2e77164984f"
-    },
-    "encounter": {
-      "reference": "Encounter/54064bb4-637f-45ca-b2a5-89e831239ede"
-    },
-    "performedDateTime": "2025-02-09T04:41:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/58553756-5e66-40d5-ad0a-62b204d2d54a"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "542b2cb5-6562-4b1d-87a4-112d2b18144a",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "396550006",
-          "display": "Cholecystectomy"
-        }
-      ],
-      "text": "Cholecystectomy"
-    },
-    "subject": {
-      "reference": "Patient/8a010156-4e7a-4c8e-b376-6206367257bd"
-    },
-    "encounter": {
-      "reference": "Encounter/94752afc-b566-4694-a180-c2d0c86e611b"
-    },
-    "performedDateTime": "2026-01-26T10:41:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/828768e6-7a92-4883-b1cb-2e8b079efb43"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "efee6903-8bc3-4097-8ea9-4bb640c25b34",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "17711008",
-          "display": "Fracture reduction"
-        }
-      ],
-      "text": "Fracture Reduction"
-    },
-    "subject": {
-      "reference": "Patient/2e89785f-a262-4ef1-a20d-e4f8685af81a"
-    },
-    "encounter": {
-      "reference": "Encounter/229d7b9d-8881-4089-9936-52b53f747cc2"
-    },
-    "performedDateTime": "2024-03-09T03:38:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/5099d513-0645-4b59-ab2e-f947e0cb7047"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "f4a14641-4b99-4eb9-ad39-78942ae02f80",
-    "status": "completed",
-    "code": {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "code": "172960003",
-          "display": "Appendectomy"
-        }
-      ],
-      "text": "Appendectomy"
-    },
-    "subject": {
-      "reference": "Patient/2e89785f-a262-4ef1-a20d-e4f8685af81a"
-    },
-    "encounter": {
-      "reference": "Encounter/9ae95c23-1156-4c3f-8843-5a1df8efd321"
-    },
-    "performedDateTime": "2025-07-06T06:39:00.000Z",
-    "performer": [
-      {
-        "actor": {
-          "reference": "Practitioner/eacdd71b-e4b0-4039-99f0-c7b18c4758e1"
-        }
-      }
-    ]
-  },
-  {
-    "resourceType": "Procedure",
-    "id": "8cc6bb87-de62-4156-8354-a66239a9e47e",
+    "id": "de1a177b-cdd6-45d8-ba23-6b5a16ec14ac",
     "status": "completed",
     "code": {
       "coding": [
@@ -2073,23 +510,25 @@
       "text": "ECG"
     },
     "subject": {
-      "reference": "Patient/2e89785f-a262-4ef1-a20d-e4f8685af81a"
+      "reference": "Patient/01394956-9eb9-4099-8eec-a71a137eab18",
+      "display": "Suresh Mehta"
     },
     "encounter": {
-      "reference": "Encounter/78939b55-60ad-4730-89ff-b531d2350a74"
+      "reference": "Encounter/dc73cc2c-00b2-4f89-9cc0-d66f09515cb7"
     },
-    "performedDateTime": "2026-02-22T07:50:00.000Z",
+    "performedDateTime": "2024-06-30T07:27:00.000Z",
     "performer": [
       {
         "actor": {
-          "reference": "Practitioner/5099d513-0645-4b59-ab2e-f947e0cb7047"
+          "reference": "Practitioner/7fa0e57f-70e0-49de-8e51-0f59e9f0e824",
+          "display": "Dr. Rohan Patel"
         }
       }
     ]
   },
   {
     "resourceType": "Procedure",
-    "id": "2a0e5473-8d67-49b2-8e72-05fe8351666e",
+    "id": "4a4e8100-635a-442b-84f6-78ffe4ea4d53",
     "status": "completed",
     "code": {
       "coding": [
@@ -2102,23 +541,180 @@
       "text": "Chest X-Ray"
     },
     "subject": {
-      "reference": "Patient/6c99e6d3-01f8-44d5-a7bf-307cc26499a6"
+      "reference": "Patient/27906045-313d-4312-ae03-e016a74637d6",
+      "display": "Sneha Rao"
     },
     "encounter": {
-      "reference": "Encounter/6b76931f-7965-4e6b-a95b-0de910c5585f"
+      "reference": "Encounter/5059eec8-69a6-4b60-ab0e-db7fd67ca3ea"
     },
-    "performedDateTime": "2024-02-12T09:43:00.000Z",
+    "performedDateTime": "2026-06-29T03:47:00.000Z",
     "performer": [
       {
         "actor": {
-          "reference": "Practitioner/88b97667-1e24-4853-be8b-86b5c67e2ae1"
+          "reference": "Practitioner/43d0e726-0768-4b2a-ac9f-b5803e874196",
+          "display": "Dr. Ankit Reddy"
         }
       }
     ]
   },
   {
     "resourceType": "Procedure",
-    "id": "59023cea-645e-49cf-80cd-384ef9fd61f3",
+    "id": "2aa79255-bf23-4b80-9a7f-1c3a5ba550b3",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "241615005",
+          "display": "Echocardiogram"
+        }
+      ],
+      "text": "Echocardiogram"
+    },
+    "subject": {
+      "reference": "Patient/d285961c-1a83-42af-aa6a-bea9b605fb7a",
+      "display": "Shreya Reddy"
+    },
+    "encounter": {
+      "reference": "Encounter/9d512b1a-3adc-46c8-9ea7-e331b11d09e9"
+    },
+    "performedDateTime": "2024-06-28T10:34:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/9a496a83-389a-4017-bca7-76c4477c6db8",
+          "display": "Dr. Rohan Rao"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "21451acb-7ae5-48d2-a5a9-f76c4f25681c",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17711008",
+          "display": "Fracture reduction"
+        }
+      ],
+      "text": "Fracture Reduction"
+    },
+    "subject": {
+      "reference": "Patient/d285961c-1a83-42af-aa6a-bea9b605fb7a",
+      "display": "Shreya Reddy"
+    },
+    "encounter": {
+      "reference": "Encounter/40313585-659d-4b08-802b-67defd335d4e"
+    },
+    "performedDateTime": "2026-06-06T05:40:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/d8b3a01b-d9ea-4c90-a20d-3260452b1533",
+          "display": "Dr. Suresh Mehta"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "dc8b18e9-b5f8-4046-ba34-74eef4aecb81",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "387713003",
+          "display": "Wound dressing"
+        }
+      ],
+      "text": "Wound Dressing"
+    },
+    "subject": {
+      "reference": "Patient/6bcbba6a-6401-4307-a1d7-eb74bb8d0ec1",
+      "display": "Karan Sharma"
+    },
+    "encounter": {
+      "reference": "Encounter/f71b41ac-1c8c-4dd6-b279-212f099b1f60"
+    },
+    "performedDateTime": "2026-07-17T09:09:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/9fb7e69a-b18e-4f59-a018-3ba7c9958217",
+          "display": "Dr. Karan Sharma"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "05c10ef8-dff4-410d-94ef-eb71a67f1c53",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17711008",
+          "display": "Fracture reduction"
+        }
+      ],
+      "text": "Fracture Reduction"
+    },
+    "subject": {
+      "reference": "Patient/6bcbba6a-6401-4307-a1d7-eb74bb8d0ec1",
+      "display": "Karan Sharma"
+    },
+    "encounter": {
+      "reference": "Encounter/64926abc-c85e-4e0a-bf1f-0182da28bcac"
+    },
+    "performedDateTime": "2024-11-21T06:09:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/9fb7e69a-b18e-4f59-a018-3ba7c9958217",
+          "display": "Dr. Karan Sharma"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "8d142e55-9788-44ef-be33-fb2a73c6f44f",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "172960003",
+          "display": "Appendectomy"
+        }
+      ],
+      "text": "Appendectomy"
+    },
+    "subject": {
+      "reference": "Patient/0282aa00-c05c-4c4f-b480-8cd0a9200fdd",
+      "display": "Meera Sharma"
+    },
+    "encounter": {
+      "reference": "Encounter/5cca7784-d997-48b7-ac04-5fa23ec72d2b"
+    },
+    "performedDateTime": "2026-02-14T05:14:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/f1d1364c-ae78-4b73-b10d-4cb6ad5e2f0d",
+          "display": "Dr. Aditya Verma"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "2ea91a0d-8d50-4627-bf86-892d827bd08c",
     "status": "completed",
     "code": {
       "coding": [
@@ -2131,23 +727,831 @@
       "text": "Nebulization"
     },
     "subject": {
-      "reference": "Patient/98eaf53a-8bd9-4aa5-bc94-5c06df5bb08b"
+      "reference": "Patient/0282aa00-c05c-4c4f-b480-8cd0a9200fdd",
+      "display": "Meera Sharma"
     },
     "encounter": {
-      "reference": "Encounter/63410f0c-1029-4da6-9540-cab77754ed63"
+      "reference": "Encounter/7f60aa83-0686-41b6-8f00-df9e353ce1ea"
     },
-    "performedDateTime": "2025-01-12T03:05:00.000Z",
+    "performedDateTime": "2026-06-03T11:54:00.000Z",
     "performer": [
       {
         "actor": {
-          "reference": "Practitioner/5099d513-0645-4b59-ab2e-f947e0cb7047"
+          "reference": "Practitioner/2a07f991-0977-4209-82b6-8007fc9d817d",
+          "display": "Dr. Ankit Shah"
         }
       }
     ]
   },
   {
     "resourceType": "Procedure",
-    "id": "80392610-795b-4e6a-9d39-82cfeeed0fd2",
+    "id": "e28e72d3-0815-4a1d-9309-c669328dcba7",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "113091000",
+          "display": "Magnetic resonance imaging of brain"
+        }
+      ],
+      "text": "MRI Brain"
+    },
+    "subject": {
+      "reference": "Patient/4a98c9c9-9bd9-4e2b-837c-2666f3b3edd8",
+      "display": "Isha Iyer"
+    },
+    "encounter": {
+      "reference": "Encounter/0ea33839-f22e-4d9c-9a18-a9687fa56b85"
+    },
+    "performedDateTime": "2026-08-16T11:08:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/d8b3a01b-d9ea-4c90-a20d-3260452b1533",
+          "display": "Dr. Suresh Mehta"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "22f5b573-d04f-4ab4-af5a-6cfc5783484f",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "387713003",
+          "display": "Wound dressing"
+        }
+      ],
+      "text": "Wound Dressing"
+    },
+    "subject": {
+      "reference": "Patient/4a98c9c9-9bd9-4e2b-837c-2666f3b3edd8",
+      "display": "Isha Iyer"
+    },
+    "encounter": {
+      "reference": "Encounter/63583205-f96f-4ebe-af7f-b1d4a06b24af"
+    },
+    "performedDateTime": "2025-10-06T09:34:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/ccb0a6b3-1970-49da-a8ec-e3f8800aa6fc",
+          "display": "Dr. Arjun Reddy"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "179a835b-f193-4663-9707-1e8f92bbbbaf",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "410528000",
+          "display": "Nebulization therapy"
+        }
+      ],
+      "text": "Nebulization"
+    },
+    "subject": {
+      "reference": "Patient/d726f806-0a7b-4332-be22-d92694b32182",
+      "display": "Neha Iyer"
+    },
+    "encounter": {
+      "reference": "Encounter/35ce30f9-f665-411a-b386-11d46eddf14d"
+    },
+    "performedDateTime": "2025-01-27T12:00:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/9fb7e69a-b18e-4f59-a018-3ba7c9958217",
+          "display": "Dr. Karan Sharma"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "b499756f-49a7-4e05-95da-0b874e997c3e",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "172960003",
+          "display": "Appendectomy"
+        }
+      ],
+      "text": "Appendectomy"
+    },
+    "subject": {
+      "reference": "Patient/d726f806-0a7b-4332-be22-d92694b32182",
+      "display": "Neha Iyer"
+    },
+    "encounter": {
+      "reference": "Encounter/c9977864-2969-4ae3-bb0e-b4a7b88beb05"
+    },
+    "performedDateTime": "2026-05-05T08:32:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/9fb7e69a-b18e-4f59-a018-3ba7c9958217",
+          "display": "Dr. Karan Sharma"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "380d9087-096a-4fff-b63b-3b3b2ef71905",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17711008",
+          "display": "Fracture reduction"
+        }
+      ],
+      "text": "Fracture Reduction"
+    },
+    "subject": {
+      "reference": "Patient/6371dd4e-8437-4d5e-b7da-ceb412c161b0",
+      "display": "Riya Patel"
+    },
+    "encounter": {
+      "reference": "Encounter/dde2ac0e-21eb-4b3b-8b66-95bc9ffc1c22"
+    },
+    "performedDateTime": "2025-08-24T07:39:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/11d4e487-d2f8-4c88-b9a7-0b2bed109da6",
+          "display": "Dr. Rajesh Kumar"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "03dff5b9-0e03-4227-bd89-57dd9b624b16",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "71651007",
+          "display": "X-Ray chest"
+        }
+      ],
+      "text": "Chest X-Ray"
+    },
+    "subject": {
+      "reference": "Patient/20c17f44-bce8-4217-b642-9a170f104c4e",
+      "display": "Sara Verma"
+    },
+    "encounter": {
+      "reference": "Encounter/b75d73e8-5eb3-425c-a588-1b466345fda2"
+    },
+    "performedDateTime": "2025-06-04T07:12:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/f9754da8-8c72-4b42-8a86-a06f9cad64db",
+          "display": "Dr. Meera Rao"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "ec1144e8-043a-4d71-80f4-c11234798537",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "172960003",
+          "display": "Appendectomy"
+        }
+      ],
+      "text": "Appendectomy"
+    },
+    "subject": {
+      "reference": "Patient/20c17f44-bce8-4217-b642-9a170f104c4e",
+      "display": "Sara Verma"
+    },
+    "encounter": {
+      "reference": "Encounter/0181fffa-eb0d-462f-bcd2-b006015703f8"
+    },
+    "performedDateTime": "2026-08-06T08:26:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/f9754da8-8c72-4b42-8a86-a06f9cad64db",
+          "display": "Dr. Meera Rao"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "d86f46f2-6607-434d-a23f-4c2f8e550254",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "172960003",
+          "display": "Appendectomy"
+        }
+      ],
+      "text": "Appendectomy"
+    },
+    "subject": {
+      "reference": "Patient/d973d6fe-a8ee-4019-b322-3e52f4408d2a",
+      "display": "Meera Singh"
+    },
+    "encounter": {
+      "reference": "Encounter/dc786f25-8f6a-4f56-83c8-50f097dd9fdf"
+    },
+    "performedDateTime": "2025-12-31T06:16:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/9fb7e69a-b18e-4f59-a018-3ba7c9958217",
+          "display": "Dr. Karan Sharma"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "27c0d13f-00fe-4780-b9db-ae8dae5c4a0c",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "396550006",
+          "display": "Cholecystectomy"
+        }
+      ],
+      "text": "Cholecystectomy"
+    },
+    "subject": {
+      "reference": "Patient/d973d6fe-a8ee-4019-b322-3e52f4408d2a",
+      "display": "Meera Singh"
+    },
+    "encounter": {
+      "reference": "Encounter/90110b3b-c508-4de2-8da7-d84494daddd2"
+    },
+    "performedDateTime": "2026-09-01T07:47:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/9fb7e69a-b18e-4f59-a018-3ba7c9958217",
+          "display": "Dr. Karan Sharma"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "814b0db5-dd08-4869-9fb8-093e69aad925",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "301095005",
+          "display": "Electrocardiogram"
+        }
+      ],
+      "text": "ECG"
+    },
+    "subject": {
+      "reference": "Patient/d973d6fe-a8ee-4019-b322-3e52f4408d2a",
+      "display": "Meera Singh"
+    },
+    "encounter": {
+      "reference": "Encounter/086f9fbd-5522-4cf2-844a-76f3a5846410"
+    },
+    "performedDateTime": "2026-08-19T11:23:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/9fb7e69a-b18e-4f59-a018-3ba7c9958217",
+          "display": "Dr. Karan Sharma"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "4d1e98d6-1920-4f83-ab3e-c9c7bf3cd3c1",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17711008",
+          "display": "Fracture reduction"
+        }
+      ],
+      "text": "Fracture Reduction"
+    },
+    "subject": {
+      "reference": "Patient/287c6bf5-c17f-4002-a3cf-de9a38a7917b",
+      "display": "Nikhil Singh"
+    },
+    "encounter": {
+      "reference": "Encounter/6c1eb2b2-54e8-4100-9d50-433a10dc5ea4"
+    },
+    "performedDateTime": "2025-10-07T10:27:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/f1d1364c-ae78-4b73-b10d-4cb6ad5e2f0d",
+          "display": "Dr. Aditya Verma"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "110a38bc-9990-489e-b263-25a05c5842bb",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "396550006",
+          "display": "Cholecystectomy"
+        }
+      ],
+      "text": "Cholecystectomy"
+    },
+    "subject": {
+      "reference": "Patient/4f974361-0932-47ea-bdaa-5a8522d3369b",
+      "display": "Radha Gupta"
+    },
+    "encounter": {
+      "reference": "Encounter/54869285-102c-4919-81e6-be0ae22ae0e3"
+    },
+    "performedDateTime": "2025-10-30T02:57:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/62be934f-b3ce-4fab-a8a6-8fd13e0d9819",
+          "display": "Dr. Meera Patel"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "ed3ebdb0-3a8c-4689-8fc2-573bf540dd16",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "172960003",
+          "display": "Appendectomy"
+        }
+      ],
+      "text": "Appendectomy"
+    },
+    "subject": {
+      "reference": "Patient/f1803042-b2b4-4b00-81d9-18644f9806d9",
+      "display": "Riya Shah"
+    },
+    "encounter": {
+      "reference": "Encounter/11879f66-3ffb-4fd5-9e32-1935769339f2"
+    },
+    "performedDateTime": "2026-08-04T11:57:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/2a07f991-0977-4209-82b6-8007fc9d817d",
+          "display": "Dr. Ankit Shah"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "d87935e3-64b2-446f-a0e1-b6f0d1349a5a",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17711008",
+          "display": "Fracture reduction"
+        }
+      ],
+      "text": "Fracture Reduction"
+    },
+    "subject": {
+      "reference": "Patient/384c7a61-b186-4ed1-b2c7-7388a1bff5fb",
+      "display": "Diya Singh"
+    },
+    "encounter": {
+      "reference": "Encounter/eaece382-0830-421a-a13b-bf429d21836a"
+    },
+    "performedDateTime": "2026-07-31T04:12:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/da7f8001-08b7-4453-a18d-44d443278b5f",
+          "display": "Dr. Rajesh Mehta"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "59a5f8f5-4c56-4417-a119-4f66b94061ca",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "71651007",
+          "display": "X-Ray chest"
+        }
+      ],
+      "text": "Chest X-Ray"
+    },
+    "subject": {
+      "reference": "Patient/6baf67ba-abad-4025-a81d-b54b183e16f5",
+      "display": "Zara Mehta"
+    },
+    "encounter": {
+      "reference": "Encounter/368eec93-e960-4821-b9d6-345e4032d4d9"
+    },
+    "performedDateTime": "2026-05-07T09:46:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/43d0e726-0768-4b2a-ac9f-b5803e874196",
+          "display": "Dr. Ankit Reddy"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "23f427ed-646a-40dc-8021-451590b9684e",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "113091000",
+          "display": "Magnetic resonance imaging of brain"
+        }
+      ],
+      "text": "MRI Brain"
+    },
+    "subject": {
+      "reference": "Patient/6baf67ba-abad-4025-a81d-b54b183e16f5",
+      "display": "Zara Mehta"
+    },
+    "encounter": {
+      "reference": "Encounter/be3a5755-7390-4f1e-903c-ace13501d616"
+    },
+    "performedDateTime": "2025-08-05T05:48:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/43d0e726-0768-4b2a-ac9f-b5803e874196",
+          "display": "Dr. Ankit Reddy"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "087bce3f-c20f-4e20-8609-0fea845ce784",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "410528000",
+          "display": "Nebulization therapy"
+        }
+      ],
+      "text": "Nebulization"
+    },
+    "subject": {
+      "reference": "Patient/33755a29-98ae-45fb-8848-3dd5f37c41b4",
+      "display": "Diya Malhotra"
+    },
+    "encounter": {
+      "reference": "Encounter/3251ba9b-3916-4dca-9b04-f7a6f35e4e85"
+    },
+    "performedDateTime": "2026-07-18T07:49:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/f1d1364c-ae78-4b73-b10d-4cb6ad5e2f0d",
+          "display": "Dr. Aditya Verma"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "02174cb2-0ab5-4dbb-be4b-ab8cad82d1ac",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "396550006",
+          "display": "Cholecystectomy"
+        }
+      ],
+      "text": "Cholecystectomy"
+    },
+    "subject": {
+      "reference": "Patient/33755a29-98ae-45fb-8848-3dd5f37c41b4",
+      "display": "Diya Malhotra"
+    },
+    "encounter": {
+      "reference": "Encounter/75c23d9c-3aa0-4479-8cf2-af95357be972"
+    },
+    "performedDateTime": "2025-09-02T10:48:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/9a496a83-389a-4017-bca7-76c4477c6db8",
+          "display": "Dr. Rohan Rao"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "9ab2ef03-66ab-4248-ad18-76a5b6ba3b4a",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "71651007",
+          "display": "X-Ray chest"
+        }
+      ],
+      "text": "Chest X-Ray"
+    },
+    "subject": {
+      "reference": "Patient/4966eb75-f7cc-4f77-8dfb-18615751ff83",
+      "display": "Aditya Joshi"
+    },
+    "encounter": {
+      "reference": "Encounter/58475bf9-d284-4003-9b70-b8b8f124c836"
+    },
+    "performedDateTime": "2026-08-20T07:56:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/9fb7e69a-b18e-4f59-a018-3ba7c9958217",
+          "display": "Dr. Karan Sharma"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "c90d63c0-182c-4bbb-b199-a7fa1397e165",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "410528000",
+          "display": "Nebulization therapy"
+        }
+      ],
+      "text": "Nebulization"
+    },
+    "subject": {
+      "reference": "Patient/1864f838-a770-4e3d-9acf-f6ae8fd3ada5",
+      "display": "Siddharth Mehta"
+    },
+    "encounter": {
+      "reference": "Encounter/e1a397e7-d2fc-4522-9795-89ed246cdfd9"
+    },
+    "performedDateTime": "2024-11-14T05:35:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/9d359a6d-25a8-4a26-a912-9b5ec6fc454d",
+          "display": "Dr. Vikram Verma"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "34ae17cc-a042-431c-90c2-319c72f3ffe7",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "387713003",
+          "display": "Wound dressing"
+        }
+      ],
+      "text": "Wound Dressing"
+    },
+    "subject": {
+      "reference": "Patient/99d97661-140c-4fcc-8ef4-356e91208378",
+      "display": "Zara Gupta"
+    },
+    "encounter": {
+      "reference": "Encounter/47e1f639-6550-4ed9-8d0d-81f0a3e29daa"
+    },
+    "performedDateTime": "2026-03-09T12:27:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/43d0e726-0768-4b2a-ac9f-b5803e874196",
+          "display": "Dr. Ankit Reddy"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "04938fd8-9667-4ff3-bc6f-dad330a558e3",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "241615005",
+          "display": "Echocardiogram"
+        }
+      ],
+      "text": "Echocardiogram"
+    },
+    "subject": {
+      "reference": "Patient/99d97661-140c-4fcc-8ef4-356e91208378",
+      "display": "Zara Gupta"
+    },
+    "encounter": {
+      "reference": "Encounter/93cff81c-6c01-4b73-acdd-89d0a6ea7b01"
+    },
+    "performedDateTime": "2026-09-14T03:57:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/f1d1364c-ae78-4b73-b10d-4cb6ad5e2f0d",
+          "display": "Dr. Aditya Verma"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "f4e9756d-ad12-442c-934a-9f29c5843692",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17711008",
+          "display": "Fracture reduction"
+        }
+      ],
+      "text": "Fracture Reduction"
+    },
+    "subject": {
+      "reference": "Patient/574bc2d5-8faa-4d77-96d6-6b71a6b43f33",
+      "display": "Zara Nair"
+    },
+    "encounter": {
+      "reference": "Encounter/ab4e070e-c854-45f6-b01d-9fbec0e2f39e"
+    },
+    "performedDateTime": "2025-03-10T03:50:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/9a496a83-389a-4017-bca7-76c4477c6db8",
+          "display": "Dr. Rohan Rao"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "b74f0b0d-4e9f-4206-9eaa-edc10489c9f6",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "71651007",
+          "display": "X-Ray chest"
+        }
+      ],
+      "text": "Chest X-Ray"
+    },
+    "subject": {
+      "reference": "Patient/724274bf-2f35-4a64-a4a2-b11c390e6298",
+      "display": "Diya Agarwal"
+    },
+    "encounter": {
+      "reference": "Encounter/ed563d80-ca92-4ad2-a841-105cfc48a0ce"
+    },
+    "performedDateTime": "2024-12-05T08:38:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/d8b3a01b-d9ea-4c90-a20d-3260452b1533",
+          "display": "Dr. Suresh Mehta"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "677b92f3-042a-45c2-ac88-1ab4dd326e67",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "387713003",
+          "display": "Wound dressing"
+        }
+      ],
+      "text": "Wound Dressing"
+    },
+    "subject": {
+      "reference": "Patient/724274bf-2f35-4a64-a4a2-b11c390e6298",
+      "display": "Diya Agarwal"
+    },
+    "encounter": {
+      "reference": "Encounter/9d1bc78a-6d62-49e8-ab42-1d73d55e66f8"
+    },
+    "performedDateTime": "2025-03-06T06:23:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/d8b3a01b-d9ea-4c90-a20d-3260452b1533",
+          "display": "Dr. Suresh Mehta"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "f2f90eca-32c0-4480-9161-d7da06c56c65",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "113091000",
+          "display": "Magnetic resonance imaging of brain"
+        }
+      ],
+      "text": "MRI Brain"
+    },
+    "subject": {
+      "reference": "Patient/37ad3ee6-a509-4780-9ff2-efdfcc065779",
+      "display": "Arjun Agarwal"
+    },
+    "encounter": {
+      "reference": "Encounter/b0174e58-cbb9-4708-8c05-599d278adcae"
+    },
+    "performedDateTime": "2025-07-21T11:48:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/43d0e726-0768-4b2a-ac9f-b5803e874196",
+          "display": "Dr. Ankit Reddy"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "19f2fd54-41d4-43a2-87ca-7f4d864c844e",
     "status": "completed",
     "code": {
       "coding": [
@@ -2160,16 +1564,1103 @@
       "text": "Abdominal Ultrasound"
     },
     "subject": {
-      "reference": "Patient/98eaf53a-8bd9-4aa5-bc94-5c06df5bb08b"
+      "reference": "Patient/37ad3ee6-a509-4780-9ff2-efdfcc065779",
+      "display": "Arjun Agarwal"
     },
     "encounter": {
-      "reference": "Encounter/034dd6e0-0693-44b1-90da-1a7f029fee5a"
+      "reference": "Encounter/8de26c64-a452-40cb-a908-14e1f3989db2"
     },
-    "performedDateTime": "2024-04-22T04:59:00.000Z",
+    "performedDateTime": "2026-08-17T10:17:00.000Z",
     "performer": [
       {
         "actor": {
-          "reference": "Practitioner/9b2a7886-8be4-48ac-8b4e-a005654e1bf6"
+          "reference": "Practitioner/43d0e726-0768-4b2a-ac9f-b5803e874196",
+          "display": "Dr. Ankit Reddy"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "3b1b9aaf-a39e-485c-a9f1-1238f299225c",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "396550006",
+          "display": "Cholecystectomy"
+        }
+      ],
+      "text": "Cholecystectomy"
+    },
+    "subject": {
+      "reference": "Patient/bc69f0d7-963f-41f5-a140-4c42811006bf",
+      "display": "Riya Kumar"
+    },
+    "encounter": {
+      "reference": "Encounter/a767298f-83c6-4c0b-9289-51bb8afdf38b"
+    },
+    "performedDateTime": "2024-11-22T05:42:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/2a07f991-0977-4209-82b6-8007fc9d817d",
+          "display": "Dr. Ankit Shah"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "1dd77b53-42c9-49af-b560-552079d5eae6",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17711008",
+          "display": "Fracture reduction"
+        }
+      ],
+      "text": "Fracture Reduction"
+    },
+    "subject": {
+      "reference": "Patient/bc69f0d7-963f-41f5-a140-4c42811006bf",
+      "display": "Riya Kumar"
+    },
+    "encounter": {
+      "reference": "Encounter/fb608a84-eaf8-479a-8156-283580d0d27d"
+    },
+    "performedDateTime": "2026-08-26T05:55:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/2a07f991-0977-4209-82b6-8007fc9d817d",
+          "display": "Dr. Ankit Shah"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "799b66f1-7284-4d6b-9389-c235af0c42b9",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "396550006",
+          "display": "Cholecystectomy"
+        }
+      ],
+      "text": "Cholecystectomy"
+    },
+    "subject": {
+      "reference": "Patient/bc69f0d7-963f-41f5-a140-4c42811006bf",
+      "display": "Riya Kumar"
+    },
+    "encounter": {
+      "reference": "Encounter/2204ceed-022a-4fb3-9b2a-35f445f64749"
+    },
+    "performedDateTime": "2026-01-21T07:32:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/2a07f991-0977-4209-82b6-8007fc9d817d",
+          "display": "Dr. Ankit Shah"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "6529c4e2-d372-4fae-8046-af42d4ba153c",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "301095005",
+          "display": "Electrocardiogram"
+        }
+      ],
+      "text": "ECG"
+    },
+    "subject": {
+      "reference": "Patient/bc69f0d7-963f-41f5-a140-4c42811006bf",
+      "display": "Riya Kumar"
+    },
+    "encounter": {
+      "reference": "Encounter/56cf2728-1e0e-4181-a63f-2fe2213816c2"
+    },
+    "performedDateTime": "2026-09-15T05:19:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/2a07f991-0977-4209-82b6-8007fc9d817d",
+          "display": "Dr. Ankit Shah"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "490e0bba-8c95-4073-976d-1683f0d7371e",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "301095005",
+          "display": "Electrocardiogram"
+        }
+      ],
+      "text": "ECG"
+    },
+    "subject": {
+      "reference": "Patient/bc69f0d7-963f-41f5-a140-4c42811006bf",
+      "display": "Riya Kumar"
+    },
+    "encounter": {
+      "reference": "Encounter/c258da77-d20f-4584-971e-ef7e8bfc1aa2"
+    },
+    "performedDateTime": "2026-06-21T06:14:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/2a07f991-0977-4209-82b6-8007fc9d817d",
+          "display": "Dr. Ankit Shah"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "2b993bbf-16da-4dff-a829-9ed51bc7f378",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "410528000",
+          "display": "Nebulization therapy"
+        }
+      ],
+      "text": "Nebulization"
+    },
+    "subject": {
+      "reference": "Patient/b0f8fc2b-f1c7-4832-985c-a34682530f0a",
+      "display": "Amit Shah"
+    },
+    "encounter": {
+      "reference": "Encounter/2e9300c3-c406-4981-8760-e9bc4fc090d2"
+    },
+    "performedDateTime": "2026-04-23T10:36:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/d8b3a01b-d9ea-4c90-a20d-3260452b1533",
+          "display": "Dr. Suresh Mehta"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "c4af15c1-50ff-4cd6-80e3-c57c738e0d9b",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "387713003",
+          "display": "Wound dressing"
+        }
+      ],
+      "text": "Wound Dressing"
+    },
+    "subject": {
+      "reference": "Patient/4b4fe77d-95e8-4fd8-92e4-fc8a5b301462",
+      "display": "Priya Gupta"
+    },
+    "encounter": {
+      "reference": "Encounter/6f43d255-f41f-4dd2-a20b-915ff70b2108"
+    },
+    "performedDateTime": "2026-09-10T10:55:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/f9754da8-8c72-4b42-8a86-a06f9cad64db",
+          "display": "Dr. Meera Rao"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "1c86a9be-2b0b-402c-9986-4ec19289ca76",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "241615005",
+          "display": "Echocardiogram"
+        }
+      ],
+      "text": "Echocardiogram"
+    },
+    "subject": {
+      "reference": "Patient/6c4264e4-d38a-4bba-93ea-6686f7602aaa",
+      "display": "Zara Gupta"
+    },
+    "encounter": {
+      "reference": "Encounter/60ad3a4d-3954-4765-85fd-04c3f34a1e63"
+    },
+    "performedDateTime": "2025-02-16T05:56:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/da7f8001-08b7-4453-a18d-44d443278b5f",
+          "display": "Dr. Rajesh Mehta"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "2ecb3bc3-2264-4e27-9e15-c9d2bc305131",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "301095005",
+          "display": "Electrocardiogram"
+        }
+      ],
+      "text": "ECG"
+    },
+    "subject": {
+      "reference": "Patient/7114a0f6-da8e-471a-84c6-ef1a4fc37873",
+      "display": "Radha Reddy"
+    },
+    "encounter": {
+      "reference": "Encounter/2744bcb2-363c-4dfe-a3f1-23ee906eed05"
+    },
+    "performedDateTime": "2026-08-22T03:50:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/58e2170e-aba9-438d-8c72-fc51c097d4b0",
+          "display": "Dr. Isha Malhotra"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "43fce9a9-9c0b-4ac0-88ef-5e338aeaf7a9",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "410528000",
+          "display": "Nebulization therapy"
+        }
+      ],
+      "text": "Nebulization"
+    },
+    "subject": {
+      "reference": "Patient/7114a0f6-da8e-471a-84c6-ef1a4fc37873",
+      "display": "Radha Reddy"
+    },
+    "encounter": {
+      "reference": "Encounter/0daf971e-1ee3-441a-87bb-8c4fa0950fb2"
+    },
+    "performedDateTime": "2024-08-12T09:59:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/f1d1364c-ae78-4b73-b10d-4cb6ad5e2f0d",
+          "display": "Dr. Aditya Verma"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "5412c11c-7060-408a-8191-17c3d5bfb81e",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "410528000",
+          "display": "Nebulization therapy"
+        }
+      ],
+      "text": "Nebulization"
+    },
+    "subject": {
+      "reference": "Patient/8244c0ad-c7cd-478b-ad1f-3b8033b21233",
+      "display": "Arjun Rao"
+    },
+    "encounter": {
+      "reference": "Encounter/6126e396-548c-43e6-92e5-93300c13294b"
+    },
+    "performedDateTime": "2024-10-20T06:36:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/da7f8001-08b7-4453-a18d-44d443278b5f",
+          "display": "Dr. Rajesh Mehta"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "a28ae0bd-a90b-420a-af12-4d7c174b4c8a",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "396550006",
+          "display": "Cholecystectomy"
+        }
+      ],
+      "text": "Cholecystectomy"
+    },
+    "subject": {
+      "reference": "Patient/8244c0ad-c7cd-478b-ad1f-3b8033b21233",
+      "display": "Arjun Rao"
+    },
+    "encounter": {
+      "reference": "Encounter/9cc842ac-6467-4964-81ea-9871ba1e76be"
+    },
+    "performedDateTime": "2025-12-31T12:05:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/da7f8001-08b7-4453-a18d-44d443278b5f",
+          "display": "Dr. Rajesh Mehta"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "6bb7a12f-d9a5-429c-968d-276ffc8a93b5",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "113091000",
+          "display": "Magnetic resonance imaging of brain"
+        }
+      ],
+      "text": "MRI Brain"
+    },
+    "subject": {
+      "reference": "Patient/9dd80834-6ef0-4d94-a54b-74acc9d2d4d3",
+      "display": "Sneha Kumar"
+    },
+    "encounter": {
+      "reference": "Encounter/9ddfba77-905f-4efd-805e-8ce4bb8250bd"
+    },
+    "performedDateTime": "2026-07-27T12:43:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/f1d1364c-ae78-4b73-b10d-4cb6ad5e2f0d",
+          "display": "Dr. Aditya Verma"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "a8ddadd0-1d53-4062-bdc7-98bb0747065a",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "172960003",
+          "display": "Appendectomy"
+        }
+      ],
+      "text": "Appendectomy"
+    },
+    "subject": {
+      "reference": "Patient/9dd80834-6ef0-4d94-a54b-74acc9d2d4d3",
+      "display": "Sneha Kumar"
+    },
+    "encounter": {
+      "reference": "Encounter/5e2db779-9951-4599-a88f-6be318492a3b"
+    },
+    "performedDateTime": "2026-05-28T12:02:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/f1d1364c-ae78-4b73-b10d-4cb6ad5e2f0d",
+          "display": "Dr. Aditya Verma"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "c1d54b91-4eaa-4a0a-b384-065d0e087706",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "443253003",
+          "display": "Ultrasound scan abdomen"
+        }
+      ],
+      "text": "Abdominal Ultrasound"
+    },
+    "subject": {
+      "reference": "Patient/35646e53-4972-4395-8782-f640ffce1a30",
+      "display": "Anjali Singh"
+    },
+    "encounter": {
+      "reference": "Encounter/476fd1ab-6705-443c-9436-ab5baef75bca"
+    },
+    "performedDateTime": "2026-06-27T10:12:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/44cd86f0-bde6-4348-b56b-0dbcdc3737a6",
+          "display": "Dr. Aanya Verma"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "09076f23-9a3f-452b-af07-fa554299ad26",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "241615005",
+          "display": "Echocardiogram"
+        }
+      ],
+      "text": "Echocardiogram"
+    },
+    "subject": {
+      "reference": "Patient/35646e53-4972-4395-8782-f640ffce1a30",
+      "display": "Anjali Singh"
+    },
+    "encounter": {
+      "reference": "Encounter/e12d19af-e961-4174-ba4a-554491ca87a7"
+    },
+    "performedDateTime": "2024-08-21T06:41:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/44cd86f0-bde6-4348-b56b-0dbcdc3737a6",
+          "display": "Dr. Aanya Verma"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "69a37891-b6ec-4ff3-baf4-d6c83ff0beff",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "241615005",
+          "display": "Echocardiogram"
+        }
+      ],
+      "text": "Echocardiogram"
+    },
+    "subject": {
+      "reference": "Patient/35646e53-4972-4395-8782-f640ffce1a30",
+      "display": "Anjali Singh"
+    },
+    "encounter": {
+      "reference": "Encounter/9ba7e272-5a56-40a6-ab2b-8fa4aff0ca13"
+    },
+    "performedDateTime": "2026-08-11T04:40:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/44cd86f0-bde6-4348-b56b-0dbcdc3737a6",
+          "display": "Dr. Aanya Verma"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "3ece2ab2-0f38-4faa-a7cc-a7fb2fd10456",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "172960003",
+          "display": "Appendectomy"
+        }
+      ],
+      "text": "Appendectomy"
+    },
+    "subject": {
+      "reference": "Patient/35646e53-4972-4395-8782-f640ffce1a30",
+      "display": "Anjali Singh"
+    },
+    "encounter": {
+      "reference": "Encounter/382cff73-b845-4dc2-acde-a7f6959b825a"
+    },
+    "performedDateTime": "2025-09-29T06:39:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/62be934f-b3ce-4fab-a8a6-8fd13e0d9819",
+          "display": "Dr. Meera Patel"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "3dd2ca58-97dc-467e-ab4b-5f71ffeb9d16",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "172960003",
+          "display": "Appendectomy"
+        }
+      ],
+      "text": "Appendectomy"
+    },
+    "subject": {
+      "reference": "Patient/862fe2f5-80d8-40bd-b969-6b7864f21022",
+      "display": "Prateek Rao"
+    },
+    "encounter": {
+      "reference": "Encounter/17ce2acb-4628-40d4-9eb4-4c0699c63949"
+    },
+    "performedDateTime": "2024-11-03T08:27:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/da7f8001-08b7-4453-a18d-44d443278b5f",
+          "display": "Dr. Rajesh Mehta"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "442c0840-03a4-4ded-b6f5-1b017f632e99",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "113091000",
+          "display": "Magnetic resonance imaging of brain"
+        }
+      ],
+      "text": "MRI Brain"
+    },
+    "subject": {
+      "reference": "Patient/5d521078-5965-4984-8b93-78578a3dcb76",
+      "display": "Kavita Shah"
+    },
+    "encounter": {
+      "reference": "Encounter/cf2b77bb-1ddf-4e04-b1ee-4e684aa4e226"
+    },
+    "performedDateTime": "2025-01-19T07:12:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/f9754da8-8c72-4b42-8a86-a06f9cad64db",
+          "display": "Dr. Meera Rao"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "ac01b73d-36e8-40f9-9aa6-8bea3a869338",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "301095005",
+          "display": "Electrocardiogram"
+        }
+      ],
+      "text": "ECG"
+    },
+    "subject": {
+      "reference": "Patient/740c3969-c9fd-4c39-b640-b93080125dd7",
+      "display": "Diya Shah"
+    },
+    "encounter": {
+      "reference": "Encounter/db4e67a4-8ef0-4ef2-b514-c16226e6efe3"
+    },
+    "performedDateTime": "2025-01-10T09:19:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/9d359a6d-25a8-4a26-a912-9b5ec6fc454d",
+          "display": "Dr. Vikram Verma"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "abe56328-a91e-4ad3-96cd-5fe26a9bc08e",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "241615005",
+          "display": "Echocardiogram"
+        }
+      ],
+      "text": "Echocardiogram"
+    },
+    "subject": {
+      "reference": "Patient/740c3969-c9fd-4c39-b640-b93080125dd7",
+      "display": "Diya Shah"
+    },
+    "encounter": {
+      "reference": "Encounter/e274a855-95d0-4f22-90ae-c7e0f6b537ef"
+    },
+    "performedDateTime": "2026-03-03T09:07:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/9d359a6d-25a8-4a26-a912-9b5ec6fc454d",
+          "display": "Dr. Vikram Verma"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "1f3a67dd-5242-4785-81a3-7fc9232f2fac",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "17711008",
+          "display": "Fracture reduction"
+        }
+      ],
+      "text": "Fracture Reduction"
+    },
+    "subject": {
+      "reference": "Patient/740c3969-c9fd-4c39-b640-b93080125dd7",
+      "display": "Diya Shah"
+    },
+    "encounter": {
+      "reference": "Encounter/b786b4be-97f4-4170-bd95-f2f6239d5285"
+    },
+    "performedDateTime": "2026-08-24T08:57:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/d8b3a01b-d9ea-4c90-a20d-3260452b1533",
+          "display": "Dr. Suresh Mehta"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "d0f47bb2-969a-404e-bc72-765299391338",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "410528000",
+          "display": "Nebulization therapy"
+        }
+      ],
+      "text": "Nebulization"
+    },
+    "subject": {
+      "reference": "Patient/740c3969-c9fd-4c39-b640-b93080125dd7",
+      "display": "Diya Shah"
+    },
+    "encounter": {
+      "reference": "Encounter/db215934-6b77-49fe-8f9a-cbf35bf8dc49"
+    },
+    "performedDateTime": "2025-11-14T04:57:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/62be934f-b3ce-4fab-a8a6-8fd13e0d9819",
+          "display": "Dr. Meera Patel"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "6dd12340-b1ff-4a01-85f7-b896976d49f0",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "396550006",
+          "display": "Cholecystectomy"
+        }
+      ],
+      "text": "Cholecystectomy"
+    },
+    "subject": {
+      "reference": "Patient/8080b918-1aa0-4a3b-8238-e1b9f157ebe6",
+      "display": "Rohan Agarwal"
+    },
+    "encounter": {
+      "reference": "Encounter/7346234c-7459-40d4-a82b-f857da6aa9fc"
+    },
+    "performedDateTime": "2026-09-14T09:28:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/ccb0a6b3-1970-49da-a8ec-e3f8800aa6fc",
+          "display": "Dr. Arjun Reddy"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "e9f06110-c7a7-4478-8c92-9d323431d5ae",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "410528000",
+          "display": "Nebulization therapy"
+        }
+      ],
+      "text": "Nebulization"
+    },
+    "subject": {
+      "reference": "Patient/8080b918-1aa0-4a3b-8238-e1b9f157ebe6",
+      "display": "Rohan Agarwal"
+    },
+    "encounter": {
+      "reference": "Encounter/88d0638a-d8c7-44ec-9a14-edae281d6903"
+    },
+    "performedDateTime": "2026-05-13T05:18:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/2a07f991-0977-4209-82b6-8007fc9d817d",
+          "display": "Dr. Ankit Shah"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "31eaca56-5298-4d8a-94f9-f798dd16d3da",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "396550006",
+          "display": "Cholecystectomy"
+        }
+      ],
+      "text": "Cholecystectomy"
+    },
+    "subject": {
+      "reference": "Patient/7216bc2f-d51a-49ea-88a0-d16d67a796bd",
+      "display": "Nikhil Rao"
+    },
+    "encounter": {
+      "reference": "Encounter/43895dcc-ab78-4f99-bb11-c3728ea358d2"
+    },
+    "performedDateTime": "2026-09-05T10:20:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/ccb0a6b3-1970-49da-a8ec-e3f8800aa6fc",
+          "display": "Dr. Arjun Reddy"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "2a8a34ac-0c1c-4b0c-880a-56172cc66038",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "71651007",
+          "display": "X-Ray chest"
+        }
+      ],
+      "text": "Chest X-Ray"
+    },
+    "subject": {
+      "reference": "Patient/7216bc2f-d51a-49ea-88a0-d16d67a796bd",
+      "display": "Nikhil Rao"
+    },
+    "encounter": {
+      "reference": "Encounter/8acfbca4-394c-444b-8d23-ed7214dcd60c"
+    },
+    "performedDateTime": "2025-10-22T09:55:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/ccb0a6b3-1970-49da-a8ec-e3f8800aa6fc",
+          "display": "Dr. Arjun Reddy"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "23096451-ce44-428c-870b-796da2638687",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "301095005",
+          "display": "Electrocardiogram"
+        }
+      ],
+      "text": "ECG"
+    },
+    "subject": {
+      "reference": "Patient/7216bc2f-d51a-49ea-88a0-d16d67a796bd",
+      "display": "Nikhil Rao"
+    },
+    "encounter": {
+      "reference": "Encounter/919a2a64-dc5e-4b95-a62e-f26ff3f8a3a0"
+    },
+    "performedDateTime": "2025-10-31T03:48:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/ccb0a6b3-1970-49da-a8ec-e3f8800aa6fc",
+          "display": "Dr. Arjun Reddy"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "6c2ef9bf-fe11-412b-a880-1af695f88d47",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "172960003",
+          "display": "Appendectomy"
+        }
+      ],
+      "text": "Appendectomy"
+    },
+    "subject": {
+      "reference": "Patient/7216bc2f-d51a-49ea-88a0-d16d67a796bd",
+      "display": "Nikhil Rao"
+    },
+    "encounter": {
+      "reference": "Encounter/5c20574e-ef59-4d71-869e-2a8e464ce515"
+    },
+    "performedDateTime": "2024-11-08T03:41:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/ccb0a6b3-1970-49da-a8ec-e3f8800aa6fc",
+          "display": "Dr. Arjun Reddy"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "f4808843-5be7-48cb-9502-33c1f9d97f91",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "387713003",
+          "display": "Wound dressing"
+        }
+      ],
+      "text": "Wound Dressing"
+    },
+    "subject": {
+      "reference": "Patient/7646aee5-6858-4ebf-9e9f-6e52a97cf648",
+      "display": "Diya Rao"
+    },
+    "encounter": {
+      "reference": "Encounter/b587616e-5638-4fe6-a698-701b3289a884"
+    },
+    "performedDateTime": "2026-03-17T10:38:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/ccb0a6b3-1970-49da-a8ec-e3f8800aa6fc",
+          "display": "Dr. Arjun Reddy"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "83205508-c597-4c52-8c67-bb09a8e76bca",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "410528000",
+          "display": "Nebulization therapy"
+        }
+      ],
+      "text": "Nebulization"
+    },
+    "subject": {
+      "reference": "Patient/7646aee5-6858-4ebf-9e9f-6e52a97cf648",
+      "display": "Diya Rao"
+    },
+    "encounter": {
+      "reference": "Encounter/c31342a9-d272-463f-a2ba-5b5ec3fdf27f"
+    },
+    "performedDateTime": "2025-08-19T09:29:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/ccb0a6b3-1970-49da-a8ec-e3f8800aa6fc",
+          "display": "Dr. Arjun Reddy"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "d958adcc-8ea4-40bd-95a7-4aa09fa1fdfc",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "113091000",
+          "display": "Magnetic resonance imaging of brain"
+        }
+      ],
+      "text": "MRI Brain"
+    },
+    "subject": {
+      "reference": "Patient/7646aee5-6858-4ebf-9e9f-6e52a97cf648",
+      "display": "Diya Rao"
+    },
+    "encounter": {
+      "reference": "Encounter/d75c5045-e30a-4376-990d-2b1976f58daa"
+    },
+    "performedDateTime": "2024-11-27T07:23:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/d8b3a01b-d9ea-4c90-a20d-3260452b1533",
+          "display": "Dr. Suresh Mehta"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "d3b663dc-650e-4f7a-883f-8f1358b79fc9",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "410528000",
+          "display": "Nebulization therapy"
+        }
+      ],
+      "text": "Nebulization"
+    },
+    "subject": {
+      "reference": "Patient/7646aee5-6858-4ebf-9e9f-6e52a97cf648",
+      "display": "Diya Rao"
+    },
+    "encounter": {
+      "reference": "Encounter/cddebe5f-927d-46ff-8611-336ef072a0a4"
+    },
+    "performedDateTime": "2025-11-04T07:00:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/11d4e487-d2f8-4c88-b9a7-0b2bed109da6",
+          "display": "Dr. Rajesh Kumar"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Procedure",
+    "id": "cccaf2f1-f06e-4963-812f-05b17320a5a8",
+    "status": "completed",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "113091000",
+          "display": "Magnetic resonance imaging of brain"
+        }
+      ],
+      "text": "MRI Brain"
+    },
+    "subject": {
+      "reference": "Patient/34848ddc-68c8-4b6e-81d6-93abe32b4bb9",
+      "display": "Pooja Mehta"
+    },
+    "encounter": {
+      "reference": "Encounter/8be87ca0-342f-483a-ab23-a87e3274e444"
+    },
+    "performedDateTime": "2025-10-05T10:48:00.000Z",
+    "performer": [
+      {
+        "actor": {
+          "reference": "Practitioner/9d359a6d-25a8-4a26-a912-9b5ec6fc454d",
+          "display": "Dr. Vikram Verma"
         }
       }
     ]

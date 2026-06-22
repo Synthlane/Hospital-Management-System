@@ -2,6 +2,7 @@
   input {
     width: 220px;
     transition: width 0.1s ease-in-out;
+    color: var(--mantine-color-text) !important;
   }
 
   input:focus {

@@ -1,0 +1,182 @@
+[
+  {
+    "resourceType": "ActivityDefinition",
+    "id": "79917cb7-4512-45ce-b1f4-1b6113c2be0c",
+    "name": "BMP",
+    "title": "Basic Metabolic Panel",
+    "status": "active",
+    "description": "Standard Basic Metabolic Panel laboratory panel",
+    "kind": "ServiceRequest",
+    "code": {
+      "text": "Basic Metabolic Panel"
+    },
+    "observationResultRequirement": [
+      {
+        "reference": "ObservationDefinition/a8b3b14b-6d91-4255-8ffc-707bfd0af951"
+      },
+      {
+        "reference": "ObservationDefinition/ca33183e-dc25-4994-837a-df47bfc5100b"
+      },
+      {
+        "reference": "ObservationDefinition/e61def7e-2e47-40f3-8ead-a866e550f793"
+      },
+      {
+        "reference": "ObservationDefinition/89cb88c8-1074-4891-9fba-e60ee27b1cdc"
+      },
+      {
+        "reference": "ObservationDefinition/f0d71b0b-a0c8-41b9-bfda-749ab40136d0"
+      },
+      {
+        "reference": "ObservationDefinition/be08e1e3-5aeb-436f-b590-d352dcad7f0e"
+      },
+      {
+        "reference": "ObservationDefinition/a0dcfa13-ccc6-42b7-b069-3dd3427c0b5e"
+      }
+    ]
+  },
+  {
+    "resourceType": "ActivityDefinition",
+    "id": "63d49c4b-208e-4e5a-9aa4-85249d8ab073",
+    "name": "CBC",
+    "title": "Complete Blood Count",
+    "status": "active",
+    "description": "Standard Complete Blood Count laboratory panel",
+    "kind": "ServiceRequest",
+    "code": {
+      "text": "Complete Blood Count"
+    },
+    "observationResultRequirement": [
+      {
+        "reference": "ObservationDefinition/8653cf21-fffe-435f-bdf6-3e157bc88562"
+      },
+      {
+        "reference": "ObservationDefinition/229725eb-d365-4ad6-b88e-80f96852f6d3"
+      },
+      {
+        "reference": "ObservationDefinition/0dc5c7ec-cb26-4c04-95c2-bacc73f47201"
+      }
+    ]
+  },
+  {
+    "resourceType": "ActivityDefinition",
+    "id": "f0603ba5-fb86-464b-88f9-2da6f90a73a2",
+    "name": "CMP",
+    "title": "Comprehensive Metabolic Panel",
+    "status": "active",
+    "description": "Standard Comprehensive Metabolic Panel laboratory panel",
+    "kind": "ServiceRequest",
+    "code": {
+      "text": "Comprehensive Metabolic Panel"
+    },
+    "observationResultRequirement": [
+      {
+        "reference": "ObservationDefinition/a8b3b14b-6d91-4255-8ffc-707bfd0af951"
+      },
+      {
+        "reference": "ObservationDefinition/ca33183e-dc25-4994-837a-df47bfc5100b"
+      },
+      {
+        "reference": "ObservationDefinition/e61def7e-2e47-40f3-8ead-a866e550f793"
+      },
+      {
+        "reference": "ObservationDefinition/89cb88c8-1074-4891-9fba-e60ee27b1cdc"
+      },
+      {
+        "reference": "ObservationDefinition/f0d71b0b-a0c8-41b9-bfda-749ab40136d0"
+      },
+      {
+        "reference": "ObservationDefinition/be08e1e3-5aeb-436f-b590-d352dcad7f0e"
+      },
+      {
+        "reference": "ObservationDefinition/a0dcfa13-ccc6-42b7-b069-3dd3427c0b5e"
+      },
+      {
+        "reference": "ObservationDefinition/3fa32daa-a80a-423b-a74d-83357c8db1ef"
+      },
+      {
+        "reference": "ObservationDefinition/453227cd-a671-44f8-aa3e-1a0a360123e0"
+      },
+      {
+        "reference": "ObservationDefinition/af674af1-e508-4955-b70f-de6cfc0eaf18"
+      },
+      {
+        "reference": "ObservationDefinition/bcc47a1e-6a13-492b-840d-af35e257c3c1"
+      }
+    ]
+  },
+  {
+    "resourceType": "ActivityDefinition",
+    "id": "3bd34094-8576-44a3-a5ef-0161cc97bd14",
+    "name": "LipidPanel",
+    "title": "Lipid Panel",
+    "status": "active",
+    "description": "Standard Lipid Panel laboratory panel",
+    "kind": "ServiceRequest",
+    "code": {
+      "text": "Lipid Panel"
+    },
+    "observationResultRequirement": [
+      {
+        "reference": "ObservationDefinition/d77ccd6e-0783-4489-906c-d24dba73f31a"
+      },
+      {
+        "reference": "ObservationDefinition/1c05f844-ec04-4532-ad6d-feb87289a880"
+      },
+      {
+        "reference": "ObservationDefinition/ef28380d-508f-4f97-ab7a-3687c060a85e"
+      },
+      {
+        "reference": "ObservationDefinition/ecbe1c8e-4190-487c-b323-ca91d1df7645"
+      }
+    ]
+  },
+  {
+    "resourceType": "ActivityDefinition",
+    "id": "4406d9ac-8d16-4fd9-a09e-2567f5094cce",
+    "name": "TFT",
+    "title": "Thyroid Function Tests",
+    "status": "active",
+    "description": "Standard Thyroid Function Tests laboratory panel",
+    "kind": "ServiceRequest",
+    "code": {
+      "text": "Thyroid Function Tests"
+    },
+    "observationResultRequirement": [
+      {
+        "reference": "ObservationDefinition/d61e74d0-e2bc-4f7e-bf90-7f81b164f19b"
+      },
+      {
+        "reference": "ObservationDefinition/55e7873d-838b-4652-8e9d-a94d71022f2a"
+      },
+      {
+        "reference": "ObservationDefinition/74ae65c6-feab-44b7-ba7f-7de514de3607"
+      }
+    ]
+  },
+  {
+    "resourceType": "ActivityDefinition",
+    "id": "6a8731ed-49bc-421f-9fa1-98745f18ae66",
+    "name": "LFT",
+    "title": "Liver Function Tests",
+    "status": "active",
+    "description": "Standard Liver Function Tests laboratory panel",
+    "kind": "ServiceRequest",
+    "code": {
+      "text": "Liver Function Tests"
+    },
+    "observationResultRequirement": [
+      {
+        "reference": "ObservationDefinition/3fa32daa-a80a-423b-a74d-83357c8db1ef"
+      },
+      {
+        "reference": "ObservationDefinition/453227cd-a671-44f8-aa3e-1a0a360123e0"
+      },
+      {
+        "reference": "ObservationDefinition/af674af1-e508-4955-b70f-de6cfc0eaf18"
+      },
+      {
+        "reference": "ObservationDefinition/bcc47a1e-6a13-492b-840d-af35e257c3c1"
+      }
+    ]
+  }
+]

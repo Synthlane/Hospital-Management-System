@@ -1,0 +1,1394 @@
+[
+  {
+    "resourceType": "ObservationDefinition",
+    "id": "a8b3b14b-6d91-4255-8ffc-707bfd0af951",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "chemistry",
+            "display": "Chemistry"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2345-7",
+          "display": "Glucose"
+        }
+      ],
+      "text": "Glucose"
+    },
+    "permittedDataType": [
+      "Quantity"
+    ],
+    "quantitativeDetails": {
+      "unit": {
+        "coding": [
+          {
+            "system": "http://unitsofmeasure.org",
+            "code": "mg/dL"
+          }
+        ],
+        "text": "mg/dL"
+      },
+      "decimalPrecision": 1
+    },
+    "qualifiedInterval": [
+      {
+        "category": "reference",
+        "range": {
+          "low": {
+            "value": 70,
+            "unit": "mg/dL",
+            "system": "http://unitsofmeasure.org"
+          },
+          "high": {
+            "value": 100,
+            "unit": "mg/dL",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "condition": "Fasting glucose"
+      }
+    ]
+  },
+  {
+    "resourceType": "ObservationDefinition",
+    "id": "ca33183e-dc25-4994-837a-df47bfc5100b",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "chemistry",
+            "display": "Chemistry"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "3094-0",
+          "display": "Blood Urea Nitrogen"
+        }
+      ],
+      "text": "Blood Urea Nitrogen"
+    },
+    "permittedDataType": [
+      "Quantity"
+    ],
+    "quantitativeDetails": {
+      "unit": {
+        "coding": [
+          {
+            "system": "http://unitsofmeasure.org",
+            "code": "mg/dL"
+          }
+        ],
+        "text": "mg/dL"
+      },
+      "decimalPrecision": 1
+    },
+    "qualifiedInterval": [
+      {
+        "category": "reference",
+        "range": {
+          "low": {
+            "value": 7,
+            "unit": "mg/dL",
+            "system": "http://unitsofmeasure.org"
+          },
+          "high": {
+            "value": 20,
+            "unit": "mg/dL",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "condition": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "ObservationDefinition",
+    "id": "e61def7e-2e47-40f3-8ead-a866e550f793",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "chemistry",
+            "display": "Chemistry"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2160-0",
+          "display": "Creatinine"
+        }
+      ],
+      "text": "Creatinine"
+    },
+    "permittedDataType": [
+      "Quantity"
+    ],
+    "quantitativeDetails": {
+      "unit": {
+        "coding": [
+          {
+            "system": "http://unitsofmeasure.org",
+            "code": "mg/dL"
+          }
+        ],
+        "text": "mg/dL"
+      },
+      "decimalPrecision": 1
+    },
+    "qualifiedInterval": [
+      {
+        "category": "reference",
+        "range": {
+          "low": {
+            "value": 0.6,
+            "unit": "mg/dL",
+            "system": "http://unitsofmeasure.org"
+          },
+          "high": {
+            "value": 1.2,
+            "unit": "mg/dL",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "condition": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "ObservationDefinition",
+    "id": "89cb88c8-1074-4891-9fba-e60ee27b1cdc",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "chemistry",
+            "display": "Chemistry"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2951-2",
+          "display": "Sodium"
+        }
+      ],
+      "text": "Sodium"
+    },
+    "permittedDataType": [
+      "Quantity"
+    ],
+    "quantitativeDetails": {
+      "unit": {
+        "coding": [
+          {
+            "system": "http://unitsofmeasure.org",
+            "code": "mEq/L"
+          }
+        ],
+        "text": "mEq/L"
+      },
+      "decimalPrecision": 1
+    },
+    "qualifiedInterval": [
+      {
+        "category": "reference",
+        "range": {
+          "low": {
+            "value": 136,
+            "unit": "mEq/L",
+            "system": "http://unitsofmeasure.org"
+          },
+          "high": {
+            "value": 145,
+            "unit": "mEq/L",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "condition": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "ObservationDefinition",
+    "id": "f0d71b0b-a0c8-41b9-bfda-749ab40136d0",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "chemistry",
+            "display": "Chemistry"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2823-3",
+          "display": "Potassium"
+        }
+      ],
+      "text": "Potassium"
+    },
+    "permittedDataType": [
+      "Quantity"
+    ],
+    "quantitativeDetails": {
+      "unit": {
+        "coding": [
+          {
+            "system": "http://unitsofmeasure.org",
+            "code": "mEq/L"
+          }
+        ],
+        "text": "mEq/L"
+      },
+      "decimalPrecision": 1
+    },
+    "qualifiedInterval": [
+      {
+        "category": "reference",
+        "range": {
+          "low": {
+            "value": 3.5,
+            "unit": "mEq/L",
+            "system": "http://unitsofmeasure.org"
+          },
+          "high": {
+            "value": 5,
+            "unit": "mEq/L",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "condition": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "ObservationDefinition",
+    "id": "be08e1e3-5aeb-436f-b590-d352dcad7f0e",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "chemistry",
+            "display": "Chemistry"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2075-0",
+          "display": "Chloride"
+        }
+      ],
+      "text": "Chloride"
+    },
+    "permittedDataType": [
+      "Quantity"
+    ],
+    "quantitativeDetails": {
+      "unit": {
+        "coding": [
+          {
+            "system": "http://unitsofmeasure.org",
+            "code": "mEq/L"
+          }
+        ],
+        "text": "mEq/L"
+      },
+      "decimalPrecision": 1
+    },
+    "qualifiedInterval": [
+      {
+        "category": "reference",
+        "range": {
+          "low": {
+            "value": 98,
+            "unit": "mEq/L",
+            "system": "http://unitsofmeasure.org"
+          },
+          "high": {
+            "value": 106,
+            "unit": "mEq/L",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "condition": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "ObservationDefinition",
+    "id": "a0dcfa13-ccc6-42b7-b069-3dd3427c0b5e",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "chemistry",
+            "display": "Chemistry"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "1963-8",
+          "display": "Bicarbonate"
+        }
+      ],
+      "text": "Bicarbonate"
+    },
+    "permittedDataType": [
+      "Quantity"
+    ],
+    "quantitativeDetails": {
+      "unit": {
+        "coding": [
+          {
+            "system": "http://unitsofmeasure.org",
+            "code": "mEq/L"
+          }
+        ],
+        "text": "mEq/L"
+      },
+      "decimalPrecision": 1
+    },
+    "qualifiedInterval": [
+      {
+        "category": "reference",
+        "range": {
+          "low": {
+            "value": 22,
+            "unit": "mEq/L",
+            "system": "http://unitsofmeasure.org"
+          },
+          "high": {
+            "value": 29,
+            "unit": "mEq/L",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "condition": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "ObservationDefinition",
+    "id": "8653cf21-fffe-435f-bdf6-3e157bc88562",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "hematology",
+            "display": "Hematology"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "718-7",
+          "display": "Hemoglobin"
+        }
+      ],
+      "text": "Hemoglobin"
+    },
+    "permittedDataType": [
+      "Quantity"
+    ],
+    "quantitativeDetails": {
+      "unit": {
+        "coding": [
+          {
+            "system": "http://unitsofmeasure.org",
+            "code": "g/dL"
+          }
+        ],
+        "text": "g/dL"
+      },
+      "decimalPrecision": 1
+    },
+    "qualifiedInterval": [
+      {
+        "category": "reference",
+        "range": {
+          "low": {
+            "value": 12,
+            "unit": "g/dL",
+            "system": "http://unitsofmeasure.org"
+          },
+          "high": {
+            "value": 17,
+            "unit": "g/dL",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "condition": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "ObservationDefinition",
+    "id": "229725eb-d365-4ad6-b88e-80f96852f6d3",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "hematology",
+            "display": "Hematology"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "6690-2",
+          "display": "WBC Count"
+        }
+      ],
+      "text": "WBC Count"
+    },
+    "permittedDataType": [
+      "Quantity"
+    ],
+    "quantitativeDetails": {
+      "unit": {
+        "coding": [
+          {
+            "system": "http://unitsofmeasure.org",
+            "code": "K/µL"
+          }
+        ],
+        "text": "K/µL"
+      },
+      "decimalPrecision": 1
+    },
+    "qualifiedInterval": [
+      {
+        "category": "reference",
+        "range": {
+          "low": {
+            "value": 4.5,
+            "unit": "K/µL",
+            "system": "http://unitsofmeasure.org"
+          },
+          "high": {
+            "value": 11,
+            "unit": "K/µL",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "condition": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "ObservationDefinition",
+    "id": "0dc5c7ec-cb26-4c04-95c2-bacc73f47201",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "hematology",
+            "display": "Hematology"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "777-3",
+          "display": "Platelet Count"
+        }
+      ],
+      "text": "Platelet Count"
+    },
+    "permittedDataType": [
+      "Quantity"
+    ],
+    "quantitativeDetails": {
+      "unit": {
+        "coding": [
+          {
+            "system": "http://unitsofmeasure.org",
+            "code": "K/µL"
+          }
+        ],
+        "text": "K/µL"
+      },
+      "decimalPrecision": 1
+    },
+    "qualifiedInterval": [
+      {
+        "category": "reference",
+        "range": {
+          "low": {
+            "value": 150,
+            "unit": "K/µL",
+            "system": "http://unitsofmeasure.org"
+          },
+          "high": {
+            "value": 400,
+            "unit": "K/µL",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "condition": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "ObservationDefinition",
+    "id": "d77ccd6e-0783-4489-906c-d24dba73f31a",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "lipids",
+            "display": "Lipids"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2093-3",
+          "display": "Total Cholesterol"
+        }
+      ],
+      "text": "Total Cholesterol"
+    },
+    "permittedDataType": [
+      "Quantity"
+    ],
+    "quantitativeDetails": {
+      "unit": {
+        "coding": [
+          {
+            "system": "http://unitsofmeasure.org",
+            "code": "mg/dL"
+          }
+        ],
+        "text": "mg/dL"
+      },
+      "decimalPrecision": 0
+    },
+    "qualifiedInterval": [
+      {
+        "category": "reference",
+        "range": {
+          "low": {
+            "value": 0,
+            "unit": "mg/dL",
+            "system": "http://unitsofmeasure.org"
+          },
+          "high": {
+            "value": 200,
+            "unit": "mg/dL",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "condition": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "ObservationDefinition",
+    "id": "1c05f844-ec04-4532-ad6d-feb87289a880",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "lipids",
+            "display": "Lipids"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2085-9",
+          "display": "HDL Cholesterol"
+        }
+      ],
+      "text": "HDL Cholesterol"
+    },
+    "permittedDataType": [
+      "Quantity"
+    ],
+    "quantitativeDetails": {
+      "unit": {
+        "coding": [
+          {
+            "system": "http://unitsofmeasure.org",
+            "code": "mg/dL"
+          }
+        ],
+        "text": "mg/dL"
+      },
+      "decimalPrecision": 0
+    },
+    "qualifiedInterval": [
+      {
+        "category": "reference",
+        "range": {
+          "low": {
+            "value": 40,
+            "unit": "mg/dL",
+            "system": "http://unitsofmeasure.org"
+          },
+          "high": {
+            "value": 999,
+            "unit": "mg/dL",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "condition": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "ObservationDefinition",
+    "id": "ef28380d-508f-4f97-ab7a-3687c060a85e",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "lipids",
+            "display": "Lipids"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "13457-7",
+          "display": "LDL Cholesterol"
+        }
+      ],
+      "text": "LDL Cholesterol"
+    },
+    "permittedDataType": [
+      "Quantity"
+    ],
+    "quantitativeDetails": {
+      "unit": {
+        "coding": [
+          {
+            "system": "http://unitsofmeasure.org",
+            "code": "mg/dL"
+          }
+        ],
+        "text": "mg/dL"
+      },
+      "decimalPrecision": 0
+    },
+    "qualifiedInterval": [
+      {
+        "category": "reference",
+        "range": {
+          "low": {
+            "value": 0,
+            "unit": "mg/dL",
+            "system": "http://unitsofmeasure.org"
+          },
+          "high": {
+            "value": 100,
+            "unit": "mg/dL",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "condition": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "ObservationDefinition",
+    "id": "ecbe1c8e-4190-487c-b323-ca91d1df7645",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "lipids",
+            "display": "Lipids"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2571-8",
+          "display": "Triglycerides"
+        }
+      ],
+      "text": "Triglycerides"
+    },
+    "permittedDataType": [
+      "Quantity"
+    ],
+    "quantitativeDetails": {
+      "unit": {
+        "coding": [
+          {
+            "system": "http://unitsofmeasure.org",
+            "code": "mg/dL"
+          }
+        ],
+        "text": "mg/dL"
+      },
+      "decimalPrecision": 0
+    },
+    "qualifiedInterval": [
+      {
+        "category": "reference",
+        "range": {
+          "low": {
+            "value": 0,
+            "unit": "mg/dL",
+            "system": "http://unitsofmeasure.org"
+          },
+          "high": {
+            "value": 150,
+            "unit": "mg/dL",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "condition": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "ObservationDefinition",
+    "id": "3fa32daa-a80a-423b-a74d-83357c8db1ef",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "liver",
+            "display": "Liver"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "1742-6",
+          "display": "ALT"
+        }
+      ],
+      "text": "ALT"
+    },
+    "permittedDataType": [
+      "Quantity"
+    ],
+    "quantitativeDetails": {
+      "unit": {
+        "coding": [
+          {
+            "system": "http://unitsofmeasure.org",
+            "code": "U/L"
+          }
+        ],
+        "text": "U/L"
+      },
+      "decimalPrecision": 1
+    },
+    "qualifiedInterval": [
+      {
+        "category": "reference",
+        "range": {
+          "low": {
+            "value": 7,
+            "unit": "U/L",
+            "system": "http://unitsofmeasure.org"
+          },
+          "high": {
+            "value": 40,
+            "unit": "U/L",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "condition": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "ObservationDefinition",
+    "id": "453227cd-a671-44f8-aa3e-1a0a360123e0",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "liver",
+            "display": "Liver"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "1920-8",
+          "display": "AST"
+        }
+      ],
+      "text": "AST"
+    },
+    "permittedDataType": [
+      "Quantity"
+    ],
+    "quantitativeDetails": {
+      "unit": {
+        "coding": [
+          {
+            "system": "http://unitsofmeasure.org",
+            "code": "U/L"
+          }
+        ],
+        "text": "U/L"
+      },
+      "decimalPrecision": 1
+    },
+    "qualifiedInterval": [
+      {
+        "category": "reference",
+        "range": {
+          "low": {
+            "value": 10,
+            "unit": "U/L",
+            "system": "http://unitsofmeasure.org"
+          },
+          "high": {
+            "value": 40,
+            "unit": "U/L",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "condition": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "ObservationDefinition",
+    "id": "af674af1-e508-4955-b70f-de6cfc0eaf18",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "liver",
+            "display": "Liver"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "1975-2",
+          "display": "Total Bilirubin"
+        }
+      ],
+      "text": "Total Bilirubin"
+    },
+    "permittedDataType": [
+      "Quantity"
+    ],
+    "quantitativeDetails": {
+      "unit": {
+        "coding": [
+          {
+            "system": "http://unitsofmeasure.org",
+            "code": "mg/dL"
+          }
+        ],
+        "text": "mg/dL"
+      },
+      "decimalPrecision": 1
+    },
+    "qualifiedInterval": [
+      {
+        "category": "reference",
+        "range": {
+          "low": {
+            "value": 0.2,
+            "unit": "mg/dL",
+            "system": "http://unitsofmeasure.org"
+          },
+          "high": {
+            "value": 1.2,
+            "unit": "mg/dL",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "condition": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "ObservationDefinition",
+    "id": "bcc47a1e-6a13-492b-840d-af35e257c3c1",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "liver",
+            "display": "Liver"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "1751-7",
+          "display": "Albumin"
+        }
+      ],
+      "text": "Albumin"
+    },
+    "permittedDataType": [
+      "Quantity"
+    ],
+    "quantitativeDetails": {
+      "unit": {
+        "coding": [
+          {
+            "system": "http://unitsofmeasure.org",
+            "code": "g/dL"
+          }
+        ],
+        "text": "g/dL"
+      },
+      "decimalPrecision": 1
+    },
+    "qualifiedInterval": [
+      {
+        "category": "reference",
+        "range": {
+          "low": {
+            "value": 3.5,
+            "unit": "g/dL",
+            "system": "http://unitsofmeasure.org"
+          },
+          "high": {
+            "value": 5,
+            "unit": "g/dL",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "condition": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "ObservationDefinition",
+    "id": "d61e74d0-e2bc-4f7e-bf90-7f81b164f19b",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "thyroid",
+            "display": "Thyroid"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "3016-3",
+          "display": "TSH"
+        }
+      ],
+      "text": "TSH"
+    },
+    "permittedDataType": [
+      "Quantity"
+    ],
+    "quantitativeDetails": {
+      "unit": {
+        "coding": [
+          {
+            "system": "http://unitsofmeasure.org",
+            "code": "mIU/L"
+          }
+        ],
+        "text": "mIU/L"
+      },
+      "decimalPrecision": 1
+    },
+    "qualifiedInterval": [
+      {
+        "category": "reference",
+        "range": {
+          "low": {
+            "value": 0.4,
+            "unit": "mIU/L",
+            "system": "http://unitsofmeasure.org"
+          },
+          "high": {
+            "value": 4,
+            "unit": "mIU/L",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "condition": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "ObservationDefinition",
+    "id": "55e7873d-838b-4652-8e9d-a94d71022f2a",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "thyroid",
+            "display": "Thyroid"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "3051-0",
+          "display": "Free T3"
+        }
+      ],
+      "text": "Free T3"
+    },
+    "permittedDataType": [
+      "Quantity"
+    ],
+    "quantitativeDetails": {
+      "unit": {
+        "coding": [
+          {
+            "system": "http://unitsofmeasure.org",
+            "code": "pg/mL"
+          }
+        ],
+        "text": "pg/mL"
+      },
+      "decimalPrecision": 1
+    },
+    "qualifiedInterval": [
+      {
+        "category": "reference",
+        "range": {
+          "low": {
+            "value": 2.3,
+            "unit": "pg/mL",
+            "system": "http://unitsofmeasure.org"
+          },
+          "high": {
+            "value": 4.2,
+            "unit": "pg/mL",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "condition": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "ObservationDefinition",
+    "id": "74ae65c6-feab-44b7-ba7f-7de514de3607",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "thyroid",
+            "display": "Thyroid"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "3054-4",
+          "display": "Free T4"
+        }
+      ],
+      "text": "Free T4"
+    },
+    "permittedDataType": [
+      "Quantity"
+    ],
+    "quantitativeDetails": {
+      "unit": {
+        "coding": [
+          {
+            "system": "http://unitsofmeasure.org",
+            "code": "ng/dL"
+          }
+        ],
+        "text": "ng/dL"
+      },
+      "decimalPrecision": 1
+    },
+    "qualifiedInterval": [
+      {
+        "category": "reference",
+        "range": {
+          "low": {
+            "value": 0.8,
+            "unit": "ng/dL",
+            "system": "http://unitsofmeasure.org"
+          },
+          "high": {
+            "value": 1.8,
+            "unit": "ng/dL",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "condition": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "ObservationDefinition",
+    "id": "70bfbe8d-0731-4afc-9413-55d9d60e098f",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vitals",
+            "display": "Vitals"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "9279-1",
+          "display": "Respiratory Rate"
+        }
+      ],
+      "text": "Respiratory Rate"
+    },
+    "permittedDataType": [
+      "Quantity"
+    ],
+    "quantitativeDetails": {
+      "unit": {
+        "coding": [
+          {
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        ],
+        "text": "/min"
+      },
+      "decimalPrecision": 1
+    },
+    "qualifiedInterval": [
+      {
+        "category": "reference",
+        "range": {
+          "low": {
+            "value": 12,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org"
+          },
+          "high": {
+            "value": 20,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "condition": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "ObservationDefinition",
+    "id": "7037de80-c99a-48ac-913b-319b9305411f",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vitals",
+            "display": "Vitals"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "8867-4",
+          "display": "Heart Rate"
+        }
+      ],
+      "text": "Heart Rate"
+    },
+    "permittedDataType": [
+      "Quantity"
+    ],
+    "quantitativeDetails": {
+      "unit": {
+        "coding": [
+          {
+            "system": "http://unitsofmeasure.org",
+            "code": "bpm"
+          }
+        ],
+        "text": "bpm"
+      },
+      "decimalPrecision": 1
+    },
+    "qualifiedInterval": [
+      {
+        "category": "reference",
+        "range": {
+          "low": {
+            "value": 60,
+            "unit": "bpm",
+            "system": "http://unitsofmeasure.org"
+          },
+          "high": {
+            "value": 100,
+            "unit": "bpm",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "condition": "Normal"
+      }
+    ]
+  },
+  {
+    "resourceType": "ObservationDefinition",
+    "id": "8e1cff4e-21aa-44d4-80cf-9c830e35b868",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "vitals",
+            "display": "Vitals"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "55284-4",
+          "display": "Blood Pressure"
+        }
+      ],
+      "text": "Blood Pressure"
+    },
+    "permittedDataType": [
+      "Quantity"
+    ],
+    "quantitativeDetails": {
+      "unit": {
+        "coding": [
+          {
+            "system": "http://unitsofmeasure.org",
+            "code": "mmHg"
+          }
+        ],
+        "text": "mmHg"
+      },
+      "decimalPrecision": 1
+    },
+    "qualifiedInterval": [
+      {
+        "category": "reference",
+        "range": {
+          "low": {
+            "value": 90,
+            "unit": "mmHg",
+            "system": "http://unitsofmeasure.org"
+          },
+          "high": {
+            "value": 120,
+            "unit": "mmHg",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "condition": "Systolic"
+      }
+    ]
+  }
+]
