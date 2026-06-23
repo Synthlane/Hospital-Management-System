@@ -85,7 +85,12 @@
     "period": {
       "start": "2024-07-20T04:19:00.000Z",
       "end": "2024-07-20T05:14:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/60a86294-51b6-45a9-851b-dc59bf6e44a8"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -129,7 +134,12 @@
     "period": {
       "start": "2024-08-30T12:08:00.000Z",
       "end": "2024-08-30T12:32:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/748f93d1-a7f8-409f-a487-ff5815967295"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -173,7 +183,12 @@
     "period": {
       "start": "2025-02-17T08:16:00.000Z",
       "end": "2025-02-17T08:39:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/5236f524-37bc-4920-b52e-2c1bf96abdc3"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -217,7 +232,12 @@
     "period": {
       "start": "2025-09-12T08:08:00.000Z",
       "end": "2025-09-12T08:43:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/6aeaa273-7aa0-4b67-b2ba-d59d159d304f"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -261,7 +281,12 @@
     "period": {
       "start": "2024-10-25T03:55:00.000Z",
       "end": "2024-10-25T04:43:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/1a3f25b3-9a50-4738-b8ed-9aeb7d2e612a"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -305,7 +330,12 @@
     "period": {
       "start": "2026-02-01T08:37:00.000Z",
       "end": "2026-02-01T09:22:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/0aa109f3-a809-4d3f-9403-8f864d30f5f9"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -349,7 +379,12 @@
     "period": {
       "start": "2026-09-07T02:47:00.000Z",
       "end": "2026-09-07T03:24:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/9c5bc7ca-5e41-4adc-999b-9747920eaf3e"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -393,7 +428,12 @@
     "period": {
       "start": "2024-08-05T11:30:00.000Z",
       "end": "2024-08-05T12:14:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/658aa1ac-50d8-4563-940e-a840e309dd0c"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -437,7 +477,12 @@
     "period": {
       "start": "2025-12-21T09:27:00.000Z",
       "end": "2025-12-21T09:44:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/910f29b5-4e03-4828-a102-c3bceace37a7"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -481,7 +526,12 @@
     "period": {
       "start": "2024-11-19T06:19:00.000Z",
       "end": "2024-11-19T06:54:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/c86fbfc1-6b98-44c6-9747-47c3a9a89f45"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -525,7 +575,12 @@
     "period": {
       "start": "2025-04-01T09:20:00.000Z",
       "end": "2025-04-01T10:13:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/81d3160e-9b97-4213-ad9b-0663c5474019"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -569,7 +624,12 @@
     "period": {
       "start": "2026-07-14T06:45:00.000Z",
       "end": "2026-07-14T07:01:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/b9b08efc-86a9-4b53-bcc9-9b9bfb4d5dc3"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -613,7 +673,12 @@
     "period": {
       "start": "2025-01-31T05:02:00.000Z",
       "end": "2025-01-31T05:37:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/591adcbf-777a-4f60-b643-744a7c61a724"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -657,7 +722,12 @@
     "period": {
       "start": "2025-08-25T10:34:00.000Z",
       "end": "2025-08-25T10:54:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/635562b9-0b5e-478d-b757-8b58b4816bb2"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -701,7 +771,12 @@
     "period": {
       "start": "2025-01-12T05:09:00.000Z",
       "end": "2025-01-12T06:07:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/04641d22-4ce2-4064-83d4-2fa3f0dfabf4"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -745,7 +820,12 @@
     "period": {
       "start": "2026-09-01T08:30:00.000Z",
       "end": "2026-09-01T09:02:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/47ac671d-03ba-4db8-952e-79d09c3a4f95"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -789,7 +869,12 @@
     "period": {
       "start": "2025-06-27T05:42:00.000Z",
       "end": "2025-06-27T06:33:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/0d012bca-e276-4b25-8903-3abd9ce02470"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -833,7 +918,12 @@
     "period": {
       "start": "2024-12-01T04:51:00.000Z",
       "end": "2024-12-01T05:35:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/eb215aec-04ce-494d-ae6a-165695155910"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -877,7 +967,12 @@
     "period": {
       "start": "2026-03-23T07:50:00.000Z",
       "end": "2026-03-23T08:32:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/a05a87ea-ad45-4cee-9cdb-e94fb38338c1"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -921,7 +1016,12 @@
     "period": {
       "start": "2024-09-05T08:56:00.000Z",
       "end": "2024-09-05T09:23:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/e9aa26f2-a702-425d-84c5-510d27e9ae0b"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -1009,7 +1109,12 @@
     "period": {
       "start": "2024-12-20T11:10:00.000Z",
       "end": "2024-12-20T11:54:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/a457e382-6190-46eb-8b2d-7d81cb1a3cc1"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -1053,7 +1158,12 @@
     "period": {
       "start": "2026-07-07T03:14:00.000Z",
       "end": "2026-07-07T04:13:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/3b1b3653-5a1b-4648-b348-b3e0794d8a3a"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -1097,7 +1207,12 @@
     "period": {
       "start": "2025-10-30T06:21:00.000Z",
       "end": "2025-10-30T06:54:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/9e6088ef-7a7c-421c-9407-573ec6eef71c"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -1141,7 +1256,12 @@
     "period": {
       "start": "2026-07-21T06:10:00.000Z",
       "end": "2026-07-21T07:02:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/15b49360-342f-4f23-aeab-bd9e0f039a91"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -1185,7 +1305,12 @@
     "period": {
       "start": "2025-09-22T10:38:00.000Z",
       "end": "2025-09-22T11:38:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/52cac4e7-8f31-4857-a19c-ddf3a7a01f8f"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -1229,7 +1354,12 @@
     "period": {
       "start": "2024-12-02T10:50:00.000Z",
       "end": "2024-12-02T11:06:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/7760bbd3-1cb3-4ff8-8f42-f008b9ac05e5"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -1273,7 +1403,12 @@
     "period": {
       "start": "2026-01-01T06:09:00.000Z",
       "end": "2026-01-01T06:54:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/39adba9f-8e09-458d-9fb4-960af13654f5"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -1317,7 +1452,12 @@
     "period": {
       "start": "2024-09-08T09:26:00.000Z",
       "end": "2024-09-08T09:45:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/f7168bd0-2ce7-46a2-8b33-8989d763664d"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -1361,7 +1501,12 @@
     "period": {
       "start": "2026-08-26T07:51:00.000Z",
       "end": "2026-08-26T08:42:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/19ec6744-3da4-43a7-b75b-05788806a6e9"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -1405,7 +1550,12 @@
     "period": {
       "start": "2025-01-24T10:14:00.000Z",
       "end": "2025-01-24T10:43:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/c038baad-23ef-4a00-9190-543e1a7ae192"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -1449,7 +1599,12 @@
     "period": {
       "start": "2026-07-23T06:52:00.000Z",
       "end": "2026-07-23T07:31:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/0a335b68-1a08-4f4e-aa17-a0c6eb88b9d8"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -1537,7 +1692,12 @@
     "period": {
       "start": "2026-09-03T05:42:00.000Z",
       "end": "2026-09-03T06:20:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/a356f8da-9d48-46e7-890b-81b598b034d0"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -1581,7 +1741,12 @@
     "period": {
       "start": "2026-07-20T07:54:00.000Z",
       "end": "2026-07-20T08:43:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/50b68d00-98b9-48e6-9541-f37103b8c41b"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -1625,7 +1790,12 @@
     "period": {
       "start": "2024-10-25T06:45:00.000Z",
       "end": "2024-10-25T07:40:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/99245b6d-9bdc-4a49-806b-484a67301f41"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -1669,7 +1839,12 @@
     "period": {
       "start": "2026-01-09T04:11:00.000Z",
       "end": "2026-01-09T04:59:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/d3cc6ffb-4e34-42de-89a2-a95347d60ea6"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -1713,7 +1888,12 @@
     "period": {
       "start": "2025-08-28T03:43:00.000Z",
       "end": "2025-08-28T04:33:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/81f15729-856d-467a-a106-6cfd96acfd87"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -1801,7 +1981,12 @@
     "period": {
       "start": "2026-06-14T10:21:00.000Z",
       "end": "2026-06-14T10:36:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/27401e0a-02c0-48b5-bf38-02e72e7ba55f"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -1845,7 +2030,12 @@
     "period": {
       "start": "2025-02-07T12:26:00.000Z",
       "end": "2025-02-07T13:13:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/631a8beb-87fa-4c62-b708-0fe38f4bda44"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -1889,7 +2079,12 @@
     "period": {
       "start": "2026-07-11T04:45:00.000Z",
       "end": "2026-07-11T05:32:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/0e858e8f-7594-4b75-9af0-8ce6966a3665"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -1933,7 +2128,12 @@
     "period": {
       "start": "2025-05-09T08:30:00.000Z",
       "end": "2025-05-09T09:02:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/a2a0562c-6a86-45fd-a483-5b963f417bd0"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -1977,7 +2177,12 @@
     "period": {
       "start": "2024-06-30T06:57:00.000Z",
       "end": "2024-06-30T07:18:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/56a41359-0fc9-4754-a8a2-034ab230a08a"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -2021,7 +2226,12 @@
     "period": {
       "start": "2026-06-29T03:37:00.000Z",
       "end": "2026-06-29T04:14:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/2a5c65ca-5e61-45cb-ab5b-f69c19d6e7d5"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -2065,7 +2275,12 @@
     "period": {
       "start": "2025-10-21T08:32:00.000Z",
       "end": "2025-10-21T08:51:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/ce48214d-018e-4051-9bcd-ed2dfebae293"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -2109,7 +2324,12 @@
     "period": {
       "start": "2025-10-13T03:09:00.000Z",
       "end": "2025-10-13T03:45:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/d2bef29b-b6aa-4e7a-aabf-212f81b8f4fb"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -2153,7 +2373,12 @@
     "period": {
       "start": "2026-09-09T09:41:00.000Z",
       "end": "2026-09-09T10:11:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/e540b4d1-b519-453d-81af-e7228a854b7f"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -2285,7 +2510,12 @@
     "period": {
       "start": "2024-10-29T07:57:00.000Z",
       "end": "2024-10-29T08:22:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/dc5119ed-c2ee-48b7-ae65-6b67e464ce73"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -2329,7 +2559,12 @@
     "period": {
       "start": "2026-07-17T08:58:00.000Z",
       "end": "2026-07-17T09:22:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/18bc5ac5-d2a3-4f2c-8f43-a0e5dfd96893"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -2373,7 +2608,12 @@
     "period": {
       "start": "2024-11-21T05:53:00.000Z",
       "end": "2024-11-21T06:19:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/11e2b2e9-207a-4ea6-b40b-20c1dd4de3c3"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -2417,7 +2657,12 @@
     "period": {
       "start": "2025-04-02T03:30:00.000Z",
       "end": "2025-04-02T04:18:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/fcddd3ac-aadb-4ba1-8fb3-e64816c88d38"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -2505,7 +2750,12 @@
     "period": {
       "start": "2025-10-10T07:52:00.000Z",
       "end": "2025-10-10T08:19:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/30c5baf2-95cf-4c99-bd01-1f1a955f5c33"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -2549,7 +2799,12 @@
     "period": {
       "start": "2025-12-30T11:46:00.000Z",
       "end": "2025-12-30T12:10:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/bce4fa90-ffe2-48a9-a61e-dc15cdad3e1f"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -2593,7 +2848,12 @@
     "period": {
       "start": "2025-04-05T08:08:00.000Z",
       "end": "2025-04-05T08:38:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/2eeca93a-256d-4669-97d3-a66348db5b24"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -2637,7 +2897,12 @@
     "period": {
       "start": "2026-02-14T04:56:00.000Z",
       "end": "2026-02-14T05:43:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/5b26309f-3f3f-4c16-9f0a-3b41f4ab915c"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -2681,7 +2946,12 @@
     "period": {
       "start": "2026-06-03T11:24:00.000Z",
       "end": "2026-06-03T12:13:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/34c60a59-5079-4d6d-82ba-04bde2ab17a0"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -2725,7 +2995,12 @@
     "period": {
       "start": "2026-06-22T07:48:00.000Z",
       "end": "2026-06-22T08:18:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/85a0ea6c-7121-48ea-857b-a1c9bf48e8bb"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -2769,7 +3044,12 @@
     "period": {
       "start": "2026-08-16T10:43:00.000Z",
       "end": "2026-08-16T11:01:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/db34d2a7-169d-469a-a233-68df30ce5057"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -2813,7 +3093,12 @@
     "period": {
       "start": "2024-10-24T03:51:00.000Z",
       "end": "2024-10-24T04:35:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/aa0859ec-5262-448d-8b13-f974946eaf6e"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -2857,7 +3142,12 @@
     "period": {
       "start": "2025-10-06T09:24:00.000Z",
       "end": "2025-10-06T10:23:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/ccd384fb-0439-4308-b2b8-f54befc92684"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -2901,7 +3191,12 @@
     "period": {
       "start": "2026-07-01T06:41:00.000Z",
       "end": "2026-07-01T07:15:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/19fbd9a4-4451-4e00-a1c5-ee823ffda956"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -2945,7 +3240,12 @@
     "period": {
       "start": "2025-01-27T11:41:00.000Z",
       "end": "2025-01-27T12:19:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/b3ca085c-3f9b-4685-9f9d-9880b3055200"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -2989,7 +3289,12 @@
     "period": {
       "start": "2026-05-05T08:15:00.000Z",
       "end": "2026-05-05T08:32:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/0bf3c79e-c9c6-41d4-9afa-4363d20e6afc"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -3033,7 +3338,12 @@
     "period": {
       "start": "2025-08-24T07:23:00.000Z",
       "end": "2025-08-24T07:57:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/dee8dcaa-7339-45c2-85fa-a34ecfcfff1d"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -3077,7 +3387,12 @@
     "period": {
       "start": "2026-03-15T03:20:00.000Z",
       "end": "2026-03-15T04:06:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/4f9d2766-dc4e-4750-a98e-bb4bf6465f4e"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -3121,7 +3436,12 @@
     "period": {
       "start": "2026-09-14T08:22:00.000Z",
       "end": "2026-09-14T09:20:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/eb6f7673-de7d-4401-ab4b-ab66fbefe624"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -3165,7 +3485,12 @@
     "period": {
       "start": "2025-12-31T07:19:00.000Z",
       "end": "2025-12-31T07:54:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/8d8a25e7-5857-4526-af17-4aa774b55b9d"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -3209,7 +3534,12 @@
     "period": {
       "start": "2026-04-16T07:04:00.000Z",
       "end": "2026-04-16T07:53:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/10854857-d2c3-4132-be3a-d0f57a9a193d"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -3253,7 +3583,12 @@
     "period": {
       "start": "2025-06-04T06:49:00.000Z",
       "end": "2025-06-04T07:41:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/8e22a6ec-45a3-48ae-b4cf-a8a0f45b1ef2"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -3297,7 +3632,12 @@
     "period": {
       "start": "2026-08-06T08:01:00.000Z",
       "end": "2026-08-06T08:59:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/8b0b86fb-f3ef-43a5-b333-1a806093ee3e"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -3341,7 +3681,12 @@
     "period": {
       "start": "2025-12-31T05:54:00.000Z",
       "end": "2025-12-31T06:26:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/d107a7ab-98ad-482e-a413-b7c4fd59bf9d"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -3385,7 +3730,12 @@
     "period": {
       "start": "2025-11-12T09:31:00.000Z",
       "end": "2025-11-12T10:11:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/7d2b6a30-6024-4e68-b908-2a3873e98cd0"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -3429,7 +3779,12 @@
     "period": {
       "start": "2026-09-01T07:27:00.000Z",
       "end": "2026-09-01T08:20:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/121bfa9e-3db2-4754-8118-b0839ddac8dc"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -3473,7 +3828,12 @@
     "period": {
       "start": "2026-08-19T10:57:00.000Z",
       "end": "2026-08-19T11:21:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/88c573b8-9955-4f5f-a27a-46851062b20f"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -3517,7 +3877,12 @@
     "period": {
       "start": "2025-03-28T12:19:00.000Z",
       "end": "2025-03-28T13:11:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/6ce6a8b7-cc59-4cdc-a87c-d60afde7e4d9"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -3561,7 +3926,12 @@
     "period": {
       "start": "2026-05-12T07:21:00.000Z",
       "end": "2026-05-12T08:12:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/584fa0d7-d11d-4502-a237-b1c7670617ac"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -3605,7 +3975,12 @@
     "period": {
       "start": "2026-08-12T09:51:00.000Z",
       "end": "2026-08-12T10:18:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/4c6b47da-9a34-47d0-a74d-969d2a837f9c"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -3649,7 +4024,12 @@
     "period": {
       "start": "2026-08-12T06:23:00.000Z",
       "end": "2026-08-12T06:51:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/4c6b47da-9a34-47d0-a74d-969d2a837f9c"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -3693,7 +4073,12 @@
     "period": {
       "start": "2025-10-07T10:03:00.000Z",
       "end": "2025-10-07T10:54:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/f919e2b7-8c48-425a-a33c-6bcba55b203d"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -3737,7 +4122,12 @@
     "period": {
       "start": "2025-10-30T02:45:00.000Z",
       "end": "2025-10-30T03:30:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/e88334bc-ac25-4991-89f0-96e43b3975d8"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -3781,7 +4171,12 @@
     "period": {
       "start": "2026-03-02T06:25:00.000Z",
       "end": "2026-03-02T06:46:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/a2fe72c3-cbcb-4b3e-ab54-6148edfe9293"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -3825,7 +4220,12 @@
     "period": {
       "start": "2026-08-26T04:01:00.000Z",
       "end": "2026-08-26T04:37:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/7d9c60bd-5b41-474b-9917-b9c63c5f636c"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -3869,7 +4269,12 @@
     "period": {
       "start": "2025-08-30T05:57:00.000Z",
       "end": "2025-08-30T06:31:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/98fa05cb-998f-413d-b1da-32dc8bbbf324"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -3913,7 +4318,12 @@
     "period": {
       "start": "2025-07-13T04:20:00.000Z",
       "end": "2025-07-13T04:42:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/22c22a97-2c40-44d7-ae89-03d0924caecc"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -3957,7 +4367,12 @@
     "period": {
       "start": "2025-05-04T05:24:00.000Z",
       "end": "2025-05-04T06:00:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/2a04434c-cf0a-40f8-906c-35a23fbebd99"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -4001,7 +4416,12 @@
     "period": {
       "start": "2026-08-04T11:46:00.000Z",
       "end": "2026-08-04T12:20:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/55cf22c7-c299-4b2a-bff1-192aa6794bc9"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -4045,7 +4465,12 @@
     "period": {
       "start": "2024-09-03T05:18:00.000Z",
       "end": "2024-09-03T05:36:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/27b5f46e-364a-4569-8cfd-30540135f846"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -4089,7 +4514,12 @@
     "period": {
       "start": "2026-07-31T03:55:00.000Z",
       "end": "2026-07-31T04:44:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/7486919a-63f4-4e73-8247-0f9e9c35e801"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -4133,7 +4563,12 @@
     "period": {
       "start": "2025-07-19T07:25:00.000Z",
       "end": "2025-07-19T08:07:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/bac1c0c3-cc9c-4f04-aed4-2ddfd2406e2c"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -4177,7 +4612,12 @@
     "period": {
       "start": "2025-06-02T11:37:00.000Z",
       "end": "2025-06-02T12:36:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/5341553e-7ae0-46a5-b5d5-742342204aab"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -4221,7 +4661,12 @@
     "period": {
       "start": "2025-04-21T06:40:00.000Z",
       "end": "2025-04-21T07:10:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/9f4f49ef-7d93-46d9-8dbb-c1bb2f896775"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -4265,7 +4710,12 @@
     "period": {
       "start": "2025-11-07T03:37:00.000Z",
       "end": "2025-11-07T04:07:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/18e4ef8a-cd48-43dc-889b-4f823159e2fb"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -4309,7 +4759,12 @@
     "period": {
       "start": "2026-06-16T06:21:00.000Z",
       "end": "2026-06-16T07:12:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/91efed13-23c4-472f-a430-b3862842a4bd"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -4353,7 +4808,12 @@
     "period": {
       "start": "2026-05-25T11:02:00.000Z",
       "end": "2026-05-25T11:58:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/8e86820e-0ee9-440c-8844-a86e0aa5e503"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -4485,7 +4945,12 @@
     "period": {
       "start": "2026-08-17T03:43:00.000Z",
       "end": "2026-08-17T04:25:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/4b62fff2-6d29-4cfc-aaf8-ef6025c38cff"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -4529,7 +4994,12 @@
     "period": {
       "start": "2024-07-26T11:54:00.000Z",
       "end": "2024-07-26T12:43:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/37a849bb-720a-4795-ba56-89299f3ad679"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -4573,7 +5043,12 @@
     "period": {
       "start": "2026-07-18T07:33:00.000Z",
       "end": "2026-07-18T08:02:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/4c138b0f-047b-4869-8d54-412be852b20d"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -4617,7 +5092,12 @@
     "period": {
       "start": "2026-05-14T07:59:00.000Z",
       "end": "2026-05-14T08:25:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/4bf9ab93-e794-418b-aac0-d20d11e0e4d1"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -4661,7 +5141,12 @@
     "period": {
       "start": "2024-09-25T06:31:00.000Z",
       "end": "2024-09-25T06:49:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/564593d8-8bfa-44ac-aa6b-c5decf7c285f"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -4705,7 +5190,12 @@
     "period": {
       "start": "2025-09-02T10:30:00.000Z",
       "end": "2025-09-02T10:45:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/fda7b11c-d94c-4ca0-b266-9f01411adc59"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -4793,7 +5283,12 @@
     "period": {
       "start": "2024-12-11T08:05:00.000Z",
       "end": "2024-12-11T09:03:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/549ea47f-797e-4a33-92cf-1fbadc16fdf5"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -4837,7 +5332,12 @@
     "period": {
       "start": "2025-05-29T07:29:00.000Z",
       "end": "2025-05-29T08:08:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/36b4a6f6-4159-4201-8c04-afebad2f791e"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -4881,7 +5381,12 @@
     "period": {
       "start": "2025-10-27T06:58:00.000Z",
       "end": "2025-10-27T07:29:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/849b3867-5dff-439c-af0e-32c284848bf3"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -4925,7 +5430,12 @@
     "period": {
       "start": "2025-09-07T09:30:00.000Z",
       "end": "2025-09-07T09:45:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/33591005-c587-413d-b9b3-ba86c5552668"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -5013,7 +5523,12 @@
     "period": {
       "start": "2024-11-14T05:19:00.000Z",
       "end": "2024-11-14T06:09:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/1a539a93-d89e-4bfc-9da1-1bb287dad193"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -5057,7 +5572,12 @@
     "period": {
       "start": "2024-12-17T12:25:00.000Z",
       "end": "2024-12-17T12:44:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/30764604-6acd-4074-b6ee-b9a00a818914"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -5101,7 +5621,12 @@
     "period": {
       "start": "2026-08-12T05:17:00.000Z",
       "end": "2026-08-12T05:58:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/63a5a91f-3529-44c5-9aa6-aef7bd9ee3c2"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -5145,7 +5670,12 @@
     "period": {
       "start": "2024-12-30T09:49:00.000Z",
       "end": "2024-12-30T10:07:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/02e657a3-2263-4497-abd4-41f14d33b915"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -5189,7 +5719,12 @@
     "period": {
       "start": "2025-11-16T09:56:00.000Z",
       "end": "2025-11-16T10:36:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/19f36109-d1b1-4c94-8150-0715bd37f10d"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -5233,7 +5768,12 @@
     "period": {
       "start": "2026-03-09T12:16:00.000Z",
       "end": "2026-03-09T12:58:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/567f2567-3a6e-4e89-be94-db3f867ef728"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -5321,7 +5861,12 @@
     "period": {
       "start": "2025-06-05T12:28:00.000Z",
       "end": "2025-06-05T12:55:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/953120c0-6f87-485d-9fa3-aa726caa0697"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -5365,7 +5910,12 @@
     "period": {
       "start": "2025-06-30T02:53:00.000Z",
       "end": "2025-06-30T03:10:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/3c1e7a6f-c066-4167-a9dd-de9d7faa281b"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -5409,7 +5959,12 @@
     "period": {
       "start": "2024-12-13T04:34:00.000Z",
       "end": "2024-12-13T05:14:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/1b03516b-515d-4918-9701-4a54b5746884"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -5453,7 +6008,12 @@
     "period": {
       "start": "2026-09-01T11:11:00.000Z",
       "end": "2026-09-01T12:02:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/2d761f1a-46d4-445f-806c-ba6911bdfe78"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -5541,7 +6101,12 @@
     "period": {
       "start": "2025-12-01T03:48:00.000Z",
       "end": "2025-12-01T04:25:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/0efabf7b-dbb6-4873-a536-3e9973b88cab"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -5585,7 +6150,12 @@
     "period": {
       "start": "2024-12-05T08:14:00.000Z",
       "end": "2024-12-05T08:53:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/9b033d33-86ca-4ebe-b2b8-24c7801e8e41"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -5673,7 +6243,12 @@
     "period": {
       "start": "2026-07-04T02:33:00.000Z",
       "end": "2026-07-04T03:23:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/2b694175-1460-4c17-a4ab-f27dd5ea0acc"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -5717,7 +6292,12 @@
     "period": {
       "start": "2026-08-07T07:56:00.000Z",
       "end": "2026-08-07T08:31:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/514d951b-14d7-446b-8953-07ea7b73523e"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -5761,7 +6341,12 @@
     "period": {
       "start": "2025-05-11T07:58:00.000Z",
       "end": "2025-05-11T08:31:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/6c8cc7bf-71d5-4372-a6fe-a091100b7653"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -5805,7 +6390,12 @@
     "period": {
       "start": "2025-07-21T11:32:00.000Z",
       "end": "2025-07-21T12:07:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/05f719ab-273b-47f4-b1ad-aea77d756edb"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -5849,7 +6439,12 @@
     "period": {
       "start": "2026-08-17T09:48:00.000Z",
       "end": "2026-08-17T10:40:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/2bb33dc7-536f-46a7-a4c8-2a8b6772f75b"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -5893,7 +6488,12 @@
     "period": {
       "start": "2024-11-22T05:16:00.000Z",
       "end": "2024-11-22T05:50:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/ba87a354-32a4-4115-a9bd-ef8942b4a991"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -5937,7 +6537,12 @@
     "period": {
       "start": "2026-08-26T05:28:00.000Z",
       "end": "2026-08-26T06:08:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/02b42d8d-0f6c-474b-979a-51799e6c55ec"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -6025,12 +6630,17 @@
     "period": {
       "start": "2026-09-15T05:09:00.000Z",
       "end": "2026-09-15T05:35:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/2fc30d04-7e66-4b11-a9d7-7534d906ed7a"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
     "id": "c258da77-d20f-4584-971e-ef7e8bfc1aa2",
-    "status": "planned",
+    "status": "finished",
     "class": {
       "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
       "code": "AMB",
@@ -6113,7 +6723,12 @@
     "period": {
       "start": "2026-08-24T06:16:00.000Z",
       "end": "2026-08-24T06:49:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/7de80965-0408-4bec-a2a0-93b468c88a6c"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -6157,7 +6772,12 @@
     "period": {
       "start": "2026-04-23T10:11:00.000Z",
       "end": "2026-04-23T10:58:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/a4926031-6879-432a-994e-c401ae4c41b9"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -6201,7 +6821,12 @@
     "period": {
       "start": "2026-05-24T04:30:00.000Z",
       "end": "2026-05-24T05:19:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/ed886509-3ffe-4cfa-a28a-f871cb14f3d1"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -6245,7 +6870,12 @@
     "period": {
       "start": "2026-09-10T10:27:00.000Z",
       "end": "2026-09-10T10:50:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/0aa0dd3f-21a6-4d17-8a5b-46c9333a9522"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -6289,7 +6919,12 @@
     "period": {
       "start": "2026-01-27T04:24:00.000Z",
       "end": "2026-01-27T05:06:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/746b9d1c-f576-4209-a522-5e92bb98553c"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -6333,7 +6968,12 @@
     "period": {
       "start": "2025-06-30T07:01:00.000Z",
       "end": "2025-06-30T07:18:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/a02f6937-19de-4a86-a076-76a36f264e9b"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -6377,7 +7017,12 @@
     "period": {
       "start": "2025-02-16T05:40:00.000Z",
       "end": "2025-02-16T06:08:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/1e34018b-1f2e-4c9a-8c92-88bea5dd221e"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -6465,7 +7110,12 @@
     "period": {
       "start": "2026-08-22T03:29:00.000Z",
       "end": "2026-08-22T04:10:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/7d1f2ac8-7912-4e57-8ff3-c8947d8f43c7"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -6553,7 +7203,12 @@
     "period": {
       "start": "2024-10-20T06:10:00.000Z",
       "end": "2024-10-20T07:05:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/e13ef65b-e950-4d60-9499-9313046f2779"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -6597,7 +7252,12 @@
     "period": {
       "start": "2026-03-29T05:12:00.000Z",
       "end": "2026-03-29T06:12:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/5990b3b0-6282-4eed-9eb6-45b82b124762"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -6641,7 +7301,12 @@
     "period": {
       "start": "2025-12-31T11:53:00.000Z",
       "end": "2025-12-31T12:22:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/ed5a3402-c479-4f09-ae17-b03742227f9b"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -6685,7 +7350,12 @@
     "period": {
       "start": "2025-12-27T10:59:00.000Z",
       "end": "2025-12-27T11:28:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/841a10c5-d408-495c-81ee-3c3e4860776f"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -6729,7 +7399,12 @@
     "period": {
       "start": "2026-07-27T12:28:00.000Z",
       "end": "2026-07-27T12:43:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/707529a4-075c-448e-982a-de37597450a0"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -6773,7 +7448,12 @@
     "period": {
       "start": "2026-05-28T11:42:00.000Z",
       "end": "2026-05-28T12:14:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/f519d1de-eb1d-44da-9826-2344f246405d"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -6817,7 +7497,12 @@
     "period": {
       "start": "2025-10-20T12:28:00.000Z",
       "end": "2025-10-20T13:20:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/140530eb-4044-4833-97b7-43a9b0b5d9c4"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -6861,7 +7546,12 @@
     "period": {
       "start": "2026-06-23T06:52:00.000Z",
       "end": "2026-06-23T07:31:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/f5c7174b-276a-4ed6-a7cd-52ffd571cdf7"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -6905,7 +7595,12 @@
     "period": {
       "start": "2026-08-01T09:19:00.000Z",
       "end": "2026-08-01T09:57:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/553a7e42-8b3e-4504-8806-2e4b14d0aa57"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -7037,7 +7732,12 @@
     "period": {
       "start": "2024-08-21T06:19:00.000Z",
       "end": "2024-08-21T07:17:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/125f9f83-cedb-45ab-953f-4ff9997ad981"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -7081,7 +7781,12 @@
     "period": {
       "start": "2026-08-11T04:27:00.000Z",
       "end": "2026-08-11T05:19:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/32f4d421-7176-430e-a660-4d063e774218"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -7169,7 +7874,12 @@
     "period": {
       "start": "2026-08-01T07:38:00.000Z",
       "end": "2026-08-01T08:35:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/c317bdd5-6176-49a0-9bf2-95de1f0fb2d2"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -7213,7 +7923,12 @@
     "period": {
       "start": "2025-07-22T07:39:00.000Z",
       "end": "2025-07-22T08:02:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/903062bf-b5b5-4522-8c97-e632d6becf4e"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -7257,7 +7972,12 @@
     "period": {
       "start": "2025-03-07T10:39:00.000Z",
       "end": "2025-03-07T11:16:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/000a80d3-da5f-4b88-9ba5-159d386f151e"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -7301,7 +8021,12 @@
     "period": {
       "start": "2024-11-03T08:17:00.000Z",
       "end": "2024-11-03T09:07:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/98027d7d-dc87-45b1-8ead-e909caf02d4d"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -7345,7 +8070,12 @@
     "period": {
       "start": "2024-11-02T12:13:00.000Z",
       "end": "2024-11-02T12:47:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/34cf3a23-3598-4fff-9497-329ad62db93d"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -7389,7 +8119,12 @@
     "period": {
       "start": "2025-01-19T06:42:00.000Z",
       "end": "2025-01-19T07:38:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/9bce599b-649f-49e3-9697-6743ffc1c5da"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -7433,7 +8168,12 @@
     "period": {
       "start": "2025-04-30T02:52:00.000Z",
       "end": "2025-04-30T03:52:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/90be3b72-dedd-4392-8c6c-92e25afc419e"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -7477,7 +8217,12 @@
     "period": {
       "start": "2025-12-15T10:14:00.000Z",
       "end": "2025-12-15T10:37:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/5c035ebc-6ea8-4266-b283-38f05128b888"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -7521,7 +8266,12 @@
     "period": {
       "start": "2026-01-27T11:09:00.000Z",
       "end": "2026-01-27T12:09:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/88df9225-b7a7-4f1c-aed4-03c2ddaee3b4"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -7565,7 +8315,12 @@
     "period": {
       "start": "2025-01-10T09:04:00.000Z",
       "end": "2025-01-10T09:44:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/c2403bfd-c129-4030-a0be-47d1bee6cac2"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -7609,7 +8364,12 @@
     "period": {
       "start": "2026-03-03T08:48:00.000Z",
       "end": "2026-03-03T09:34:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/f21af38f-a5d1-41fa-b556-c96d544c03b1"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -7653,7 +8413,12 @@
     "period": {
       "start": "2026-08-24T08:31:00.000Z",
       "end": "2026-08-24T08:47:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/2c2871a9-c8e4-40a8-a5ce-84560236ae02"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -7697,7 +8462,12 @@
     "period": {
       "start": "2025-11-14T04:34:00.000Z",
       "end": "2025-11-14T05:19:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/e78ebf69-99e3-440f-a866-42d2a189a1f5"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -7741,7 +8511,12 @@
     "period": {
       "start": "2025-06-04T06:29:00.000Z",
       "end": "2025-06-04T07:04:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/1c101b0e-336c-477d-8dcb-5b97e3629298"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -7785,7 +8560,12 @@
     "period": {
       "start": "2026-09-14T09:03:00.000Z",
       "end": "2026-09-14T09:21:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/abb23055-2796-4d49-a8df-efa4399bb787"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -7829,7 +8609,12 @@
     "period": {
       "start": "2026-05-13T04:55:00.000Z",
       "end": "2026-05-13T05:49:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/4063d802-749d-4136-81e9-b827691594a5"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -7873,7 +8658,12 @@
     "period": {
       "start": "2026-09-08T06:45:00.000Z",
       "end": "2026-09-08T07:06:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/92ad4624-9456-49ac-8276-193c6251c8e3"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -7917,7 +8707,12 @@
     "period": {
       "start": "2026-09-05T10:08:00.000Z",
       "end": "2026-09-05T10:24:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/138d86ab-c57d-463e-b38d-ed027065c0a3"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -7961,7 +8756,12 @@
     "period": {
       "start": "2025-10-22T09:43:00.000Z",
       "end": "2025-10-22T10:06:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/bc589d3c-7f69-4822-9bac-888a549271bc"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -8005,7 +8805,12 @@
     "period": {
       "start": "2025-10-31T03:26:00.000Z",
       "end": "2025-10-31T04:10:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/8788e267-8e71-4487-bedf-bffd657f4576"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -8049,7 +8854,12 @@
     "period": {
       "start": "2024-11-08T03:16:00.000Z",
       "end": "2024-11-08T03:40:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/1b929d94-4971-4a7f-b458-8a6c66033c10"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -8093,7 +8903,12 @@
     "period": {
       "start": "2026-03-17T10:28:00.000Z",
       "end": "2026-03-17T11:28:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/065ac92d-bf72-4f93-8f0d-e6a305001533"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -8137,7 +8952,12 @@
     "period": {
       "start": "2024-06-29T02:34:00.000Z",
       "end": "2024-06-29T03:32:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/94e7a120-7746-4b5b-99a6-c4f98f705e84"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -8225,7 +9045,12 @@
     "period": {
       "start": "2024-11-27T06:53:00.000Z",
       "end": "2024-11-27T07:17:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/ceccb3de-021e-4a0a-955c-fac0b0076ac0"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -8269,7 +9094,12 @@
     "period": {
       "start": "2025-11-04T06:30:00.000Z",
       "end": "2025-11-04T06:46:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/a487f3ea-8be6-4a92-91d2-019f342ae3ae"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -8313,7 +9143,12 @@
     "period": {
       "start": "2025-10-29T04:06:00.000Z",
       "end": "2025-10-29T05:00:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/7da2d718-486a-45c5-bd7a-c81245256bf7"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -8357,7 +9192,12 @@
     "period": {
       "start": "2025-09-09T08:24:00.000Z",
       "end": "2025-09-09T09:22:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/7e5a9262-46d5-4108-bfe4-aa71aa20c1a6"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -8445,7 +9285,12 @@
     "period": {
       "start": "2026-07-30T09:49:00.000Z",
       "end": "2026-07-30T10:05:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/4ea94086-302c-43ca-87ce-e2c63ea6a3e8"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -8489,7 +9334,12 @@
     "period": {
       "start": "2025-12-05T07:46:00.000Z",
       "end": "2025-12-05T08:23:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/0d3a957c-1e84-46b7-ac7b-fabccb122865"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -8533,7 +9383,12 @@
     "period": {
       "start": "2026-07-22T09:20:00.000Z",
       "end": "2026-07-22T10:08:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/7600f314-d070-463f-aea1-234652124515"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -8577,7 +9432,12 @@
     "period": {
       "start": "2025-02-11T12:24:00.000Z",
       "end": "2025-02-11T13:02:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/fbcc3958-0bdd-479d-84a7-5fcb3a1c7ee8"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -8621,7 +9481,12 @@
     "period": {
       "start": "2025-10-05T10:29:00.000Z",
       "end": "2025-10-05T11:24:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/108cc924-9db6-4fee-b5c3-63c3bc55e540"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -8709,7 +9574,12 @@
     "period": {
       "start": "2026-04-29T06:35:00.000Z",
       "end": "2026-04-29T07:16:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/d63eefce-0928-4425-860c-eb871aacbe1e"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -8753,7 +9623,12 @@
     "period": {
       "start": "2026-07-14T09:54:00.000Z",
       "end": "2026-07-14T10:45:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/dc19defa-50c6-4ed9-8cf4-cb9a6c4ec872"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -8797,7 +9672,12 @@
     "period": {
       "start": "2025-08-06T08:38:00.000Z",
       "end": "2025-08-06T09:24:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/1c4996a3-f0f6-40da-9648-bd3e6a85f01d"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -8841,6 +9721,4675 @@
     "period": {
       "start": "2026-04-15T08:30:00.000Z",
       "end": "2026-04-15T09:16:00.000Z"
-    }
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/fd31eece-54ce-438f-a509-68abffe6ee8b"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "a2e0ea3a-d83c-46f2-a1ee-d2f1ae71a7e3",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/5ea55a81-6b7e-48c3-a878-bcca8d4f79f2",
+      "display": "Prateek Shah"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/9a496a83-389a-4017-bca7-76c4477c6db8",
+          "display": "Dr. Rohan Rao"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-03T07:15:00.000Z",
+      "end": "2026-05-03T07:45:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/7594daf1-c3bf-4c30-b812-837edd274ac8"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "f8a86487-5672-4e74-b808-5c1b19beac49",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/fc4734f2-166d-4a50-b5ad-209fa11221f3",
+      "display": "Priya Patel"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/f1d1364c-ae78-4b73-b10d-4cb6ad5e2f0d",
+          "display": "Dr. Aditya Verma"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-04-28T08:30:00.000Z",
+      "end": "2026-04-28T09:00:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/6186354f-993f-44a8-8835-d7f1b6428e26"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "f2ece75b-2048-4a67-9672-f616ea434565",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/6371dd4e-8437-4d5e-b7da-ceb412c161b0",
+      "display": "Riya Patel"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/d8b3a01b-d9ea-4c90-a20d-3260452b1533",
+          "display": "Dr. Suresh Mehta"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-04-28T07:15:00.000Z",
+      "end": "2026-04-28T07:45:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/a0db3116-caa8-4475-871a-52c0f3de2593"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "22ea9604-d5c1-4ebb-a6e0-a8c9b1deabe7",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/a89164df-33c3-454d-b429-c23b06ddc488",
+      "display": "Pooja Joshi"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/58e2170e-aba9-438d-8c72-fc51c097d4b0",
+          "display": "Dr. Isha Malhotra"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-02T06:15:00.000Z",
+      "end": "2026-05-02T06:45:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/1df371f7-c058-4d03-b646-b12431b7dd5b"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "437832ac-3bb7-4293-ab92-24960377984f",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/403cd086-ed8c-4b8f-b7aa-8f649a6758b8",
+      "display": "Rajesh Nair"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/11d4e487-d2f8-4c88-b9a7-0b2bed109da6",
+          "display": "Dr. Rajesh Kumar"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-03T05:30:00.000Z",
+      "end": "2026-05-03T06:00:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/2d43ff55-b497-4640-9798-2b4f094565d6"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "7cd152fa-c541-4f35-827e-bbadf278c984",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/768414d2-e7dd-436c-a5d4-418caf7ea7d2",
+      "display": "Varun Agarwal"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/11d4e487-d2f8-4c88-b9a7-0b2bed109da6",
+          "display": "Dr. Rajesh Kumar"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-10T04:30:00.000Z",
+      "end": "2026-05-10T05:00:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/3af588e1-80f9-4288-acb2-00684a2a2f9c"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "3331edee-da0d-446d-8c34-1ac10a5eef36",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/bc07989f-22ef-4ce0-afe8-7acbeda71a1d",
+      "display": "Shreya Patel"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/f1d1364c-ae78-4b73-b10d-4cb6ad5e2f0d",
+          "display": "Dr. Aditya Verma"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-06T06:15:00.000Z",
+      "end": "2026-05-06T06:45:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/16c93341-6753-42f2-92f0-93a5f9cf2ae1"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "93c106da-ae6e-4edc-bce0-efb516cd8bb4",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/01394956-9eb9-4099-8eec-a71a137eab18",
+      "display": "Suresh Mehta"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/d8b3a01b-d9ea-4c90-a20d-3260452b1533",
+          "display": "Dr. Suresh Mehta"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-05T09:30:00.000Z",
+      "end": "2026-05-05T10:00:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/a251f1cf-b870-4f21-b865-e5636de83a98"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "77ace04d-3625-4050-92e1-e03e23e597eb",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/fbac26fe-1086-4322-8b5f-29c9249c1277",
+      "display": "Riya Gupta"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/ccb0a6b3-1970-49da-a8ec-e3f8800aa6fc",
+          "display": "Dr. Arjun Reddy"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-08T07:00:00.000Z",
+      "end": "2026-05-08T07:30:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/e92ca4ac-d977-41ee-8179-53563aa7290a"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "cef23140-6d37-4c3c-8c8d-ffbd90cb3353",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/50aaf61d-1107-4bd2-8bc3-5704bee20fa7",
+      "display": "Varun Malhotra"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/ccb0a6b3-1970-49da-a8ec-e3f8800aa6fc",
+          "display": "Dr. Arjun Reddy"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-05T08:45:00.000Z",
+      "end": "2026-05-05T09:15:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/f19e7ef8-1a8c-4a73-8d2d-485e2ed93a4f"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "44d695a6-64ce-47b9-9387-db26d56431f9",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/d285961c-1a83-42af-aa6a-bea9b605fb7a",
+      "display": "Shreya Reddy"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/58e2170e-aba9-438d-8c72-fc51c097d4b0",
+          "display": "Dr. Isha Malhotra"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-16T11:00:00.000Z",
+      "end": "2026-05-16T11:30:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/d7a28ab4-07e8-4e58-8b8c-4bb30c73513d"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "68ba8cfe-a4f4-49d7-8f79-17c48bf9d5ed",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/6bcbba6a-6401-4307-a1d7-eb74bb8d0ec1",
+      "display": "Karan Sharma"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/11d4e487-d2f8-4c88-b9a7-0b2bed109da6",
+          "display": "Dr. Rajesh Kumar"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-14T04:30:00.000Z",
+      "end": "2026-05-14T05:00:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/24235283-b6de-4a32-a61f-c1728f84e984"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "bf30579f-e86e-4817-a18c-4fe699f3e994",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/403cd086-ed8c-4b8f-b7aa-8f649a6758b8",
+      "display": "Rajesh Nair"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/9fb7e69a-b18e-4f59-a018-3ba7c9958217",
+          "display": "Dr. Karan Sharma"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-15T08:45:00.000Z",
+      "end": "2026-05-15T09:15:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/ba6300c5-e69b-4ec7-b7ea-71c9879f5d74"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "8ecb227f-6fe7-4c9b-accd-885a9b5c31ed",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/6371dd4e-8437-4d5e-b7da-ceb412c161b0",
+      "display": "Riya Patel"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/62be934f-b3ce-4fab-a8a6-8fd13e0d9819",
+          "display": "Dr. Meera Patel"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-14T10:30:00.000Z",
+      "end": "2026-05-14T11:00:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/4a891d45-d92f-4b87-b93d-0e0b907a99f1"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "18dbcda5-e6d4-4689-8128-7e8b1f1df7fd",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/bc07989f-22ef-4ce0-afe8-7acbeda71a1d",
+      "display": "Shreya Patel"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/f1d1364c-ae78-4b73-b10d-4cb6ad5e2f0d",
+          "display": "Dr. Aditya Verma"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-18T02:45:00.000Z",
+      "end": "2026-05-18T03:15:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/2820b83b-c732-40d4-ae72-fabcb926befb"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "1291eeed-0104-44d2-8238-034fdcb6e9fc",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/fbac26fe-1086-4322-8b5f-29c9249c1277",
+      "display": "Riya Gupta"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/43d0e726-0768-4b2a-ac9f-b5803e874196",
+          "display": "Dr. Ankit Reddy"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-24T08:30:00.000Z",
+      "end": "2026-05-24T09:00:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/80f62114-7878-42df-b2d3-93d68d24c9e2"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "6c6ebc10-8c93-4e0c-b787-b49a68f07bef",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/d726f806-0a7b-4332-be22-d92694b32182",
+      "display": "Neha Iyer"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/9fb7e69a-b18e-4f59-a018-3ba7c9958217",
+          "display": "Dr. Karan Sharma"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-18T10:15:00.000Z",
+      "end": "2026-05-18T10:45:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/ab7a1c53-979f-4ae8-a790-c021a8cea199"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "2976d278-d67e-4589-a006-14bb51589cb0",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/d285961c-1a83-42af-aa6a-bea9b605fb7a",
+      "display": "Shreya Reddy"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/9fb7e69a-b18e-4f59-a018-3ba7c9958217",
+          "display": "Dr. Karan Sharma"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-18T09:45:00.000Z",
+      "end": "2026-05-18T10:15:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/43eefa88-3190-4065-9af1-459acf3bb048"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "5bd7407d-e5bb-4930-b066-4c5ccffbfd00",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/01394956-9eb9-4099-8eec-a71a137eab18",
+      "display": "Suresh Mehta"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/d8b3a01b-d9ea-4c90-a20d-3260452b1533",
+          "display": "Dr. Suresh Mehta"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-20T08:45:00.000Z",
+      "end": "2026-05-20T09:15:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/bcb7e464-352d-426e-b1bc-0659951e26a1"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "05b17886-2ab2-485d-9a58-8c37f31f8541",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/27906045-313d-4312-ae03-e016a74637d6",
+      "display": "Sneha Rao"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/43d0e726-0768-4b2a-ac9f-b5803e874196",
+          "display": "Dr. Ankit Reddy"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-26T08:30:00.000Z",
+      "end": "2026-05-26T09:00:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/382f7926-f6b3-4d02-a4e6-b03f2e82683c"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "c0e43cb2-a86a-42ca-8b02-010bcf9fa26f",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/768414d2-e7dd-436c-a5d4-418caf7ea7d2",
+      "display": "Varun Agarwal"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/ccb0a6b3-1970-49da-a8ec-e3f8800aa6fc",
+          "display": "Dr. Arjun Reddy"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-27T09:00:00.000Z",
+      "end": "2026-05-27T09:30:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/1df7e188-1d77-4f08-bff9-d1b1e64d080b"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "2d3062d8-2313-4e8c-bdd8-d5fbab697f5f",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/0282aa00-c05c-4c4f-b480-8cd0a9200fdd",
+      "display": "Meera Sharma"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/9d359a6d-25a8-4a26-a912-9b5ec6fc454d",
+          "display": "Dr. Vikram Verma"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-29T07:00:00.000Z",
+      "end": "2026-05-29T07:30:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/9a46fb14-a6cf-4db6-b4be-d96137b382b2"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "4f3c05c4-9a5b-475f-a254-fb309f3a53c1",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/fc4734f2-166d-4a50-b5ad-209fa11221f3",
+      "display": "Priya Patel"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/58e2170e-aba9-438d-8c72-fc51c097d4b0",
+          "display": "Dr. Isha Malhotra"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-28T04:15:00.000Z",
+      "end": "2026-05-28T04:45:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/3504aefa-99ab-4e8d-a1ba-92bb4de02a79"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "79cbb318-4d72-4890-bafb-5f5334118d1a",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/27906045-313d-4312-ae03-e016a74637d6",
+      "display": "Sneha Rao"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/58e2170e-aba9-438d-8c72-fc51c097d4b0",
+          "display": "Dr. Isha Malhotra"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-29T07:00:00.000Z",
+      "end": "2026-05-29T07:30:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/075050a9-b8b8-4e86-8dbe-f1c027bca814"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "d4280b85-9549-44fc-aff6-eda5e4c36799",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/49f11105-5c42-42ec-a985-38209a1f8baa",
+      "display": "Radha Joshi"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/d8b3a01b-d9ea-4c90-a20d-3260452b1533",
+          "display": "Dr. Suresh Mehta"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-30T10:30:00.000Z",
+      "end": "2026-05-30T11:00:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/ee34f284-14a3-4cf0-bfb0-a9b4a709040d"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "70fa50ea-36c7-446d-bb75-997324d4d1ae",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/27906045-313d-4312-ae03-e016a74637d6",
+      "display": "Sneha Rao"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/43d0e726-0768-4b2a-ac9f-b5803e874196",
+          "display": "Dr. Ankit Reddy"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-06-02T05:30:00.000Z",
+      "end": "2026-06-02T06:00:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/d3ae1e18-91f4-427f-99d2-bca9600656f8"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "5f0d72cd-4b81-4a4f-b0e6-08de3556c097",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/01394956-9eb9-4099-8eec-a71a137eab18",
+      "display": "Suresh Mehta"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/d8b3a01b-d9ea-4c90-a20d-3260452b1533",
+          "display": "Dr. Suresh Mehta"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-06-04T05:30:00.000Z",
+      "end": "2026-06-04T06:00:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/fc0515b9-cbb9-4173-9a90-d2a98fa422eb"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "cc7f79b9-018a-47c2-aee7-c553533bdfb6",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/a89164df-33c3-454d-b429-c23b06ddc488",
+      "display": "Pooja Joshi"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/f1d1364c-ae78-4b73-b10d-4cb6ad5e2f0d",
+          "display": "Dr. Aditya Verma"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-06-06T04:15:00.000Z",
+      "end": "2026-06-06T04:45:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/83a12009-392b-4e9c-88b4-1f9d4fdf3988"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "c278853c-fce3-4f55-9517-9ece516e29a3",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/fc4734f2-166d-4a50-b5ad-209fa11221f3",
+      "display": "Priya Patel"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/11d4e487-d2f8-4c88-b9a7-0b2bed109da6",
+          "display": "Dr. Rajesh Kumar"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-06-05T03:00:00.000Z",
+      "end": "2026-06-05T03:30:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/c3088650-a591-45d4-8883-c7531d0fc3d0"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "9893f2e3-a122-4e58-af84-f0bdc9134659",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/01394956-9eb9-4099-8eec-a71a137eab18",
+      "display": "Suresh Mehta"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/ccb0a6b3-1970-49da-a8ec-e3f8800aa6fc",
+          "display": "Dr. Arjun Reddy"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-06-12T03:00:00.000Z",
+      "end": "2026-06-12T03:30:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/372affe9-2773-47f3-8fed-ea9a5259e9e6"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "25e1fe5f-73eb-4205-be1d-79b5ded43f84",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/27906045-313d-4312-ae03-e016a74637d6",
+      "display": "Sneha Rao"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/43d0e726-0768-4b2a-ac9f-b5803e874196",
+          "display": "Dr. Ankit Reddy"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-06-10T07:00:00.000Z",
+      "end": "2026-06-10T07:30:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/c0d634e8-4cea-4ba3-906f-236cdbf12671"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "fbc87a0f-d803-42b8-b9b8-3af0332ffec0",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/bc07989f-22ef-4ce0-afe8-7acbeda71a1d",
+      "display": "Shreya Patel"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/11d4e487-d2f8-4c88-b9a7-0b2bed109da6",
+          "display": "Dr. Rajesh Kumar"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-06-13T09:00:00.000Z",
+      "end": "2026-06-13T09:30:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/e29d0776-1a81-4f6b-aca4-5ca71c3896ed"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "a0840c65-4e93-447f-8811-fb579f83177e",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/49f11105-5c42-42ec-a985-38209a1f8baa",
+      "display": "Radha Joshi"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/62be934f-b3ce-4fab-a8a6-8fd13e0d9819",
+          "display": "Dr. Meera Patel"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-06-09T08:45:00.000Z",
+      "end": "2026-06-09T09:15:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/9bfbd106-3ce2-47d2-86aa-2fb33745faef"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "b7ab83de-1c7f-4e2a-b114-637d31c8ebeb",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/bcefa46a-052f-4219-b072-c8d24bfaa69f",
+      "display": "Nikhil Nair"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/d8b3a01b-d9ea-4c90-a20d-3260452b1533",
+          "display": "Dr. Suresh Mehta"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-06-14T08:45:00.000Z",
+      "end": "2026-06-14T09:15:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/9216902f-da73-4732-b6b8-2368f0a714ea"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "bf0700a7-9684-43c3-b8e7-909cfaf1f33f",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/d726f806-0a7b-4332-be22-d92694b32182",
+      "display": "Neha Iyer"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/62be934f-b3ce-4fab-a8a6-8fd13e0d9819",
+          "display": "Dr. Meera Patel"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-06-09T08:45:00.000Z",
+      "end": "2026-06-09T09:15:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/831e39dd-99b4-48c9-8d1a-19ab0b84bb02"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "161feb84-b796-4f28-a9e3-27e8ea29f82e",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/50aaf61d-1107-4bd2-8bc3-5704bee20fa7",
+      "display": "Varun Malhotra"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/58e2170e-aba9-438d-8c72-fc51c097d4b0",
+          "display": "Dr. Isha Malhotra"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-06-14T08:45:00.000Z",
+      "end": "2026-06-14T09:15:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/e01bc986-522b-44dd-9963-d4e0dd79a5aa"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "55c91411-7e7a-4035-bfd4-76d249208374",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/bcefa46a-052f-4219-b072-c8d24bfaa69f",
+      "display": "Nikhil Nair"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/9a496a83-389a-4017-bca7-76c4477c6db8",
+          "display": "Dr. Rohan Rao"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-06-21T05:15:00.000Z",
+      "end": "2026-06-21T05:45:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/d4a1bfe9-0d88-4c2c-a658-6615963e3986"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "0b806aee-e768-4064-b401-64008fb10ef8",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/20c17f44-bce8-4217-b642-9a170f104c4e",
+      "display": "Sara Verma"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/ccb0a6b3-1970-49da-a8ec-e3f8800aa6fc",
+          "display": "Dr. Arjun Reddy"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-06-16T09:30:00.000Z",
+      "end": "2026-06-16T10:00:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/8588d3f1-ae12-44f7-9fc1-710f22a34462"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "f0f044a6-27e1-4d67-a3cb-3c254f5b39e3",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/4142cf26-bc03-4c39-a503-86ec77d00e0d",
+      "display": "Rahul Kumar"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/11d4e487-d2f8-4c88-b9a7-0b2bed109da6",
+          "display": "Dr. Rajesh Kumar"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-06-17T11:15:00.000Z",
+      "end": "2026-06-17T11:45:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/7873887d-621b-49be-987a-371752e18253"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "78e685a3-3b8e-47fe-ac34-843499b77ab5",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/27906045-313d-4312-ae03-e016a74637d6",
+      "display": "Sneha Rao"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/43d0e726-0768-4b2a-ac9f-b5803e874196",
+          "display": "Dr. Ankit Reddy"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-06-20T02:30:00.000Z",
+      "end": "2026-06-20T03:00:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/a900fbbc-724a-4692-86d4-3dce3eac79e5"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "bbad56ea-be21-490b-b1f9-4ae50a712166",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/403cd086-ed8c-4b8f-b7aa-8f649a6758b8",
+      "display": "Rajesh Nair"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/d8b3a01b-d9ea-4c90-a20d-3260452b1533",
+          "display": "Dr. Suresh Mehta"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-06-18T12:15:00.000Z",
+      "end": "2026-06-18T12:45:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/fd6190ad-f169-4651-899a-c6014510a839"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "98a86734-5921-46be-84cf-657836ea85d6",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/d726f806-0a7b-4332-be22-d92694b32182",
+      "display": "Neha Iyer"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/11d4e487-d2f8-4c88-b9a7-0b2bed109da6",
+          "display": "Dr. Rajesh Kumar"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-06-18T11:15:00.000Z",
+      "end": "2026-06-18T11:45:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/26e3cfa1-fdfe-4801-9705-f378af8deb08"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "045d0fec-87b1-4f62-a043-28561afefd3b",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/bc07989f-22ef-4ce0-afe8-7acbeda71a1d",
+      "display": "Shreya Patel"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/62be934f-b3ce-4fab-a8a6-8fd13e0d9819",
+          "display": "Dr. Meera Patel"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-04-27T02:45:00.000Z",
+      "end": "2026-04-27T03:15:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/71bf8d6b-a1ac-4682-90b4-611cc4b78f3e"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "b819fe1b-c588-44de-8347-ad750ea62bf2",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/403cd086-ed8c-4b8f-b7aa-8f649a6758b8",
+      "display": "Rajesh Nair"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/9fb7e69a-b18e-4f59-a018-3ba7c9958217",
+          "display": "Dr. Karan Sharma"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-01T02:45:00.000Z",
+      "end": "2026-05-01T03:15:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/4f94225f-2fc4-413c-9113-a5c30bbcdc60"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "74c9ddc7-50d5-4e3c-ba69-0de14e9ed09b",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/49f11105-5c42-42ec-a985-38209a1f8baa",
+      "display": "Radha Joshi"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/62be934f-b3ce-4fab-a8a6-8fd13e0d9819",
+          "display": "Dr. Meera Patel"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-04-28T07:45:00.000Z",
+      "end": "2026-04-28T08:15:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/1543f262-33a3-4e5b-8865-b108e4331640"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "44a9eaab-acc6-4e84-9396-276fce2647b2",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/a89164df-33c3-454d-b429-c23b06ddc488",
+      "display": "Pooja Joshi"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/9a496a83-389a-4017-bca7-76c4477c6db8",
+          "display": "Dr. Rohan Rao"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-04-30T05:45:00.000Z",
+      "end": "2026-04-30T06:15:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/635dc346-8689-428b-9170-eede6f15b716"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "7d20ab14-6e59-4c7e-8b2b-d816dad03abf",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/49f11105-5c42-42ec-a985-38209a1f8baa",
+      "display": "Radha Joshi"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/f1d1364c-ae78-4b73-b10d-4cb6ad5e2f0d",
+          "display": "Dr. Aditya Verma"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-04-29T06:30:00.000Z",
+      "end": "2026-04-29T07:00:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/489c4660-c029-4099-8ce0-85f33c2451ae"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "012dfd1d-d78a-4db6-bbfb-332ecd4b4193",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/fbac26fe-1086-4322-8b5f-29c9249c1277",
+      "display": "Riya Gupta"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/ccb0a6b3-1970-49da-a8ec-e3f8800aa6fc",
+          "display": "Dr. Arjun Reddy"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-08T09:45:00.000Z",
+      "end": "2026-05-08T10:15:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/0de0113a-56df-4cda-af16-b5bf3bdc780e"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "8a280b2f-f58b-4063-af68-fd2663bcef18",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/01394956-9eb9-4099-8eec-a71a137eab18",
+      "display": "Suresh Mehta"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/58e2170e-aba9-438d-8c72-fc51c097d4b0",
+          "display": "Dr. Isha Malhotra"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-04T12:00:00.000Z",
+      "end": "2026-05-04T12:30:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/84e5f4c7-977c-4318-91ff-4f44c57ecd2a"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "cee66482-beaf-4bf3-b4c7-1679b4a905a0",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/4142cf26-bc03-4c39-a503-86ec77d00e0d",
+      "display": "Rahul Kumar"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/62be934f-b3ce-4fab-a8a6-8fd13e0d9819",
+          "display": "Dr. Meera Patel"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-10T05:45:00.000Z",
+      "end": "2026-05-10T06:15:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/4376337d-81e1-4f15-a4ed-0c7f368f54e8"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "ac83d1cb-94a5-41b0-93e0-4aa6eae08e2d",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/d285961c-1a83-42af-aa6a-bea9b605fb7a",
+      "display": "Shreya Reddy"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/d8b3a01b-d9ea-4c90-a20d-3260452b1533",
+          "display": "Dr. Suresh Mehta"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-12T02:30:00.000Z",
+      "end": "2026-05-12T03:00:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/d2eb86a7-34b3-4a9e-b37a-933dde0053bd"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "28970018-1568-4a23-af61-950f79597e7c",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/fc4734f2-166d-4a50-b5ad-209fa11221f3",
+      "display": "Priya Patel"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/d8b3a01b-d9ea-4c90-a20d-3260452b1533",
+          "display": "Dr. Suresh Mehta"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-13T03:00:00.000Z",
+      "end": "2026-05-13T03:30:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/d337ed60-4823-4b94-b855-9985b16e43ac"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "c2147887-d957-48c5-b63e-f6502da0e567",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/01394956-9eb9-4099-8eec-a71a137eab18",
+      "display": "Suresh Mehta"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/ccb0a6b3-1970-49da-a8ec-e3f8800aa6fc",
+          "display": "Dr. Arjun Reddy"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-16T05:45:00.000Z",
+      "end": "2026-05-16T06:15:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/31320c53-e5d7-42f1-a49a-bb3438748426"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "6c3ef62e-b295-467f-8167-774de5df3ae7",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/4a98c9c9-9bd9-4e2b-837c-2666f3b3edd8",
+      "display": "Isha Iyer"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/58e2170e-aba9-438d-8c72-fc51c097d4b0",
+          "display": "Dr. Isha Malhotra"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-15T11:45:00.000Z",
+      "end": "2026-05-15T12:15:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/b57cfd71-7f7b-4d25-b638-fcdcc34c6cd7"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "7da06ff3-70ff-41fd-b919-6bd940608639",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/49f11105-5c42-42ec-a985-38209a1f8baa",
+      "display": "Radha Joshi"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/62be934f-b3ce-4fab-a8a6-8fd13e0d9819",
+          "display": "Dr. Meera Patel"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-14T06:30:00.000Z",
+      "end": "2026-05-14T07:00:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/06a2720a-fed0-4974-a207-bb70027e0756"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "5300b2f7-dd8b-4eef-b08c-70c2e261dc0b",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/d285961c-1a83-42af-aa6a-bea9b605fb7a",
+      "display": "Shreya Reddy"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/62be934f-b3ce-4fab-a8a6-8fd13e0d9819",
+          "display": "Dr. Meera Patel"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-19T12:15:00.000Z",
+      "end": "2026-05-19T12:45:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/cec73bb7-2966-430b-b1fd-275975eadce1"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "151ae268-4eb4-4846-ab9e-0187d0f32db3",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/6bcbba6a-6401-4307-a1d7-eb74bb8d0ec1",
+      "display": "Karan Sharma"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/58e2170e-aba9-438d-8c72-fc51c097d4b0",
+          "display": "Dr. Isha Malhotra"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-23T09:15:00.000Z",
+      "end": "2026-05-23T09:45:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/5ce63dc0-c48f-4053-8122-1ab16276d017"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "5cc76395-144d-48c2-9833-319d9ab57de1",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/01394956-9eb9-4099-8eec-a71a137eab18",
+      "display": "Suresh Mehta"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/f1d1364c-ae78-4b73-b10d-4cb6ad5e2f0d",
+          "display": "Dr. Aditya Verma"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-24T06:15:00.000Z",
+      "end": "2026-05-24T06:45:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/cd2269cf-9451-44da-95e2-601832d7f16b"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "655c47d6-9433-4240-824d-f6acd3a3332f",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/4142cf26-bc03-4c39-a503-86ec77d00e0d",
+      "display": "Rahul Kumar"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/11d4e487-d2f8-4c88-b9a7-0b2bed109da6",
+          "display": "Dr. Rajesh Kumar"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-27T05:30:00.000Z",
+      "end": "2026-05-27T06:00:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/ec2c9479-561a-488a-99d4-0857080d4aa9"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "f9de42b5-5676-4e50-9373-1c5975f16ee5",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/49f11105-5c42-42ec-a985-38209a1f8baa",
+      "display": "Radha Joshi"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/43d0e726-0768-4b2a-ac9f-b5803e874196",
+          "display": "Dr. Ankit Reddy"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-29T05:45:00.000Z",
+      "end": "2026-05-29T06:15:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/21d67180-a522-4d5c-9367-f589c503c0fd"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "dd383317-4e2a-433e-aedd-7f9f2d8f95a9",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/403cd086-ed8c-4b8f-b7aa-8f649a6758b8",
+      "display": "Rajesh Nair"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/9a496a83-389a-4017-bca7-76c4477c6db8",
+          "display": "Dr. Rohan Rao"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-26T12:15:00.000Z",
+      "end": "2026-05-26T12:45:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/ea2bb334-51fe-4a82-8949-3ce5e7b7eb6f"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "7270b33f-d4b9-4141-8860-985c261a8814",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/6371dd4e-8437-4d5e-b7da-ceb412c161b0",
+      "display": "Riya Patel"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/58e2170e-aba9-438d-8c72-fc51c097d4b0",
+          "display": "Dr. Isha Malhotra"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-26T04:45:00.000Z",
+      "end": "2026-05-26T05:15:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/ed0509d9-6783-43ff-a830-48cf1d77814b"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "a76cf75c-4e74-4ec0-94a8-4b5dc225e0b5",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/4a98c9c9-9bd9-4e2b-837c-2666f3b3edd8",
+      "display": "Isha Iyer"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/9a496a83-389a-4017-bca7-76c4477c6db8",
+          "display": "Dr. Rohan Rao"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-28T07:30:00.000Z",
+      "end": "2026-05-28T08:00:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/462b6037-50f5-4143-95f8-78a15dd6d6fc"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "59e2e40e-ff69-4127-943c-093c34d08b15",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/4142cf26-bc03-4c39-a503-86ec77d00e0d",
+      "display": "Rahul Kumar"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/f1d1364c-ae78-4b73-b10d-4cb6ad5e2f0d",
+          "display": "Dr. Aditya Verma"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-29T07:15:00.000Z",
+      "end": "2026-05-29T07:45:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/b2d7241a-ea38-4965-a8c1-61f91bba4c70"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "624d31e7-f256-4e00-94d0-97c83db0cebc",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/5ea55a81-6b7e-48c3-a878-bcca8d4f79f2",
+      "display": "Prateek Shah"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/58e2170e-aba9-438d-8c72-fc51c097d4b0",
+          "display": "Dr. Isha Malhotra"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-29T07:15:00.000Z",
+      "end": "2026-05-29T07:45:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/435dc71c-f813-4328-aa70-4a7646d30ca0"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "29aef7c6-a565-4fad-863b-823e8717ecd1",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/4a98c9c9-9bd9-4e2b-837c-2666f3b3edd8",
+      "display": "Isha Iyer"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/f1d1364c-ae78-4b73-b10d-4cb6ad5e2f0d",
+          "display": "Dr. Aditya Verma"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-05-26T03:00:00.000Z",
+      "end": "2026-05-26T03:30:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/3c5c96f5-2dc4-4bb7-ad69-e3d8687a423f"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "a6511fa1-35a4-430b-8eb3-545afb0d2144",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/27906045-313d-4312-ae03-e016a74637d6",
+      "display": "Sneha Rao"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/43d0e726-0768-4b2a-ac9f-b5803e874196",
+          "display": "Dr. Ankit Reddy"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-06-01T06:15:00.000Z",
+      "end": "2026-06-01T06:45:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/5e720c68-af81-4f4d-a701-387707a43162"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "832238ee-9231-4ebb-a8a2-78ef61f82f6e",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/49f11105-5c42-42ec-a985-38209a1f8baa",
+      "display": "Radha Joshi"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/9d359a6d-25a8-4a26-a912-9b5ec6fc454d",
+          "display": "Dr. Vikram Verma"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-06-03T12:00:00.000Z",
+      "end": "2026-06-03T12:30:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/3884b6e1-b056-4f73-97a3-c1f56522db2d"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "5d1dbb85-bbc0-4c05-af0b-d5db1cecda81",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/4a98c9c9-9bd9-4e2b-837c-2666f3b3edd8",
+      "display": "Isha Iyer"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/ccb0a6b3-1970-49da-a8ec-e3f8800aa6fc",
+          "display": "Dr. Arjun Reddy"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-06-07T06:15:00.000Z",
+      "end": "2026-06-07T06:45:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/4051c4e4-e4de-480e-bda4-5681d1b67297"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "0e313048-3a66-4cad-ac33-8366f7ed9483",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/01394956-9eb9-4099-8eec-a71a137eab18",
+      "display": "Suresh Mehta"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/62be934f-b3ce-4fab-a8a6-8fd13e0d9819",
+          "display": "Dr. Meera Patel"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-06-06T03:15:00.000Z",
+      "end": "2026-06-06T03:45:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/6ab8e48c-2b28-4c1c-b78e-13cd4394fcd4"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "14e9b702-303e-4135-b7f1-21706aa94ed9",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/d726f806-0a7b-4332-be22-d92694b32182",
+      "display": "Neha Iyer"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/9fb7e69a-b18e-4f59-a018-3ba7c9958217",
+          "display": "Dr. Karan Sharma"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-06-05T06:30:00.000Z",
+      "end": "2026-06-05T07:00:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/09486c5b-73b3-4b05-8627-4774dd5dfee0"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "a84caae9-7f1f-4333-a3fd-7dd720b1f66c",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/bc07989f-22ef-4ce0-afe8-7acbeda71a1d",
+      "display": "Shreya Patel"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/9a496a83-389a-4017-bca7-76c4477c6db8",
+          "display": "Dr. Rohan Rao"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-06-05T09:00:00.000Z",
+      "end": "2026-06-05T09:30:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/0f625fc3-e2fc-4ffc-bfb9-d7bc5bf23052"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "ba875d4b-7e18-4c94-b8ec-c37acc3c60c2",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/bc07989f-22ef-4ce0-afe8-7acbeda71a1d",
+      "display": "Shreya Patel"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/f1d1364c-ae78-4b73-b10d-4cb6ad5e2f0d",
+          "display": "Dr. Aditya Verma"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-06-02T05:15:00.000Z",
+      "end": "2026-06-02T05:45:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/443155c2-73d3-48e9-8c45-63191eb37906"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "9236816c-73a3-4140-8fc0-ceba61a9f86f",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/5ea55a81-6b7e-48c3-a878-bcca8d4f79f2",
+      "display": "Prateek Shah"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/9fb7e69a-b18e-4f59-a018-3ba7c9958217",
+          "display": "Dr. Karan Sharma"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-06-12T08:30:00.000Z",
+      "end": "2026-06-12T09:00:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/99ac5504-2817-4f3c-af3b-5ca9fbf790db"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "6686e2d0-ce09-4267-8882-3cf87d8f6f54",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/4142cf26-bc03-4c39-a503-86ec77d00e0d",
+      "display": "Rahul Kumar"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/f1d1364c-ae78-4b73-b10d-4cb6ad5e2f0d",
+          "display": "Dr. Aditya Verma"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-06-13T10:30:00.000Z",
+      "end": "2026-06-13T11:00:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/12c5b56f-a152-449d-b62b-a0024964fdaa"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "5826232d-43f0-4b02-8913-0344a16660ce",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/49f11105-5c42-42ec-a985-38209a1f8baa",
+      "display": "Radha Joshi"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/9d359a6d-25a8-4a26-a912-9b5ec6fc454d",
+          "display": "Dr. Vikram Verma"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-06-11T08:15:00.000Z",
+      "end": "2026-06-11T08:45:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/cbcf456d-45ba-4d46-9793-367ff6633c8e"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "1c7b6326-2011-4084-9349-0a470db9fd6c",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/bc07989f-22ef-4ce0-afe8-7acbeda71a1d",
+      "display": "Shreya Patel"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/9a496a83-389a-4017-bca7-76c4477c6db8",
+          "display": "Dr. Rohan Rao"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-06-08T05:15:00.000Z",
+      "end": "2026-06-08T05:45:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/2e1fc42c-ef18-4cfe-9616-8658da5fb122"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "f4aa53ed-246c-4319-8fed-f926752b932f",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/fc4734f2-166d-4a50-b5ad-209fa11221f3",
+      "display": "Priya Patel"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/ccb0a6b3-1970-49da-a8ec-e3f8800aa6fc",
+          "display": "Dr. Arjun Reddy"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-06-09T04:15:00.000Z",
+      "end": "2026-06-09T04:45:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/1b2f1b3e-e620-4f00-9d4e-2ebe9ecce265"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "358bde86-a326-4e28-a5af-1790783d92b3",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/01394956-9eb9-4099-8eec-a71a137eab18",
+      "display": "Suresh Mehta"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/62be934f-b3ce-4fab-a8a6-8fd13e0d9819",
+          "display": "Dr. Meera Patel"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-06-11T03:15:00.000Z",
+      "end": "2026-06-11T03:45:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/ba8824c6-aa06-464a-b988-264676e55536"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "3890ec78-e1b7-4148-a45d-fc949115c180",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/d726f806-0a7b-4332-be22-d92694b32182",
+      "display": "Neha Iyer"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/11d4e487-d2f8-4c88-b9a7-0b2bed109da6",
+          "display": "Dr. Rajesh Kumar"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-06-11T08:30:00.000Z",
+      "end": "2026-06-11T09:00:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/bf4ceb65-35c8-416f-bc18-28db7b651f4d"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "787c4fa8-9a29-4500-9f3d-9aa049c66ade",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/6371dd4e-8437-4d5e-b7da-ceb412c161b0",
+      "display": "Riya Patel"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/9fb7e69a-b18e-4f59-a018-3ba7c9958217",
+          "display": "Dr. Karan Sharma"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-06-13T09:00:00.000Z",
+      "end": "2026-06-13T09:30:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/6676692d-1418-4f51-9a04-d17be85d5466"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "1d25f402-0228-4e85-8acc-09e7bfb4f81d",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/27906045-313d-4312-ae03-e016a74637d6",
+      "display": "Sneha Rao"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/11d4e487-d2f8-4c88-b9a7-0b2bed109da6",
+          "display": "Dr. Rajesh Kumar"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-06-18T09:45:00.000Z",
+      "end": "2026-06-18T10:15:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/eb41cdd2-0110-4eb9-8031-e31788a5de3c"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "4cd89340-fe84-4245-a746-85d08ccb1e54",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/fc4734f2-166d-4a50-b5ad-209fa11221f3",
+      "display": "Priya Patel"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/11d4e487-d2f8-4c88-b9a7-0b2bed109da6",
+          "display": "Dr. Rajesh Kumar"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-06-16T05:45:00.000Z",
+      "end": "2026-06-16T06:15:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/23d2e730-bad3-42e9-a97b-27c144c507db"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "b97b6cd4-a24b-4d1e-a316-a0d37fa7953b",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/5ea55a81-6b7e-48c3-a878-bcca8d4f79f2",
+      "display": "Prateek Shah"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/43d0e726-0768-4b2a-ac9f-b5803e874196",
+          "display": "Dr. Ankit Reddy"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-06-20T04:45:00.000Z",
+      "end": "2026-06-20T05:15:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/2e9ee2c5-e483-4ffd-a7f7-98ec93d0adba"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "6e20d882-28a0-4f4e-a5bf-e5ab58c973e2",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/6371dd4e-8437-4d5e-b7da-ceb412c161b0",
+      "display": "Riya Patel"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/58e2170e-aba9-438d-8c72-fc51c097d4b0",
+          "display": "Dr. Isha Malhotra"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-06-16T02:45:00.000Z",
+      "end": "2026-06-16T03:15:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/d7c1cfe0-22f0-471f-838e-5e7556c2331d"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "3b00b255-2bc6-4b18-8b2d-9edfa4c3d4bf",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/fbac26fe-1086-4322-8b5f-29c9249c1277",
+      "display": "Riya Gupta"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/9fb7e69a-b18e-4f59-a018-3ba7c9958217",
+          "display": "Dr. Karan Sharma"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-06-21T11:45:00.000Z",
+      "end": "2026-06-21T12:15:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/d2c417fe-4f6e-407d-a521-7b2e25c2b19a"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "701b5c4a-e653-49ec-aed5-af73aa11c73f",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/fbac26fe-1086-4322-8b5f-29c9249c1277",
+      "display": "Riya Gupta"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/11d4e487-d2f8-4c88-b9a7-0b2bed109da6",
+          "display": "Dr. Rajesh Kumar"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-06-16T04:00:00.000Z",
+      "end": "2026-06-16T04:30:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/03f88799-aa5a-4aea-8a6f-c309a1c2e711"
+      }
+    ]
+  },
+  {
+    "resourceType": "Encounter",
+    "id": "dbd9007a-bd93-4c3b-a1b1-4755affa94e4",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB",
+      "display": "ambulatory"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11429006",
+            "display": "Consultation"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "reference": "Patient/fbac26fe-1086-4322-8b5f-29c9249c1277",
+      "display": "Riya Gupta"
+    },
+    "participant": [
+      {
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participant"
+              }
+            ]
+          }
+        ],
+        "individual": {
+          "reference": "Practitioner/9fb7e69a-b18e-4f59-a018-3ba7c9958217",
+          "display": "Dr. Karan Sharma"
+        }
+      }
+    ],
+    "period": {
+      "start": "2026-06-21T10:15:00.000Z",
+      "end": "2026-06-21T10:45:00.000Z"
+    },
+    "appointment": [
+      {
+        "reference": "Appointment/485ed6f6-4ec0-4bbe-b46e-59401e070a0e"
+      }
+    ]
   }
 ]

@@ -11857,5 +11857,133 @@
         "creation": "2024-07-03T06:57:00.000Z"
       }
     ]
+  },
+  {
+    "resourceType": "DiagnosticReport",
+    "id": "4d188e27-c84a-4941-8030-fc34cd5e694e",
+    "status": "final",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "24325-3",
+          "display": "LFT panel"
+        }
+      ],
+      "text": "Liver Function Tests"
+    },
+    "subject": {
+      "reference": "Patient/b0f8fc2b-f1c7-4832-985c-a34682530f0a",
+      "display": "Amit Shah"
+    },
+    "encounter": {
+      "reference": "Encounter/2e9300c3-c406-4981-8760-e9bc4fc090d2"
+    },
+    "issued": "2026-04-26T10:11:00.000Z",
+    "basedOn": [
+      {
+        "reference": "ServiceRequest/610c83de-0713-4aaa-8d4b-493cbbcc367b"
+      }
+    ],
+    "conclusionCode": [
+      {
+        "coding": [
+          {
+            "code": "H",
+            "display": "High"
+          }
+        ]
+      }
+    ],
+    "conclusion": "Elevated ALT and AST consistent with hepatic inflammation. Recommend antiviral therapy.",
+    "performer": [
+      {
+        "reference": "Practitioner/d8b3a01b-d9ea-4c90-a20d-3260452b1533",
+        "display": "Dr. Suresh Mehta"
+      }
+    ]
+  },
+  {
+    "resourceType": "DiagnosticReport",
+    "id": "141d0533-1ba5-4ed3-9698-44cbf1f65235",
+    "status": "final",
+    "code": {
+      "text": "Skin Patch Test (Allergy Panel)"
+    },
+    "subject": {
+      "reference": "Patient/7c8351b4-ef6a-42ff-9fe0-eef3a71113bd",
+      "display": "Kavita Gupta"
+    },
+    "encounter": {
+      "reference": "Encounter/f1e6de9b-b92d-4982-b7d6-a00f4383bdb6"
+    },
+    "issued": "2025-10-25T12:28:00.000Z",
+    "basedOn": [
+      {
+        "reference": "ServiceRequest/3c5615e2-9384-4366-b546-d3a132d4b83a"
+      }
+    ],
+    "conclusionCode": [
+      {
+        "coding": [
+          {
+            "code": "H",
+            "display": "Positive reaction"
+          }
+        ]
+      }
+    ],
+    "conclusion": "Positive reaction to nickel and fragrance mix. Consistent with contact dermatitis diagnosis.",
+    "performer": [
+      {
+        "reference": "Practitioner/9d359a6d-25a8-4a26-a912-9b5ec6fc454d",
+        "display": "Dr. Vikram Verma"
+      }
+    ]
+  },
+  {
+    "resourceType": "DiagnosticReport",
+    "id": "b56e9a67-c8db-49c1-b6a0-e81cc15015bf",
+    "status": "final",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "11572-5",
+          "display": "Rheumatoid factor"
+        }
+      ],
+      "text": "Rheumatoid Factor (RF) Test"
+    },
+    "subject": {
+      "reference": "Patient/b04a4846-796d-4807-b139-20da77b08961",
+      "display": "Prateek Iyer"
+    },
+    "encounter": {
+      "reference": "Encounter/0387a4f5-a4a3-4134-a47c-a458601e137d"
+    },
+    "issued": "2025-12-08T07:46:00.000Z",
+    "basedOn": [
+      {
+        "reference": "ServiceRequest/a26fde13-28ed-44eb-9746-e90d689b0a43"
+      }
+    ],
+    "conclusionCode": [
+      {
+        "coding": [
+          {
+            "code": "H",
+            "display": "Elevated"
+          }
+        ]
+      }
+    ],
+    "conclusion": "RF titre elevated at 128 IU/mL (normal <20). Consistent with seropositive rheumatoid arthritis.",
+    "performer": [
+      {
+        "reference": "Practitioner/2a07f991-0977-4209-82b6-8007fc9d817d",
+        "display": "Dr. Ankit Shah"
+      }
+    ]
   }
 ]

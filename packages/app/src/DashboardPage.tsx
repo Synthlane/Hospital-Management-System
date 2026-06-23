@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 import '@mantine/charts/styles.css';
 import { BarChart, DonutChart } from '@mantine/charts';
-import { Badge, Group, Loader, Paper, SimpleGrid, Stack, Table, Text, Title } from '@mantine/core';
+import { Badge, Group, Loader, Paper, SegmentedControl, SimpleGrid, Stack, Table, Text, Title } from '@mantine/core';
 import type { Appointment, DiagnosticReport } from '@medplum/fhirtypes';
 import { useMedplum } from '@medplum/react';
 import type { JSX } from 'react';
@@ -17,48 +17,73 @@ interface KpiStats {
   completedReports: number;
 }
 
-interface WeekData {
-  week: string;
-  Fulfilled: number;
+interface ChartData {
+  label: string;
   Booked: number;
+  Attended: number;
+  Upcoming: number;
   'No Show': number;
+  Cancelled: number;
 }
 
-function buildWeeklyData(appointments: Appointment[]): WeekData[] {
+function localDateStr(d: Date): string {
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+}
+
+function buildDailyData(appointments: Appointment[]): ChartData[] {
+  const today = new Date();
+  return [-2, -1, 0, 1].map((offset) => {
+    const d = new Date(today);
+    d.setDate(d.getDate() + offset);
+    const dateStr = localDateStr(d);
+    const label =
+      offset === 0 ? 'Today' :
+      offset === -1 ? 'Yesterday' :
+      offset === 1 ? 'Tomorrow' :
+      d.toLocaleDateString('en-IN', { month: 'short', day: 'numeric' });
+    const dayAppts = appointments.filter((a) => a.start && localDateStr(new Date(a.start)) === dateStr);
+    return {
+      label,
+      Booked: dayAppts.length,
+      Attended: dayAppts.filter((a) => a.status === 'fulfilled').length,
+      Upcoming: dayAppts.filter((a) => a.status === 'booked').length,
+      'No Show': dayAppts.filter((a) => a.status === 'noshow').length,
+      Cancelled: dayAppts.filter((a) => a.status === 'cancelled').length,
+    };
+  });
+}
+
+function buildWeeklyData(appointments: Appointment[]): ChartData[] {
   const now = new Date();
-  const weeks: WeekData[] = [];
+  const weeks: ChartData[] = [];
 
   for (let i = 3; i >= 0; i--) {
-    const d = new Date(now);
-    d.setDate(d.getDate() - i * 7);
+    const weekEnd = new Date(now);
+    weekEnd.setDate(weekEnd.getDate() - i * 7);
+    const weekStart = new Date(weekEnd);
+    weekStart.setDate(weekStart.getDate() - 6);
     weeks.push({
-      week: d.toLocaleDateString('en-IN', { month: 'short', day: 'numeric' }),
-      Fulfilled: 0,
+      label: weekStart.toLocaleDateString('en-IN', { month: 'short', day: 'numeric' }),
       Booked: 0,
+      Attended: 0,
+      Upcoming: 0,
       'No Show': 0,
+      Cancelled: 0,
     });
   }
 
   appointments.forEach((appt) => {
-    if (!appt.start) {
-      return;
-    }
+    if (!appt.start) return;
     const apptDate = new Date(appt.start);
     const daysAgo = Math.floor((now.getTime() - apptDate.getTime()) / 86400000);
-    if (daysAgo < 0 || daysAgo > 28) {
-      return;
-    }
-    const idx = 3 - Math.floor(daysAgo / 7);
-    if (idx < 0 || idx > 3) {
-      return;
-    }
-    if (appt.status === 'fulfilled') {
-      weeks[idx].Fulfilled++;
-    } else if (appt.status === 'booked') {
-      weeks[idx].Booked++;
-    } else if (appt.status === 'noshow') {
-      weeks[idx]['No Show']++;
-    }
+    if (daysAgo < -7 || daysAgo > 28) return;
+    const idx = daysAgo < 0 ? 3 : 3 - Math.floor(daysAgo / 7);
+    if (idx < 0 || idx > 3) return;
+    weeks[idx].Booked++;
+    if (appt.status === 'fulfilled') weeks[idx].Attended++;
+    else if (appt.status === 'booked') weeks[idx].Upcoming++;
+    else if (appt.status === 'noshow') weeks[idx]['No Show']++;
+    else if (appt.status === 'cancelled') weeks[idx].Cancelled++;
   });
 
   return weeks;
@@ -67,7 +92,9 @@ function buildWeeklyData(appointments: Appointment[]): WeekData[] {
 export function DashboardPage(): JSX.Element {
   const medplum = useMedplum();
   const [kpi, setKpi] = useState<KpiStats | null>(null);
-  const [weeklyData, setWeeklyData] = useState<WeekData[]>([]);
+  const [weeklyData, setWeeklyData] = useState<ChartData[]>([]);
+  const [dailyData, setDailyData] = useState<ChartData[]>([]);
+  const [chartView, setChartView] = useState<'days' | 'weeks'>('days');
   const [statusData, setStatusData] = useState<{ name: string; value: number; color: string }[]>([]);
   const [recentReports, setRecentReports] = useState<DiagnosticReport[]>([]);
   const [upcomingAppts, setUpcomingAppts] = useState<Appointment[]>([]);
@@ -80,7 +107,7 @@ export function DashboardPage(): JSX.Element {
         const [patients, practitioners, bookedAppts, activeReqs, finalRpts, allAppts, recentRpts, upcomingAppts] =
           await Promise.all([
             medplum.searchResources('Patient', '_count=500'),
-            medplum.searchResources('Practitioner', '_count=500'),
+            medplum.searchResources('Practitioner', 'identifier:missing=false&_count=500'),
             medplum.searchResources('Appointment', 'status=booked&_count=500'),
             medplum.searchResources('ServiceRequest', 'status=active&_count=500'),
             medplum.searchResources('DiagnosticReport', 'status=final&_count=500'),
@@ -99,15 +126,16 @@ export function DashboardPage(): JSX.Element {
 
         const typedAppts = allAppts as Appointment[];
         setWeeklyData(buildWeeklyData(typedAppts));
+        setDailyData(buildDailyData(typedAppts));
 
-        const fulfilled = typedAppts.filter((a) => a.status === 'fulfilled').length;
-        const booked = typedAppts.filter((a) => a.status === 'booked').length;
+        const attended = typedAppts.filter((a) => a.status === 'fulfilled').length;
+        const upcoming = typedAppts.filter((a) => a.status === 'booked').length;
         const noshow = typedAppts.filter((a) => a.status === 'noshow').length;
         const cancelled = typedAppts.filter((a) => a.status === 'cancelled').length;
         setStatusData(
           [
-            { name: 'Fulfilled', value: fulfilled, color: 'green.6' },
-            { name: 'Booked', value: booked, color: 'blue.6' },
+            { name: 'Attended', value: attended, color: 'green.6' },
+            { name: 'Upcoming', value: upcoming, color: 'blue.6' },
             { name: 'No Show', value: noshow, color: 'red.5' },
             { name: 'Cancelled', value: cancelled, color: 'gray.5' },
           ].filter((d) => d.value > 0)
@@ -162,17 +190,30 @@ export function DashboardPage(): JSX.Element {
       {/* Charts */}
       <SimpleGrid cols={{ base: 1, md: 2 }} spacing="md">
         <Paper p="md" radius="md" withBorder>
-          <Text fw={600} mb="sm">
-            Appointments — Last 4 Weeks
-          </Text>
+          <Group justify="space-between" mb="sm">
+            <Text fw={600}>
+              {chartView === 'days' ? 'Daily Appointments' : 'Appointments — Last 4 Weeks'}
+            </Text>
+            <SegmentedControl
+              size="xs"
+              value={chartView}
+              onChange={(v) => setChartView(v as 'days' | 'weeks')}
+              data={[
+                { label: '4 Days', value: 'days' },
+                { label: '4 Weeks', value: 'weeks' },
+              ]}
+            />
+          </Group>
           <BarChart
             h={240}
-            data={weeklyData}
-            dataKey="week"
+            data={chartView === 'days' ? dailyData : weeklyData}
+            dataKey="label"
             series={[
-              { name: 'Fulfilled', color: 'green.6' },
-              { name: 'Booked', color: 'blue.6' },
+              { name: 'Booked', color: 'violet.3' },
+              { name: 'Attended', color: 'green.6' },
+              { name: 'Upcoming', color: 'blue.5' },
               { name: 'No Show', color: 'red.5' },
+              { name: 'Cancelled', color: 'gray.4' },
             ]}
             tickLine="y"
           />

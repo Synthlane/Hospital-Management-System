@@ -1,7 +1,7 @@
 // SPDX-FileCopyrightText: Copyright Orangebot, Inc. and Medplum contributors
 // SPDX-License-Identifier: Apache-2.0
 import type { Filter, MedplumClient, SearchRequest, SortRule } from '@medplum/core';
-import { convertToTransactionBundle, DEFAULT_SEARCH_COUNT, formatSearchQuery } from '@medplum/core';
+import { convertToTransactionBundle, DEFAULT_SEARCH_COUNT, formatSearchQuery, Operator } from '@medplum/core';
 import type { Bundle, ResourceType, UserConfiguration } from '@medplum/fhirtypes';
 
 /** Custom navigation paths when the user clicks New... */
@@ -10,13 +10,37 @@ export const RESOURCE_TYPE_CREATION_PATHS: Partial<Record<ResourceType, string>>
   ClientApplication: '/admin/clients/new',
 };
 
+// Keep page size above record count so all records fit one page → lazy Bundle.total is accurate.
+const MINIMUM_PAGE_COUNT: Partial<Record<string, number>> = {
+  Organization: 200,
+  Practitioner: 100,
+};
+
+function getDefaultCount(resourceType: string, searchCount: number | undefined): number {
+  const minimum = MINIMUM_PAGE_COUNT[resourceType] ?? 0;
+  return Math.max(searchCount ?? DEFAULT_SEARCH_COUNT, minimum);
+}
+
+// Injects always-on filters that exclude system/admin resources from clinical list views.
+function injectPermanentFilters(resourceType: string, filters: Filter[] | undefined): Filter[] | undefined {
+  if (resourceType === 'Practitioner') {
+    if (!(filters ?? []).some((f) => f.code === 'identifier')) {
+      return [...(filters ?? []), { code: 'identifier', operator: Operator.MISSING, value: 'false' }];
+    }
+  }
+  return filters;
+}
+
 export function addSearchValues(search: SearchRequest, config: UserConfiguration | undefined): SearchRequest {
   const resourceType = search.resourceType || getDefaultResourceType(config);
   const fields = search.fields ?? getDefaultFields(resourceType);
-  const filters = search.filters ?? (!search.resourceType ? getDefaultFilters(resourceType) : undefined);
+  const baseFilters = search.filters ?? (!search.resourceType ? getDefaultFilters(resourceType) : undefined);
+  const filters = injectPermanentFilters(resourceType, baseFilters);
   const sortRules = search.sortRules ?? getDefaultSortRules(resourceType);
   const offset = search.offset ?? 0;
-  const count = search.count ?? DEFAULT_SEARCH_COUNT;
+  const count = getDefaultCount(resourceType, search.count);
+  // Force accurate total count for Practitioners so pagination shows the real record count.
+  const total = resourceType === 'Practitioner' ? ('accurate' as const) : search.total;
 
   return {
     ...search,
@@ -26,6 +50,7 @@ export function addSearchValues(search: SearchRequest, config: UserConfiguration
     sortRules,
     offset,
     count,
+    total,
   };
 }
 
@@ -40,7 +65,13 @@ function getDefaultResourceType(config: UserConfiguration | undefined): string {
 export function getDefaultFields(resourceType: string): string[] {
   const lastSearch = getLastSearch(resourceType);
   if (lastSearch?.fields) {
-    return lastSearch.fields;
+    // 'subject' is FHIR R5-only on Appointment; R4 uses the 'patient' search parameter.
+    // Evict the stale cache entry so the correct default ('patient') loads instead.
+    if (resourceType === 'Appointment' && lastSearch.fields.includes('subject')) {
+      localStorage.removeItem(`${resourceType}-defaultSearch`);
+    } else {
+      return lastSearch.fields;
+    }
   }
   const fields = [];
   switch (resourceType) {
@@ -54,7 +85,7 @@ export function getDefaultFields(resourceType: string): string[] {
       fields.push('id', '_lastUpdated');
       break;
     case 'Appointment':
-      fields.push('subject', 'start', 'end', 'status', 'description', '_lastUpdated');
+      fields.push('patient', 'start', 'end', 'status', 'description', 'practitioner', '_lastUpdated');
       break;
     case 'Bot':
       fields.push('id', '_lastUpdated');

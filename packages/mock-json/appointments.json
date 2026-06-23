@@ -3460,7 +3460,7 @@
   {
     "resourceType": "Appointment",
     "id": "9e6088ef-7a7c-421c-9407-573ec6eef71c",
-    "status": "noshow",
+    "status": "fulfilled",
     "serviceType": [
       {
         "coding": [
@@ -3802,7 +3802,7 @@
   {
     "resourceType": "Appointment",
     "id": "f919e2b7-8c48-425a-a33c-6bcba55b203d",
-    "status": "noshow",
+    "status": "fulfilled",
     "serviceType": [
       {
         "coding": [
@@ -4296,7 +4296,7 @@
   {
     "resourceType": "Appointment",
     "id": "903062bf-b5b5-4522-8c97-e632d6becf4e",
-    "status": "noshow",
+    "status": "fulfilled",
     "serviceType": [
       {
         "coding": [
@@ -4524,7 +4524,7 @@
   {
     "resourceType": "Appointment",
     "id": "0d012bca-e276-4b25-8903-3abd9ce02470",
-    "status": "noshow",
+    "status": "fulfilled",
     "serviceType": [
       {
         "coding": [
@@ -4562,7 +4562,7 @@
   {
     "resourceType": "Appointment",
     "id": "953120c0-6f87-485d-9fa3-aa726caa0697",
-    "status": "noshow",
+    "status": "fulfilled",
     "serviceType": [
       {
         "coding": [
@@ -4790,7 +4790,7 @@
   {
     "resourceType": "Appointment",
     "id": "a2a0562c-6a86-45fd-a483-5b963f417bd0",
-    "status": "noshow",
+    "status": "fulfilled",
     "serviceType": [
       {
         "coding": [
@@ -5246,7 +5246,7 @@
   {
     "resourceType": "Appointment",
     "id": "631a8beb-87fa-4c62-b708-0fe38f4bda44",
-    "status": "noshow",
+    "status": "fulfilled",
     "serviceType": [
       {
         "coding": [
@@ -5588,7 +5588,7 @@
   {
     "resourceType": "Appointment",
     "id": "30764604-6acd-4074-b6ee-b9a00a818914",
-    "status": "noshow",
+    "status": "fulfilled",
     "serviceType": [
       {
         "coding": [
@@ -6310,7 +6310,7 @@
   {
     "resourceType": "Appointment",
     "id": "564593d8-8bfa-44ac-aa6b-c5decf7c285f",
-    "status": "noshow",
+    "status": "fulfilled",
     "serviceType": [
       {
         "coding": [
@@ -8303,7 +8303,7 @@
   {
     "resourceType": "Appointment",
     "id": "d4a1bfe9-0d88-4c2c-a658-6615963e3986",
-    "status": "booked",
+    "status": "fulfilled",
     "serviceType": [
       {
         "coding": [
@@ -8443,7 +8443,7 @@
   {
     "resourceType": "Appointment",
     "id": "a900fbbc-724a-4692-86d4-3dce3eac79e5",
-    "status": "booked",
+    "status": "fulfilled",
     "serviceType": [
       {
         "coding": [
@@ -10158,7 +10158,7 @@
   {
     "resourceType": "Appointment",
     "id": "2e9ee2c5-e483-4ffd-a7f7-98ec93d0adba",
-    "status": "booked",
+    "status": "fulfilled",
     "serviceType": [
       {
         "coding": [
@@ -10263,7 +10263,7 @@
   {
     "resourceType": "Appointment",
     "id": "d2c417fe-4f6e-407d-a521-7b2e25c2b19a",
-    "status": "booked",
+    "status": "fulfilled",
     "serviceType": [
       {
         "coding": [
@@ -10333,7 +10333,7 @@
   {
     "resourceType": "Appointment",
     "id": "485ed6f6-4ec0-4bbe-b46e-59401e070a0e",
-    "status": "booked",
+    "status": "fulfilled",
     "serviceType": [
       {
         "coding": [

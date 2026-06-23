@@ -128,7 +128,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "84dc8290-7d69-4561-88a4-f1c0960897a3",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "routine",
     "subject": {
@@ -170,7 +170,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "6f086293-f3dd-4ec4-a727-44ee7202d602",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "routine",
     "subject": {
@@ -254,7 +254,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "555a0034-6621-4f3b-bc05-ca34e46ee025",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "urgent",
     "subject": {
@@ -338,7 +338,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "1db49ea6-074c-4f87-9598-bec122a69e1d",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "asap",
     "subject": {
@@ -380,7 +380,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "0e3f75d2-795c-44e3-9de5-6f64c2c96567",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "asap",
     "subject": {
@@ -464,7 +464,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "e0e0e729-a433-48e7-b063-67e9f5e4bcda",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "urgent",
     "subject": {
@@ -506,7 +506,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "9e92255f-5c7d-4656-9039-a8a798881043",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "routine",
     "subject": {
@@ -548,7 +548,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "f686ae93-b07e-489c-b4fe-6e5c8abe49b0",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "urgent",
     "subject": {
@@ -590,7 +590,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "b9bbf419-9578-4ab5-a63e-090570af0022",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "asap",
     "subject": {
@@ -632,7 +632,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "4f0ffc7b-6435-4e6b-bef5-c3c2b4f34643",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "asap",
     "subject": {
@@ -674,7 +674,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "b56491b8-ec37-4e43-b360-e314906644dd",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "routine",
     "subject": {
@@ -716,7 +716,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "508b1afc-25b8-43a9-8c29-5e2ad2efa9ac",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "asap",
     "subject": {
@@ -758,7 +758,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "ebcf635e-ab69-42f2-a5d1-d01ad026c130",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "routine",
     "subject": {
@@ -842,7 +842,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "136d0572-51f5-459d-9bba-25667f3d3421",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "asap",
     "subject": {
@@ -926,7 +926,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "e85560bc-a973-4022-a13f-a33d8e041623",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "asap",
     "subject": {
@@ -1010,7 +1010,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "cdcaa065-a521-4589-9965-a0158732e45c",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "asap",
     "subject": {
@@ -1094,7 +1094,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "653e016e-04d9-41b6-b0cc-fabf49373596",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "asap",
     "subject": {
@@ -1136,7 +1136,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "58d9868f-d78a-4d0d-b4d0-6176f3d17dc8",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "asap",
     "subject": {
@@ -1178,7 +1178,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "0c8d514e-aa0e-4929-a506-09a1a4654de2",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "urgent",
     "subject": {
@@ -1220,7 +1220,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "1808354a-f34a-4a5e-916a-d028890655d8",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "asap",
     "subject": {
@@ -1304,7 +1304,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "6b1ecdf3-bcdd-436b-8c07-d3aee25a4fb4",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "routine",
     "subject": {
@@ -1346,7 +1346,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "c48e1e16-3ef0-4c72-8201-b79f2700a377",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "routine",
     "subject": {
@@ -1388,7 +1388,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "82099df8-0060-460d-9e72-9a3bb5da0f1e",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "urgent",
     "subject": {
@@ -1430,7 +1430,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "fc289d08-9429-48d5-a45e-b02ca335abcb",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "urgent",
     "subject": {
@@ -1514,7 +1514,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "06fde671-d5bb-4119-879b-00995459f7a4",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "urgent",
     "subject": {
@@ -1556,7 +1556,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "c308ae50-5d4b-42db-9ad9-dcb1e4361330",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "asap",
     "subject": {
@@ -1598,7 +1598,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "c16f90d9-99b4-47eb-ad25-443683a22653",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "urgent",
     "subject": {
@@ -1640,7 +1640,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "90cf3fcd-7b00-4eb2-a751-aefafbb01fe9",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "routine",
     "subject": {
@@ -1682,7 +1682,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "7b9951fe-af07-4819-968d-14fb2e987591",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "urgent",
     "subject": {
@@ -1766,7 +1766,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "0f50eef3-aa91-4b3d-a802-b7f178eb1abe",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "routine",
     "subject": {
@@ -1808,7 +1808,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "6cddfd33-c20c-482f-89fa-9868d6efc982",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "routine",
     "subject": {
@@ -1850,7 +1850,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "aab18102-af89-4fe1-b485-03eb553ce8c4",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "routine",
     "subject": {
@@ -1934,7 +1934,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "be8deb1b-0608-4e14-876a-5e6fff5b5aa5",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "asap",
     "subject": {
@@ -1976,7 +1976,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "963b41f9-40df-434c-8724-7b9a72dd9afe",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "asap",
     "subject": {
@@ -2018,7 +2018,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "bb15c4e6-5d08-4875-bdda-556bad498af6",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "urgent",
     "subject": {
@@ -2060,7 +2060,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "384cd3d2-280d-4c95-9fce-40d45bc50f69",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "asap",
     "subject": {
@@ -2102,7 +2102,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "50855d59-893f-44a4-b4cd-d75d708c4527",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "asap",
     "subject": {
@@ -2144,7 +2144,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "18c4f248-123d-48ef-a620-33af0f6f5f59",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "routine",
     "subject": {
@@ -2186,7 +2186,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "e1f74c34-0bb3-439f-a94b-cc11c46c2567",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "routine",
     "subject": {
@@ -2228,7 +2228,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "df754dba-16c8-4be7-b277-a7a3fff7c6ca",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "asap",
     "subject": {
@@ -2270,7 +2270,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "265712a5-4297-446f-9da3-e77e27d5821f",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "routine",
     "subject": {
@@ -2438,7 +2438,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "233ca718-b94d-400f-b0f5-985022d8c093",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "routine",
     "subject": {
@@ -2522,7 +2522,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "0f1ef744-3189-4ecd-b562-a3258b208380",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "routine",
     "subject": {
@@ -2564,7 +2564,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "2ed27bb0-7f40-42b0-a1f9-0bc976ba0dda",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "asap",
     "subject": {
@@ -2606,7 +2606,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "a13b1091-815a-49ca-a140-dd16c87db890",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "asap",
     "subject": {
@@ -2648,7 +2648,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "00fdd83e-b4ba-49f2-930f-913f1efca55e",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "routine",
     "subject": {
@@ -2690,7 +2690,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "f5234d5f-1c88-4a6e-977c-c09c416f716a",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "routine",
     "subject": {
@@ -2732,7 +2732,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "f3e9db01-3efc-4cb4-b706-957f4a74e844",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "routine",
     "subject": {
@@ -2774,7 +2774,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "291c5c8f-973c-4c2c-8cd9-5f0607707aca",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "urgent",
     "subject": {
@@ -2816,7 +2816,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "0c68d724-5c18-4320-a35b-d9c44447031a",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "asap",
     "subject": {
@@ -2858,7 +2858,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "28f54b42-20b4-449f-b252-22e2c0e40124",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "asap",
     "subject": {
@@ -2942,7 +2942,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "944cb869-98fc-45d7-83a5-9a332175f4f9",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "asap",
     "subject": {
@@ -3068,7 +3068,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "fafdebd3-2bbd-4cbe-920c-a73f95067761",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "asap",
     "subject": {
@@ -3110,7 +3110,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "83dbf165-e842-4640-ab70-4b3a11f40529",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "urgent",
     "subject": {
@@ -3152,7 +3152,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "36e75d3e-f521-4caa-b4a4-78a50dad9b8b",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "routine",
     "subject": {
@@ -3236,7 +3236,7 @@
   {
     "resourceType": "ServiceRequest",
     "id": "a3b75ac9-e5ec-4a73-8de8-c4b9ebbf2116",
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "priority": "routine",
     "subject": {
@@ -12892,5 +12892,299 @@
         "display": "Kaiser Permanente"
       }
     ]
+  },
+  {
+    "resourceType": "ServiceRequest",
+    "id": "758806e8-134b-44a1-bad5-1bf9ef1291e6",
+    "status": "active",
+    "intent": "order",
+    "priority": "routine",
+    "subject": {
+      "reference": "Patient/01394956-9eb9-4099-8eec-a71a137eab18",
+      "display": "Suresh Mehta"
+    },
+    "encounter": {
+      "reference": "Encounter/c934143a-88dd-46fb-bb8c-c471ce178598"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "58410-2",
+          "display": "CBC Panel"
+        }
+      ],
+      "text": "Complete Blood Count"
+    },
+    "authoredOn": "2026-06-15T10:21:00.000Z",
+    "requester": {
+      "reference": "Practitioner/f9754da8-8c72-4b42-8a86-a06f9cad64db",
+      "display": "Dr. Meera Rao"
+    },
+    "patientInstruction": "Sample collection required. Please visit the lab at your earliest convenience."
+  },
+  {
+    "resourceType": "ServiceRequest",
+    "id": "2eff0e0b-f284-41ef-a3a1-e97b0a216cfd",
+    "status": "active",
+    "intent": "order",
+    "priority": "routine",
+    "subject": {
+      "reference": "Patient/d285961c-1a83-42af-aa6a-bea9b605fb7a",
+      "display": "Shreya Reddy"
+    },
+    "encounter": {
+      "reference": "Encounter/40313585-659d-4b08-802b-67defd335d4e"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "24325-3",
+          "display": "LFT Panel"
+        }
+      ],
+      "text": "Liver Function Tests"
+    },
+    "authoredOn": "2026-06-07T05:19:00.000Z",
+    "requester": {
+      "reference": "Practitioner/d8b3a01b-d9ea-4c90-a20d-3260452b1533",
+      "display": "Dr. Suresh Mehta"
+    },
+    "patientInstruction": "Sample collection required. Please visit the lab at your earliest convenience."
+  },
+  {
+    "resourceType": "ServiceRequest",
+    "id": "ba102c3a-c3aa-437e-b87e-bd6e5be55010",
+    "status": "active",
+    "intent": "order",
+    "priority": "routine",
+    "subject": {
+      "reference": "Patient/0282aa00-c05c-4c4f-b480-8cd0a9200fdd",
+      "display": "Meera Sharma"
+    },
+    "encounter": {
+      "reference": "Encounter/7f60aa83-0686-41b6-8f00-df9e353ce1ea"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c"
+        }
+      ],
+      "text": "HbA1c"
+    },
+    "authoredOn": "2026-06-04T11:24:00.000Z",
+    "requester": {
+      "reference": "Practitioner/2a07f991-0977-4209-82b6-8007fc9d817d",
+      "display": "Dr. Ankit Shah"
+    },
+    "patientInstruction": "Sample collection required. Please visit the lab at your earliest convenience."
+  },
+  {
+    "resourceType": "ServiceRequest",
+    "id": "168fe4d3-33c8-48f5-beb1-e76b00bb3c20",
+    "status": "active",
+    "intent": "order",
+    "priority": "routine",
+    "subject": {
+      "reference": "Patient/2060c0ab-0a75-40bf-92e3-2126a34b772b",
+      "display": "Kavita Sharma"
+    },
+    "encounter": {
+      "reference": "Encounter/a5f80762-f88e-43b8-b12e-cfb2517ef5f6"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "57698-3",
+          "display": "Lipid Panel"
+        }
+      ],
+      "text": "Lipid Panel"
+    },
+    "authoredOn": "2026-06-17T06:21:00.000Z",
+    "requester": {
+      "reference": "Practitioner/2a07f991-0977-4209-82b6-8007fc9d817d",
+      "display": "Dr. Ankit Shah"
+    },
+    "patientInstruction": "Sample collection required. Please visit the lab at your earliest convenience."
+  },
+  {
+    "resourceType": "ServiceRequest",
+    "id": "c2699064-49ad-4a91-b862-88111b1d3c55",
+    "status": "active",
+    "intent": "order",
+    "priority": "routine",
+    "subject": {
+      "reference": "Patient/6baf67ba-abad-4025-a81d-b54b183e16f5",
+      "display": "Zara Mehta"
+    },
+    "encounter": {
+      "reference": "Encounter/346a8ebe-890e-4c62-a45b-1a9a51f6807d"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "51990-0",
+          "display": "BMP Panel"
+        }
+      ],
+      "text": "Basic Metabolic Panel"
+    },
+    "authoredOn": "2026-05-26T11:02:00.000Z",
+    "requester": {
+      "reference": "Practitioner/58e2170e-aba9-438d-8c72-fc51c097d4b0",
+      "display": "Dr. Isha Malhotra"
+    },
+    "patientInstruction": "Sample collection required. Please visit the lab at your earliest convenience."
+  },
+  {
+    "resourceType": "ServiceRequest",
+    "id": "c9e66649-b5ca-461b-96f6-38f3c49d4eaf",
+    "status": "active",
+    "intent": "order",
+    "priority": "routine",
+    "subject": {
+      "reference": "Patient/4b4fe77d-95e8-4fd8-92e4-fc8a5b301462",
+      "display": "Priya Gupta"
+    },
+    "encounter": {
+      "reference": "Encounter/7ca9ed83-f6ac-446c-8318-2ef90b5bb34a"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "3016-3",
+          "display": "TSH"
+        }
+      ],
+      "text": "Thyroid Stimulating Hormone"
+    },
+    "authoredOn": "2026-05-25T04:30:00.000Z",
+    "requester": {
+      "reference": "Practitioner/f9754da8-8c72-4b42-8a86-a06f9cad64db",
+      "display": "Dr. Meera Rao"
+    },
+    "patientInstruction": "Sample collection required. Please visit the lab at your earliest convenience."
+  },
+  {
+    "resourceType": "ServiceRequest",
+    "id": "d720826e-760b-4343-b911-e1c637799010",
+    "status": "active",
+    "intent": "order",
+    "priority": "routine",
+    "subject": {
+      "reference": "Patient/9dd80834-6ef0-4d94-a54b-74acc9d2d4d3",
+      "display": "Sneha Kumar"
+    },
+    "encounter": {
+      "reference": "Encounter/5e2db779-9951-4599-a88f-6be318492a3b"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "24357-6",
+          "display": "Urinalysis"
+        }
+      ],
+      "text": "Urine Analysis"
+    },
+    "authoredOn": "2026-05-29T11:42:00.000Z",
+    "requester": {
+      "reference": "Practitioner/f1d1364c-ae78-4b73-b10d-4cb6ad5e2f0d",
+      "display": "Dr. Aditya Verma"
+    },
+    "patientInstruction": "Sample collection required. Please visit the lab at your earliest convenience."
+  },
+  {
+    "resourceType": "ServiceRequest",
+    "id": "610c83de-0713-4aaa-8d4b-493cbbcc367b",
+    "status": "completed",
+    "intent": "order",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "24325-3",
+          "display": "LFT panel"
+        }
+      ],
+      "text": "Liver Function Tests"
+    },
+    "subject": {
+      "reference": "Patient/b0f8fc2b-f1c7-4832-985c-a34682530f0a",
+      "display": "Amit Shah"
+    },
+    "encounter": {
+      "reference": "Encounter/2e9300c3-c406-4981-8760-e9bc4fc090d2"
+    },
+    "authoredOn": "2026-04-24T10:11:00.000Z",
+    "requester": {
+      "reference": "Practitioner/d8b3a01b-d9ea-4c90-a20d-3260452b1533",
+      "display": "Dr. Suresh Mehta"
+    }
+  },
+  {
+    "resourceType": "ServiceRequest",
+    "id": "3c5615e2-9384-4366-b546-d3a132d4b83a",
+    "status": "completed",
+    "intent": "order",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "5244-9",
+          "display": "Patch test"
+        }
+      ],
+      "text": "Skin Patch Test (Allergy Panel)"
+    },
+    "subject": {
+      "reference": "Patient/7c8351b4-ef6a-42ff-9fe0-eef3a71113bd",
+      "display": "Kavita Gupta"
+    },
+    "encounter": {
+      "reference": "Encounter/f1e6de9b-b92d-4982-b7d6-a00f4383bdb6"
+    },
+    "authoredOn": "2025-10-21T12:28:00.000Z",
+    "requester": {
+      "reference": "Practitioner/9d359a6d-25a8-4a26-a912-9b5ec6fc454d",
+      "display": "Dr. Vikram Verma"
+    }
+  },
+  {
+    "resourceType": "ServiceRequest",
+    "id": "a26fde13-28ed-44eb-9746-e90d689b0a43",
+    "status": "completed",
+    "intent": "order",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "11572-5",
+          "display": "Rheumatoid factor"
+        }
+      ],
+      "text": "Rheumatoid Factor (RF) Test"
+    },
+    "subject": {
+      "reference": "Patient/b04a4846-796d-4807-b139-20da77b08961",
+      "display": "Prateek Iyer"
+    },
+    "encounter": {
+      "reference": "Encounter/0387a4f5-a4a3-4134-a47c-a458601e137d"
+    },
+    "authoredOn": "2025-12-06T07:46:00.000Z",
+    "requester": {
+      "reference": "Practitioner/2a07f991-0977-4209-82b6-8007fc9d817d",
+      "display": "Dr. Ankit Shah"
+    }
   }
 ]

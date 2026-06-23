@@ -8377,5 +8377,200 @@
         }
       }
     ]
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "f1981a2b-24a8-4194-a838-f312b0139091",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "41493",
+          "display": "Entecavir"
+        }
+      ],
+      "text": "Entecavir 0.5mg tablet"
+    },
+    "subject": {
+      "reference": "Patient/b0f8fc2b-f1c7-4832-985c-a34682530f0a",
+      "display": "Amit Shah"
+    },
+    "encounter": {
+      "reference": "Encounter/2e9300c3-c406-4981-8760-e9bc4fc090d2"
+    },
+    "dosageInstruction": [
+      {
+        "text": "0.5mg once daily on an empty stomach",
+        "timing": {
+          "repeat": {
+            "frequency": 1,
+            "period": 1,
+            "periodUnit": "d"
+          }
+        }
+      }
+    ],
+    "requester": {
+      "reference": "Practitioner/d8b3a01b-d9ea-4c90-a20d-3260452b1533",
+      "display": "Dr. Suresh Mehta"
+    }
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "b05f95c1-632d-4b5a-afc0-2e042e46f822",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "41493",
+          "display": "Methotrexate"
+        }
+      ],
+      "text": "Methotrexate 7.5mg tablet"
+    },
+    "subject": {
+      "reference": "Patient/b04a4846-796d-4807-b139-20da77b08961",
+      "display": "Prateek Iyer"
+    },
+    "encounter": {
+      "reference": "Encounter/0387a4f5-a4a3-4134-a47c-a458601e137d"
+    },
+    "dosageInstruction": [
+      {
+        "text": "7.5mg once weekly (DMARD therapy for RA)",
+        "timing": {
+          "repeat": {
+            "frequency": 1,
+            "period": 1,
+            "periodUnit": "wk"
+          }
+        }
+      }
+    ],
+    "requester": {
+      "reference": "Practitioner/2a07f991-0977-4209-82b6-8007fc9d817d",
+      "display": "Dr. Ankit Shah"
+    }
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "14002b7c-669f-411f-a0ef-1ee2a81eab0f",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "203029",
+          "display": "Levodopa / Carbidopa"
+        }
+      ],
+      "text": "Levodopa/Carbidopa 100mg/25mg tablet"
+    },
+    "subject": {
+      "reference": "Patient/4966eb75-f7cc-4f77-8dfb-18615751ff83",
+      "display": "Aditya Joshi"
+    },
+    "encounter": {
+      "reference": "Encounter/f71ddf56-e6ad-42ce-8d7a-2c8c256307c9"
+    },
+    "dosageInstruction": [
+      {
+        "text": "1 tablet three times daily, 30 minutes before meals",
+        "timing": {
+          "repeat": {
+            "frequency": 3,
+            "period": 1,
+            "periodUnit": "d"
+          }
+        }
+      }
+    ],
+    "requester": {
+      "reference": "Practitioner/9fb7e69a-b18e-4f59-a018-3ba7c9958217",
+      "display": "Dr. Karan Sharma"
+    }
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "74c1d3c3-6235-4e71-a93d-ac85f2d7bc0e",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "203029",
+          "display": "Levodopa / Carbidopa"
+        }
+      ],
+      "text": "Levodopa/Carbidopa 100mg/25mg tablet"
+    },
+    "subject": {
+      "reference": "Patient/1864f838-a770-4e3d-9acf-f6ae8fd3ada5",
+      "display": "Siddharth Mehta"
+    },
+    "encounter": {
+      "reference": "Encounter/6a42ea7d-322e-454e-80b8-2ca23bef3602"
+    },
+    "dosageInstruction": [
+      {
+        "text": "1 tablet three times daily",
+        "timing": {
+          "repeat": {
+            "frequency": 3,
+            "period": 1,
+            "periodUnit": "d"
+          }
+        }
+      }
+    ],
+    "requester": {
+      "reference": "Practitioner/da7f8001-08b7-4453-a18d-44d443278b5f",
+      "display": "Dr. Rajesh Mehta"
+    }
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "0400ac84-7d13-42ec-9d6d-e36342913e32",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "860975",
+          "display": "Metformin"
+        }
+      ],
+      "text": "Metformin 500mg tablet"
+    },
+    "subject": {
+      "reference": "Patient/574bc2d5-8faa-4d77-96d6-6b71a6b43f33",
+      "display": "Zara Nair"
+    },
+    "encounter": {
+      "reference": "Encounter/ab4e070e-c854-45f6-b01d-9fbec0e2f39e"
+    },
+    "dosageInstruction": [
+      {
+        "text": "500mg twice daily with meals",
+        "timing": {
+          "repeat": {
+            "frequency": 2,
+            "period": 1,
+            "periodUnit": "d"
+          }
+        }
+      }
+    ],
+    "requester": {
+      "reference": "Practitioner/9a496a83-389a-4017-bca7-76c4477c6db8",
+      "display": "Dr. Rohan Rao"
+    }
   }
 ]
