@@ -477,12 +477,56 @@ export function getOpString(op: Operator): string {
   return operatorNames[op] ?? '';
 }
 
-/**
- * Returns a field display name.
- * @param key - The field key.
- * @returns The field display name.
- */
-export function buildFieldNameString(key: string): string {
+const FIELD_DISPLAY_NAMES: Record<string, string> = {
+  subject: 'Patient',
+  participant: 'Doctor',
+  period: 'Date / Time',
+  requester: 'Requested By',
+  performer: 'Performed By',
+  effectiveDateTime: 'Date',
+  onsetDateTime: 'Onset Date',
+  performedDateTime: 'Date Performed',
+  'qualification-code': 'Specialty',
+  subscriber: 'Member',
+  payor: 'Insurer',
+  managingOrganization: 'Organization',
+  birthDate: 'Date of Birth',
+  telecom: 'Contact',
+  practitioner: 'Doctor',
+  partOf: 'Parent Org',
+  start: 'Start Time',
+  end: 'End Time',
+};
+
+/** Per-resource-type overrides that take priority over FIELD_DISPLAY_NAMES. */
+const RESOURCE_FIELD_DISPLAY_NAMES: Record<string, Record<string, string>> = {
+  ServiceRequest: {
+    code: 'Test Name',
+    requester: 'Ordered By',
+  },
+  DiagnosticReport: {
+    code: 'Test Name',
+  },
+  Condition: {
+    code: 'Diagnosis',
+  },
+  Procedure: {
+    code: 'Procedure',
+    requester: 'Ordered By',
+  },
+  MedicationRequest: {
+    requester: 'Prescribed By',
+  },
+};
+
+export function buildFieldNameString(key: string, resourceType?: string): string {
+  if (resourceType && RESOURCE_FIELD_DISPLAY_NAMES[resourceType]?.[key]) {
+    return RESOURCE_FIELD_DISPLAY_NAMES[resourceType][key];
+  }
+  if (key in FIELD_DISPLAY_NAMES) {
+    return FIELD_DISPLAY_NAMES[key];
+  }
+
   let tmp = key;
 
   // If dot separated, only the last part

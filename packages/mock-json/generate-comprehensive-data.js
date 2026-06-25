@@ -764,7 +764,7 @@ function generatePatients(organizations) {
         name: [{ use: 'official', family: lastName, given: [firstName] }],
         managingOrganization: { reference: `Organization/${orgId}` },
         identifier: [
-          { system: 'http://hospital.example.com/patient-id', value: `PAT-${String(++patientIndex).padStart(6, '0')}` },
+          { system: 'http://hospital.com/patient-id', value: `PAT-${String(++patientIndex).padStart(6, '0')}` },
         ],
         active: true,
         gender: gender,

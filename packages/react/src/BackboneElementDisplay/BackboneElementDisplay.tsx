@@ -5,7 +5,7 @@ import { buildElementsContext, getPathDisplayName, isEmpty, tryGetDataType } fro
 import type { AccessPolicyResource } from '@medplum/fhirtypes';
 import type { JSX } from 'react';
 import { useContext, useMemo } from 'react';
-import { DEFAULT_IGNORED_NON_NESTED_PROPERTIES, DEFAULT_IGNORED_PROPERTIES } from '../constants';
+import { DEFAULT_IGNORED_NON_NESTED_PROPERTIES, DEFAULT_IGNORED_PROPERTIES, RESOURCE_IGNORED_PROPERTIES } from '../constants';
 import { DescriptionList, DescriptionListEntry } from '../DescriptionList/DescriptionList';
 import { ElementsContext } from '../ElementsInput/ElementsInput.utils';
 import { ResourcePropertyDisplay } from '../ResourcePropertyDisplay/ResourcePropertyDisplay';
@@ -73,6 +73,9 @@ export function BackboneElementDisplay(props: BackboneElementDisplayProps): JSX.
   // Since this component may create a new ElementsContext, compute the effective context for use in this component
   const elementsContext = newElementsContext ?? parentElementsContext;
 
+  const rootResourceType = props.path.split('.')[0];
+  const resourceSpecificIgnored = RESOURCE_IGNORED_PROPERTIES[rootResourceType] ?? [];
+
   return maybeWrapWithContext(
     ElementsContext.Provider,
     newElementsContext,
@@ -84,6 +87,8 @@ export function BackboneElementDisplay(props: BackboneElementDisplayProps): JSX.
         } else if (IGNORED_PROPERTIES.includes(key)) {
           return null;
         } else if (DEFAULT_IGNORED_NON_NESTED_PROPERTIES.includes(key) && property.path.split('.').length === 2) {
+          return null;
+        } else if (resourceSpecificIgnored.includes(key) && property.path.split('.').length === 2) {
           return null;
         }
 
@@ -138,12 +143,19 @@ export function BackboneElementDisplay(props: BackboneElementDisplayProps): JSX.
         );
 
         if (isArrayProperty) {
+          if (isEmpty(propertyValue)) {
+            return (
+              <DescriptionListEntry key={key} term={getPathDisplayName(key)}>
+                <span style={{ color: 'var(--mantine-color-gray-5)' }}>—</span>
+              </DescriptionListEntry>
+            );
+          }
           return resourcePropertyDisplay;
         }
 
         return (
           <DescriptionListEntry key={key} term={getPathDisplayName(key)}>
-            {resourcePropertyDisplay}
+            {isEmpty(propertyValue) ? <span style={{ color: 'var(--mantine-color-gray-5)' }}>—</span> : resourcePropertyDisplay}
           </DescriptionListEntry>
         );
       })}

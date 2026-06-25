@@ -7,9 +7,11 @@ import type { UserConfiguration } from '@medplum/fhirtypes';
 import type { NavbarMenu } from '@medplum/react';
 import { AppShell, Loading, useMedplum } from '@medplum/react';
 import {
+  IconBed,
   IconBrandAsana,
   IconBuilding,
   IconCalendar,
+  IconClipboardList,
   IconDatabase,
   IconFlask,
   IconForms,
@@ -98,17 +100,28 @@ function userConfigToMenu(config: UserConfiguration | undefined): NavbarMenu[] {
       .map((menu) => ({
         title: menu.title,
         links:
-          menu.link?.map((link) => {
-            const name = link.name as string;
-            const target = link.target as string;
-            const label = LABEL_MAP[name] ?? name;
-            return {
-              label,
-              href: target,
-              icon: getIcon(target, name),
-            };
-          }) || [],
+          menu.link
+            ?.filter((link) => (link.name as string) !== 'MedicationRequest')
+            .map((link) => {
+              const name = link.name as string;
+              const target = link.target as string;
+              const label = LABEL_MAP[name] ?? name;
+              return {
+                label,
+                href: target,
+                icon: getIcon(target, name),
+              };
+            }) || [],
       })) || [];
+
+  const ipdMenu: NavbarMenu = {
+    title: 'IPD',
+    links: [
+      { label: 'Admissions',  href: '/ipd/admit', icon: <IconClipboardList /> },
+      { label: 'Ward View',   href: '/ipd/ward',  icon: <IconStethoscope />   },
+      { label: 'Bed Board',   href: '/ipd/beds',  icon: <IconBed />           },
+    ],
+  };
 
   const settingsMenu: NavbarMenu = {
     title: 'Settings',
@@ -121,7 +134,7 @@ function userConfigToMenu(config: UserConfiguration | undefined): NavbarMenu[] {
     ],
   };
 
-  return [dashboardMenu, ...sectionMenus, settingsMenu];
+  return [dashboardMenu, ...sectionMenus, ipdMenu, settingsMenu];
 }
 
 const resourceTypeToIcon: Record<string, FunctionComponent> = {

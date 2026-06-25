@@ -2,15 +2,23 @@
 // SPDX-License-Identifier: Apache-2.0
 import { Stack, Text } from '@mantine/core';
 import { addProfileToResource } from '@medplum/core';
-import type { OperationOutcome, Resource } from '@medplum/fhirtypes';
+import type { OperationOutcome, Patient, Resource } from '@medplum/fhirtypes';
 import type { SupportedProfileStructureDefinition } from '@medplum/react';
 import { Document, ResourceForm } from '@medplum/react';
 import type { JSX } from 'react';
-import { useCallback, useState } from 'react';
+import { useCallback, useMemo, useState } from 'react';
 import { useLocation, useParams } from 'react-router';
 import { ProfileTabs } from './ProfileTabs';
 import { useCreateResource } from './useCreateResource';
 import { cleanResource } from './utils';
+
+const PATIENT_ID_SYSTEM = 'http://hospital.com/patient-id';
+
+// Uses the last 6 digits of the millisecond timestamp — unique enough for any
+// realistic patient volume and requires zero database round-trips.
+function generatePatientId(): string {
+  return `PAT-${String(Date.now()).slice(-6)}`;
+}
 
 export function FormCreatePage(): JSX.Element {
   const { resourceType } = useParams();
@@ -20,6 +28,17 @@ export function FormCreatePage(): JSX.Element {
   const [currentProfile, setCurrentProfile] = useState<SupportedProfileStructureDefinition | undefined>();
 
   const isProfilesPage = location.pathname.toLowerCase().endsWith('profiles');
+  const isPatient = resourceType === 'Patient';
+
+  // Generate once per form session so the same ID is shown and submitted.
+  const patientDefaultValue = useMemo<Resource>(() => {
+    if (!isPatient) return defaultValue;
+    return {
+      ...defaultValue,
+      identifier: [{ system: PATIENT_ID_SYSTEM, value: generatePatientId() }],
+    } as Patient;
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isPatient]); // intentionally omit defaultValue — we only want one stable ID per form open
 
   const onProfileSubmit = useCallback(
     (resource: Resource): void => {
@@ -35,7 +54,12 @@ export function FormCreatePage(): JSX.Element {
   if (!isProfilesPage) {
     return (
       <Document>
-        <ResourceForm defaultValue={defaultValue} onSubmit={handleSubmit} outcome={outcome} />
+        <ResourceForm
+          defaultValue={isPatient ? patientDefaultValue : defaultValue}
+          onSubmit={handleSubmit}
+          outcome={outcome}
+          readonlyFields={isPatient ? ['identifier'] : undefined}
+        />
       </Document>
     );
   }

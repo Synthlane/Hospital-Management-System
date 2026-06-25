@@ -436,7 +436,7 @@ export function SearchControl(props: SearchControlProps): JSX.Element {
                   <Menu.Target>
                     <UnstyledButton className={classes.control} p={2}>
                       <Group justify="space-between" wrap="nowrap">
-                        <Text fw={500}>{buildFieldNameString(field.name)}</Text>
+                        <Text fw={500}>{buildFieldNameString(field.name, resourceType)}</Text>
                         <Center className={classes.icon}>
                           <IconAdjustmentsHorizontal size={14} stroke={1.5} />
                         </Center>
@@ -581,7 +581,7 @@ export function SearchControl(props: SearchControlProps): JSX.Element {
       <SearchFilterValueDialog
         key={`search-filter-dialog-${state.dialogOpenTime}`}
         visible={stateRef.current.filterDialogVisible}
-        title={state.filterDialogSearchParam?.code ? buildFieldNameString(state.filterDialogSearchParam.code) : ''}
+        title={state.filterDialogSearchParam?.code ? buildFieldNameString(state.filterDialogSearchParam.code, resourceType) : ''}
         resourceType={resourceType}
         searchParam={state.filterDialogSearchParam}
         filter={state.filterDialogFilter}

@@ -22,6 +22,9 @@ import { AppointmentPage } from './appointment/AppointmentPage';
 import { BatchPage } from './BatchPage';
 import { BulkAppPage } from './BulkAppPage';
 import { DashboardPage } from './DashboardPage';
+import { AdmissionPage } from './ipd/AdmissionPage';
+import { WardViewPage } from './ipd/WardViewPage';
+import { BedBoardPage } from './ipd/BedBoardPage';
 import { ChangePasswordPage } from './ChangePasswordPage';
 import { CreateResourcePage } from './CreateResourcePage';
 import { ErrorPage } from './ErrorPage';
@@ -50,6 +53,7 @@ import { JsonCreatePage } from './resource/JsonCreatePage';
 import { JsonPage } from './resource/JsonPage';
 import { PreviewPage } from './resource/PreviewPage';
 import { EncounterSummaryPage } from './resource/EncounterSummaryPage';
+import { EncounterMedicationsPage } from './resource/EncounterMedicationsPage';
 import { PatientSummaryPage } from './resource/PatientSummaryPage';
 import { ProfilesPage } from './resource/ProfilesPage';
 import { QuestionnaireBotsPage } from './resource/QuestionnaireBotsPage';
@@ -81,6 +85,9 @@ export function AppRoutes(): JSX.Element {
         <Route path="/security" element={<SecurityPage />} />
         <Route path="/mfa" element={<MfaPage />} />
         <Route path="/dashboard" element={<DashboardPage />} />
+        <Route path="/ipd/admit" element={<AdmissionPage />} />
+        <Route path="/ipd/ward" element={<WardViewPage />} />
+        <Route path="/ipd/beds" element={<BedBoardPage />} />
         <Route path="/Appointment" element={<AppointmentPage />} />
         <Route path="/batch" element={<BatchPage />} />
         <Route path="/bulk/:resourceType" element={<BulkAppPage />} />
@@ -143,6 +150,7 @@ export function AppRoutes(): JSX.Element {
           <Route path="subscriptions" element={<SubscriptionsPage />} />
           <Route path="summary" element={<PatientSummaryPage />} />
           <Route path="visit" element={<EncounterSummaryPage />} />
+          <Route path="prescription" element={<EncounterMedicationsPage />} />
           <Route path="timeline" element={<TimelinePage />} />
           <Route path="tools" element={<ToolsPage />} />
           <Route path="profiles" element={<ProfilesPage />} />

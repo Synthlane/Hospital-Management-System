@@ -16,7 +16,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000001"
       }
     ],
@@ -68,7 +68,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000002"
       }
     ],
@@ -120,7 +120,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000003"
       }
     ],
@@ -172,7 +172,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000004"
       }
     ],
@@ -224,7 +224,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000005"
       }
     ],
@@ -276,7 +276,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000006"
       }
     ],
@@ -328,7 +328,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000007"
       }
     ],
@@ -380,7 +380,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000008"
       }
     ],
@@ -432,7 +432,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000009"
       }
     ],
@@ -484,7 +484,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000010"
       }
     ],
@@ -536,7 +536,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000011"
       }
     ],
@@ -588,7 +588,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000012"
       }
     ],
@@ -640,7 +640,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000013"
       }
     ],
@@ -692,7 +692,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000014"
       }
     ],
@@ -744,7 +744,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000015"
       }
     ],
@@ -796,7 +796,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000016"
       }
     ],
@@ -848,7 +848,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000017"
       }
     ],
@@ -900,7 +900,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000018"
       }
     ],
@@ -952,7 +952,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000019"
       }
     ],
@@ -1004,7 +1004,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000020"
       }
     ],
@@ -1056,7 +1056,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000021"
       }
     ],
@@ -1108,7 +1108,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000022"
       }
     ],
@@ -1160,7 +1160,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000023"
       }
     ],
@@ -1212,7 +1212,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000024"
       }
     ],
@@ -1264,7 +1264,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000025"
       }
     ],
@@ -1316,7 +1316,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000026"
       }
     ],
@@ -1368,7 +1368,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000027"
       }
     ],
@@ -1420,7 +1420,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000028"
       }
     ],
@@ -1472,7 +1472,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000029"
       }
     ],
@@ -1524,7 +1524,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000030"
       }
     ],
@@ -1576,7 +1576,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000031"
       }
     ],
@@ -1628,7 +1628,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000032"
       }
     ],
@@ -1680,7 +1680,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000033"
       }
     ],
@@ -1732,7 +1732,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000034"
       }
     ],
@@ -1784,7 +1784,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000035"
       }
     ],
@@ -1836,7 +1836,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000036"
       }
     ],
@@ -1888,7 +1888,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000037"
       }
     ],
@@ -1940,7 +1940,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000038"
       }
     ],
@@ -1992,7 +1992,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000039"
       }
     ],
@@ -2044,7 +2044,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000040"
       }
     ],
@@ -2096,7 +2096,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000041"
       }
     ],
@@ -2148,7 +2148,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000042"
       }
     ],
@@ -2200,7 +2200,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000043"
       }
     ],
@@ -2252,7 +2252,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000044"
       }
     ],
@@ -2304,7 +2304,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000045"
       }
     ],
@@ -2356,7 +2356,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000046"
       }
     ],
@@ -2408,7 +2408,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000047"
       }
     ],
@@ -2460,7 +2460,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000048"
       }
     ],
@@ -2512,7 +2512,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000049"
       }
     ],
@@ -2564,7 +2564,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000050"
       }
     ],
@@ -2616,7 +2616,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000051"
       }
     ],
@@ -2668,7 +2668,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000052"
       }
     ],
@@ -2720,7 +2720,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000053"
       }
     ],
@@ -2772,7 +2772,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000054"
       }
     ],
@@ -2824,7 +2824,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000055"
       }
     ],
@@ -2876,7 +2876,7 @@
     },
     "identifier": [
       {
-        "system": "http://hospital.example.com/patient-id",
+        "system": "http://hospital.com/patient-id",
         "value": "PAT-000056"
       }
     ],

@@ -3,6 +3,7 @@
 import '@mantine/charts/styles.css';
 import { BarChart, DonutChart } from '@mantine/charts';
 import { Badge, Group, Loader, Paper, SegmentedControl, SimpleGrid, Stack, Table, Text, Title } from '@mantine/core';
+import { IPDDashboardContent } from './IPDDashboardPage';
 import type { Appointment, DiagnosticReport } from '@medplum/fhirtypes';
 import { useMedplum } from '@medplum/react';
 import type { JSX } from 'react';
@@ -91,6 +92,7 @@ function buildWeeklyData(appointments: Appointment[]): ChartData[] {
 
 export function DashboardPage(): JSX.Element {
   const medplum = useMedplum();
+  const [dashView, setDashView] = useState<'opd' | 'ipd'>('opd');
   const [kpi, setKpi] = useState<KpiStats | null>(null);
   const [weeklyData, setWeeklyData] = useState<ChartData[]>([]);
   const [dailyData, setDailyData] = useState<ChartData[]>([]);
@@ -152,15 +154,6 @@ export function DashboardPage(): JSX.Element {
     load().catch(console.error);
   }, [medplum]);
 
-  if (loading) {
-    return (
-      <Stack align="center" mt="xl" gap="sm">
-        <Loader size="lg" />
-        <Text c="dimmed">Loading dashboard…</Text>
-      </Stack>
-    );
-  }
-
   const kpiCards = [
     { label: 'Total Patients', value: kpi?.totalPatients ?? 0, color: 'blue' },
     { label: 'Practitioners', value: kpi?.totalPractitioners ?? 0, color: 'teal' },
@@ -171,7 +164,27 @@ export function DashboardPage(): JSX.Element {
 
   return (
     <Stack p="md" gap="lg">
-      <Title order={2}>Dashboard</Title>
+      <Group justify="space-between" align="center">
+        <Title order={2}>{dashView === 'opd' ? 'Dashboard' : 'IPD Dashboard'}</Title>
+        <SegmentedControl
+          value={dashView}
+          onChange={(v) => setDashView(v as 'opd' | 'ipd')}
+          data={[
+            { label: 'OPD', value: 'opd' },
+            { label: 'IPD', value: 'ipd' },
+          ]}
+        />
+      </Group>
+
+      {dashView === 'ipd' && <IPDDashboardContent />}
+
+      {dashView === 'opd' && loading && (
+        <Stack align="center" mt="xl" gap="sm">
+          <Loader size="lg" />
+          <Text c="dimmed">Loading dashboard…</Text>
+        </Stack>
+      )}
+      {dashView === 'opd' && !loading && (<>
 
       {/* KPI cards */}
       <SimpleGrid cols={{ base: 2, sm: 3, lg: 5 }} spacing="md">
@@ -366,6 +379,8 @@ export function DashboardPage(): JSX.Element {
           </Table>
         </Paper>
       </SimpleGrid>
+    </>)}
+
     </Stack>
   );
 }

@@ -10,6 +10,16 @@ import { MedplumLink } from '../MedplumLink/MedplumLink';
 import { ResourceAvatar } from '../ResourceAvatar/ResourceAvatar';
 import { getDefaultColor } from './PatientHeader.utils';
 
+const IDENTIFIER_SYSTEM_LABELS: Record<string, string> = {
+  'http://hospital.com/patient-id': 'Patient ID',
+  'http://hospital.example.com/patient-id': 'Patient ID',
+};
+
+function getIdentifierLabel(system?: string): string {
+  if (!system) return 'ID';
+  return IDENTIFIER_SYSTEM_LABELS[system] ?? 'ID';
+}
+
 export interface PatientHeaderProps {
   readonly patient: Patient | Reference<Patient>;
 }
@@ -56,7 +66,7 @@ export function PatientHeader(props: PatientHeaderProps): JSX.Element | null {
       )}
       {patient.identifier?.map((identifier) => (
         <InfoBar.Entry key={`${identifier?.system}-${identifier?.value}`}>
-          <InfoBar.Key>{identifier?.system}</InfoBar.Key>
+          <InfoBar.Key>{getIdentifierLabel(identifier?.system)}</InfoBar.Key>
           <InfoBar.Value>{identifier?.value}</InfoBar.Value>
         </InfoBar.Entry>
       ))}

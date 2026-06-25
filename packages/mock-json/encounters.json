@@ -41,7 +41,19 @@
     "period": {
       "start": "2025-09-28T08:16:00.000Z",
       "end": "2025-09-28T09:10:00.000Z"
-    }
+    },
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "267036007",
+            "display": "Shortness of breath"
+          }
+        ],
+        "text": "Shortness of breath"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -89,6 +101,18 @@
     "appointment": [
       {
         "reference": "Appointment/60a86294-51b6-45a9-851b-dc59bf6e44a8"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "29857009",
+            "display": "Chest pain"
+          }
+        ],
+        "text": "Chest pain"
       }
     ]
   },
@@ -139,6 +163,18 @@
       {
         "reference": "Appointment/748f93d1-a7f8-409f-a487-ff5815967295"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "386661006",
+            "display": "Fever"
+          }
+        ],
+        "text": "Fever"
+      }
     ]
   },
   {
@@ -187,6 +223,18 @@
     "appointment": [
       {
         "reference": "Appointment/5236f524-37bc-4920-b52e-2c1bf96abdc3"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "49727002",
+            "display": "Persistent cough"
+          }
+        ],
+        "text": "Persistent cough"
       }
     ]
   },
@@ -237,6 +285,18 @@
       {
         "reference": "Appointment/6aeaa273-7aa0-4b67-b2ba-d59d159d304f"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "25064002",
+            "display": "Headache"
+          }
+        ],
+        "text": "Headache"
+      }
     ]
   },
   {
@@ -285,6 +345,18 @@
     "appointment": [
       {
         "reference": "Appointment/1a3f25b3-9a50-4738-b8ed-9aeb7d2e612a"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "84229001",
+            "display": "Fatigue and weakness"
+          }
+        ],
+        "text": "Fatigue and weakness"
       }
     ]
   },
@@ -335,6 +407,18 @@
       {
         "reference": "Appointment/0aa109f3-a809-4d3f-9403-8f864d30f5f9"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "21522001",
+            "display": "Abdominal pain"
+          }
+        ],
+        "text": "Abdominal pain"
+      }
     ]
   },
   {
@@ -383,6 +467,18 @@
     "appointment": [
       {
         "reference": "Appointment/9c5bc7ca-5e41-4adc-999b-9747920eaf3e"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "57676002",
+            "display": "Joint pain and stiffness"
+          }
+        ],
+        "text": "Joint pain and stiffness"
       }
     ]
   },
@@ -433,6 +529,18 @@
       {
         "reference": "Appointment/658aa1ac-50d8-4563-940e-a840e309dd0c"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "161891005",
+            "display": "Lower back pain"
+          }
+        ],
+        "text": "Lower back pain"
+      }
     ]
   },
   {
@@ -481,6 +589,18 @@
     "appointment": [
       {
         "reference": "Appointment/910f29b5-4e03-4828-a102-c3bceace37a7"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "80313002",
+            "display": "Palpitations"
+          }
+        ],
+        "text": "Palpitations"
       }
     ]
   },
@@ -531,6 +651,18 @@
       {
         "reference": "Appointment/c86fbfc1-6b98-44c6-9747-47c3a9a89f45"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "422587007",
+            "display": "Nausea and vomiting"
+          }
+        ],
+        "text": "Nausea and vomiting"
+      }
     ]
   },
   {
@@ -579,6 +711,18 @@
     "appointment": [
       {
         "reference": "Appointment/81d3160e-9b97-4213-ad9b-0663c5474019"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "404640003",
+            "display": "Dizziness"
+          }
+        ],
+        "text": "Dizziness"
       }
     ]
   },
@@ -629,6 +773,18 @@
       {
         "reference": "Appointment/b9b08efc-86a9-4b53-bcc9-9b9bfb4d5dc3"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "274640006",
+            "display": "Fever with chills"
+          }
+        ],
+        "text": "Fever with chills"
+      }
     ]
   },
   {
@@ -677,6 +833,18 @@
     "appointment": [
       {
         "reference": "Appointment/591adcbf-777a-4f60-b643-744a7c61a724"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "413308001",
+            "display": "Follow-up consultation"
+          }
+        ],
+        "text": "Follow-up consultation"
       }
     ]
   },
@@ -727,6 +895,18 @@
       {
         "reference": "Appointment/635562b9-0b5e-478d-b757-8b58b4816bb2"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "185349003",
+            "display": "Routine health check"
+          }
+        ],
+        "text": "Routine health check"
+      }
     ]
   },
   {
@@ -775,6 +955,18 @@
     "appointment": [
       {
         "reference": "Appointment/04641d22-4ce2-4064-83d4-2fa3f0dfabf4"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "267102003",
+            "display": "Swelling in legs"
+          }
+        ],
+        "text": "Swelling in legs"
       }
     ]
   },
@@ -825,6 +1017,18 @@
       {
         "reference": "Appointment/47ac671d-03ba-4db8-952e-79d09c3a4f95"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "230145002",
+            "display": "Difficulty breathing"
+          }
+        ],
+        "text": "Difficulty breathing"
+      }
     ]
   },
   {
@@ -873,6 +1077,18 @@
     "appointment": [
       {
         "reference": "Appointment/0d012bca-e276-4b25-8903-3abd9ce02470"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "78001009",
+            "display": "Chest tightness"
+          }
+        ],
+        "text": "Chest tightness"
       }
     ]
   },
@@ -923,6 +1139,18 @@
       {
         "reference": "Appointment/eb215aec-04ce-494d-ae6a-165695155910"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "267036007",
+            "display": "Shortness of breath"
+          }
+        ],
+        "text": "Shortness of breath"
+      }
     ]
   },
   {
@@ -971,6 +1199,18 @@
     "appointment": [
       {
         "reference": "Appointment/a05a87ea-ad45-4cee-9cdb-e94fb38338c1"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "29857009",
+            "display": "Chest pain"
+          }
+        ],
+        "text": "Chest pain"
       }
     ]
   },
@@ -1021,6 +1261,18 @@
       {
         "reference": "Appointment/e9aa26f2-a702-425d-84c5-510d27e9ae0b"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "386661006",
+            "display": "Fever"
+          }
+        ],
+        "text": "Fever"
+      }
     ]
   },
   {
@@ -1065,7 +1317,19 @@
     "period": {
       "start": "2026-03-13T05:32:00.000Z",
       "end": "2026-03-13T06:05:00.000Z"
-    }
+    },
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "49727002",
+            "display": "Persistent cough"
+          }
+        ],
+        "text": "Persistent cough"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -1113,6 +1377,18 @@
     "appointment": [
       {
         "reference": "Appointment/a457e382-6190-46eb-8b2d-7d81cb1a3cc1"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "25064002",
+            "display": "Headache"
+          }
+        ],
+        "text": "Headache"
       }
     ]
   },
@@ -1163,6 +1439,18 @@
       {
         "reference": "Appointment/3b1b3653-5a1b-4648-b348-b3e0794d8a3a"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "84229001",
+            "display": "Fatigue and weakness"
+          }
+        ],
+        "text": "Fatigue and weakness"
+      }
     ]
   },
   {
@@ -1211,6 +1499,18 @@
     "appointment": [
       {
         "reference": "Appointment/9e6088ef-7a7c-421c-9407-573ec6eef71c"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "21522001",
+            "display": "Abdominal pain"
+          }
+        ],
+        "text": "Abdominal pain"
       }
     ]
   },
@@ -1261,6 +1561,18 @@
       {
         "reference": "Appointment/15b49360-342f-4f23-aeab-bd9e0f039a91"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "57676002",
+            "display": "Joint pain and stiffness"
+          }
+        ],
+        "text": "Joint pain and stiffness"
+      }
     ]
   },
   {
@@ -1309,6 +1621,18 @@
     "appointment": [
       {
         "reference": "Appointment/52cac4e7-8f31-4857-a19c-ddf3a7a01f8f"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "161891005",
+            "display": "Lower back pain"
+          }
+        ],
+        "text": "Lower back pain"
       }
     ]
   },
@@ -1359,6 +1683,18 @@
       {
         "reference": "Appointment/7760bbd3-1cb3-4ff8-8f42-f008b9ac05e5"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "80313002",
+            "display": "Palpitations"
+          }
+        ],
+        "text": "Palpitations"
+      }
     ]
   },
   {
@@ -1407,6 +1743,18 @@
     "appointment": [
       {
         "reference": "Appointment/39adba9f-8e09-458d-9fb4-960af13654f5"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "422587007",
+            "display": "Nausea and vomiting"
+          }
+        ],
+        "text": "Nausea and vomiting"
       }
     ]
   },
@@ -1457,6 +1805,18 @@
       {
         "reference": "Appointment/f7168bd0-2ce7-46a2-8b33-8989d763664d"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "404640003",
+            "display": "Dizziness"
+          }
+        ],
+        "text": "Dizziness"
+      }
     ]
   },
   {
@@ -1505,6 +1865,18 @@
     "appointment": [
       {
         "reference": "Appointment/19ec6744-3da4-43a7-b75b-05788806a6e9"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "274640006",
+            "display": "Fever with chills"
+          }
+        ],
+        "text": "Fever with chills"
       }
     ]
   },
@@ -1555,6 +1927,18 @@
       {
         "reference": "Appointment/c038baad-23ef-4a00-9190-543e1a7ae192"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "413308001",
+            "display": "Follow-up consultation"
+          }
+        ],
+        "text": "Follow-up consultation"
+      }
     ]
   },
   {
@@ -1604,6 +1988,18 @@
       {
         "reference": "Appointment/0a335b68-1a08-4f4e-aa17-a0c6eb88b9d8"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "185349003",
+            "display": "Routine health check"
+          }
+        ],
+        "text": "Routine health check"
+      }
     ]
   },
   {
@@ -1648,7 +2044,19 @@
     "period": {
       "start": "2026-05-19T06:24:00.000Z",
       "end": "2026-05-19T06:51:00.000Z"
-    }
+    },
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "267102003",
+            "display": "Swelling in legs"
+          }
+        ],
+        "text": "Swelling in legs"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -1696,6 +2104,18 @@
     "appointment": [
       {
         "reference": "Appointment/a356f8da-9d48-46e7-890b-81b598b034d0"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "230145002",
+            "display": "Difficulty breathing"
+          }
+        ],
+        "text": "Difficulty breathing"
       }
     ]
   },
@@ -1746,6 +2166,18 @@
       {
         "reference": "Appointment/50b68d00-98b9-48e6-9541-f37103b8c41b"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "78001009",
+            "display": "Chest tightness"
+          }
+        ],
+        "text": "Chest tightness"
+      }
     ]
   },
   {
@@ -1794,6 +2226,18 @@
     "appointment": [
       {
         "reference": "Appointment/99245b6d-9bdc-4a49-806b-484a67301f41"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "267036007",
+            "display": "Shortness of breath"
+          }
+        ],
+        "text": "Shortness of breath"
       }
     ]
   },
@@ -1844,6 +2288,18 @@
       {
         "reference": "Appointment/d3cc6ffb-4e34-42de-89a2-a95347d60ea6"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "29857009",
+            "display": "Chest pain"
+          }
+        ],
+        "text": "Chest pain"
+      }
     ]
   },
   {
@@ -1893,6 +2349,18 @@
       {
         "reference": "Appointment/81f15729-856d-467a-a106-6cfd96acfd87"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "386661006",
+            "display": "Fever"
+          }
+        ],
+        "text": "Fever"
+      }
     ]
   },
   {
@@ -1937,7 +2405,19 @@
     "period": {
       "start": "2026-06-23T11:57:00.000Z",
       "end": "2026-06-23T12:18:00.000Z"
-    }
+    },
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "49727002",
+            "display": "Persistent cough"
+          }
+        ],
+        "text": "Persistent cough"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -1985,6 +2465,18 @@
     "appointment": [
       {
         "reference": "Appointment/27401e0a-02c0-48b5-bf38-02e72e7ba55f"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "25064002",
+            "display": "Headache"
+          }
+        ],
+        "text": "Headache"
       }
     ]
   },
@@ -2035,6 +2527,18 @@
       {
         "reference": "Appointment/631a8beb-87fa-4c62-b708-0fe38f4bda44"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "84229001",
+            "display": "Fatigue and weakness"
+          }
+        ],
+        "text": "Fatigue and weakness"
+      }
     ]
   },
   {
@@ -2083,6 +2587,18 @@
     "appointment": [
       {
         "reference": "Appointment/0e858e8f-7594-4b75-9af0-8ce6966a3665"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "21522001",
+            "display": "Abdominal pain"
+          }
+        ],
+        "text": "Abdominal pain"
       }
     ]
   },
@@ -2133,6 +2649,18 @@
       {
         "reference": "Appointment/a2a0562c-6a86-45fd-a483-5b963f417bd0"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "57676002",
+            "display": "Joint pain and stiffness"
+          }
+        ],
+        "text": "Joint pain and stiffness"
+      }
     ]
   },
   {
@@ -2181,6 +2709,18 @@
     "appointment": [
       {
         "reference": "Appointment/56a41359-0fc9-4754-a8a2-034ab230a08a"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "161891005",
+            "display": "Lower back pain"
+          }
+        ],
+        "text": "Lower back pain"
       }
     ]
   },
@@ -2231,6 +2771,18 @@
       {
         "reference": "Appointment/2a5c65ca-5e61-45cb-ab5b-f69c19d6e7d5"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "80313002",
+            "display": "Palpitations"
+          }
+        ],
+        "text": "Palpitations"
+      }
     ]
   },
   {
@@ -2279,6 +2831,18 @@
     "appointment": [
       {
         "reference": "Appointment/ce48214d-018e-4051-9bcd-ed2dfebae293"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "422587007",
+            "display": "Nausea and vomiting"
+          }
+        ],
+        "text": "Nausea and vomiting"
       }
     ]
   },
@@ -2329,6 +2893,18 @@
       {
         "reference": "Appointment/d2bef29b-b6aa-4e7a-aabf-212f81b8f4fb"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "404640003",
+            "display": "Dizziness"
+          }
+        ],
+        "text": "Dizziness"
+      }
     ]
   },
   {
@@ -2378,6 +2954,18 @@
       {
         "reference": "Appointment/e540b4d1-b519-453d-81af-e7228a854b7f"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "274640006",
+            "display": "Fever with chills"
+          }
+        ],
+        "text": "Fever with chills"
+      }
     ]
   },
   {
@@ -2422,7 +3010,19 @@
     "period": {
       "start": "2024-06-28T10:06:00.000Z",
       "end": "2024-06-28T10:46:00.000Z"
-    }
+    },
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "413308001",
+            "display": "Follow-up consultation"
+          }
+        ],
+        "text": "Follow-up consultation"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -2466,7 +3066,19 @@
     "period": {
       "start": "2026-06-06T05:19:00.000Z",
       "end": "2026-06-06T05:44:00.000Z"
-    }
+    },
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "185349003",
+            "display": "Routine health check"
+          }
+        ],
+        "text": "Routine health check"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -2514,6 +3126,18 @@
     "appointment": [
       {
         "reference": "Appointment/dc5119ed-c2ee-48b7-ae65-6b67e464ce73"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "267102003",
+            "display": "Swelling in legs"
+          }
+        ],
+        "text": "Swelling in legs"
       }
     ]
   },
@@ -2564,6 +3188,18 @@
       {
         "reference": "Appointment/18bc5ac5-d2a3-4f2c-8f43-a0e5dfd96893"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "230145002",
+            "display": "Difficulty breathing"
+          }
+        ],
+        "text": "Difficulty breathing"
+      }
     ]
   },
   {
@@ -2612,6 +3248,18 @@
     "appointment": [
       {
         "reference": "Appointment/11e2b2e9-207a-4ea6-b40b-20c1dd4de3c3"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "78001009",
+            "display": "Chest tightness"
+          }
+        ],
+        "text": "Chest tightness"
       }
     ]
   },
@@ -2662,6 +3310,18 @@
       {
         "reference": "Appointment/fcddd3ac-aadb-4ba1-8fb3-e64816c88d38"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "267036007",
+            "display": "Shortness of breath"
+          }
+        ],
+        "text": "Shortness of breath"
+      }
     ]
   },
   {
@@ -2706,7 +3366,19 @@
     "period": {
       "start": "2025-03-25T05:29:00.000Z",
       "end": "2025-03-25T05:46:00.000Z"
-    }
+    },
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "29857009",
+            "display": "Chest pain"
+          }
+        ],
+        "text": "Chest pain"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -2754,6 +3426,18 @@
     "appointment": [
       {
         "reference": "Appointment/30c5baf2-95cf-4c99-bd01-1f1a955f5c33"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "386661006",
+            "display": "Fever"
+          }
+        ],
+        "text": "Fever"
       }
     ]
   },
@@ -2804,6 +3488,18 @@
       {
         "reference": "Appointment/bce4fa90-ffe2-48a9-a61e-dc15cdad3e1f"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "49727002",
+            "display": "Persistent cough"
+          }
+        ],
+        "text": "Persistent cough"
+      }
     ]
   },
   {
@@ -2852,6 +3548,18 @@
     "appointment": [
       {
         "reference": "Appointment/2eeca93a-256d-4669-97d3-a66348db5b24"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "25064002",
+            "display": "Headache"
+          }
+        ],
+        "text": "Headache"
       }
     ]
   },
@@ -2902,6 +3610,18 @@
       {
         "reference": "Appointment/5b26309f-3f3f-4c16-9f0a-3b41f4ab915c"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "84229001",
+            "display": "Fatigue and weakness"
+          }
+        ],
+        "text": "Fatigue and weakness"
+      }
     ]
   },
   {
@@ -2950,6 +3670,18 @@
     "appointment": [
       {
         "reference": "Appointment/34c60a59-5079-4d6d-82ba-04bde2ab17a0"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "21522001",
+            "display": "Abdominal pain"
+          }
+        ],
+        "text": "Abdominal pain"
       }
     ]
   },
@@ -3000,6 +3732,18 @@
       {
         "reference": "Appointment/85a0ea6c-7121-48ea-857b-a1c9bf48e8bb"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "57676002",
+            "display": "Joint pain and stiffness"
+          }
+        ],
+        "text": "Joint pain and stiffness"
+      }
     ]
   },
   {
@@ -3048,6 +3792,18 @@
     "appointment": [
       {
         "reference": "Appointment/db34d2a7-169d-469a-a233-68df30ce5057"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "161891005",
+            "display": "Lower back pain"
+          }
+        ],
+        "text": "Lower back pain"
       }
     ]
   },
@@ -3098,6 +3854,18 @@
       {
         "reference": "Appointment/aa0859ec-5262-448d-8b13-f974946eaf6e"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "80313002",
+            "display": "Palpitations"
+          }
+        ],
+        "text": "Palpitations"
+      }
     ]
   },
   {
@@ -3146,6 +3914,18 @@
     "appointment": [
       {
         "reference": "Appointment/ccd384fb-0439-4308-b2b8-f54befc92684"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "422587007",
+            "display": "Nausea and vomiting"
+          }
+        ],
+        "text": "Nausea and vomiting"
       }
     ]
   },
@@ -3196,6 +3976,18 @@
       {
         "reference": "Appointment/19fbd9a4-4451-4e00-a1c5-ee823ffda956"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "404640003",
+            "display": "Dizziness"
+          }
+        ],
+        "text": "Dizziness"
+      }
     ]
   },
   {
@@ -3244,6 +4036,18 @@
     "appointment": [
       {
         "reference": "Appointment/b3ca085c-3f9b-4685-9f9d-9880b3055200"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "274640006",
+            "display": "Fever with chills"
+          }
+        ],
+        "text": "Fever with chills"
       }
     ]
   },
@@ -3294,6 +4098,18 @@
       {
         "reference": "Appointment/0bf3c79e-c9c6-41d4-9afa-4363d20e6afc"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "413308001",
+            "display": "Follow-up consultation"
+          }
+        ],
+        "text": "Follow-up consultation"
+      }
     ]
   },
   {
@@ -3342,6 +4158,18 @@
     "appointment": [
       {
         "reference": "Appointment/dee8dcaa-7339-45c2-85fa-a34ecfcfff1d"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "185349003",
+            "display": "Routine health check"
+          }
+        ],
+        "text": "Routine health check"
       }
     ]
   },
@@ -3392,6 +4220,18 @@
       {
         "reference": "Appointment/4f9d2766-dc4e-4750-a98e-bb4bf6465f4e"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "267102003",
+            "display": "Swelling in legs"
+          }
+        ],
+        "text": "Swelling in legs"
+      }
     ]
   },
   {
@@ -3440,6 +4280,18 @@
     "appointment": [
       {
         "reference": "Appointment/eb6f7673-de7d-4401-ab4b-ab66fbefe624"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "230145002",
+            "display": "Difficulty breathing"
+          }
+        ],
+        "text": "Difficulty breathing"
       }
     ]
   },
@@ -3490,6 +4342,18 @@
       {
         "reference": "Appointment/8d8a25e7-5857-4526-af17-4aa774b55b9d"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "78001009",
+            "display": "Chest tightness"
+          }
+        ],
+        "text": "Chest tightness"
+      }
     ]
   },
   {
@@ -3538,6 +4402,18 @@
     "appointment": [
       {
         "reference": "Appointment/10854857-d2c3-4132-be3a-d0f57a9a193d"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "267036007",
+            "display": "Shortness of breath"
+          }
+        ],
+        "text": "Shortness of breath"
       }
     ]
   },
@@ -3588,6 +4464,18 @@
       {
         "reference": "Appointment/8e22a6ec-45a3-48ae-b4cf-a8a0f45b1ef2"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "29857009",
+            "display": "Chest pain"
+          }
+        ],
+        "text": "Chest pain"
+      }
     ]
   },
   {
@@ -3636,6 +4524,18 @@
     "appointment": [
       {
         "reference": "Appointment/8b0b86fb-f3ef-43a5-b333-1a806093ee3e"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "386661006",
+            "display": "Fever"
+          }
+        ],
+        "text": "Fever"
       }
     ]
   },
@@ -3686,6 +4586,18 @@
       {
         "reference": "Appointment/d107a7ab-98ad-482e-a413-b7c4fd59bf9d"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "49727002",
+            "display": "Persistent cough"
+          }
+        ],
+        "text": "Persistent cough"
+      }
     ]
   },
   {
@@ -3734,6 +4646,18 @@
     "appointment": [
       {
         "reference": "Appointment/7d2b6a30-6024-4e68-b908-2a3873e98cd0"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "25064002",
+            "display": "Headache"
+          }
+        ],
+        "text": "Headache"
       }
     ]
   },
@@ -3784,6 +4708,18 @@
       {
         "reference": "Appointment/121bfa9e-3db2-4754-8118-b0839ddac8dc"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "84229001",
+            "display": "Fatigue and weakness"
+          }
+        ],
+        "text": "Fatigue and weakness"
+      }
     ]
   },
   {
@@ -3832,6 +4768,18 @@
     "appointment": [
       {
         "reference": "Appointment/88c573b8-9955-4f5f-a27a-46851062b20f"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "21522001",
+            "display": "Abdominal pain"
+          }
+        ],
+        "text": "Abdominal pain"
       }
     ]
   },
@@ -3882,6 +4830,18 @@
       {
         "reference": "Appointment/6ce6a8b7-cc59-4cdc-a87c-d60afde7e4d9"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "57676002",
+            "display": "Joint pain and stiffness"
+          }
+        ],
+        "text": "Joint pain and stiffness"
+      }
     ]
   },
   {
@@ -3930,6 +4890,18 @@
     "appointment": [
       {
         "reference": "Appointment/584fa0d7-d11d-4502-a237-b1c7670617ac"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "161891005",
+            "display": "Lower back pain"
+          }
+        ],
+        "text": "Lower back pain"
       }
     ]
   },
@@ -3980,6 +4952,18 @@
       {
         "reference": "Appointment/4c6b47da-9a34-47d0-a74d-969d2a837f9c"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "80313002",
+            "display": "Palpitations"
+          }
+        ],
+        "text": "Palpitations"
+      }
     ]
   },
   {
@@ -4028,6 +5012,18 @@
     "appointment": [
       {
         "reference": "Appointment/4c6b47da-9a34-47d0-a74d-969d2a837f9c"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "422587007",
+            "display": "Nausea and vomiting"
+          }
+        ],
+        "text": "Nausea and vomiting"
       }
     ]
   },
@@ -4078,6 +5074,18 @@
       {
         "reference": "Appointment/f919e2b7-8c48-425a-a33c-6bcba55b203d"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "404640003",
+            "display": "Dizziness"
+          }
+        ],
+        "text": "Dizziness"
+      }
     ]
   },
   {
@@ -4126,6 +5134,18 @@
     "appointment": [
       {
         "reference": "Appointment/e88334bc-ac25-4991-89f0-96e43b3975d8"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "274640006",
+            "display": "Fever with chills"
+          }
+        ],
+        "text": "Fever with chills"
       }
     ]
   },
@@ -4176,6 +5196,18 @@
       {
         "reference": "Appointment/a2fe72c3-cbcb-4b3e-ab54-6148edfe9293"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "413308001",
+            "display": "Follow-up consultation"
+          }
+        ],
+        "text": "Follow-up consultation"
+      }
     ]
   },
   {
@@ -4224,6 +5256,18 @@
     "appointment": [
       {
         "reference": "Appointment/7d9c60bd-5b41-474b-9917-b9c63c5f636c"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "185349003",
+            "display": "Routine health check"
+          }
+        ],
+        "text": "Routine health check"
       }
     ]
   },
@@ -4274,6 +5318,18 @@
       {
         "reference": "Appointment/98fa05cb-998f-413d-b1da-32dc8bbbf324"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "267102003",
+            "display": "Swelling in legs"
+          }
+        ],
+        "text": "Swelling in legs"
+      }
     ]
   },
   {
@@ -4322,6 +5378,18 @@
     "appointment": [
       {
         "reference": "Appointment/22c22a97-2c40-44d7-ae89-03d0924caecc"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "230145002",
+            "display": "Difficulty breathing"
+          }
+        ],
+        "text": "Difficulty breathing"
       }
     ]
   },
@@ -4372,6 +5440,18 @@
       {
         "reference": "Appointment/2a04434c-cf0a-40f8-906c-35a23fbebd99"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "78001009",
+            "display": "Chest tightness"
+          }
+        ],
+        "text": "Chest tightness"
+      }
     ]
   },
   {
@@ -4420,6 +5500,18 @@
     "appointment": [
       {
         "reference": "Appointment/55cf22c7-c299-4b2a-bff1-192aa6794bc9"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "267036007",
+            "display": "Shortness of breath"
+          }
+        ],
+        "text": "Shortness of breath"
       }
     ]
   },
@@ -4470,6 +5562,18 @@
       {
         "reference": "Appointment/27b5f46e-364a-4569-8cfd-30540135f846"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "29857009",
+            "display": "Chest pain"
+          }
+        ],
+        "text": "Chest pain"
+      }
     ]
   },
   {
@@ -4518,6 +5622,18 @@
     "appointment": [
       {
         "reference": "Appointment/7486919a-63f4-4e73-8247-0f9e9c35e801"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "386661006",
+            "display": "Fever"
+          }
+        ],
+        "text": "Fever"
       }
     ]
   },
@@ -4568,6 +5684,18 @@
       {
         "reference": "Appointment/bac1c0c3-cc9c-4f04-aed4-2ddfd2406e2c"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "49727002",
+            "display": "Persistent cough"
+          }
+        ],
+        "text": "Persistent cough"
+      }
     ]
   },
   {
@@ -4616,6 +5744,18 @@
     "appointment": [
       {
         "reference": "Appointment/5341553e-7ae0-46a5-b5d5-742342204aab"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "25064002",
+            "display": "Headache"
+          }
+        ],
+        "text": "Headache"
       }
     ]
   },
@@ -4666,6 +5806,18 @@
       {
         "reference": "Appointment/9f4f49ef-7d93-46d9-8dbb-c1bb2f896775"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "84229001",
+            "display": "Fatigue and weakness"
+          }
+        ],
+        "text": "Fatigue and weakness"
+      }
     ]
   },
   {
@@ -4714,6 +5866,18 @@
     "appointment": [
       {
         "reference": "Appointment/18e4ef8a-cd48-43dc-889b-4f823159e2fb"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "21522001",
+            "display": "Abdominal pain"
+          }
+        ],
+        "text": "Abdominal pain"
       }
     ]
   },
@@ -4764,6 +5928,18 @@
       {
         "reference": "Appointment/91efed13-23c4-472f-a430-b3862842a4bd"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "57676002",
+            "display": "Joint pain and stiffness"
+          }
+        ],
+        "text": "Joint pain and stiffness"
+      }
     ]
   },
   {
@@ -4813,6 +5989,18 @@
       {
         "reference": "Appointment/8e86820e-0ee9-440c-8844-a86e0aa5e503"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "161891005",
+            "display": "Lower back pain"
+          }
+        ],
+        "text": "Lower back pain"
+      }
     ]
   },
   {
@@ -4857,7 +6045,19 @@
     "period": {
       "start": "2026-05-07T09:17:00.000Z",
       "end": "2026-05-07T10:08:00.000Z"
-    }
+    },
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "80313002",
+            "display": "Palpitations"
+          }
+        ],
+        "text": "Palpitations"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -4901,7 +6101,19 @@
     "period": {
       "start": "2025-08-05T05:33:00.000Z",
       "end": "2025-08-05T06:13:00.000Z"
-    }
+    },
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "422587007",
+            "display": "Nausea and vomiting"
+          }
+        ],
+        "text": "Nausea and vomiting"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -4949,6 +6161,18 @@
     "appointment": [
       {
         "reference": "Appointment/4b62fff2-6d29-4cfc-aaf8-ef6025c38cff"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "404640003",
+            "display": "Dizziness"
+          }
+        ],
+        "text": "Dizziness"
       }
     ]
   },
@@ -4999,6 +6223,18 @@
       {
         "reference": "Appointment/37a849bb-720a-4795-ba56-89299f3ad679"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "274640006",
+            "display": "Fever with chills"
+          }
+        ],
+        "text": "Fever with chills"
+      }
     ]
   },
   {
@@ -5047,6 +6283,18 @@
     "appointment": [
       {
         "reference": "Appointment/4c138b0f-047b-4869-8d54-412be852b20d"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "413308001",
+            "display": "Follow-up consultation"
+          }
+        ],
+        "text": "Follow-up consultation"
       }
     ]
   },
@@ -5097,6 +6345,18 @@
       {
         "reference": "Appointment/4bf9ab93-e794-418b-aac0-d20d11e0e4d1"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "185349003",
+            "display": "Routine health check"
+          }
+        ],
+        "text": "Routine health check"
+      }
     ]
   },
   {
@@ -5145,6 +6405,18 @@
     "appointment": [
       {
         "reference": "Appointment/564593d8-8bfa-44ac-aa6b-c5decf7c285f"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "267102003",
+            "display": "Swelling in legs"
+          }
+        ],
+        "text": "Swelling in legs"
       }
     ]
   },
@@ -5195,6 +6467,18 @@
       {
         "reference": "Appointment/fda7b11c-d94c-4ca0-b266-9f01411adc59"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "230145002",
+            "display": "Difficulty breathing"
+          }
+        ],
+        "text": "Difficulty breathing"
+      }
     ]
   },
   {
@@ -5239,7 +6523,19 @@
     "period": {
       "start": "2026-08-20T07:38:00.000Z",
       "end": "2026-08-20T08:01:00.000Z"
-    }
+    },
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "78001009",
+            "display": "Chest tightness"
+          }
+        ],
+        "text": "Chest tightness"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -5287,6 +6583,18 @@
     "appointment": [
       {
         "reference": "Appointment/549ea47f-797e-4a33-92cf-1fbadc16fdf5"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "267036007",
+            "display": "Shortness of breath"
+          }
+        ],
+        "text": "Shortness of breath"
       }
     ]
   },
@@ -5337,6 +6645,18 @@
       {
         "reference": "Appointment/36b4a6f6-4159-4201-8c04-afebad2f791e"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "29857009",
+            "display": "Chest pain"
+          }
+        ],
+        "text": "Chest pain"
+      }
     ]
   },
   {
@@ -5385,6 +6705,18 @@
     "appointment": [
       {
         "reference": "Appointment/849b3867-5dff-439c-af0e-32c284848bf3"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "386661006",
+            "display": "Fever"
+          }
+        ],
+        "text": "Fever"
       }
     ]
   },
@@ -5435,6 +6767,18 @@
       {
         "reference": "Appointment/33591005-c587-413d-b9b3-ba86c5552668"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "49727002",
+            "display": "Persistent cough"
+          }
+        ],
+        "text": "Persistent cough"
+      }
     ]
   },
   {
@@ -5479,7 +6823,19 @@
     "period": {
       "start": "2025-08-24T08:17:00.000Z",
       "end": "2025-08-24T08:41:00.000Z"
-    }
+    },
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "25064002",
+            "display": "Headache"
+          }
+        ],
+        "text": "Headache"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -5527,6 +6883,18 @@
     "appointment": [
       {
         "reference": "Appointment/1a539a93-d89e-4bfc-9da1-1bb287dad193"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "84229001",
+            "display": "Fatigue and weakness"
+          }
+        ],
+        "text": "Fatigue and weakness"
       }
     ]
   },
@@ -5577,6 +6945,18 @@
       {
         "reference": "Appointment/30764604-6acd-4074-b6ee-b9a00a818914"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "21522001",
+            "display": "Abdominal pain"
+          }
+        ],
+        "text": "Abdominal pain"
+      }
     ]
   },
   {
@@ -5625,6 +7005,18 @@
     "appointment": [
       {
         "reference": "Appointment/63a5a91f-3529-44c5-9aa6-aef7bd9ee3c2"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "57676002",
+            "display": "Joint pain and stiffness"
+          }
+        ],
+        "text": "Joint pain and stiffness"
       }
     ]
   },
@@ -5675,6 +7067,18 @@
       {
         "reference": "Appointment/02e657a3-2263-4497-abd4-41f14d33b915"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "161891005",
+            "display": "Lower back pain"
+          }
+        ],
+        "text": "Lower back pain"
+      }
     ]
   },
   {
@@ -5723,6 +7127,18 @@
     "appointment": [
       {
         "reference": "Appointment/19f36109-d1b1-4c94-8150-0715bd37f10d"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "80313002",
+            "display": "Palpitations"
+          }
+        ],
+        "text": "Palpitations"
       }
     ]
   },
@@ -5773,6 +7189,18 @@
       {
         "reference": "Appointment/567f2567-3a6e-4e89-be94-db3f867ef728"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "422587007",
+            "display": "Nausea and vomiting"
+          }
+        ],
+        "text": "Nausea and vomiting"
+      }
     ]
   },
   {
@@ -5817,7 +7245,19 @@
     "period": {
       "start": "2026-09-14T03:36:00.000Z",
       "end": "2026-09-14T04:34:00.000Z"
-    }
+    },
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "404640003",
+            "display": "Dizziness"
+          }
+        ],
+        "text": "Dizziness"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -5865,6 +7305,18 @@
     "appointment": [
       {
         "reference": "Appointment/953120c0-6f87-485d-9fa3-aa726caa0697"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "274640006",
+            "display": "Fever with chills"
+          }
+        ],
+        "text": "Fever with chills"
       }
     ]
   },
@@ -5915,6 +7367,18 @@
       {
         "reference": "Appointment/3c1e7a6f-c066-4167-a9dd-de9d7faa281b"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "413308001",
+            "display": "Follow-up consultation"
+          }
+        ],
+        "text": "Follow-up consultation"
+      }
     ]
   },
   {
@@ -5963,6 +7427,18 @@
     "appointment": [
       {
         "reference": "Appointment/1b03516b-515d-4918-9701-4a54b5746884"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "185349003",
+            "display": "Routine health check"
+          }
+        ],
+        "text": "Routine health check"
       }
     ]
   },
@@ -6013,6 +7489,18 @@
       {
         "reference": "Appointment/2d761f1a-46d4-445f-806c-ba6911bdfe78"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "267102003",
+            "display": "Swelling in legs"
+          }
+        ],
+        "text": "Swelling in legs"
+      }
     ]
   },
   {
@@ -6057,7 +7545,19 @@
     "period": {
       "start": "2025-03-10T03:39:00.000Z",
       "end": "2025-03-10T04:26:00.000Z"
-    }
+    },
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "230145002",
+            "display": "Difficulty breathing"
+          }
+        ],
+        "text": "Difficulty breathing"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -6105,6 +7605,18 @@
     "appointment": [
       {
         "reference": "Appointment/0efabf7b-dbb6-4873-a536-3e9973b88cab"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "78001009",
+            "display": "Chest tightness"
+          }
+        ],
+        "text": "Chest tightness"
       }
     ]
   },
@@ -6155,6 +7667,18 @@
       {
         "reference": "Appointment/9b033d33-86ca-4ebe-b2b8-24c7801e8e41"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "267036007",
+            "display": "Shortness of breath"
+          }
+        ],
+        "text": "Shortness of breath"
+      }
     ]
   },
   {
@@ -6199,7 +7723,19 @@
     "period": {
       "start": "2025-03-06T06:01:00.000Z",
       "end": "2025-03-06T06:34:00.000Z"
-    }
+    },
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "29857009",
+            "display": "Chest pain"
+          }
+        ],
+        "text": "Chest pain"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -6247,6 +7783,18 @@
     "appointment": [
       {
         "reference": "Appointment/2b694175-1460-4c17-a4ab-f27dd5ea0acc"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "386661006",
+            "display": "Fever"
+          }
+        ],
+        "text": "Fever"
       }
     ]
   },
@@ -6297,6 +7845,18 @@
       {
         "reference": "Appointment/514d951b-14d7-446b-8953-07ea7b73523e"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "49727002",
+            "display": "Persistent cough"
+          }
+        ],
+        "text": "Persistent cough"
+      }
     ]
   },
   {
@@ -6345,6 +7905,18 @@
     "appointment": [
       {
         "reference": "Appointment/6c8cc7bf-71d5-4372-a6fe-a091100b7653"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "25064002",
+            "display": "Headache"
+          }
+        ],
+        "text": "Headache"
       }
     ]
   },
@@ -6395,6 +7967,18 @@
       {
         "reference": "Appointment/05f719ab-273b-47f4-b1ad-aea77d756edb"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "84229001",
+            "display": "Fatigue and weakness"
+          }
+        ],
+        "text": "Fatigue and weakness"
+      }
     ]
   },
   {
@@ -6443,6 +8027,18 @@
     "appointment": [
       {
         "reference": "Appointment/2bb33dc7-536f-46a7-a4c8-2a8b6772f75b"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "21522001",
+            "display": "Abdominal pain"
+          }
+        ],
+        "text": "Abdominal pain"
       }
     ]
   },
@@ -6493,6 +8089,18 @@
       {
         "reference": "Appointment/ba87a354-32a4-4115-a9bd-ef8942b4a991"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "57676002",
+            "display": "Joint pain and stiffness"
+          }
+        ],
+        "text": "Joint pain and stiffness"
+      }
     ]
   },
   {
@@ -6542,6 +8150,18 @@
       {
         "reference": "Appointment/02b42d8d-0f6c-474b-979a-51799e6c55ec"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "161891005",
+            "display": "Lower back pain"
+          }
+        ],
+        "text": "Lower back pain"
+      }
     ]
   },
   {
@@ -6586,7 +8206,19 @@
     "period": {
       "start": "2026-01-21T07:21:00.000Z",
       "end": "2026-01-21T07:59:00.000Z"
-    }
+    },
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "80313002",
+            "display": "Palpitations"
+          }
+        ],
+        "text": "Palpitations"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -6635,6 +8267,18 @@
       {
         "reference": "Appointment/2fc30d04-7e66-4b11-a9d7-7534d906ed7a"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "422587007",
+            "display": "Nausea and vomiting"
+          }
+        ],
+        "text": "Nausea and vomiting"
+      }
     ]
   },
   {
@@ -6679,7 +8323,19 @@
     "period": {
       "start": "2026-06-21T05:46:00.000Z",
       "end": "2026-06-21T06:21:00.000Z"
-    }
+    },
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "404640003",
+            "display": "Dizziness"
+          }
+        ],
+        "text": "Dizziness"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -6727,6 +8383,18 @@
     "appointment": [
       {
         "reference": "Appointment/7de80965-0408-4bec-a2a0-93b468c88a6c"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "274640006",
+            "display": "Fever with chills"
+          }
+        ],
+        "text": "Fever with chills"
       }
     ]
   },
@@ -6777,6 +8445,18 @@
       {
         "reference": "Appointment/a4926031-6879-432a-994e-c401ae4c41b9"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "413308001",
+            "display": "Follow-up consultation"
+          }
+        ],
+        "text": "Follow-up consultation"
+      }
     ]
   },
   {
@@ -6825,6 +8505,18 @@
     "appointment": [
       {
         "reference": "Appointment/ed886509-3ffe-4cfa-a28a-f871cb14f3d1"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "185349003",
+            "display": "Routine health check"
+          }
+        ],
+        "text": "Routine health check"
       }
     ]
   },
@@ -6875,6 +8567,18 @@
       {
         "reference": "Appointment/0aa0dd3f-21a6-4d17-8a5b-46c9333a9522"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "267102003",
+            "display": "Swelling in legs"
+          }
+        ],
+        "text": "Swelling in legs"
+      }
     ]
   },
   {
@@ -6923,6 +8627,18 @@
     "appointment": [
       {
         "reference": "Appointment/746b9d1c-f576-4209-a522-5e92bb98553c"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "230145002",
+            "display": "Difficulty breathing"
+          }
+        ],
+        "text": "Difficulty breathing"
       }
     ]
   },
@@ -6973,6 +8689,18 @@
       {
         "reference": "Appointment/a02f6937-19de-4a86-a076-76a36f264e9b"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "78001009",
+            "display": "Chest tightness"
+          }
+        ],
+        "text": "Chest tightness"
+      }
     ]
   },
   {
@@ -7022,6 +8750,18 @@
       {
         "reference": "Appointment/1e34018b-1f2e-4c9a-8c92-88bea5dd221e"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "267036007",
+            "display": "Shortness of breath"
+          }
+        ],
+        "text": "Shortness of breath"
+      }
     ]
   },
   {
@@ -7066,7 +8806,19 @@
     "period": {
       "start": "2024-07-20T11:19:00.000Z",
       "end": "2024-07-20T12:04:00.000Z"
-    }
+    },
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "29857009",
+            "display": "Chest pain"
+          }
+        ],
+        "text": "Chest pain"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -7115,6 +8867,18 @@
       {
         "reference": "Appointment/7d1f2ac8-7912-4e57-8ff3-c8947d8f43c7"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "386661006",
+            "display": "Fever"
+          }
+        ],
+        "text": "Fever"
+      }
     ]
   },
   {
@@ -7159,7 +8923,19 @@
     "period": {
       "start": "2024-08-12T09:42:00.000Z",
       "end": "2024-08-12T10:34:00.000Z"
-    }
+    },
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "49727002",
+            "display": "Persistent cough"
+          }
+        ],
+        "text": "Persistent cough"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -7207,6 +8983,18 @@
     "appointment": [
       {
         "reference": "Appointment/e13ef65b-e950-4d60-9499-9313046f2779"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "25064002",
+            "display": "Headache"
+          }
+        ],
+        "text": "Headache"
       }
     ]
   },
@@ -7257,6 +9045,18 @@
       {
         "reference": "Appointment/5990b3b0-6282-4eed-9eb6-45b82b124762"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "84229001",
+            "display": "Fatigue and weakness"
+          }
+        ],
+        "text": "Fatigue and weakness"
+      }
     ]
   },
   {
@@ -7305,6 +9105,18 @@
     "appointment": [
       {
         "reference": "Appointment/ed5a3402-c479-4f09-ae17-b03742227f9b"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "21522001",
+            "display": "Abdominal pain"
+          }
+        ],
+        "text": "Abdominal pain"
       }
     ]
   },
@@ -7355,6 +9167,18 @@
       {
         "reference": "Appointment/841a10c5-d408-495c-81ee-3c3e4860776f"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "57676002",
+            "display": "Joint pain and stiffness"
+          }
+        ],
+        "text": "Joint pain and stiffness"
+      }
     ]
   },
   {
@@ -7403,6 +9227,18 @@
     "appointment": [
       {
         "reference": "Appointment/707529a4-075c-448e-982a-de37597450a0"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "161891005",
+            "display": "Lower back pain"
+          }
+        ],
+        "text": "Lower back pain"
       }
     ]
   },
@@ -7453,6 +9289,18 @@
       {
         "reference": "Appointment/f519d1de-eb1d-44da-9826-2344f246405d"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "80313002",
+            "display": "Palpitations"
+          }
+        ],
+        "text": "Palpitations"
+      }
     ]
   },
   {
@@ -7501,6 +9349,18 @@
     "appointment": [
       {
         "reference": "Appointment/140530eb-4044-4833-97b7-43a9b0b5d9c4"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "422587007",
+            "display": "Nausea and vomiting"
+          }
+        ],
+        "text": "Nausea and vomiting"
       }
     ]
   },
@@ -7551,6 +9411,18 @@
       {
         "reference": "Appointment/f5c7174b-276a-4ed6-a7cd-52ffd571cdf7"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "404640003",
+            "display": "Dizziness"
+          }
+        ],
+        "text": "Dizziness"
+      }
     ]
   },
   {
@@ -7600,6 +9472,18 @@
       {
         "reference": "Appointment/553a7e42-8b3e-4504-8806-2e4b14d0aa57"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "274640006",
+            "display": "Fever with chills"
+          }
+        ],
+        "text": "Fever with chills"
+      }
     ]
   },
   {
@@ -7644,7 +9528,19 @@
     "period": {
       "start": "2026-06-30T11:27:00.000Z",
       "end": "2026-06-30T11:59:00.000Z"
-    }
+    },
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "413308001",
+            "display": "Follow-up consultation"
+          }
+        ],
+        "text": "Follow-up consultation"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -7688,7 +9584,19 @@
     "period": {
       "start": "2026-06-27T09:55:00.000Z",
       "end": "2026-06-27T10:43:00.000Z"
-    }
+    },
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "185349003",
+            "display": "Routine health check"
+          }
+        ],
+        "text": "Routine health check"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -7736,6 +9644,18 @@
     "appointment": [
       {
         "reference": "Appointment/125f9f83-cedb-45ab-953f-4ff9997ad981"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "267102003",
+            "display": "Swelling in legs"
+          }
+        ],
+        "text": "Swelling in legs"
       }
     ]
   },
@@ -7786,6 +9706,18 @@
       {
         "reference": "Appointment/32f4d421-7176-430e-a660-4d063e774218"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "230145002",
+            "display": "Difficulty breathing"
+          }
+        ],
+        "text": "Difficulty breathing"
+      }
     ]
   },
   {
@@ -7830,7 +9762,19 @@
     "period": {
       "start": "2025-09-29T06:09:00.000Z",
       "end": "2025-09-29T06:39:00.000Z"
-    }
+    },
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "78001009",
+            "display": "Chest tightness"
+          }
+        ],
+        "text": "Chest tightness"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -7878,6 +9822,18 @@
     "appointment": [
       {
         "reference": "Appointment/c317bdd5-6176-49a0-9bf2-95de1f0fb2d2"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "267036007",
+            "display": "Shortness of breath"
+          }
+        ],
+        "text": "Shortness of breath"
       }
     ]
   },
@@ -7928,6 +9884,18 @@
       {
         "reference": "Appointment/903062bf-b5b5-4522-8c97-e632d6becf4e"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "29857009",
+            "display": "Chest pain"
+          }
+        ],
+        "text": "Chest pain"
+      }
     ]
   },
   {
@@ -7976,6 +9944,18 @@
     "appointment": [
       {
         "reference": "Appointment/000a80d3-da5f-4b88-9ba5-159d386f151e"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "386661006",
+            "display": "Fever"
+          }
+        ],
+        "text": "Fever"
       }
     ]
   },
@@ -8026,6 +10006,18 @@
       {
         "reference": "Appointment/98027d7d-dc87-45b1-8ead-e909caf02d4d"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "49727002",
+            "display": "Persistent cough"
+          }
+        ],
+        "text": "Persistent cough"
+      }
     ]
   },
   {
@@ -8074,6 +10066,18 @@
     "appointment": [
       {
         "reference": "Appointment/34cf3a23-3598-4fff-9497-329ad62db93d"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "25064002",
+            "display": "Headache"
+          }
+        ],
+        "text": "Headache"
       }
     ]
   },
@@ -8124,6 +10128,18 @@
       {
         "reference": "Appointment/9bce599b-649f-49e3-9697-6743ffc1c5da"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "84229001",
+            "display": "Fatigue and weakness"
+          }
+        ],
+        "text": "Fatigue and weakness"
+      }
     ]
   },
   {
@@ -8172,6 +10188,18 @@
     "appointment": [
       {
         "reference": "Appointment/90be3b72-dedd-4392-8c6c-92e25afc419e"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "21522001",
+            "display": "Abdominal pain"
+          }
+        ],
+        "text": "Abdominal pain"
       }
     ]
   },
@@ -8222,6 +10250,18 @@
       {
         "reference": "Appointment/5c035ebc-6ea8-4266-b283-38f05128b888"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "57676002",
+            "display": "Joint pain and stiffness"
+          }
+        ],
+        "text": "Joint pain and stiffness"
+      }
     ]
   },
   {
@@ -8270,6 +10310,18 @@
     "appointment": [
       {
         "reference": "Appointment/88df9225-b7a7-4f1c-aed4-03c2ddaee3b4"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "161891005",
+            "display": "Lower back pain"
+          }
+        ],
+        "text": "Lower back pain"
       }
     ]
   },
@@ -8320,6 +10372,18 @@
       {
         "reference": "Appointment/c2403bfd-c129-4030-a0be-47d1bee6cac2"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "80313002",
+            "display": "Palpitations"
+          }
+        ],
+        "text": "Palpitations"
+      }
     ]
   },
   {
@@ -8368,6 +10432,18 @@
     "appointment": [
       {
         "reference": "Appointment/f21af38f-a5d1-41fa-b556-c96d544c03b1"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "422587007",
+            "display": "Nausea and vomiting"
+          }
+        ],
+        "text": "Nausea and vomiting"
       }
     ]
   },
@@ -8418,6 +10494,18 @@
       {
         "reference": "Appointment/2c2871a9-c8e4-40a8-a5ce-84560236ae02"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "404640003",
+            "display": "Dizziness"
+          }
+        ],
+        "text": "Dizziness"
+      }
     ]
   },
   {
@@ -8466,6 +10554,18 @@
     "appointment": [
       {
         "reference": "Appointment/e78ebf69-99e3-440f-a866-42d2a189a1f5"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "274640006",
+            "display": "Fever with chills"
+          }
+        ],
+        "text": "Fever with chills"
       }
     ]
   },
@@ -8516,6 +10616,18 @@
       {
         "reference": "Appointment/1c101b0e-336c-477d-8dcb-5b97e3629298"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "413308001",
+            "display": "Follow-up consultation"
+          }
+        ],
+        "text": "Follow-up consultation"
+      }
     ]
   },
   {
@@ -8564,6 +10676,18 @@
     "appointment": [
       {
         "reference": "Appointment/abb23055-2796-4d49-a8df-efa4399bb787"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "185349003",
+            "display": "Routine health check"
+          }
+        ],
+        "text": "Routine health check"
       }
     ]
   },
@@ -8614,6 +10738,18 @@
       {
         "reference": "Appointment/4063d802-749d-4136-81e9-b827691594a5"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "267102003",
+            "display": "Swelling in legs"
+          }
+        ],
+        "text": "Swelling in legs"
+      }
     ]
   },
   {
@@ -8662,6 +10798,18 @@
     "appointment": [
       {
         "reference": "Appointment/92ad4624-9456-49ac-8276-193c6251c8e3"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "230145002",
+            "display": "Difficulty breathing"
+          }
+        ],
+        "text": "Difficulty breathing"
       }
     ]
   },
@@ -8712,6 +10860,18 @@
       {
         "reference": "Appointment/138d86ab-c57d-463e-b38d-ed027065c0a3"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "78001009",
+            "display": "Chest tightness"
+          }
+        ],
+        "text": "Chest tightness"
+      }
     ]
   },
   {
@@ -8760,6 +10920,18 @@
     "appointment": [
       {
         "reference": "Appointment/bc589d3c-7f69-4822-9bac-888a549271bc"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "267036007",
+            "display": "Shortness of breath"
+          }
+        ],
+        "text": "Shortness of breath"
       }
     ]
   },
@@ -8810,6 +10982,18 @@
       {
         "reference": "Appointment/8788e267-8e71-4487-bedf-bffd657f4576"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "29857009",
+            "display": "Chest pain"
+          }
+        ],
+        "text": "Chest pain"
+      }
     ]
   },
   {
@@ -8858,6 +11042,18 @@
     "appointment": [
       {
         "reference": "Appointment/1b929d94-4971-4a7f-b458-8a6c66033c10"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "386661006",
+            "display": "Fever"
+          }
+        ],
+        "text": "Fever"
       }
     ]
   },
@@ -8908,6 +11104,18 @@
       {
         "reference": "Appointment/065ac92d-bf72-4f93-8f0d-e6a305001533"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "49727002",
+            "display": "Persistent cough"
+          }
+        ],
+        "text": "Persistent cough"
+      }
     ]
   },
   {
@@ -8957,6 +11165,18 @@
       {
         "reference": "Appointment/94e7a120-7746-4b5b-99a6-c4f98f705e84"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "25064002",
+            "display": "Headache"
+          }
+        ],
+        "text": "Headache"
+      }
     ]
   },
   {
@@ -9001,7 +11221,19 @@
     "period": {
       "start": "2025-08-19T09:01:00.000Z",
       "end": "2025-08-19T09:47:00.000Z"
-    }
+    },
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "84229001",
+            "display": "Fatigue and weakness"
+          }
+        ],
+        "text": "Fatigue and weakness"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -9049,6 +11281,18 @@
     "appointment": [
       {
         "reference": "Appointment/ceccb3de-021e-4a0a-955c-fac0b0076ac0"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "21522001",
+            "display": "Abdominal pain"
+          }
+        ],
+        "text": "Abdominal pain"
       }
     ]
   },
@@ -9099,6 +11343,18 @@
       {
         "reference": "Appointment/a487f3ea-8be6-4a92-91d2-019f342ae3ae"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "57676002",
+            "display": "Joint pain and stiffness"
+          }
+        ],
+        "text": "Joint pain and stiffness"
+      }
     ]
   },
   {
@@ -9147,6 +11403,18 @@
     "appointment": [
       {
         "reference": "Appointment/7da2d718-486a-45c5-bd7a-c81245256bf7"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "161891005",
+            "display": "Lower back pain"
+          }
+        ],
+        "text": "Lower back pain"
       }
     ]
   },
@@ -9197,6 +11465,18 @@
       {
         "reference": "Appointment/7e5a9262-46d5-4108-bfe4-aa71aa20c1a6"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "80313002",
+            "display": "Palpitations"
+          }
+        ],
+        "text": "Palpitations"
+      }
     ]
   },
   {
@@ -9241,7 +11521,19 @@
     "period": {
       "start": "2026-04-07T07:09:00.000Z",
       "end": "2026-04-07T08:07:00.000Z"
-    }
+    },
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "422587007",
+            "display": "Nausea and vomiting"
+          }
+        ],
+        "text": "Nausea and vomiting"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -9289,6 +11581,18 @@
     "appointment": [
       {
         "reference": "Appointment/4ea94086-302c-43ca-87ce-e2c63ea6a3e8"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "404640003",
+            "display": "Dizziness"
+          }
+        ],
+        "text": "Dizziness"
       }
     ]
   },
@@ -9339,6 +11643,18 @@
       {
         "reference": "Appointment/0d3a957c-1e84-46b7-ac7b-fabccb122865"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "274640006",
+            "display": "Fever with chills"
+          }
+        ],
+        "text": "Fever with chills"
+      }
     ]
   },
   {
@@ -9387,6 +11703,18 @@
     "appointment": [
       {
         "reference": "Appointment/7600f314-d070-463f-aea1-234652124515"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "413308001",
+            "display": "Follow-up consultation"
+          }
+        ],
+        "text": "Follow-up consultation"
       }
     ]
   },
@@ -9437,6 +11765,18 @@
       {
         "reference": "Appointment/fbcc3958-0bdd-479d-84a7-5fcb3a1c7ee8"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "185349003",
+            "display": "Routine health check"
+          }
+        ],
+        "text": "Routine health check"
+      }
     ]
   },
   {
@@ -9486,6 +11826,18 @@
       {
         "reference": "Appointment/108cc924-9db6-4fee-b5c3-63c3bc55e540"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "267102003",
+            "display": "Swelling in legs"
+          }
+        ],
+        "text": "Swelling in legs"
+      }
     ]
   },
   {
@@ -9530,7 +11882,19 @@
     "period": {
       "start": "2024-12-11T08:12:00.000Z",
       "end": "2024-12-11T08:47:00.000Z"
-    }
+    },
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "230145002",
+            "display": "Difficulty breathing"
+          }
+        ],
+        "text": "Difficulty breathing"
+      }
+    ]
   },
   {
     "resourceType": "Encounter",
@@ -9578,6 +11942,18 @@
     "appointment": [
       {
         "reference": "Appointment/d63eefce-0928-4425-860c-eb871aacbe1e"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "78001009",
+            "display": "Chest tightness"
+          }
+        ],
+        "text": "Chest tightness"
       }
     ]
   },
@@ -9628,6 +12004,18 @@
       {
         "reference": "Appointment/dc19defa-50c6-4ed9-8cf4-cb9a6c4ec872"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "267036007",
+            "display": "Shortness of breath"
+          }
+        ],
+        "text": "Shortness of breath"
+      }
     ]
   },
   {
@@ -9677,6 +12065,18 @@
       {
         "reference": "Appointment/1c4996a3-f0f6-40da-9648-bd3e6a85f01d"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "29857009",
+            "display": "Chest pain"
+          }
+        ],
+        "text": "Chest pain"
+      }
     ]
   },
   {
@@ -9725,6 +12125,18 @@
     "appointment": [
       {
         "reference": "Appointment/fd31eece-54ce-438f-a509-68abffe6ee8b"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "386661006",
+            "display": "Fever"
+          }
+        ],
+        "text": "Fever"
       }
     ]
   },
@@ -9779,6 +12191,18 @@
       {
         "reference": "Appointment/7594daf1-c3bf-4c30-b812-837edd274ac8"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "49727002",
+            "display": "Persistent cough"
+          }
+        ],
+        "text": "Persistent cough"
+      }
     ]
   },
   {
@@ -9831,6 +12255,18 @@
     "appointment": [
       {
         "reference": "Appointment/6186354f-993f-44a8-8835-d7f1b6428e26"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "25064002",
+            "display": "Headache"
+          }
+        ],
+        "text": "Headache"
       }
     ]
   },
@@ -9885,6 +12321,18 @@
       {
         "reference": "Appointment/a0db3116-caa8-4475-871a-52c0f3de2593"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "84229001",
+            "display": "Fatigue and weakness"
+          }
+        ],
+        "text": "Fatigue and weakness"
+      }
     ]
   },
   {
@@ -9937,6 +12385,18 @@
     "appointment": [
       {
         "reference": "Appointment/1df371f7-c058-4d03-b646-b12431b7dd5b"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "21522001",
+            "display": "Abdominal pain"
+          }
+        ],
+        "text": "Abdominal pain"
       }
     ]
   },
@@ -9991,6 +12451,18 @@
       {
         "reference": "Appointment/2d43ff55-b497-4640-9798-2b4f094565d6"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "57676002",
+            "display": "Joint pain and stiffness"
+          }
+        ],
+        "text": "Joint pain and stiffness"
+      }
     ]
   },
   {
@@ -10043,6 +12515,18 @@
     "appointment": [
       {
         "reference": "Appointment/3af588e1-80f9-4288-acb2-00684a2a2f9c"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "161891005",
+            "display": "Lower back pain"
+          }
+        ],
+        "text": "Lower back pain"
       }
     ]
   },
@@ -10097,6 +12581,18 @@
       {
         "reference": "Appointment/16c93341-6753-42f2-92f0-93a5f9cf2ae1"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "80313002",
+            "display": "Palpitations"
+          }
+        ],
+        "text": "Palpitations"
+      }
     ]
   },
   {
@@ -10149,6 +12645,18 @@
     "appointment": [
       {
         "reference": "Appointment/a251f1cf-b870-4f21-b865-e5636de83a98"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "422587007",
+            "display": "Nausea and vomiting"
+          }
+        ],
+        "text": "Nausea and vomiting"
       }
     ]
   },
@@ -10203,6 +12711,18 @@
       {
         "reference": "Appointment/e92ca4ac-d977-41ee-8179-53563aa7290a"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "404640003",
+            "display": "Dizziness"
+          }
+        ],
+        "text": "Dizziness"
+      }
     ]
   },
   {
@@ -10255,6 +12775,18 @@
     "appointment": [
       {
         "reference": "Appointment/f19e7ef8-1a8c-4a73-8d2d-485e2ed93a4f"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "274640006",
+            "display": "Fever with chills"
+          }
+        ],
+        "text": "Fever with chills"
       }
     ]
   },
@@ -10309,6 +12841,18 @@
       {
         "reference": "Appointment/d7a28ab4-07e8-4e58-8b8c-4bb30c73513d"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "413308001",
+            "display": "Follow-up consultation"
+          }
+        ],
+        "text": "Follow-up consultation"
+      }
     ]
   },
   {
@@ -10361,6 +12905,18 @@
     "appointment": [
       {
         "reference": "Appointment/24235283-b6de-4a32-a61f-c1728f84e984"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "185349003",
+            "display": "Routine health check"
+          }
+        ],
+        "text": "Routine health check"
       }
     ]
   },
@@ -10415,6 +12971,18 @@
       {
         "reference": "Appointment/ba6300c5-e69b-4ec7-b7ea-71c9879f5d74"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "267102003",
+            "display": "Swelling in legs"
+          }
+        ],
+        "text": "Swelling in legs"
+      }
     ]
   },
   {
@@ -10467,6 +13035,18 @@
     "appointment": [
       {
         "reference": "Appointment/4a891d45-d92f-4b87-b93d-0e0b907a99f1"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "230145002",
+            "display": "Difficulty breathing"
+          }
+        ],
+        "text": "Difficulty breathing"
       }
     ]
   },
@@ -10521,6 +13101,18 @@
       {
         "reference": "Appointment/2820b83b-c732-40d4-ae72-fabcb926befb"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "78001009",
+            "display": "Chest tightness"
+          }
+        ],
+        "text": "Chest tightness"
+      }
     ]
   },
   {
@@ -10573,6 +13165,18 @@
     "appointment": [
       {
         "reference": "Appointment/80f62114-7878-42df-b2d3-93d68d24c9e2"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "267036007",
+            "display": "Shortness of breath"
+          }
+        ],
+        "text": "Shortness of breath"
       }
     ]
   },
@@ -10627,6 +13231,18 @@
       {
         "reference": "Appointment/ab7a1c53-979f-4ae8-a790-c021a8cea199"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "29857009",
+            "display": "Chest pain"
+          }
+        ],
+        "text": "Chest pain"
+      }
     ]
   },
   {
@@ -10679,6 +13295,18 @@
     "appointment": [
       {
         "reference": "Appointment/43eefa88-3190-4065-9af1-459acf3bb048"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "386661006",
+            "display": "Fever"
+          }
+        ],
+        "text": "Fever"
       }
     ]
   },
@@ -10733,6 +13361,18 @@
       {
         "reference": "Appointment/bcb7e464-352d-426e-b1bc-0659951e26a1"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "49727002",
+            "display": "Persistent cough"
+          }
+        ],
+        "text": "Persistent cough"
+      }
     ]
   },
   {
@@ -10785,6 +13425,18 @@
     "appointment": [
       {
         "reference": "Appointment/382f7926-f6b3-4d02-a4e6-b03f2e82683c"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "25064002",
+            "display": "Headache"
+          }
+        ],
+        "text": "Headache"
       }
     ]
   },
@@ -10839,6 +13491,18 @@
       {
         "reference": "Appointment/1df7e188-1d77-4f08-bff9-d1b1e64d080b"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "84229001",
+            "display": "Fatigue and weakness"
+          }
+        ],
+        "text": "Fatigue and weakness"
+      }
     ]
   },
   {
@@ -10891,6 +13555,18 @@
     "appointment": [
       {
         "reference": "Appointment/9a46fb14-a6cf-4db6-b4be-d96137b382b2"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "21522001",
+            "display": "Abdominal pain"
+          }
+        ],
+        "text": "Abdominal pain"
       }
     ]
   },
@@ -10945,6 +13621,18 @@
       {
         "reference": "Appointment/3504aefa-99ab-4e8d-a1ba-92bb4de02a79"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "57676002",
+            "display": "Joint pain and stiffness"
+          }
+        ],
+        "text": "Joint pain and stiffness"
+      }
     ]
   },
   {
@@ -10997,6 +13685,18 @@
     "appointment": [
       {
         "reference": "Appointment/075050a9-b8b8-4e86-8dbe-f1c027bca814"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "161891005",
+            "display": "Lower back pain"
+          }
+        ],
+        "text": "Lower back pain"
       }
     ]
   },
@@ -11051,6 +13751,18 @@
       {
         "reference": "Appointment/ee34f284-14a3-4cf0-bfb0-a9b4a709040d"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "80313002",
+            "display": "Palpitations"
+          }
+        ],
+        "text": "Palpitations"
+      }
     ]
   },
   {
@@ -11103,6 +13815,18 @@
     "appointment": [
       {
         "reference": "Appointment/d3ae1e18-91f4-427f-99d2-bca9600656f8"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "422587007",
+            "display": "Nausea and vomiting"
+          }
+        ],
+        "text": "Nausea and vomiting"
       }
     ]
   },
@@ -11157,6 +13881,18 @@
       {
         "reference": "Appointment/fc0515b9-cbb9-4173-9a90-d2a98fa422eb"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "404640003",
+            "display": "Dizziness"
+          }
+        ],
+        "text": "Dizziness"
+      }
     ]
   },
   {
@@ -11209,6 +13945,18 @@
     "appointment": [
       {
         "reference": "Appointment/83a12009-392b-4e9c-88b4-1f9d4fdf3988"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "274640006",
+            "display": "Fever with chills"
+          }
+        ],
+        "text": "Fever with chills"
       }
     ]
   },
@@ -11263,6 +14011,18 @@
       {
         "reference": "Appointment/c3088650-a591-45d4-8883-c7531d0fc3d0"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "413308001",
+            "display": "Follow-up consultation"
+          }
+        ],
+        "text": "Follow-up consultation"
+      }
     ]
   },
   {
@@ -11315,6 +14075,18 @@
     "appointment": [
       {
         "reference": "Appointment/372affe9-2773-47f3-8fed-ea9a5259e9e6"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "185349003",
+            "display": "Routine health check"
+          }
+        ],
+        "text": "Routine health check"
       }
     ]
   },
@@ -11369,6 +14141,18 @@
       {
         "reference": "Appointment/c0d634e8-4cea-4ba3-906f-236cdbf12671"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "267102003",
+            "display": "Swelling in legs"
+          }
+        ],
+        "text": "Swelling in legs"
+      }
     ]
   },
   {
@@ -11421,6 +14205,18 @@
     "appointment": [
       {
         "reference": "Appointment/e29d0776-1a81-4f6b-aca4-5ca71c3896ed"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "230145002",
+            "display": "Difficulty breathing"
+          }
+        ],
+        "text": "Difficulty breathing"
       }
     ]
   },
@@ -11475,6 +14271,18 @@
       {
         "reference": "Appointment/9bfbd106-3ce2-47d2-86aa-2fb33745faef"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "78001009",
+            "display": "Chest tightness"
+          }
+        ],
+        "text": "Chest tightness"
+      }
     ]
   },
   {
@@ -11527,6 +14335,18 @@
     "appointment": [
       {
         "reference": "Appointment/9216902f-da73-4732-b6b8-2368f0a714ea"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "267036007",
+            "display": "Shortness of breath"
+          }
+        ],
+        "text": "Shortness of breath"
       }
     ]
   },
@@ -11581,6 +14401,18 @@
       {
         "reference": "Appointment/831e39dd-99b4-48c9-8d1a-19ab0b84bb02"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "29857009",
+            "display": "Chest pain"
+          }
+        ],
+        "text": "Chest pain"
+      }
     ]
   },
   {
@@ -11633,6 +14465,18 @@
     "appointment": [
       {
         "reference": "Appointment/e01bc986-522b-44dd-9963-d4e0dd79a5aa"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "386661006",
+            "display": "Fever"
+          }
+        ],
+        "text": "Fever"
       }
     ]
   },
@@ -11687,6 +14531,18 @@
       {
         "reference": "Appointment/d4a1bfe9-0d88-4c2c-a658-6615963e3986"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "49727002",
+            "display": "Persistent cough"
+          }
+        ],
+        "text": "Persistent cough"
+      }
     ]
   },
   {
@@ -11739,6 +14595,18 @@
     "appointment": [
       {
         "reference": "Appointment/8588d3f1-ae12-44f7-9fc1-710f22a34462"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "25064002",
+            "display": "Headache"
+          }
+        ],
+        "text": "Headache"
       }
     ]
   },
@@ -11793,6 +14661,18 @@
       {
         "reference": "Appointment/7873887d-621b-49be-987a-371752e18253"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "84229001",
+            "display": "Fatigue and weakness"
+          }
+        ],
+        "text": "Fatigue and weakness"
+      }
     ]
   },
   {
@@ -11845,6 +14725,18 @@
     "appointment": [
       {
         "reference": "Appointment/a900fbbc-724a-4692-86d4-3dce3eac79e5"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "21522001",
+            "display": "Abdominal pain"
+          }
+        ],
+        "text": "Abdominal pain"
       }
     ]
   },
@@ -11899,6 +14791,18 @@
       {
         "reference": "Appointment/fd6190ad-f169-4651-899a-c6014510a839"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "57676002",
+            "display": "Joint pain and stiffness"
+          }
+        ],
+        "text": "Joint pain and stiffness"
+      }
     ]
   },
   {
@@ -11951,6 +14855,18 @@
     "appointment": [
       {
         "reference": "Appointment/26e3cfa1-fdfe-4801-9705-f378af8deb08"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "161891005",
+            "display": "Lower back pain"
+          }
+        ],
+        "text": "Lower back pain"
       }
     ]
   },
@@ -12005,6 +14921,18 @@
       {
         "reference": "Appointment/71bf8d6b-a1ac-4682-90b4-611cc4b78f3e"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "80313002",
+            "display": "Palpitations"
+          }
+        ],
+        "text": "Palpitations"
+      }
     ]
   },
   {
@@ -12057,6 +14985,18 @@
     "appointment": [
       {
         "reference": "Appointment/4f94225f-2fc4-413c-9113-a5c30bbcdc60"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "422587007",
+            "display": "Nausea and vomiting"
+          }
+        ],
+        "text": "Nausea and vomiting"
       }
     ]
   },
@@ -12111,6 +15051,18 @@
       {
         "reference": "Appointment/1543f262-33a3-4e5b-8865-b108e4331640"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "404640003",
+            "display": "Dizziness"
+          }
+        ],
+        "text": "Dizziness"
+      }
     ]
   },
   {
@@ -12163,6 +15115,18 @@
     "appointment": [
       {
         "reference": "Appointment/635dc346-8689-428b-9170-eede6f15b716"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "274640006",
+            "display": "Fever with chills"
+          }
+        ],
+        "text": "Fever with chills"
       }
     ]
   },
@@ -12217,6 +15181,18 @@
       {
         "reference": "Appointment/489c4660-c029-4099-8ce0-85f33c2451ae"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "413308001",
+            "display": "Follow-up consultation"
+          }
+        ],
+        "text": "Follow-up consultation"
+      }
     ]
   },
   {
@@ -12269,6 +15245,18 @@
     "appointment": [
       {
         "reference": "Appointment/0de0113a-56df-4cda-af16-b5bf3bdc780e"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "185349003",
+            "display": "Routine health check"
+          }
+        ],
+        "text": "Routine health check"
       }
     ]
   },
@@ -12323,6 +15311,18 @@
       {
         "reference": "Appointment/84e5f4c7-977c-4318-91ff-4f44c57ecd2a"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "267102003",
+            "display": "Swelling in legs"
+          }
+        ],
+        "text": "Swelling in legs"
+      }
     ]
   },
   {
@@ -12375,6 +15375,18 @@
     "appointment": [
       {
         "reference": "Appointment/4376337d-81e1-4f15-a4ed-0c7f368f54e8"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "230145002",
+            "display": "Difficulty breathing"
+          }
+        ],
+        "text": "Difficulty breathing"
       }
     ]
   },
@@ -12429,6 +15441,18 @@
       {
         "reference": "Appointment/d2eb86a7-34b3-4a9e-b37a-933dde0053bd"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "78001009",
+            "display": "Chest tightness"
+          }
+        ],
+        "text": "Chest tightness"
+      }
     ]
   },
   {
@@ -12481,6 +15505,18 @@
     "appointment": [
       {
         "reference": "Appointment/d337ed60-4823-4b94-b855-9985b16e43ac"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "267036007",
+            "display": "Shortness of breath"
+          }
+        ],
+        "text": "Shortness of breath"
       }
     ]
   },
@@ -12535,6 +15571,18 @@
       {
         "reference": "Appointment/31320c53-e5d7-42f1-a49a-bb3438748426"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "29857009",
+            "display": "Chest pain"
+          }
+        ],
+        "text": "Chest pain"
+      }
     ]
   },
   {
@@ -12587,6 +15635,18 @@
     "appointment": [
       {
         "reference": "Appointment/b57cfd71-7f7b-4d25-b638-fcdcc34c6cd7"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "386661006",
+            "display": "Fever"
+          }
+        ],
+        "text": "Fever"
       }
     ]
   },
@@ -12641,6 +15701,18 @@
       {
         "reference": "Appointment/06a2720a-fed0-4974-a207-bb70027e0756"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "49727002",
+            "display": "Persistent cough"
+          }
+        ],
+        "text": "Persistent cough"
+      }
     ]
   },
   {
@@ -12693,6 +15765,18 @@
     "appointment": [
       {
         "reference": "Appointment/cec73bb7-2966-430b-b1fd-275975eadce1"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "25064002",
+            "display": "Headache"
+          }
+        ],
+        "text": "Headache"
       }
     ]
   },
@@ -12747,6 +15831,18 @@
       {
         "reference": "Appointment/5ce63dc0-c48f-4053-8122-1ab16276d017"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "84229001",
+            "display": "Fatigue and weakness"
+          }
+        ],
+        "text": "Fatigue and weakness"
+      }
     ]
   },
   {
@@ -12799,6 +15895,18 @@
     "appointment": [
       {
         "reference": "Appointment/cd2269cf-9451-44da-95e2-601832d7f16b"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "21522001",
+            "display": "Abdominal pain"
+          }
+        ],
+        "text": "Abdominal pain"
       }
     ]
   },
@@ -12853,6 +15961,18 @@
       {
         "reference": "Appointment/ec2c9479-561a-488a-99d4-0857080d4aa9"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "57676002",
+            "display": "Joint pain and stiffness"
+          }
+        ],
+        "text": "Joint pain and stiffness"
+      }
     ]
   },
   {
@@ -12905,6 +16025,18 @@
     "appointment": [
       {
         "reference": "Appointment/21d67180-a522-4d5c-9367-f589c503c0fd"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "161891005",
+            "display": "Lower back pain"
+          }
+        ],
+        "text": "Lower back pain"
       }
     ]
   },
@@ -12959,6 +16091,18 @@
       {
         "reference": "Appointment/ea2bb334-51fe-4a82-8949-3ce5e7b7eb6f"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "80313002",
+            "display": "Palpitations"
+          }
+        ],
+        "text": "Palpitations"
+      }
     ]
   },
   {
@@ -13011,6 +16155,18 @@
     "appointment": [
       {
         "reference": "Appointment/ed0509d9-6783-43ff-a830-48cf1d77814b"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "422587007",
+            "display": "Nausea and vomiting"
+          }
+        ],
+        "text": "Nausea and vomiting"
       }
     ]
   },
@@ -13065,6 +16221,18 @@
       {
         "reference": "Appointment/462b6037-50f5-4143-95f8-78a15dd6d6fc"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "404640003",
+            "display": "Dizziness"
+          }
+        ],
+        "text": "Dizziness"
+      }
     ]
   },
   {
@@ -13117,6 +16285,18 @@
     "appointment": [
       {
         "reference": "Appointment/b2d7241a-ea38-4965-a8c1-61f91bba4c70"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "274640006",
+            "display": "Fever with chills"
+          }
+        ],
+        "text": "Fever with chills"
       }
     ]
   },
@@ -13171,6 +16351,18 @@
       {
         "reference": "Appointment/435dc71c-f813-4328-aa70-4a7646d30ca0"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "413308001",
+            "display": "Follow-up consultation"
+          }
+        ],
+        "text": "Follow-up consultation"
+      }
     ]
   },
   {
@@ -13223,6 +16415,18 @@
     "appointment": [
       {
         "reference": "Appointment/3c5c96f5-2dc4-4bb7-ad69-e3d8687a423f"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "185349003",
+            "display": "Routine health check"
+          }
+        ],
+        "text": "Routine health check"
       }
     ]
   },
@@ -13277,6 +16481,18 @@
       {
         "reference": "Appointment/5e720c68-af81-4f4d-a701-387707a43162"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "267102003",
+            "display": "Swelling in legs"
+          }
+        ],
+        "text": "Swelling in legs"
+      }
     ]
   },
   {
@@ -13329,6 +16545,18 @@
     "appointment": [
       {
         "reference": "Appointment/3884b6e1-b056-4f73-97a3-c1f56522db2d"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "230145002",
+            "display": "Difficulty breathing"
+          }
+        ],
+        "text": "Difficulty breathing"
       }
     ]
   },
@@ -13383,6 +16611,18 @@
       {
         "reference": "Appointment/4051c4e4-e4de-480e-bda4-5681d1b67297"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "78001009",
+            "display": "Chest tightness"
+          }
+        ],
+        "text": "Chest tightness"
+      }
     ]
   },
   {
@@ -13435,6 +16675,18 @@
     "appointment": [
       {
         "reference": "Appointment/6ab8e48c-2b28-4c1c-b78e-13cd4394fcd4"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "267036007",
+            "display": "Shortness of breath"
+          }
+        ],
+        "text": "Shortness of breath"
       }
     ]
   },
@@ -13489,6 +16741,18 @@
       {
         "reference": "Appointment/09486c5b-73b3-4b05-8627-4774dd5dfee0"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "29857009",
+            "display": "Chest pain"
+          }
+        ],
+        "text": "Chest pain"
+      }
     ]
   },
   {
@@ -13541,6 +16805,18 @@
     "appointment": [
       {
         "reference": "Appointment/0f625fc3-e2fc-4ffc-bfb9-d7bc5bf23052"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "386661006",
+            "display": "Fever"
+          }
+        ],
+        "text": "Fever"
       }
     ]
   },
@@ -13595,6 +16871,18 @@
       {
         "reference": "Appointment/443155c2-73d3-48e9-8c45-63191eb37906"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "49727002",
+            "display": "Persistent cough"
+          }
+        ],
+        "text": "Persistent cough"
+      }
     ]
   },
   {
@@ -13647,6 +16935,18 @@
     "appointment": [
       {
         "reference": "Appointment/99ac5504-2817-4f3c-af3b-5ca9fbf790db"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "25064002",
+            "display": "Headache"
+          }
+        ],
+        "text": "Headache"
       }
     ]
   },
@@ -13701,6 +17001,18 @@
       {
         "reference": "Appointment/12c5b56f-a152-449d-b62b-a0024964fdaa"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "84229001",
+            "display": "Fatigue and weakness"
+          }
+        ],
+        "text": "Fatigue and weakness"
+      }
     ]
   },
   {
@@ -13753,6 +17065,18 @@
     "appointment": [
       {
         "reference": "Appointment/cbcf456d-45ba-4d46-9793-367ff6633c8e"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "21522001",
+            "display": "Abdominal pain"
+          }
+        ],
+        "text": "Abdominal pain"
       }
     ]
   },
@@ -13807,6 +17131,18 @@
       {
         "reference": "Appointment/2e1fc42c-ef18-4cfe-9616-8658da5fb122"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "57676002",
+            "display": "Joint pain and stiffness"
+          }
+        ],
+        "text": "Joint pain and stiffness"
+      }
     ]
   },
   {
@@ -13859,6 +17195,18 @@
     "appointment": [
       {
         "reference": "Appointment/1b2f1b3e-e620-4f00-9d4e-2ebe9ecce265"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "161891005",
+            "display": "Lower back pain"
+          }
+        ],
+        "text": "Lower back pain"
       }
     ]
   },
@@ -13913,6 +17261,18 @@
       {
         "reference": "Appointment/ba8824c6-aa06-464a-b988-264676e55536"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "80313002",
+            "display": "Palpitations"
+          }
+        ],
+        "text": "Palpitations"
+      }
     ]
   },
   {
@@ -13965,6 +17325,18 @@
     "appointment": [
       {
         "reference": "Appointment/bf4ceb65-35c8-416f-bc18-28db7b651f4d"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "422587007",
+            "display": "Nausea and vomiting"
+          }
+        ],
+        "text": "Nausea and vomiting"
       }
     ]
   },
@@ -14019,6 +17391,18 @@
       {
         "reference": "Appointment/6676692d-1418-4f51-9a04-d17be85d5466"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "404640003",
+            "display": "Dizziness"
+          }
+        ],
+        "text": "Dizziness"
+      }
     ]
   },
   {
@@ -14071,6 +17455,18 @@
     "appointment": [
       {
         "reference": "Appointment/eb41cdd2-0110-4eb9-8031-e31788a5de3c"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "274640006",
+            "display": "Fever with chills"
+          }
+        ],
+        "text": "Fever with chills"
       }
     ]
   },
@@ -14125,6 +17521,18 @@
       {
         "reference": "Appointment/23d2e730-bad3-42e9-a97b-27c144c507db"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "413308001",
+            "display": "Follow-up consultation"
+          }
+        ],
+        "text": "Follow-up consultation"
+      }
     ]
   },
   {
@@ -14177,6 +17585,18 @@
     "appointment": [
       {
         "reference": "Appointment/2e9ee2c5-e483-4ffd-a7f7-98ec93d0adba"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "185349003",
+            "display": "Routine health check"
+          }
+        ],
+        "text": "Routine health check"
       }
     ]
   },
@@ -14231,6 +17651,18 @@
       {
         "reference": "Appointment/d7c1cfe0-22f0-471f-838e-5e7556c2331d"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "267102003",
+            "display": "Swelling in legs"
+          }
+        ],
+        "text": "Swelling in legs"
+      }
     ]
   },
   {
@@ -14283,6 +17715,18 @@
     "appointment": [
       {
         "reference": "Appointment/d2c417fe-4f6e-407d-a521-7b2e25c2b19a"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "230145002",
+            "display": "Difficulty breathing"
+          }
+        ],
+        "text": "Difficulty breathing"
       }
     ]
   },
@@ -14337,6 +17781,18 @@
       {
         "reference": "Appointment/03f88799-aa5a-4aea-8a6f-c309a1c2e711"
       }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "78001009",
+            "display": "Chest tightness"
+          }
+        ],
+        "text": "Chest tightness"
+      }
     ]
   },
   {
@@ -14389,6 +17845,18 @@
     "appointment": [
       {
         "reference": "Appointment/485ed6f6-4ec0-4bbe-b46e-59401e070a0e"
+      }
+    ],
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "267036007",
+            "display": "Shortness of breath"
+          }
+        ],
+        "text": "Shortness of breath"
       }
     ]
   }

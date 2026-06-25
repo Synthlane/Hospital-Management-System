@@ -83,7 +83,7 @@ export function PatientSummaryPage(): JSX.Element {
           <Card withBorder radius="md" h="100%">
             <Group justify="space-between" mb="sm">
               <Title order={5}>Active Diagnoses</Title>
-              <Text size="xs" c="dimmed" component={Link} to={`/Condition?patient=Patient/${id}`}>
+              <Text size="xs" c="blue" component={Link} to={`/Condition?patient=Patient/${id}`}>
                 View all →
               </Text>
             </Group>
@@ -118,7 +118,7 @@ export function PatientSummaryPage(): JSX.Element {
           <Card withBorder radius="md" h="100%">
             <Group justify="space-between" mb="sm">
               <Title order={5}>Current Medications</Title>
-              <Text size="xs" c="dimmed" component={Link} to={`/MedicationRequest?subject=Patient/${id}`}>
+              <Text size="xs" c="blue" component={Link} to={`/MedicationRequest?subject=Patient/${id}`}>
                 View all →
               </Text>
             </Group>
@@ -150,7 +150,7 @@ export function PatientSummaryPage(): JSX.Element {
           <Card withBorder radius="md" h="100%">
             <Group justify="space-between" mb="sm">
               <Title order={5}>Recent Consultations</Title>
-              <Text size="xs" c="dimmed" component={Link} to={`/Encounter?subject=Patient/${id}`}>
+              <Text size="xs" c="blue" component={Link} to={`/Encounter?subject=Patient/${id}`}>
                 View all →
               </Text>
             </Group>

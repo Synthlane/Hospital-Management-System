@@ -22,7 +22,7 @@ function getTabs(resourceType: string): string[] {
   }
 
   if (resourceType === 'Encounter') {
-    return ['Visit', 'Timeline', 'Details', 'Edit'];
+    return ['Visit', 'Prescription', 'Timeline', 'Details'];
   }
 
   const result = ['Timeline'];

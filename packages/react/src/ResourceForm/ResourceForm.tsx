@@ -27,6 +27,10 @@ export interface ResourceFormProps {
   readonly onDelete?: (resource: Resource) => void;
   /** (optional) URL of the resource profile used to display the form. Takes priority over schemaName. */
   readonly profileUrl?: string;
+  /** (optional) Field names to hide from the form regardless of access policy. */
+  readonly hiddenFields?: string[];
+  /** (optional) Field names to make read-only in the form regardless of access policy. */
+  readonly readonlyFields?: string[];
 }
 
 export function ResourceForm(props: ResourceFormProps): JSX.Element {
@@ -71,8 +75,14 @@ export function ResourceForm(props: ResourceFormProps): JSX.Element {
   }, [medplum, defaultValue, resourceType, props.profileUrl]);
 
   const accessPolicyResource = useMemo(() => {
-    return defaultValue && satisfiedAccessPolicy(defaultValue, AccessPolicyInteraction.READ, accessPolicy);
-  }, [accessPolicy, defaultValue]);
+    const base = defaultValue && satisfiedAccessPolicy(defaultValue, AccessPolicyInteraction.READ, accessPolicy);
+    if (!props.hiddenFields?.length && !props.readonlyFields?.length) return base;
+    return {
+      ...(base ?? { resourceType: defaultValue?.resourceType ?? '' }),
+      ...(props.hiddenFields?.length ? { hiddenFields: [...(base?.hiddenFields ?? []), ...props.hiddenFields] } : {}),
+      ...(props.readonlyFields?.length ? { readonlyFields: [...(base?.readonlyFields ?? []), ...props.readonlyFields] } : {}),
+    } as typeof base;
+  }, [accessPolicy, defaultValue, props.hiddenFields, props.readonlyFields]);
 
   const canWrite = useMemo<boolean>(() => {
     if (medplum.isSuperAdmin()) {
