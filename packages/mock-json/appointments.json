@@ -35,7 +35,13 @@
     "description": "Follow-up appointment",
     "meta": {
       "lastUpdated": "2026-01-08T12:00:00.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000001"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -73,7 +79,13 @@
     "description": "Diagnostic test review",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:59.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000002"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -111,7 +123,13 @@
     "description": "Initial consultation",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:58.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000003"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -149,7 +167,13 @@
     "description": "Diagnostic test review",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:57.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000004"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -187,7 +211,13 @@
     "description": "Routine checkup",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:56.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000005"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -225,7 +255,13 @@
     "description": "Treatment follow-up",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:55.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000006"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -263,7 +299,13 @@
     "description": "Follow-up appointment",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:54.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000007"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -301,7 +343,13 @@
     "description": "Follow-up appointment",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:53.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000008"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -339,7 +387,13 @@
     "description": "Treatment follow-up",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:52.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000009"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -377,7 +431,13 @@
     "description": "Treatment follow-up",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:51.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000010"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -415,7 +475,13 @@
     "description": "Diagnostic test review",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:50.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000011"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -453,7 +519,13 @@
     "description": "Treatment follow-up",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:49.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000012"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -491,7 +563,13 @@
     "description": "Routine checkup",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:48.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000013"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -529,7 +607,13 @@
     "description": "Initial consultation",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:47.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000014"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -567,7 +651,13 @@
     "description": "Initial consultation",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:46.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000015"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -605,7 +695,13 @@
     "description": "Initial consultation",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:45.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000016"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -643,7 +739,13 @@
     "description": "Treatment follow-up",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:44.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000017"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -681,7 +783,13 @@
     "description": "Diagnostic test review",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:43.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000018"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -719,7 +827,13 @@
     "description": "Routine checkup",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:42.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000019"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -757,7 +871,13 @@
     "description": "Initial consultation",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:41.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000020"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -795,7 +915,13 @@
     "description": "Routine checkup",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:40.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000021"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -833,7 +959,13 @@
     "description": "Initial consultation",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:39.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000022"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -871,7 +1003,13 @@
     "description": "Routine checkup",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:38.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000023"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -909,7 +1047,13 @@
     "description": "Diagnostic test review",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:37.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000024"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -947,7 +1091,13 @@
     "description": "Diagnostic test review",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:36.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000025"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -985,7 +1135,13 @@
     "description": "Treatment follow-up",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:35.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000026"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -1023,7 +1179,13 @@
     "description": "Diagnostic test review",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:34.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000027"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -1061,7 +1223,13 @@
     "description": "Follow-up appointment",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:33.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000028"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -1099,7 +1267,13 @@
     "description": "Routine checkup",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:32.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000029"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -1137,7 +1311,13 @@
     "description": "Treatment follow-up",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:31.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000030"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -1175,7 +1355,13 @@
     "description": "Initial consultation",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:30.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000031"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -1213,7 +1399,13 @@
     "description": "Routine checkup",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:29.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000032"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -1251,7 +1443,13 @@
     "description": "Treatment follow-up",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:28.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000033"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -1289,7 +1487,13 @@
     "description": "Treatment follow-up",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:27.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000034"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -1327,7 +1531,13 @@
     "description": "Follow-up appointment",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:26.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000035"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -1365,7 +1575,13 @@
     "description": "Treatment follow-up",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:25.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000036"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -1403,7 +1619,13 @@
     "description": "Follow-up appointment",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:24.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000037"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -1441,7 +1663,13 @@
     "description": "Initial consultation",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:23.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000038"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -1479,7 +1707,13 @@
     "description": "Routine checkup",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:22.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000039"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -1517,7 +1751,13 @@
     "description": "Diagnostic test review",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:21.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000040"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -1555,7 +1795,13 @@
     "description": "Routine checkup",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:20.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000041"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -1593,7 +1839,13 @@
     "description": "Initial consultation",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:19.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000042"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -1631,7 +1883,13 @@
     "description": "Initial consultation",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:18.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000043"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -1669,7 +1927,13 @@
     "description": "Initial consultation",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:17.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000044"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -1707,7 +1971,13 @@
     "description": "Initial consultation",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:16.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000045"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -1745,7 +2015,13 @@
     "description": "Treatment follow-up",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:15.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000046"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -1783,7 +2059,13 @@
     "description": "Treatment follow-up",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:14.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000047"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -1821,7 +2103,13 @@
     "description": "Diagnostic test review",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:13.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000048"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -1859,7 +2147,13 @@
     "description": "Treatment follow-up",
     "meta": {
       "lastUpdated": "2026-01-08T11:59:12.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000049"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -1897,7 +2191,13 @@
     "description": "Diagnostic test review",
     "meta": {
       "lastUpdated": "2026-01-06T12:00:00.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000050"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -1935,7 +2235,13 @@
     "description": "Routine checkup",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:59.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000051"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -1973,7 +2279,13 @@
     "description": "Diagnostic test review",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:58.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000052"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -2011,7 +2323,13 @@
     "description": "Routine checkup",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:57.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000053"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -2049,7 +2367,13 @@
     "description": "Treatment follow-up",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:56.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000054"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -2087,7 +2411,13 @@
     "description": "Initial consultation",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:55.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000055"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -2125,7 +2455,13 @@
     "description": "Follow-up appointment",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:54.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000056"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -2163,7 +2499,13 @@
     "description": "Initial consultation",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:53.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000057"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -2201,7 +2543,13 @@
     "description": "Follow-up appointment",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:52.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000058"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -2239,7 +2587,13 @@
     "description": "Follow-up appointment",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:51.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000059"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -2277,7 +2631,13 @@
     "description": "Diagnostic test review",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:50.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000060"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -2315,7 +2675,13 @@
     "description": "Treatment follow-up",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:49.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000061"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -2353,7 +2719,13 @@
     "description": "Initial consultation",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:48.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000062"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -2391,7 +2763,13 @@
     "description": "Treatment follow-up",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:47.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000063"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -2429,7 +2807,13 @@
     "description": "Routine checkup",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:46.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000064"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -2467,7 +2851,13 @@
     "description": "Treatment follow-up",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:45.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000065"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -2505,7 +2895,13 @@
     "description": "Initial consultation",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:44.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000066"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -2543,7 +2939,13 @@
     "description": "Treatment follow-up",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:43.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000067"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -2581,7 +2983,13 @@
     "description": "Routine checkup",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:42.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000068"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -2619,7 +3027,13 @@
     "description": "Routine checkup",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:41.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000069"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -2657,7 +3071,13 @@
     "description": "Routine checkup",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:40.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000070"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -2695,7 +3115,13 @@
     "description": "Treatment follow-up",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:39.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000071"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -2733,7 +3159,13 @@
     "description": "Follow-up appointment",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:38.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000072"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -2771,7 +3203,13 @@
     "description": "Follow-up appointment",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:37.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000073"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -2809,7 +3247,13 @@
     "description": "Follow-up appointment",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:36.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000074"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -2847,7 +3291,13 @@
     "description": "Routine checkup",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:35.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000075"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -2885,7 +3335,13 @@
     "description": "Follow-up appointment",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:34.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000076"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -2923,7 +3379,13 @@
     "description": "Follow-up appointment",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:33.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000077"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -2961,7 +3423,13 @@
     "description": "Routine checkup",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:32.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000078"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -2999,7 +3467,13 @@
     "description": "Follow-up appointment",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:31.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000079"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -3037,7 +3511,13 @@
     "description": "Treatment follow-up",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:30.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000080"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -3075,7 +3555,13 @@
     "description": "Follow-up appointment",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:29.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000081"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -3113,7 +3599,13 @@
     "description": "Treatment follow-up",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:28.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000082"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -3151,7 +3643,13 @@
     "description": "Initial consultation",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:27.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000083"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -3189,7 +3687,13 @@
     "description": "Diagnostic test review",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:26.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000084"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -3227,7 +3731,13 @@
     "description": "Follow-up appointment",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:25.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000085"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -3265,7 +3775,13 @@
     "description": "Routine checkup",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:24.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000086"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -3303,7 +3819,13 @@
     "description": "Routine checkup",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:23.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000087"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -3341,7 +3863,13 @@
     "description": "Treatment follow-up",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:22.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000088"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -3379,7 +3907,13 @@
     "description": "Diagnostic test review",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:21.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000089"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -3417,7 +3951,13 @@
     "description": "Follow-up appointment",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:20.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000090"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -3455,7 +3995,13 @@
     "description": "Initial consultation",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:19.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000091"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -3493,7 +4039,13 @@
     "description": "Treatment follow-up",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:18.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000092"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -3531,7 +4083,13 @@
     "description": "Follow-up appointment",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:17.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000093"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -3569,7 +4127,13 @@
     "description": "Initial consultation",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:16.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000094"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -3607,7 +4171,13 @@
     "description": "Treatment follow-up",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:15.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000095"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -3645,7 +4215,13 @@
     "description": "Initial consultation",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:14.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000096"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -3683,7 +4259,13 @@
     "description": "Diagnostic test review",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:13.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000097"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -3721,7 +4303,13 @@
     "description": "Treatment follow-up",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:12.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000098"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -3759,7 +4347,13 @@
     "description": "Routine checkup",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:11.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000099"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -3797,7 +4391,13 @@
     "description": "Diagnostic test review",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:10.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000100"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -3835,7 +4435,13 @@
     "description": "Initial consultation",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:09.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000101"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -3873,7 +4479,13 @@
     "description": "Routine checkup",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:08.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000102"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -3911,7 +4523,13 @@
     "description": "Follow-up appointment",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:07.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000103"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -3949,7 +4567,13 @@
     "description": "Initial consultation",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:06.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000104"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -3987,7 +4611,13 @@
     "description": "Follow-up appointment",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:05.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000105"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -4025,7 +4655,13 @@
     "description": "Treatment follow-up",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:04.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000106"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -4063,7 +4699,13 @@
     "description": "Routine checkup",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:03.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000107"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -4101,7 +4743,13 @@
     "description": "Initial consultation",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:02.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000108"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -4139,7 +4787,13 @@
     "description": "Treatment follow-up",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:01.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000109"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -4177,7 +4831,13 @@
     "description": "Treatment follow-up",
     "meta": {
       "lastUpdated": "2026-01-06T11:59:00.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000110"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -4215,7 +4875,13 @@
     "description": "Initial consultation",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:59.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000111"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -4253,7 +4919,13 @@
     "description": "Follow-up appointment",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:58.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000112"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -4291,7 +4963,13 @@
     "description": "Initial consultation",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:57.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000113"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -4329,7 +5007,13 @@
     "description": "Routine checkup",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:56.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000114"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -4367,7 +5051,13 @@
     "description": "Initial consultation",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:55.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000115"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -4405,7 +5095,13 @@
     "description": "Initial consultation",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:54.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000116"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -4443,7 +5139,13 @@
     "description": "Treatment follow-up",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:53.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000117"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -4481,7 +5183,13 @@
     "description": "Diagnostic test review",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:52.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000118"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -4519,7 +5227,13 @@
     "description": "Follow-up appointment",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:51.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000119"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -4557,7 +5271,13 @@
     "description": "Follow-up appointment",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:50.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000120"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -4595,7 +5315,13 @@
     "description": "Initial consultation",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:49.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000121"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -4633,7 +5359,13 @@
     "description": "Routine checkup",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:48.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000122"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -4671,7 +5403,13 @@
     "description": "Diagnostic test review",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:47.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000123"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -4709,7 +5447,13 @@
     "description": "Routine checkup",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:46.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000124"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -4747,7 +5491,13 @@
     "description": "Treatment follow-up",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:45.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000125"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -4785,7 +5535,13 @@
     "description": "Routine checkup",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:44.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000126"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -4823,7 +5579,13 @@
     "description": "Initial consultation",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:43.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000127"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -4861,7 +5623,13 @@
     "description": "Diagnostic test review",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:42.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000128"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -4899,7 +5667,13 @@
     "description": "Follow-up appointment",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:41.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000129"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -4937,7 +5711,13 @@
     "description": "Follow-up appointment",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:40.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000130"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -4975,7 +5755,13 @@
     "description": "Routine checkup",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:39.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000131"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -5013,7 +5799,13 @@
     "description": "Follow-up appointment",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:38.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000132"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -5051,7 +5843,13 @@
     "description": "Treatment follow-up",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:37.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000133"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -5089,7 +5887,13 @@
     "description": "Treatment follow-up",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:36.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000134"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -5127,7 +5931,13 @@
     "description": "Follow-up appointment",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:35.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000135"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -5165,7 +5975,13 @@
     "description": "Treatment follow-up",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:34.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000136"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -5203,7 +6019,13 @@
     "description": "Follow-up appointment",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:33.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000137"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -5241,7 +6063,13 @@
     "description": "Initial consultation",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:32.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000138"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -5279,7 +6107,13 @@
     "description": "Routine checkup",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:31.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000139"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -5317,7 +6151,13 @@
     "description": "Treatment follow-up",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:30.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000140"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -5355,7 +6195,13 @@
     "description": "Treatment follow-up",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:29.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000141"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -5393,7 +6239,13 @@
     "description": "Routine checkup",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:28.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000142"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -5431,7 +6283,13 @@
     "description": "Routine checkup",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:27.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000143"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -5469,7 +6327,13 @@
     "description": "Routine checkup",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:26.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000144"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -5507,7 +6371,13 @@
     "description": "Initial consultation",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:25.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000145"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -5545,7 +6415,13 @@
     "description": "Treatment follow-up",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:24.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000146"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -5583,7 +6459,13 @@
     "description": "Initial consultation",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:23.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000147"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -5621,7 +6503,13 @@
     "description": "Routine checkup",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:22.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000148"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -5659,7 +6547,13 @@
     "description": "Diagnostic test review",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:21.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000149"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -5697,7 +6591,13 @@
     "description": "Routine checkup",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:20.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000150"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -5735,7 +6635,13 @@
     "description": "Treatment follow-up",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:19.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000151"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -5773,7 +6679,13 @@
     "description": "Follow-up appointment",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:18.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000152"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -5811,7 +6723,13 @@
     "description": "Follow-up appointment",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:17.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000153"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -5849,7 +6767,13 @@
     "description": "Diagnostic test review",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:16.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000154"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -5887,7 +6811,13 @@
     "description": "Routine checkup",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:15.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000155"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -5925,7 +6855,13 @@
     "description": "Initial consultation",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:14.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000156"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -5963,7 +6899,13 @@
     "description": "Initial consultation",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:13.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000157"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -6001,7 +6943,13 @@
     "description": "Treatment follow-up",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:12.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000158"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -6039,7 +6987,13 @@
     "description": "Initial consultation",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:11.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000159"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -6077,7 +7031,13 @@
     "description": "Treatment follow-up",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:10.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000160"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -6115,7 +7075,13 @@
     "description": "Follow-up appointment",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:09.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000161"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -6153,7 +7119,13 @@
     "description": "Diagnostic test review",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:08.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000162"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -6191,7 +7163,13 @@
     "description": "Diagnostic test review",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:07.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000163"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -6229,7 +7207,13 @@
     "description": "Follow-up appointment",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:06.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000164"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -6267,7 +7251,13 @@
     "description": "Routine checkup",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:05.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000165"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -6305,7 +7295,13 @@
     "description": "Routine checkup",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:04.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000166"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -6343,7 +7339,13 @@
     "description": "Diagnostic test review",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:03.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000167"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -6381,7 +7383,13 @@
     "description": "Treatment follow-up",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:02.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000168"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -6419,7 +7427,13 @@
     "description": "Diagnostic test review",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:01.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000169"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -6457,7 +7471,13 @@
     "description": "Diagnostic test review",
     "meta": {
       "lastUpdated": "2026-01-06T11:58:00.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000170"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -6495,7 +7515,13 @@
     "description": "Diagnostic test review",
     "meta": {
       "lastUpdated": "2026-01-06T11:57:59.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000171"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -6533,7 +7559,13 @@
     "description": "Initial consultation",
     "meta": {
       "lastUpdated": "2026-01-06T11:57:58.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000172"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -6571,7 +7603,13 @@
     "description": "Follow-up appointment",
     "meta": {
       "lastUpdated": "2026-01-06T11:57:57.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000173"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -6609,7 +7647,13 @@
     "description": "Initial consultation",
     "meta": {
       "lastUpdated": "2026-01-06T11:57:56.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000174"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -6647,7 +7691,13 @@
     "description": "Follow-up appointment",
     "meta": {
       "lastUpdated": "2026-01-06T11:57:55.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000175"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -6685,7 +7735,13 @@
     "description": "Initial consultation",
     "meta": {
       "lastUpdated": "2026-01-06T11:57:54.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000176"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -6723,7 +7779,13 @@
     "description": "Treatment follow-up",
     "meta": {
       "lastUpdated": "2026-01-06T11:57:53.000Z"
-    }
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000177"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -6758,7 +7820,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Routine check-up"
+    "description": "Routine check-up",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000178"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -6793,7 +7861,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Follow-up appointment"
+    "description": "Follow-up appointment",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000179"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -6828,7 +7902,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Follow-up appointment"
+    "description": "Follow-up appointment",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000180"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -6863,7 +7943,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Post-surgery follow-up"
+    "description": "Post-surgery follow-up",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000181"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -6898,7 +7984,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Chronic disease management"
+    "description": "Chronic disease management",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000182"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -6933,7 +8025,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Follow-up appointment"
+    "description": "Follow-up appointment",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000183"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -6968,7 +8066,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Follow-up appointment"
+    "description": "Follow-up appointment",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000184"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -7003,7 +8107,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Annual physical exam"
+    "description": "Annual physical exam",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000185"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -7038,7 +8148,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Consultation visit"
+    "description": "Consultation visit",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000186"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -7073,7 +8189,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Annual physical exam"
+    "description": "Annual physical exam",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000187"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -7108,7 +8230,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Follow-up appointment"
+    "description": "Follow-up appointment",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000188"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -7143,7 +8271,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Routine check-up"
+    "description": "Routine check-up",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000189"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -7178,7 +8312,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Annual physical exam"
+    "description": "Annual physical exam",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000190"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -7213,7 +8353,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Annual physical exam"
+    "description": "Annual physical exam",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000191"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -7248,7 +8394,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Consultation visit"
+    "description": "Consultation visit",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000192"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -7283,7 +8435,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Post-surgery follow-up"
+    "description": "Post-surgery follow-up",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000193"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -7318,7 +8476,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Chronic disease management"
+    "description": "Chronic disease management",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000194"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -7353,7 +8517,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Consultation visit"
+    "description": "Consultation visit",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000195"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -7388,7 +8558,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Consultation visit"
+    "description": "Consultation visit",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000196"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -7423,7 +8599,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Consultation visit"
+    "description": "Consultation visit",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000197"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -7458,7 +8640,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Chronic disease management"
+    "description": "Chronic disease management",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000198"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -7493,7 +8681,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Consultation visit"
+    "description": "Consultation visit",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000199"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -7528,7 +8722,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Routine check-up"
+    "description": "Routine check-up",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000200"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -7563,7 +8763,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Post-surgery follow-up"
+    "description": "Post-surgery follow-up",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000201"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -7598,7 +8804,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Annual physical exam"
+    "description": "Annual physical exam",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000202"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -7633,7 +8845,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Follow-up appointment"
+    "description": "Follow-up appointment",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000203"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -7668,7 +8886,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Annual physical exam"
+    "description": "Annual physical exam",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000204"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -7703,7 +8927,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Annual physical exam"
+    "description": "Annual physical exam",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000205"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -7738,7 +8968,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Annual physical exam"
+    "description": "Annual physical exam",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000206"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -7773,7 +9009,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Annual physical exam"
+    "description": "Annual physical exam",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000207"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -7808,7 +9050,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Routine check-up"
+    "description": "Routine check-up",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000208"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -7843,7 +9091,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Routine check-up"
+    "description": "Routine check-up",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000209"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -7878,7 +9132,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Annual physical exam"
+    "description": "Annual physical exam",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000210"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -7913,7 +9173,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Routine check-up"
+    "description": "Routine check-up",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000211"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -7948,7 +9214,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Chronic disease management"
+    "description": "Chronic disease management",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000212"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -7983,7 +9255,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Chronic disease management"
+    "description": "Chronic disease management",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000213"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -8018,7 +9296,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Post-surgery follow-up"
+    "description": "Post-surgery follow-up",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000214"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -8053,7 +9337,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Post-surgery follow-up"
+    "description": "Post-surgery follow-up",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000215"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -8088,7 +9378,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Chronic disease management"
+    "description": "Chronic disease management",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000216"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -8123,7 +9419,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Chronic disease management"
+    "description": "Chronic disease management",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000217"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -8158,7 +9460,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Routine check-up"
+    "description": "Routine check-up",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000218"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -8193,7 +9501,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Follow-up appointment"
+    "description": "Follow-up appointment",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000219"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -8228,7 +9542,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Chronic disease management"
+    "description": "Chronic disease management",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000220"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -8263,7 +9583,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Follow-up appointment"
+    "description": "Follow-up appointment",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000221"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -8298,7 +9624,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Annual physical exam"
+    "description": "Annual physical exam",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000222"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -8333,7 +9665,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Consultation visit"
+    "description": "Consultation visit",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000223"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -8368,7 +9706,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Routine check-up"
+    "description": "Routine check-up",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000224"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -8403,7 +9747,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Follow-up appointment"
+    "description": "Follow-up appointment",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000225"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -8438,7 +9788,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Annual physical exam"
+    "description": "Annual physical exam",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000226"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -8473,7 +9829,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Routine check-up"
+    "description": "Routine check-up",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000227"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -8508,7 +9870,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Follow-up appointment"
+    "description": "Follow-up appointment",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000228"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -8543,7 +9911,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Chronic disease management"
+    "description": "Chronic disease management",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000229"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -8578,7 +9952,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Chronic disease management"
+    "description": "Chronic disease management",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000230"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -8613,7 +9993,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Consultation visit"
+    "description": "Consultation visit",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000231"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -8648,7 +10034,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Consultation visit"
+    "description": "Consultation visit",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000232"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -8683,7 +10075,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Routine check-up"
+    "description": "Routine check-up",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000233"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -8718,7 +10116,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Follow-up appointment"
+    "description": "Follow-up appointment",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000234"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -8753,7 +10157,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Consultation visit"
+    "description": "Consultation visit",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000235"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -8788,7 +10198,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Consultation visit"
+    "description": "Consultation visit",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000236"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -8823,7 +10239,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Follow-up appointment"
+    "description": "Follow-up appointment",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000237"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -8858,7 +10280,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Follow-up appointment"
+    "description": "Follow-up appointment",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000238"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -8893,7 +10321,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Annual physical exam"
+    "description": "Annual physical exam",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000239"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -8928,7 +10362,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Follow-up appointment"
+    "description": "Follow-up appointment",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000240"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -8963,7 +10403,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Post-surgery follow-up"
+    "description": "Post-surgery follow-up",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000241"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -8998,7 +10444,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Chronic disease management"
+    "description": "Chronic disease management",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000242"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -9033,7 +10485,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Post-surgery follow-up"
+    "description": "Post-surgery follow-up",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000243"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -9068,7 +10526,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Annual physical exam"
+    "description": "Annual physical exam",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000244"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -9103,7 +10567,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Annual physical exam"
+    "description": "Annual physical exam",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000245"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -9138,7 +10608,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Annual physical exam"
+    "description": "Annual physical exam",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000246"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -9173,7 +10649,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Follow-up appointment"
+    "description": "Follow-up appointment",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000247"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -9208,7 +10690,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Consultation visit"
+    "description": "Consultation visit",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000248"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -9243,7 +10731,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Routine check-up"
+    "description": "Routine check-up",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000249"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -9278,7 +10772,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Follow-up appointment"
+    "description": "Follow-up appointment",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000250"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -9313,7 +10813,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Consultation visit"
+    "description": "Consultation visit",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000251"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -9348,7 +10854,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Post-surgery follow-up"
+    "description": "Post-surgery follow-up",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000252"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -9383,7 +10895,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Chronic disease management"
+    "description": "Chronic disease management",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000253"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -9418,7 +10936,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Consultation visit"
+    "description": "Consultation visit",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000254"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -9453,7 +10977,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Routine check-up"
+    "description": "Routine check-up",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000255"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -9488,7 +11018,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Post-surgery follow-up"
+    "description": "Post-surgery follow-up",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000256"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -9523,7 +11059,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Annual physical exam"
+    "description": "Annual physical exam",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000257"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -9558,7 +11100,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Chronic disease management"
+    "description": "Chronic disease management",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000258"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -9593,7 +11141,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Consultation visit"
+    "description": "Consultation visit",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000259"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -9628,7 +11182,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Routine check-up"
+    "description": "Routine check-up",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000260"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -9663,7 +11223,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Follow-up appointment"
+    "description": "Follow-up appointment",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000261"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -9698,7 +11264,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Chronic disease management"
+    "description": "Chronic disease management",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000262"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -9733,7 +11305,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Annual physical exam"
+    "description": "Annual physical exam",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000263"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -9768,7 +11346,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Post-surgery follow-up"
+    "description": "Post-surgery follow-up",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000264"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -9803,7 +11387,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Consultation visit"
+    "description": "Consultation visit",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000265"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -9838,7 +11428,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Follow-up appointment"
+    "description": "Follow-up appointment",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000266"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -9873,7 +11469,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Follow-up appointment"
+    "description": "Follow-up appointment",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000267"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -9908,7 +11510,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Chronic disease management"
+    "description": "Chronic disease management",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000268"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -9943,7 +11551,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Post-surgery follow-up"
+    "description": "Post-surgery follow-up",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000269"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -9978,7 +11592,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Post-surgery follow-up"
+    "description": "Post-surgery follow-up",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000270"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -10013,7 +11633,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Chronic disease management"
+    "description": "Chronic disease management",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000271"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -10048,7 +11674,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Consultation visit"
+    "description": "Consultation visit",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000272"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -10083,7 +11715,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Follow-up appointment"
+    "description": "Follow-up appointment",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000273"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -10118,7 +11756,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Annual physical exam"
+    "description": "Annual physical exam",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000274"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -10153,7 +11797,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Follow-up appointment"
+    "description": "Follow-up appointment",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000275"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -10188,7 +11838,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Chronic disease management"
+    "description": "Chronic disease management",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000276"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -10223,7 +11879,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Follow-up appointment"
+    "description": "Follow-up appointment",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000277"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -10258,7 +11920,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Annual physical exam"
+    "description": "Annual physical exam",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000278"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -10293,7 +11961,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Annual physical exam"
+    "description": "Annual physical exam",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000279"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -10328,7 +12002,13 @@
         "status": "accepted"
       }
     ],
-    "description": "Post-surgery follow-up"
+    "description": "Post-surgery follow-up",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000280"
+      }
+    ]
   },
   {
     "resourceType": "Appointment",
@@ -10363,6 +12043,12 @@
         "status": "accepted"
       }
     ],
-    "description": "Follow-up appointment"
+    "description": "Follow-up appointment",
+    "identifier": [
+      {
+        "system": "http://hospital.com/appointment-id",
+        "value": "APT-000281"
+      }
+    ]
   }
 ]

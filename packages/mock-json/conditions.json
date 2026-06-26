@@ -48,6 +48,22 @@
     "onsetDateTime": "2024-11-28T07:33:14.958Z",
     "encounter": {
       "reference": "Encounter/c1bdb9da-5ba6-4dd5-97b7-2fd0eef242bd"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000001"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "24484000",
+          "display": "Severe"
+        }
+      ],
+      "text": "Severe"
     }
   },
   {
@@ -99,6 +115,22 @@
     "onsetDateTime": "2025-11-15T08:37:00.000Z",
     "encounter": {
       "reference": "Encounter/6bff4d5e-5740-4a33-914a-50529a7a076d"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000002"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "24484000",
+          "display": "Severe"
+        }
+      ],
+      "text": "Severe"
     }
   },
   {
@@ -150,6 +182,22 @@
     "onsetDateTime": "2025-03-16T09:20:00.000Z",
     "encounter": {
       "reference": "Encounter/19c2c3f4-d75c-45d8-91dd-86183b890657"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000003"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "24484000",
+          "display": "Severe"
+        }
+      ],
+      "text": "Severe"
     }
   },
   {
@@ -201,6 +249,22 @@
     "onsetDateTime": "2024-11-04T05:09:00.000Z",
     "encounter": {
       "reference": "Encounter/3593ee5e-c9bc-43b9-8ca6-87507ba152bd"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000004"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "24484000",
+          "display": "Severe"
+        }
+      ],
+      "text": "Severe"
     }
   },
   {
@@ -252,6 +316,22 @@
     "onsetDateTime": "2024-10-29T04:51:00.000Z",
     "encounter": {
       "reference": "Encounter/586b47a7-8ea1-42b0-82e9-36ea3f9ff256"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000005"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "24484000",
+          "display": "Severe"
+        }
+      ],
+      "text": "Severe"
     }
   },
   {
@@ -303,6 +383,22 @@
     "onsetDateTime": "2024-12-08T14:39:03.989Z",
     "encounter": {
       "reference": "Encounter/8a9e23f5-f5a1-4327-a59f-79402ecc5274"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000006"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "6736007",
+          "display": "Moderate"
+        }
+      ],
+      "text": "Moderate"
     }
   },
   {
@@ -354,6 +450,22 @@
     "onsetDateTime": "2024-11-27T14:10:51.509Z",
     "encounter": {
       "reference": "Encounter/54bd4845-27f4-4e0d-8076-2eb24914bbf2"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000007"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "24484000",
+          "display": "Severe"
+        }
+      ],
+      "text": "Severe"
     }
   },
   {
@@ -405,6 +517,22 @@
     "onsetDateTime": "2024-10-28T10:14:00.000Z",
     "encounter": {
       "reference": "Encounter/dca75790-42df-4939-ba8f-55e85f732f7e"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000008"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "24484000",
+          "display": "Severe"
+        }
+      ],
+      "text": "Severe"
     }
   },
   {
@@ -456,6 +584,22 @@
     "onsetDateTime": "2024-09-14T06:45:00.000Z",
     "encounter": {
       "reference": "Encounter/985512b9-bd4c-4707-92bf-9537784e4bdc"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000009"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "24484000",
+          "display": "Severe"
+        }
+      ],
+      "text": "Severe"
     }
   },
   {
@@ -507,6 +651,22 @@
     "onsetDateTime": "2024-12-28T14:00:21.869Z",
     "encounter": {
       "reference": "Encounter/d33e0d66-a988-40d3-9cf2-a0d9d7cb66a3"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000010"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "24484000",
+          "display": "Severe"
+        }
+      ],
+      "text": "Severe"
     }
   },
   {
@@ -558,6 +718,22 @@
     "onsetDateTime": "2024-10-21T21:59:32.161Z",
     "encounter": {
       "reference": "Encounter/99201b68-9fb7-41d1-99f1-c87db73475d7"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000011"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "24484000",
+          "display": "Severe"
+        }
+      ],
+      "text": "Severe"
     }
   },
   {
@@ -609,6 +785,22 @@
     "onsetDateTime": "2025-03-05T05:19:47.056Z",
     "encounter": {
       "reference": "Encounter/8cb08ec2-71fd-4d89-b321-e3c871dfb2c2"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000012"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "6736007",
+          "display": "Moderate"
+        }
+      ],
+      "text": "Moderate"
     }
   },
   {
@@ -660,6 +852,22 @@
     "onsetDateTime": "2024-04-04T10:06:00.000Z",
     "encounter": {
       "reference": "Encounter/9d512b1a-3adc-46c8-9ea7-e331b11d09e9"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000013"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "24484000",
+          "display": "Severe"
+        }
+      ],
+      "text": "Severe"
     }
   },
   {
@@ -711,6 +919,22 @@
     "onsetDateTime": "2025-10-14T19:43:56.824Z",
     "encounter": {
       "reference": "Encounter/f71b41ac-1c8c-4dd6-b279-212f099b1f60"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000014"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "255604002",
+          "display": "Mild"
+        }
+      ],
+      "text": "Mild"
     }
   },
   {
@@ -762,6 +986,22 @@
     "onsetDateTime": "2025-02-15T05:56:43.271Z",
     "encounter": {
       "reference": "Encounter/1ed0b742-a3f7-4c67-afd1-f0f7bad5e483"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000015"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "255604002",
+          "display": "Mild"
+        }
+      ],
+      "text": "Mild"
     }
   },
   {
@@ -813,6 +1053,22 @@
     "onsetDateTime": "2025-02-01T08:08:00.000Z",
     "encounter": {
       "reference": "Encounter/2055ab80-33b6-403d-adcd-520c6647dce3"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000016"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "255604002",
+          "display": "Mild"
+        }
+      ],
+      "text": "Mild"
     }
   },
   {
@@ -864,6 +1120,22 @@
     "onsetDateTime": "2025-07-09T09:40:51.550Z",
     "encounter": {
       "reference": "Encounter/63583205-f96f-4ebe-af7f-b1d4a06b24af"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000017"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "6736007",
+          "display": "Moderate"
+        }
+      ],
+      "text": "Moderate"
     }
   },
   {
@@ -915,6 +1187,22 @@
     "onsetDateTime": "2024-11-20T11:41:00.000Z",
     "encounter": {
       "reference": "Encounter/35ce30f9-f665-411a-b386-11d46eddf14d"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000018"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "255604002",
+          "display": "Mild"
+        }
+      ],
+      "text": "Mild"
     }
   },
   {
@@ -966,6 +1254,22 @@
     "onsetDateTime": "2026-02-25T03:20:00.000Z",
     "encounter": {
       "reference": "Encounter/e9c7046f-9037-47f8-a843-6a70be877f1c"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000019"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "6736007",
+          "display": "Moderate"
+        }
+      ],
+      "text": "Moderate"
     }
   },
   {
@@ -1017,6 +1321,22 @@
     "onsetDateTime": "2025-02-10T21:01:49.804Z",
     "encounter": {
       "reference": "Encounter/b75d73e8-5eb3-425c-a588-1b466345fda2"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000020"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "6736007",
+          "display": "Moderate"
+        }
+      ],
+      "text": "Moderate"
     }
   },
   {
@@ -1068,6 +1388,22 @@
     "onsetDateTime": "2025-02-23T12:19:00.000Z",
     "encounter": {
       "reference": "Encounter/dd676968-e997-40a4-81d1-656f868e454a"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000021"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "6736007",
+          "display": "Moderate"
+        }
+      ],
+      "text": "Moderate"
     }
   },
   {
@@ -1119,6 +1455,22 @@
     "onsetDateTime": "2024-07-13T00:55:29.444Z",
     "encounter": {
       "reference": "Encounter/6c1eb2b2-54e8-4100-9d50-433a10dc5ea4"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000022"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "6736007",
+          "display": "Moderate"
+        }
+      ],
+      "text": "Moderate"
     }
   },
   {
@@ -1170,6 +1522,22 @@
     "onsetDateTime": "2025-08-29T07:16:47.649Z",
     "encounter": {
       "reference": "Encounter/a84d6a03-1038-47eb-b351-961b90bb472f"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000023"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "6736007",
+          "display": "Moderate"
+        }
+      ],
+      "text": "Moderate"
     }
   },
   {
@@ -1221,6 +1589,22 @@
     "onsetDateTime": "2024-07-13T13:22:27.098Z",
     "encounter": {
       "reference": "Encounter/d31e768b-4438-4bee-b80d-1f940a210b3f"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000024"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "255604002",
+          "display": "Mild"
+        }
+      ],
+      "text": "Mild"
     }
   },
   {
@@ -1272,6 +1656,22 @@
     "onsetDateTime": "2025-06-21T07:25:00.000Z",
     "encounter": {
       "reference": "Encounter/ce2d1316-47f6-4899-8fe0-87207b051b9a"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000025"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "24484000",
+          "display": "Severe"
+        }
+      ],
+      "text": "Severe"
     }
   },
   {
@@ -1323,6 +1723,22 @@
     "onsetDateTime": "2024-08-14T04:34:38.389Z",
     "encounter": {
       "reference": "Encounter/8903d71a-0841-4d9c-a210-8cc1a7e3cd76"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000026"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "24484000",
+          "display": "Severe"
+        }
+      ],
+      "text": "Severe"
     }
   },
   {
@@ -1374,6 +1790,22 @@
     "onsetDateTime": "2025-06-04T13:46:50.194Z",
     "encounter": {
       "reference": "Encounter/be3a5755-7390-4f1e-903c-ace13501d616"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000027"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "24484000",
+          "display": "Severe"
+        }
+      ],
+      "text": "Severe"
     }
   },
   {
@@ -1425,6 +1857,22 @@
     "onsetDateTime": "2025-07-31T02:49:14.159Z",
     "encounter": {
       "reference": "Encounter/75c23d9c-3aa0-4479-8cf2-af95357be972"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000028"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "24484000",
+          "display": "Severe"
+        }
+      ],
+      "text": "Severe"
     }
   },
   {
@@ -1476,6 +1924,22 @@
     "onsetDateTime": "2024-10-29T08:05:00.000Z",
     "encounter": {
       "reference": "Encounter/4687aa36-8168-48c1-a3ce-5f38985b5ee2"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000029"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "24484000",
+          "display": "Severe"
+        }
+      ],
+      "text": "Severe"
     }
   },
   {
@@ -1527,6 +1991,22 @@
     "onsetDateTime": "2025-04-20T00:29:57.974Z",
     "encounter": {
       "reference": "Encounter/b2090099-fe7f-4c0f-bece-8528f9cc815e"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000030"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "24484000",
+          "display": "Severe"
+        }
+      ],
+      "text": "Severe"
     }
   },
   {
@@ -1578,6 +2058,22 @@
     "onsetDateTime": "2024-11-21T12:25:00.000Z",
     "encounter": {
       "reference": "Encounter/6a42ea7d-322e-454e-80b8-2ca23bef3602"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000031"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "24484000",
+          "display": "Severe"
+        }
+      ],
+      "text": "Severe"
     }
   },
   {
@@ -1629,6 +2125,22 @@
     "onsetDateTime": "2025-07-01T19:01:53.754Z",
     "encounter": {
       "reference": "Encounter/708f265c-04a8-4b50-bff6-8c3e03b16892"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000032"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "6736007",
+          "display": "Moderate"
+        }
+      ],
+      "text": "Moderate"
     }
   },
   {
@@ -1680,6 +2192,22 @@
     "onsetDateTime": "2024-11-13T00:41:45.033Z",
     "encounter": {
       "reference": "Encounter/0a462919-6fb1-4997-a006-4b6e58323726"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000033"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "6736007",
+          "display": "Moderate"
+        }
+      ],
+      "text": "Moderate"
     }
   },
   {
@@ -1731,6 +2259,22 @@
     "onsetDateTime": "2025-01-11T03:39:00.000Z",
     "encounter": {
       "reference": "Encounter/ab4e070e-c854-45f6-b01d-9fbec0e2f39e"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000034"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "6736007",
+          "display": "Moderate"
+        }
+      ],
+      "text": "Moderate"
     }
   },
   {
@@ -1782,6 +2326,22 @@
     "onsetDateTime": "2025-01-20T06:01:00.000Z",
     "encounter": {
       "reference": "Encounter/9d1bc78a-6d62-49e8-ab42-1d73d55e66f8"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000035"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "24484000",
+          "display": "Severe"
+        }
+      ],
+      "text": "Severe"
     }
   },
   {
@@ -1833,6 +2393,22 @@
     "onsetDateTime": "2025-04-04T07:58:00.000Z",
     "encounter": {
       "reference": "Encounter/31ae297f-ebe8-46e8-ae1b-43d83cb1987b"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000036"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "255604002",
+          "display": "Mild"
+        }
+      ],
+      "text": "Mild"
     }
   },
   {
@@ -1884,6 +2460,22 @@
     "onsetDateTime": "2025-05-22T11:32:00.000Z",
     "encounter": {
       "reference": "Encounter/b0174e58-cbb9-4708-8c05-599d278adcae"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000037"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "6736007",
+          "display": "Moderate"
+        }
+      ],
+      "text": "Moderate"
     }
   },
   {
@@ -1935,6 +2527,22 @@
     "onsetDateTime": "2024-10-11T08:48:58.738Z",
     "encounter": {
       "reference": "Encounter/a767298f-83c6-4c0b-9289-51bb8afdf38b"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000038"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "255604002",
+          "display": "Mild"
+        }
+      ],
+      "text": "Mild"
     }
   },
   {
@@ -1986,6 +2594,22 @@
     "onsetDateTime": "2025-04-18T01:05:45.712Z",
     "encounter": {
       "reference": "Encounter/2e9300c3-c406-4981-8760-e9bc4fc090d2"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000039"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "6736007",
+          "display": "Moderate"
+        }
+      ],
+      "text": "Moderate"
     }
   },
   {
@@ -2037,6 +2661,22 @@
     "onsetDateTime": "2026-04-05T06:42:28.703Z",
     "encounter": {
       "reference": "Encounter/7ca9ed83-f6ac-446c-8318-2ef90b5bb34a"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000040"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "24484000",
+          "display": "Severe"
+        }
+      ],
+      "text": "Severe"
     }
   },
   {
@@ -2088,6 +2728,22 @@
     "onsetDateTime": "2025-11-09T04:24:00.000Z",
     "encounter": {
       "reference": "Encounter/faff2f6e-0876-44e2-b1ca-c97be83e9511"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000041"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "24484000",
+          "display": "Severe"
+        }
+      ],
+      "text": "Severe"
     }
   },
   {
@@ -2139,6 +2795,22 @@
     "onsetDateTime": "2024-06-06T09:42:00.000Z",
     "encounter": {
       "reference": "Encounter/0daf971e-1ee3-441a-87bb-8c4fa0950fb2"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000042"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "24484000",
+          "display": "Severe"
+        }
+      ],
+      "text": "Severe"
     }
   },
   {
@@ -2190,6 +2862,22 @@
     "onsetDateTime": "2026-01-27T05:12:00.000Z",
     "encounter": {
       "reference": "Encounter/6f89587c-3933-440f-b322-530a9535904c"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000043"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "255604002",
+          "display": "Mild"
+        }
+      ],
+      "text": "Mild"
     }
   },
   {
@@ -2241,6 +2929,22 @@
     "onsetDateTime": "2025-10-25T10:59:00.000Z",
     "encounter": {
       "reference": "Encounter/dc11106a-1cba-4306-9bbc-6f6475bdd7a3"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000044"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "255604002",
+          "display": "Mild"
+        }
+      ],
+      "text": "Mild"
     }
   },
   {
@@ -2292,6 +2996,22 @@
     "onsetDateTime": "2024-08-12T11:36:36.270Z",
     "encounter": {
       "reference": "Encounter/f1e6de9b-b92d-4982-b7d6-a00f4383bdb6"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000045"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "255604002",
+          "display": "Mild"
+        }
+      ],
+      "text": "Mild"
     }
   },
   {
@@ -2343,6 +3063,22 @@
     "onsetDateTime": "2025-09-15T17:05:53.760Z",
     "encounter": {
       "reference": "Encounter/382cff73-b845-4dc2-acde-a7f6959b825a"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000046"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "255604002",
+          "display": "Mild"
+        }
+      ],
+      "text": "Mild"
     }
   },
   {
@@ -2394,6 +3130,22 @@
     "onsetDateTime": "2025-06-30T07:39:00.000Z",
     "encounter": {
       "reference": "Encounter/b35118ba-3a76-40b3-92ef-43804411fbf9"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000047"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "6736007",
+          "display": "Moderate"
+        }
+      ],
+      "text": "Moderate"
     }
   },
   {
@@ -2445,6 +3197,22 @@
     "onsetDateTime": "2025-10-31T10:14:00.000Z",
     "encounter": {
       "reference": "Encounter/b572d37d-e368-426c-b6a5-96cbb67a20f6"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000048"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "255604002",
+          "display": "Mild"
+        }
+      ],
+      "text": "Mild"
     }
   },
   {
@@ -2496,6 +3264,22 @@
     "onsetDateTime": "2025-08-05T08:24:54.795Z",
     "encounter": {
       "reference": "Encounter/db215934-6b77-49fe-8f9a-cbf35bf8dc49"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000049"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "255604002",
+          "display": "Mild"
+        }
+      ],
+      "text": "Mild"
     }
   },
   {
@@ -2547,6 +3331,22 @@
     "onsetDateTime": "2025-04-13T06:29:00.000Z",
     "encounter": {
       "reference": "Encounter/46c97213-7eb0-47ab-8bcd-d2c9e6097220"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000050"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "255604002",
+          "display": "Mild"
+        }
+      ],
+      "text": "Mild"
     }
   },
   {
@@ -2598,6 +3398,22 @@
     "onsetDateTime": "2025-10-11T03:26:00.000Z",
     "encounter": {
       "reference": "Encounter/919a2a64-dc5e-4b95-a62e-f26ff3f8a3a0"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000051"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "255604002",
+          "display": "Mild"
+        }
+      ],
+      "text": "Mild"
     }
   },
   {
@@ -2649,6 +3465,22 @@
     "onsetDateTime": "2026-02-28T10:28:00.000Z",
     "encounter": {
       "reference": "Encounter/b587616e-5638-4fe6-a698-701b3289a884"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000052"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "255604002",
+          "display": "Mild"
+        }
+      ],
+      "text": "Mild"
     }
   },
   {
@@ -2700,6 +3532,22 @@
     "onsetDateTime": "2024-07-16T15:33:15.647Z",
     "encounter": {
       "reference": "Encounter/9b149f31-289f-4e61-a569-f217d3bea536"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000053"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "6736007",
+          "display": "Moderate"
+        }
+      ],
+      "text": "Moderate"
     }
   },
   {
@@ -2751,6 +3599,22 @@
     "onsetDateTime": "2025-10-12T22:17:28.485Z",
     "encounter": {
       "reference": "Encounter/0387a4f5-a4a3-4134-a47c-a458601e137d"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000054"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "6736007",
+          "display": "Moderate"
+        }
+      ],
+      "text": "Moderate"
     }
   },
   {
@@ -2802,6 +3666,22 @@
     "onsetDateTime": "2025-07-25T10:29:00.000Z",
     "encounter": {
       "reference": "Encounter/8be87ca0-342f-483a-ab23-a87e3274e444"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000055"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "6736007",
+          "display": "Moderate"
+        }
+      ],
+      "text": "Moderate"
     }
   },
   {
@@ -2853,6 +3733,22 @@
     "onsetDateTime": "2024-11-07T03:10:34.282Z",
     "encounter": {
       "reference": "Encounter/4e8e7901-659e-40ba-8776-c5cd2df418ba"
+    },
+    "identifier": [
+      {
+        "system": "http://hospital.com/condition-id",
+        "value": "DGN-000056"
+      }
+    ],
+    "severity": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "6736007",
+          "display": "Moderate"
+        }
+      ],
+      "text": "Moderate"
     }
   }
 ]

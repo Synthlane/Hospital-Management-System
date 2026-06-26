@@ -1,6 +1,6 @@
 // SPDX-FileCopyrightText: Copyright Orangebot, Inc. and Medplum contributors
 // SPDX-License-Identifier: Apache-2.0
-import { ActionIcon, Button, Center, Group, Loader, ScrollArea, TextInput } from '@mantine/core';
+import { ActionIcon, Button, Center, Group, Loader, ScrollArea, Text, TextInput } from '@mantine/core';
 import { showNotification, updateNotification } from '@mantine/notifications';
 import type { MedplumClient, ProfileResource } from '@medplum/core';
 import { createReference, normalizeErrorString } from '@medplum/core';
@@ -16,13 +16,14 @@ import type {
   Resource,
   ResourceType,
 } from '@medplum/fhirtypes';
-import { useMedplum, useResource } from '@medplum/react-hooks';
+import { useMedplum, useMedplumNavigate, useResource } from '@medplum/react-hooks';
 import { IconCheck, IconCloudUpload, IconFileAlert, IconMessage } from '@tabler/icons-react';
 import type { JSX, ReactNode } from 'react';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { AttachmentButton } from '../AttachmentButton/AttachmentButton';
 import { AttachmentDisplay } from '../AttachmentDisplay/AttachmentDisplay';
-import { DiagnosticReportDisplay } from '../DiagnosticReportDisplay/DiagnosticReportDisplay';
+import { ResourceBadge } from '../ResourceBadge/ResourceBadge';
+import { StatusBadge } from '../StatusBadge/StatusBadge';
 import { Form } from '../Form/Form';
 import { Panel } from '../Panel/Panel';
 import { ResourceAvatar } from '../ResourceAvatar/ResourceAvatar';
@@ -395,9 +396,47 @@ function AuditEventTimelineItem(props: TimelineItemProps<AuditEvent>): JSX.Eleme
 }
 
 function DiagnosticReportTimelineItem(props: TimelineItemProps<DiagnosticReport>): JSX.Element {
+  const navigate = useMedplumNavigate();
+  const resource = props.resource;
+
+  const viewButton = (
+    <Button
+      size="xs"
+      variant="light"
+      onClick={() => navigate(`/${resource.resourceType}/${resource.id}/report`)}
+    >
+      View Report
+    </Button>
+  );
+
   return (
-    <TimelineItem resource={props.resource} padding={true} popupMenuItems={props.popupMenuItems}>
-      <DiagnosticReportDisplay value={props.resource} />
+    <TimelineItem resource={resource} padding={true} actionButton={viewButton}>
+      <Group mt="sm" gap={30} wrap="wrap">
+        {resource.subject && (
+          <div>
+            <Text size="xs" tt="uppercase" c="dimmed" mb={4}>Patient</Text>
+            <ResourceBadge value={resource.subject} link={true} />
+          </div>
+        )}
+        {resource.performer?.map((performer, i) => (
+          <div key={performer.reference ?? i}>
+            <Text size="xs" tt="uppercase" c="dimmed" mb={4}>Performer</Text>
+            <ResourceBadge value={performer} link={true} />
+          </div>
+        ))}
+        {resource.status && (
+          <div>
+            <Text size="xs" tt="uppercase" c="dimmed" mb={4}>Status</Text>
+            <StatusBadge status={resource.status} />
+          </div>
+        )}
+        {resource.result && resource.result.length > 0 && (
+          <div>
+            <Text size="xs" tt="uppercase" c="dimmed" mb={4}>Tests</Text>
+            <Text size="sm" fw={500}>{resource.result.length}</Text>
+          </div>
+        )}
+      </Group>
     </TimelineItem>
   );
 }

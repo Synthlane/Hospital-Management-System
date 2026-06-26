@@ -1,7 +1,8 @@
 // SPDX-FileCopyrightText: Copyright Orangebot, Inc. and Medplum contributors
 // SPDX-License-Identifier: Apache-2.0
-import { Anchor, Group, List, Stack, Text, Title } from '@mantine/core';
-import { formatCodeableConcept, formatDateTime, formatObservationValue, isReference } from '@medplum/core';
+import { Anchor, Button, Divider, Group, List, Stack, Text, Title } from '@mantine/core';
+import { IconDownload, IconFileTypePdf } from '@tabler/icons-react';
+import { formatDateTime, formatObservationValue, isReference } from '@medplum/core';
 import type {
   Annotation,
   DiagnosticReport,
@@ -18,7 +19,6 @@ import { useEffect, useState } from 'react';
 import { CodeableConceptDisplay } from '../CodeableConceptDisplay/CodeableConceptDisplay';
 import { NoteDisplay } from '../NoteDisplay/NoteDisplay';
 import { RangeDisplay } from '../RangeDisplay/RangeDisplay';
-import { ReferenceDisplay } from '../ReferenceDisplay/ReferenceDisplay';
 import { ResourceBadge } from '../ResourceBadge/ResourceBadge';
 import { StatusBadge } from '../StatusBadge/StatusBadge';
 import classes from './DiagnosticReportDisplay.module.css';
@@ -70,13 +70,13 @@ export function DiagnosticReportDisplay(props: DiagnosticReportDisplayProps): JS
 
   return (
     <Stack>
-      <Title>Diagnostic Report</Title>
       <DiagnosticReportHeader value={diagnosticReport} hideSubject={props.hideSubject} />
+      {diagnosticReport.result && <Divider mt="xs" />}
       {specimens && !props.hideSpecimenInfo && SpecimenInfo(specimens)}
       {diagnosticReport.result && (
         <ObservationTable hideObservationNotes={props.hideObservationNotes} value={diagnosticReport.result} />
       )}
-      {pdfAttachment && <PdfReportLink attachment={pdfAttachment} />}
+      <PdfReportLink attachment={pdfAttachment ?? {}} />
       {specimenNotes.length > 0 && <NoteDisplay value={specimenNotes} />}
     </Stack>
   );
@@ -89,18 +89,18 @@ interface DiagnosticReportHeaderProps {
 
 function DiagnosticReportHeader({ value, hideSubject = false }: DiagnosticReportHeaderProps): JSX.Element {
   return (
-    <Group mt="md" gap={30}>
+    <Group gap={30} wrap="wrap">
       {value.subject && !hideSubject && (
         <div>
-          <Text size="xs" tt="uppercase" c="dimmed">
-            Subject
+          <Text size="xs" tt="uppercase" c="dimmed" mb={4}>
+            Patient
           </Text>
           <ResourceBadge value={value.subject} link={true} />
         </div>
       )}
       {value.resultsInterpreter?.map((interpreter) => (
         <div key={interpreter.reference}>
-          <Text size="xs" tt="uppercase" c="dimmed">
+          <Text size="xs" tt="uppercase" c="dimmed" mb={4}>
             Interpreter
           </Text>
           <ResourceBadge value={interpreter} link={true} />
@@ -108,7 +108,7 @@ function DiagnosticReportHeader({ value, hideSubject = false }: DiagnosticReport
       ))}
       {value.performer?.map((performer) => (
         <div key={performer.reference}>
-          <Text size="xs" tt="uppercase" c="dimmed">
+          <Text size="xs" tt="uppercase" c="dimmed" mb={4}>
             Performer
           </Text>
           <ResourceBadge value={performer} link={true} />
@@ -116,15 +116,15 @@ function DiagnosticReportHeader({ value, hideSubject = false }: DiagnosticReport
       ))}
       {value.issued && (
         <div>
-          <Text size="xs" tt="uppercase" c="dimmed">
+          <Text size="xs" tt="uppercase" c="dimmed" mb={4}>
             Issued
           </Text>
-          <Text>{formatDateTime(value.issued)}</Text>
+          <Text size="sm" fw={500}>{formatDateTime(value.issued)}</Text>
         </div>
       )}
       {value.status && (
         <div>
-          <Text size="xs" tt="uppercase" c="dimmed">
+          <Text size="xs" tt="uppercase" c="dimmed" mb={4}>
             Status
           </Text>
           <StatusBadge status={value.status} />
@@ -174,8 +174,6 @@ export function ObservationTable(props: ObservationTableProps): JSX.Element {
           <th>Value</th>
           <th>Reference Range</th>
           <th>Interpretation</th>
-          <th>Category</th>
-          <th>Performer</th>
           <th>Status</th>
         </tr>
       </thead>
@@ -246,22 +244,6 @@ function ObservationRow(props: ObservationRowProps): JSX.Element | null {
           {observation.interpretation && observation.interpretation.length > 0 && (
             <CodeableConceptDisplay value={observation.interpretation[0]} />
           )}
-        </td>
-        <td>
-          {observation.category && observation.category.length > 0 && (
-            <>
-              {observation.category.map((concept) => (
-                <div key={`category-${formatCodeableConcept(concept)}`}>
-                  <CodeableConceptDisplay value={concept} />
-                </div>
-              ))}
-            </>
-          )}
-        </td>
-        <td>
-          {observation.performer?.map((performer) => (
-            <ReferenceDisplay key={performer.reference} value={performer} />
-          ))}
         </td>
         <td>{observation.status && <StatusBadge status={observation.status} />}</td>
       </tr>
@@ -479,22 +461,29 @@ function PdfReportLink(props: PdfReportLinkProps): JSX.Element {
   const displayUrl = '/reports/Example-Report.pdf';
 
   return (
-    <Stack gap="xs" mt="md">
-      <Title order={2} size="h6">
-        Report Document
-      </Title>
-      <Anchor
-        href={displayUrl || '#'}
-        onClick={handleDownload}
-        target={displayUrl ? '_blank' : undefined}
-        rel="noopener noreferrer"
-        style={{ fontSize: '16px', fontWeight: 500, cursor: 'pointer' }}
-      >
-        📄 {title || 'View Report PDF'}
-      </Anchor>
-      <Text size="sm" c="dimmed">
-        {data ? 'Click to download the report PDF' : 'Click to download or view the report PDF'}
-      </Text>
+    <Stack gap="xs">
+      <Divider mb="xs" />
+      <Group gap="xs" align="center">
+        <IconFileTypePdf size={16} color="var(--mantine-color-red-6)" />
+        <Text size="xs" fw={600} c="dimmed" tt="uppercase" style={{ letterSpacing: '0.05em' }}>
+          Report Document
+        </Text>
+      </Group>
+      <Group justify="space-between" align="center">
+        <Text size="sm">{title || 'Diagnostic-Report.pdf'}</Text>
+        <Button
+          size="xs"
+          variant="light"
+          leftSection={<IconDownload size={14} />}
+          component={Anchor}
+          href={displayUrl || '#'}
+          onClick={handleDownload}
+          target={displayUrl ? '_blank' : undefined}
+          rel="noopener noreferrer"
+        >
+          Download
+        </Button>
+      </Group>
     </Stack>
   );
 }

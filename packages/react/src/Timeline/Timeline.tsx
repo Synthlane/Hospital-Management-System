@@ -29,20 +29,26 @@ export interface TimelineItemProps<T extends Resource = Resource> extends PanelP
   readonly dateTime?: string;
   readonly padding?: boolean;
   readonly popupMenuItems?: ReactNode;
+  readonly actionButton?: ReactNode;
+}
+
+function isSystemAuthor(author: Reference | undefined): boolean {
+  return !author?.reference || author.reference.startsWith('Device/');
 }
 
 export function TimelineItem(props: TimelineItemProps): JSX.Element {
-  const { resource, profile, padding, popupMenuItems, ...others } = props;
+  const { resource, profile, padding, popupMenuItems, actionButton, ...others } = props;
   const author = profile ?? resource.meta?.author;
+  const authorIsSystem = isSystemAuthor(author as Reference | undefined);
   const dateTime = props.dateTime ?? resource.meta?.lastUpdated;
 
   return (
     <Panel data-testid="timeline-item" fill={true} {...others}>
       <Group justify="space-between" gap={8} mx="xs" my="sm">
-        <ResourceAvatar value={author} link={true} size="md" />
+        <ResourceAvatar value={author} link={!authorIsSystem} size="md" />
         <div style={{ flex: 1 }}>
           <Text size="sm">
-            <ResourceName c="dark" fw={500} value={author} link={true} />
+            <ResourceName c="dark" fw={500} value={author} link={!authorIsSystem} />
           </Text>
           <Text size="xs">
             <MedplumLink c="dimmed" to={props.resource}>
@@ -56,7 +62,8 @@ export function TimelineItem(props: TimelineItemProps): JSX.Element {
             </MedplumLink>
           </Text>
         </div>
-        {popupMenuItems && (
+        {actionButton}
+        {!actionButton && popupMenuItems && (
           <Menu position="bottom-end" shadow="md" width={200}>
             <Menu.Target>
               <ActionIcon

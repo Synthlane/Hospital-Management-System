@@ -3,6 +3,8 @@
 import { showNotification } from '@mantine/notifications';
 import { deepClone, normalizeErrorString, normalizeOperationOutcome } from '@medplum/core';
 import type { OperationOutcome, Resource, ResourceType } from '@medplum/fhirtypes';
+
+const LOCKED_IDENTIFIER_TYPES = new Set<string>(['Patient', 'Organization', 'Appointment', 'Encounter', 'Condition', 'DiagnosticReport']);
 import { Document, ResourceForm, useMedplum } from '@medplum/react';
 import type { JSX } from 'react';
 import { useCallback, useEffect, useState } from 'react';
@@ -83,6 +85,7 @@ export function EditPage(): JSX.Element | null {
         onPatch={handlePatch}
         onDelete={handleDelete}
         outcome={outcome}
+        readonlyFields={LOCKED_IDENTIFIER_TYPES.has(resourceType) ? ['identifier'] : undefined}
       />
     </Document>
   );

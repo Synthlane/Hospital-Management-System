@@ -2,13 +2,13 @@
   {
     "resourceType": "Organization",
     "id": "34c95d53-17b0-4985-855e-5db90d67c161",
-    "name": "CityCare Hospital",
     "identifier": [
       {
-        "system": "http://hospital-registry.example.com",
-        "value": "HOSP-001"
+        "system": "http://hospital.com/organization-id",
+        "value": "ORG-100001"
       }
     ],
+    "name": "CityCare Hospital",
     "active": true,
     "address": [
       {
@@ -37,6 +37,12 @@
   {
     "resourceType": "Organization",
     "id": "aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+    "identifier": [
+      {
+        "system": "http://hospital.com/organization-id",
+        "value": "ORG-100002"
+      }
+    ],
     "name": "CityCare Hospital - North Branch",
     "partOf": {
       "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
@@ -70,6 +76,12 @@
   {
     "resourceType": "Organization",
     "id": "bd18f867-3120-4a04-96c1-743bf43c7954",
+    "identifier": [
+      {
+        "system": "http://hospital.com/organization-id",
+        "value": "ORG-100003"
+      }
+    ],
     "name": "CityCare Hospital - South Branch",
     "partOf": {
       "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
@@ -103,6 +115,12 @@
   {
     "resourceType": "Organization",
     "id": "f39b4737-77e8-492f-9445-cfb82603d01f",
+    "identifier": [
+      {
+        "system": "http://hospital.com/organization-id",
+        "value": "ORG-100004"
+      }
+    ],
     "name": "CityCare Diagnostic Laboratory",
     "partOf": {
       "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
@@ -147,6 +165,12 @@
   {
     "resourceType": "Organization",
     "id": "060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+    "identifier": [
+      {
+        "system": "http://hospital.com/organization-id",
+        "value": "ORG-200001"
+      }
+    ],
     "name": "Metro General Hospital",
     "active": true,
     "address": [

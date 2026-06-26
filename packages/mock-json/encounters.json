@@ -53,7 +53,17 @@
         ],
         "text": "Shortness of breath"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000001"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -100,7 +110,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/60a86294-51b6-45a9-851b-dc59bf6e44a8"
+        "reference": "Appointment/60a86294-51b6-45a9-851b-dc59bf6e44a8",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -114,7 +125,17 @@
         ],
         "text": "Chest pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000002"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -161,7 +182,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/748f93d1-a7f8-409f-a487-ff5815967295"
+        "reference": "Appointment/748f93d1-a7f8-409f-a487-ff5815967295",
+        "display": "Diagnostic test review"
       }
     ],
     "reasonCode": [
@@ -175,7 +197,17 @@
         ],
         "text": "Fever"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000003"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -222,7 +254,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/5236f524-37bc-4920-b52e-2c1bf96abdc3"
+        "reference": "Appointment/5236f524-37bc-4920-b52e-2c1bf96abdc3",
+        "display": "Treatment follow-up"
       }
     ],
     "reasonCode": [
@@ -236,7 +269,17 @@
         ],
         "text": "Persistent cough"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000004"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -283,7 +326,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/6aeaa273-7aa0-4b67-b2ba-d59d159d304f"
+        "reference": "Appointment/6aeaa273-7aa0-4b67-b2ba-d59d159d304f",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -297,7 +341,17 @@
         ],
         "text": "Headache"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000005"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -344,7 +398,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/1a3f25b3-9a50-4738-b8ed-9aeb7d2e612a"
+        "reference": "Appointment/1a3f25b3-9a50-4738-b8ed-9aeb7d2e612a",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -358,7 +413,17 @@
         ],
         "text": "Fatigue and weakness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000006"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -405,7 +470,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/0aa109f3-a809-4d3f-9403-8f864d30f5f9"
+        "reference": "Appointment/0aa109f3-a809-4d3f-9403-8f864d30f5f9",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -419,7 +485,17 @@
         ],
         "text": "Abdominal pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000007"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -466,7 +542,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/9c5bc7ca-5e41-4adc-999b-9747920eaf3e"
+        "reference": "Appointment/9c5bc7ca-5e41-4adc-999b-9747920eaf3e",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -480,7 +557,17 @@
         ],
         "text": "Joint pain and stiffness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000008"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -527,7 +614,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/658aa1ac-50d8-4563-940e-a840e309dd0c"
+        "reference": "Appointment/658aa1ac-50d8-4563-940e-a840e309dd0c",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -541,7 +629,17 @@
         ],
         "text": "Lower back pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000009"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -588,7 +686,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/910f29b5-4e03-4828-a102-c3bceace37a7"
+        "reference": "Appointment/910f29b5-4e03-4828-a102-c3bceace37a7",
+        "display": "Treatment follow-up"
       }
     ],
     "reasonCode": [
@@ -602,7 +701,17 @@
         ],
         "text": "Palpitations"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000010"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -649,7 +758,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/c86fbfc1-6b98-44c6-9747-47c3a9a89f45"
+        "reference": "Appointment/c86fbfc1-6b98-44c6-9747-47c3a9a89f45",
+        "display": "Initial consultation"
       }
     ],
     "reasonCode": [
@@ -663,7 +773,17 @@
         ],
         "text": "Nausea and vomiting"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000011"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -710,7 +830,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/81d3160e-9b97-4213-ad9b-0663c5474019"
+        "reference": "Appointment/81d3160e-9b97-4213-ad9b-0663c5474019",
+        "display": "Treatment follow-up"
       }
     ],
     "reasonCode": [
@@ -724,7 +845,17 @@
         ],
         "text": "Dizziness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000012"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -771,7 +902,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/b9b08efc-86a9-4b53-bcc9-9b9bfb4d5dc3"
+        "reference": "Appointment/b9b08efc-86a9-4b53-bcc9-9b9bfb4d5dc3",
+        "display": "Initial consultation"
       }
     ],
     "reasonCode": [
@@ -785,7 +917,17 @@
         ],
         "text": "Fever with chills"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000013"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -832,7 +974,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/591adcbf-777a-4f60-b643-744a7c61a724"
+        "reference": "Appointment/591adcbf-777a-4f60-b643-744a7c61a724",
+        "display": "Treatment follow-up"
       }
     ],
     "reasonCode": [
@@ -846,7 +989,17 @@
         ],
         "text": "Follow-up consultation"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000014"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -893,7 +1046,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/635562b9-0b5e-478d-b757-8b58b4816bb2"
+        "reference": "Appointment/635562b9-0b5e-478d-b757-8b58b4816bb2",
+        "display": "Initial consultation"
       }
     ],
     "reasonCode": [
@@ -907,7 +1061,17 @@
         ],
         "text": "Routine health check"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000015"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -954,7 +1118,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/04641d22-4ce2-4064-83d4-2fa3f0dfabf4"
+        "reference": "Appointment/04641d22-4ce2-4064-83d4-2fa3f0dfabf4",
+        "display": "Routine checkup"
       }
     ],
     "reasonCode": [
@@ -968,7 +1133,17 @@
         ],
         "text": "Swelling in legs"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000016"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -1015,7 +1190,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/47ac671d-03ba-4db8-952e-79d09c3a4f95"
+        "reference": "Appointment/47ac671d-03ba-4db8-952e-79d09c3a4f95",
+        "display": "Diagnostic test review"
       }
     ],
     "reasonCode": [
@@ -1029,7 +1205,17 @@
         ],
         "text": "Difficulty breathing"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000017"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -1076,7 +1262,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/0d012bca-e276-4b25-8903-3abd9ce02470"
+        "reference": "Appointment/0d012bca-e276-4b25-8903-3abd9ce02470",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -1090,7 +1277,17 @@
         ],
         "text": "Chest tightness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000018"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -1137,7 +1334,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/eb215aec-04ce-494d-ae6a-165695155910"
+        "reference": "Appointment/eb215aec-04ce-494d-ae6a-165695155910",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -1151,7 +1349,17 @@
         ],
         "text": "Shortness of breath"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000019"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -1198,7 +1406,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/a05a87ea-ad45-4cee-9cdb-e94fb38338c1"
+        "reference": "Appointment/a05a87ea-ad45-4cee-9cdb-e94fb38338c1",
+        "display": "Treatment follow-up"
       }
     ],
     "reasonCode": [
@@ -1212,7 +1421,17 @@
         ],
         "text": "Chest pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000020"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -1259,7 +1478,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/e9aa26f2-a702-425d-84c5-510d27e9ae0b"
+        "reference": "Appointment/e9aa26f2-a702-425d-84c5-510d27e9ae0b",
+        "display": "Diagnostic test review"
       }
     ],
     "reasonCode": [
@@ -1273,7 +1493,17 @@
         ],
         "text": "Fever"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000021"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -1329,7 +1559,17 @@
         ],
         "text": "Persistent cough"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000022"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -1376,7 +1616,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/a457e382-6190-46eb-8b2d-7d81cb1a3cc1"
+        "reference": "Appointment/a457e382-6190-46eb-8b2d-7d81cb1a3cc1",
+        "display": "Initial consultation"
       }
     ],
     "reasonCode": [
@@ -1390,7 +1631,17 @@
         ],
         "text": "Headache"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000023"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -1437,7 +1688,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/3b1b3653-5a1b-4648-b348-b3e0794d8a3a"
+        "reference": "Appointment/3b1b3653-5a1b-4648-b348-b3e0794d8a3a",
+        "display": "Initial consultation"
       }
     ],
     "reasonCode": [
@@ -1451,7 +1703,17 @@
         ],
         "text": "Fatigue and weakness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000024"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -1498,7 +1760,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/9e6088ef-7a7c-421c-9407-573ec6eef71c"
+        "reference": "Appointment/9e6088ef-7a7c-421c-9407-573ec6eef71c",
+        "display": "Treatment follow-up"
       }
     ],
     "reasonCode": [
@@ -1512,7 +1775,17 @@
         ],
         "text": "Abdominal pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000025"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -1559,7 +1832,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/15b49360-342f-4f23-aeab-bd9e0f039a91"
+        "reference": "Appointment/15b49360-342f-4f23-aeab-bd9e0f039a91",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -1573,7 +1847,17 @@
         ],
         "text": "Joint pain and stiffness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000026"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -1620,7 +1904,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/52cac4e7-8f31-4857-a19c-ddf3a7a01f8f"
+        "reference": "Appointment/52cac4e7-8f31-4857-a19c-ddf3a7a01f8f",
+        "display": "Initial consultation"
       }
     ],
     "reasonCode": [
@@ -1634,7 +1919,17 @@
         ],
         "text": "Lower back pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000027"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -1681,7 +1976,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/7760bbd3-1cb3-4ff8-8f42-f008b9ac05e5"
+        "reference": "Appointment/7760bbd3-1cb3-4ff8-8f42-f008b9ac05e5",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -1695,7 +1991,17 @@
         ],
         "text": "Palpitations"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000028"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -1742,7 +2048,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/39adba9f-8e09-458d-9fb4-960af13654f5"
+        "reference": "Appointment/39adba9f-8e09-458d-9fb4-960af13654f5",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -1756,7 +2063,17 @@
         ],
         "text": "Nausea and vomiting"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000029"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -1803,7 +2120,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/f7168bd0-2ce7-46a2-8b33-8989d763664d"
+        "reference": "Appointment/f7168bd0-2ce7-46a2-8b33-8989d763664d",
+        "display": "Treatment follow-up"
       }
     ],
     "reasonCode": [
@@ -1817,7 +2135,17 @@
         ],
         "text": "Dizziness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000030"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -1864,7 +2192,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/19ec6744-3da4-43a7-b75b-05788806a6e9"
+        "reference": "Appointment/19ec6744-3da4-43a7-b75b-05788806a6e9",
+        "display": "Routine checkup"
       }
     ],
     "reasonCode": [
@@ -1878,7 +2207,17 @@
         ],
         "text": "Fever with chills"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000031"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -1925,7 +2264,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/c038baad-23ef-4a00-9190-543e1a7ae192"
+        "reference": "Appointment/c038baad-23ef-4a00-9190-543e1a7ae192",
+        "display": "Routine checkup"
       }
     ],
     "reasonCode": [
@@ -1939,7 +2279,17 @@
         ],
         "text": "Follow-up consultation"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000032"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -1986,7 +2336,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/0a335b68-1a08-4f4e-aa17-a0c6eb88b9d8"
+        "reference": "Appointment/0a335b68-1a08-4f4e-aa17-a0c6eb88b9d8",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -2000,7 +2351,17 @@
         ],
         "text": "Routine health check"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000033"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -2056,7 +2417,17 @@
         ],
         "text": "Swelling in legs"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000034"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -2103,7 +2474,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/a356f8da-9d48-46e7-890b-81b598b034d0"
+        "reference": "Appointment/a356f8da-9d48-46e7-890b-81b598b034d0",
+        "display": "Treatment follow-up"
       }
     ],
     "reasonCode": [
@@ -2117,7 +2489,17 @@
         ],
         "text": "Difficulty breathing"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000035"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -2164,7 +2546,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/50b68d00-98b9-48e6-9541-f37103b8c41b"
+        "reference": "Appointment/50b68d00-98b9-48e6-9541-f37103b8c41b",
+        "display": "Initial consultation"
       }
     ],
     "reasonCode": [
@@ -2178,7 +2561,17 @@
         ],
         "text": "Chest tightness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000036"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -2225,7 +2618,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/99245b6d-9bdc-4a49-806b-484a67301f41"
+        "reference": "Appointment/99245b6d-9bdc-4a49-806b-484a67301f41",
+        "display": "Diagnostic test review"
       }
     ],
     "reasonCode": [
@@ -2239,7 +2633,17 @@
         ],
         "text": "Shortness of breath"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000037"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -2286,7 +2690,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/d3cc6ffb-4e34-42de-89a2-a95347d60ea6"
+        "reference": "Appointment/d3cc6ffb-4e34-42de-89a2-a95347d60ea6",
+        "display": "Routine checkup"
       }
     ],
     "reasonCode": [
@@ -2300,7 +2705,17 @@
         ],
         "text": "Chest pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000038"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -2347,7 +2762,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/81f15729-856d-467a-a106-6cfd96acfd87"
+        "reference": "Appointment/81f15729-856d-467a-a106-6cfd96acfd87",
+        "display": "Treatment follow-up"
       }
     ],
     "reasonCode": [
@@ -2361,7 +2777,17 @@
         ],
         "text": "Fever"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000039"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -2417,7 +2843,17 @@
         ],
         "text": "Persistent cough"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000040"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -2464,7 +2900,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/27401e0a-02c0-48b5-bf38-02e72e7ba55f"
+        "reference": "Appointment/27401e0a-02c0-48b5-bf38-02e72e7ba55f",
+        "display": "Routine checkup"
       }
     ],
     "reasonCode": [
@@ -2478,7 +2915,17 @@
         ],
         "text": "Headache"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000041"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -2525,7 +2972,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/631a8beb-87fa-4c62-b708-0fe38f4bda44"
+        "reference": "Appointment/631a8beb-87fa-4c62-b708-0fe38f4bda44",
+        "display": "Routine checkup"
       }
     ],
     "reasonCode": [
@@ -2539,7 +2987,17 @@
         ],
         "text": "Fatigue and weakness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000042"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -2586,7 +3044,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/0e858e8f-7594-4b75-9af0-8ce6966a3665"
+        "reference": "Appointment/0e858e8f-7594-4b75-9af0-8ce6966a3665",
+        "display": "Initial consultation"
       }
     ],
     "reasonCode": [
@@ -2600,7 +3059,17 @@
         ],
         "text": "Abdominal pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000043"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -2647,7 +3116,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/a2a0562c-6a86-45fd-a483-5b963f417bd0"
+        "reference": "Appointment/a2a0562c-6a86-45fd-a483-5b963f417bd0",
+        "display": "Initial consultation"
       }
     ],
     "reasonCode": [
@@ -2661,7 +3131,17 @@
         ],
         "text": "Joint pain and stiffness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000044"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -2708,7 +3188,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/56a41359-0fc9-4754-a8a2-034ab230a08a"
+        "reference": "Appointment/56a41359-0fc9-4754-a8a2-034ab230a08a",
+        "display": "Initial consultation"
       }
     ],
     "reasonCode": [
@@ -2722,7 +3203,17 @@
         ],
         "text": "Lower back pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000045"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -2769,7 +3260,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/2a5c65ca-5e61-45cb-ab5b-f69c19d6e7d5"
+        "reference": "Appointment/2a5c65ca-5e61-45cb-ab5b-f69c19d6e7d5",
+        "display": "Treatment follow-up"
       }
     ],
     "reasonCode": [
@@ -2783,7 +3275,17 @@
         ],
         "text": "Palpitations"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000046"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -2830,7 +3332,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/ce48214d-018e-4051-9bcd-ed2dfebae293"
+        "reference": "Appointment/ce48214d-018e-4051-9bcd-ed2dfebae293",
+        "display": "Diagnostic test review"
       }
     ],
     "reasonCode": [
@@ -2844,7 +3347,17 @@
         ],
         "text": "Nausea and vomiting"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000047"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -2891,7 +3404,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/d2bef29b-b6aa-4e7a-aabf-212f81b8f4fb"
+        "reference": "Appointment/d2bef29b-b6aa-4e7a-aabf-212f81b8f4fb",
+        "display": "Routine checkup"
       }
     ],
     "reasonCode": [
@@ -2905,7 +3419,17 @@
         ],
         "text": "Dizziness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000048"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -2952,7 +3476,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/e540b4d1-b519-453d-81af-e7228a854b7f"
+        "reference": "Appointment/e540b4d1-b519-453d-81af-e7228a854b7f",
+        "display": "Routine checkup"
       }
     ],
     "reasonCode": [
@@ -2966,7 +3491,17 @@
         ],
         "text": "Fever with chills"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000049"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -3022,7 +3557,17 @@
         ],
         "text": "Follow-up consultation"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000050"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -3078,7 +3623,17 @@
         ],
         "text": "Routine health check"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000051"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -3125,7 +3680,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/dc5119ed-c2ee-48b7-ae65-6b67e464ce73"
+        "reference": "Appointment/dc5119ed-c2ee-48b7-ae65-6b67e464ce73",
+        "display": "Diagnostic test review"
       }
     ],
     "reasonCode": [
@@ -3139,7 +3695,17 @@
         ],
         "text": "Swelling in legs"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000052"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -3186,7 +3752,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/18bc5ac5-d2a3-4f2c-8f43-a0e5dfd96893"
+        "reference": "Appointment/18bc5ac5-d2a3-4f2c-8f43-a0e5dfd96893",
+        "display": "Diagnostic test review"
       }
     ],
     "reasonCode": [
@@ -3200,7 +3767,17 @@
         ],
         "text": "Difficulty breathing"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000053"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -3247,7 +3824,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/11e2b2e9-207a-4ea6-b40b-20c1dd4de3c3"
+        "reference": "Appointment/11e2b2e9-207a-4ea6-b40b-20c1dd4de3c3",
+        "display": "Initial consultation"
       }
     ],
     "reasonCode": [
@@ -3261,7 +3839,17 @@
         ],
         "text": "Chest tightness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000054"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -3308,7 +3896,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/fcddd3ac-aadb-4ba1-8fb3-e64816c88d38"
+        "reference": "Appointment/fcddd3ac-aadb-4ba1-8fb3-e64816c88d38",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -3322,7 +3911,17 @@
         ],
         "text": "Shortness of breath"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000055"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -3378,7 +3977,17 @@
         ],
         "text": "Chest pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000056"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -3425,7 +4034,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/30c5baf2-95cf-4c99-bd01-1f1a955f5c33"
+        "reference": "Appointment/30c5baf2-95cf-4c99-bd01-1f1a955f5c33",
+        "display": "Diagnostic test review"
       }
     ],
     "reasonCode": [
@@ -3439,7 +4049,17 @@
         ],
         "text": "Fever"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000057"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -3486,7 +4106,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/bce4fa90-ffe2-48a9-a61e-dc15cdad3e1f"
+        "reference": "Appointment/bce4fa90-ffe2-48a9-a61e-dc15cdad3e1f",
+        "display": "Treatment follow-up"
       }
     ],
     "reasonCode": [
@@ -3500,7 +4121,17 @@
         ],
         "text": "Persistent cough"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000058"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -3547,7 +4178,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/2eeca93a-256d-4669-97d3-a66348db5b24"
+        "reference": "Appointment/2eeca93a-256d-4669-97d3-a66348db5b24",
+        "display": "Routine checkup"
       }
     ],
     "reasonCode": [
@@ -3561,7 +4193,17 @@
         ],
         "text": "Headache"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000059"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -3608,7 +4250,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/5b26309f-3f3f-4c16-9f0a-3b41f4ab915c"
+        "reference": "Appointment/5b26309f-3f3f-4c16-9f0a-3b41f4ab915c",
+        "display": "Treatment follow-up"
       }
     ],
     "reasonCode": [
@@ -3622,7 +4265,17 @@
         ],
         "text": "Fatigue and weakness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000060"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -3669,7 +4322,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/34c60a59-5079-4d6d-82ba-04bde2ab17a0"
+        "reference": "Appointment/34c60a59-5079-4d6d-82ba-04bde2ab17a0",
+        "display": "Diagnostic test review"
       }
     ],
     "reasonCode": [
@@ -3683,7 +4337,17 @@
         ],
         "text": "Abdominal pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000061"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -3730,7 +4394,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/85a0ea6c-7121-48ea-857b-a1c9bf48e8bb"
+        "reference": "Appointment/85a0ea6c-7121-48ea-857b-a1c9bf48e8bb",
+        "display": "Treatment follow-up"
       }
     ],
     "reasonCode": [
@@ -3744,7 +4409,17 @@
         ],
         "text": "Joint pain and stiffness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000062"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -3791,7 +4466,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/db34d2a7-169d-469a-a233-68df30ce5057"
+        "reference": "Appointment/db34d2a7-169d-469a-a233-68df30ce5057",
+        "display": "Initial consultation"
       }
     ],
     "reasonCode": [
@@ -3805,7 +4481,17 @@
         ],
         "text": "Lower back pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000063"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -3852,7 +4538,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/aa0859ec-5262-448d-8b13-f974946eaf6e"
+        "reference": "Appointment/aa0859ec-5262-448d-8b13-f974946eaf6e",
+        "display": "Routine checkup"
       }
     ],
     "reasonCode": [
@@ -3866,7 +4553,17 @@
         ],
         "text": "Palpitations"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000064"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -3913,7 +4610,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/ccd384fb-0439-4308-b2b8-f54befc92684"
+        "reference": "Appointment/ccd384fb-0439-4308-b2b8-f54befc92684",
+        "display": "Routine checkup"
       }
     ],
     "reasonCode": [
@@ -3927,7 +4625,17 @@
         ],
         "text": "Nausea and vomiting"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000065"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -3974,7 +4682,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/19fbd9a4-4451-4e00-a1c5-ee823ffda956"
+        "reference": "Appointment/19fbd9a4-4451-4e00-a1c5-ee823ffda956",
+        "display": "Treatment follow-up"
       }
     ],
     "reasonCode": [
@@ -3988,7 +4697,17 @@
         ],
         "text": "Dizziness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000066"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -4035,7 +4754,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/b3ca085c-3f9b-4685-9f9d-9880b3055200"
+        "reference": "Appointment/b3ca085c-3f9b-4685-9f9d-9880b3055200",
+        "display": "Treatment follow-up"
       }
     ],
     "reasonCode": [
@@ -4049,7 +4769,17 @@
         ],
         "text": "Fever with chills"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000067"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -4096,7 +4826,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/0bf3c79e-c9c6-41d4-9afa-4363d20e6afc"
+        "reference": "Appointment/0bf3c79e-c9c6-41d4-9afa-4363d20e6afc",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -4110,7 +4841,17 @@
         ],
         "text": "Follow-up consultation"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000068"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -4157,7 +4898,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/dee8dcaa-7339-45c2-85fa-a34ecfcfff1d"
+        "reference": "Appointment/dee8dcaa-7339-45c2-85fa-a34ecfcfff1d",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -4171,7 +4913,17 @@
         ],
         "text": "Routine health check"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000069"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -4218,7 +4970,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/4f9d2766-dc4e-4750-a98e-bb4bf6465f4e"
+        "reference": "Appointment/4f9d2766-dc4e-4750-a98e-bb4bf6465f4e",
+        "display": "Treatment follow-up"
       }
     ],
     "reasonCode": [
@@ -4232,7 +4985,17 @@
         ],
         "text": "Swelling in legs"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000070"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -4279,7 +5042,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/eb6f7673-de7d-4401-ab4b-ab66fbefe624"
+        "reference": "Appointment/eb6f7673-de7d-4401-ab4b-ab66fbefe624",
+        "display": "Initial consultation"
       }
     ],
     "reasonCode": [
@@ -4293,7 +5057,17 @@
         ],
         "text": "Difficulty breathing"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000071"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -4340,7 +5114,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/8d8a25e7-5857-4526-af17-4aa774b55b9d"
+        "reference": "Appointment/8d8a25e7-5857-4526-af17-4aa774b55b9d",
+        "display": "Routine checkup"
       }
     ],
     "reasonCode": [
@@ -4354,7 +5129,17 @@
         ],
         "text": "Chest tightness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000072"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -4401,7 +5186,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/10854857-d2c3-4132-be3a-d0f57a9a193d"
+        "reference": "Appointment/10854857-d2c3-4132-be3a-d0f57a9a193d",
+        "display": "Initial consultation"
       }
     ],
     "reasonCode": [
@@ -4415,7 +5201,17 @@
         ],
         "text": "Shortness of breath"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000073"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -4462,7 +5258,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/8e22a6ec-45a3-48ae-b4cf-a8a0f45b1ef2"
+        "reference": "Appointment/8e22a6ec-45a3-48ae-b4cf-a8a0f45b1ef2",
+        "display": "Routine checkup"
       }
     ],
     "reasonCode": [
@@ -4476,7 +5273,17 @@
         ],
         "text": "Chest pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000074"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -4523,7 +5330,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/8b0b86fb-f3ef-43a5-b333-1a806093ee3e"
+        "reference": "Appointment/8b0b86fb-f3ef-43a5-b333-1a806093ee3e",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -4537,7 +5345,17 @@
         ],
         "text": "Fever"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000075"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -4584,7 +5402,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/d107a7ab-98ad-482e-a413-b7c4fd59bf9d"
+        "reference": "Appointment/d107a7ab-98ad-482e-a413-b7c4fd59bf9d",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -4598,7 +5417,17 @@
         ],
         "text": "Persistent cough"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000076"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -4645,7 +5474,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/7d2b6a30-6024-4e68-b908-2a3873e98cd0"
+        "reference": "Appointment/7d2b6a30-6024-4e68-b908-2a3873e98cd0",
+        "display": "Treatment follow-up"
       }
     ],
     "reasonCode": [
@@ -4659,7 +5489,17 @@
         ],
         "text": "Headache"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000077"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -4706,7 +5546,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/121bfa9e-3db2-4754-8118-b0839ddac8dc"
+        "reference": "Appointment/121bfa9e-3db2-4754-8118-b0839ddac8dc",
+        "display": "Treatment follow-up"
       }
     ],
     "reasonCode": [
@@ -4720,7 +5561,17 @@
         ],
         "text": "Fatigue and weakness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000078"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -4767,7 +5618,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/88c573b8-9955-4f5f-a27a-46851062b20f"
+        "reference": "Appointment/88c573b8-9955-4f5f-a27a-46851062b20f",
+        "display": "Routine checkup"
       }
     ],
     "reasonCode": [
@@ -4781,7 +5633,17 @@
         ],
         "text": "Abdominal pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000079"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -4828,7 +5690,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/6ce6a8b7-cc59-4cdc-a87c-d60afde7e4d9"
+        "reference": "Appointment/6ce6a8b7-cc59-4cdc-a87c-d60afde7e4d9",
+        "display": "Treatment follow-up"
       }
     ],
     "reasonCode": [
@@ -4842,7 +5705,17 @@
         ],
         "text": "Joint pain and stiffness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000080"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -4889,7 +5762,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/584fa0d7-d11d-4502-a237-b1c7670617ac"
+        "reference": "Appointment/584fa0d7-d11d-4502-a237-b1c7670617ac",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -4903,7 +5777,17 @@
         ],
         "text": "Lower back pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000081"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -4950,7 +5834,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/4c6b47da-9a34-47d0-a74d-969d2a837f9c"
+        "reference": "Appointment/4c6b47da-9a34-47d0-a74d-969d2a837f9c",
+        "display": "Routine checkup"
       }
     ],
     "reasonCode": [
@@ -4964,7 +5849,17 @@
         ],
         "text": "Palpitations"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000082"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -5011,7 +5906,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/4c6b47da-9a34-47d0-a74d-969d2a837f9c"
+        "reference": "Appointment/4c6b47da-9a34-47d0-a74d-969d2a837f9c",
+        "display": "Routine checkup"
       }
     ],
     "reasonCode": [
@@ -5025,7 +5921,17 @@
         ],
         "text": "Nausea and vomiting"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000083"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -5072,7 +5978,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/f919e2b7-8c48-425a-a33c-6bcba55b203d"
+        "reference": "Appointment/f919e2b7-8c48-425a-a33c-6bcba55b203d",
+        "display": "Initial consultation"
       }
     ],
     "reasonCode": [
@@ -5086,7 +5993,17 @@
         ],
         "text": "Dizziness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000084"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -5133,7 +6050,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/e88334bc-ac25-4991-89f0-96e43b3975d8"
+        "reference": "Appointment/e88334bc-ac25-4991-89f0-96e43b3975d8",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -5147,7 +6065,17 @@
         ],
         "text": "Fever with chills"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000085"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -5194,7 +6122,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/a2fe72c3-cbcb-4b3e-ab54-6148edfe9293"
+        "reference": "Appointment/a2fe72c3-cbcb-4b3e-ab54-6148edfe9293",
+        "display": "Routine checkup"
       }
     ],
     "reasonCode": [
@@ -5208,7 +6137,17 @@
         ],
         "text": "Follow-up consultation"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000086"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -5255,7 +6194,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/7d9c60bd-5b41-474b-9917-b9c63c5f636c"
+        "reference": "Appointment/7d9c60bd-5b41-474b-9917-b9c63c5f636c",
+        "display": "Initial consultation"
       }
     ],
     "reasonCode": [
@@ -5269,7 +6209,17 @@
         ],
         "text": "Routine health check"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000087"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -5316,7 +6266,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/98fa05cb-998f-413d-b1da-32dc8bbbf324"
+        "reference": "Appointment/98fa05cb-998f-413d-b1da-32dc8bbbf324",
+        "display": "Treatment follow-up"
       }
     ],
     "reasonCode": [
@@ -5330,7 +6281,17 @@
         ],
         "text": "Swelling in legs"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000088"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -5377,7 +6338,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/22c22a97-2c40-44d7-ae89-03d0924caecc"
+        "reference": "Appointment/22c22a97-2c40-44d7-ae89-03d0924caecc",
+        "display": "Treatment follow-up"
       }
     ],
     "reasonCode": [
@@ -5391,7 +6353,17 @@
         ],
         "text": "Difficulty breathing"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000089"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -5438,7 +6410,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/2a04434c-cf0a-40f8-906c-35a23fbebd99"
+        "reference": "Appointment/2a04434c-cf0a-40f8-906c-35a23fbebd99",
+        "display": "Diagnostic test review"
       }
     ],
     "reasonCode": [
@@ -5452,7 +6425,17 @@
         ],
         "text": "Chest tightness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000090"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -5499,7 +6482,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/55cf22c7-c299-4b2a-bff1-192aa6794bc9"
+        "reference": "Appointment/55cf22c7-c299-4b2a-bff1-192aa6794bc9",
+        "display": "Routine checkup"
       }
     ],
     "reasonCode": [
@@ -5513,7 +6497,17 @@
         ],
         "text": "Shortness of breath"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000091"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -5560,7 +6554,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/27b5f46e-364a-4569-8cfd-30540135f846"
+        "reference": "Appointment/27b5f46e-364a-4569-8cfd-30540135f846",
+        "display": "Diagnostic test review"
       }
     ],
     "reasonCode": [
@@ -5574,7 +6569,17 @@
         ],
         "text": "Chest pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000092"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -5621,7 +6626,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/7486919a-63f4-4e73-8247-0f9e9c35e801"
+        "reference": "Appointment/7486919a-63f4-4e73-8247-0f9e9c35e801",
+        "display": "Routine checkup"
       }
     ],
     "reasonCode": [
@@ -5635,7 +6641,17 @@
         ],
         "text": "Fever"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000093"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -5682,7 +6698,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/bac1c0c3-cc9c-4f04-aed4-2ddfd2406e2c"
+        "reference": "Appointment/bac1c0c3-cc9c-4f04-aed4-2ddfd2406e2c",
+        "display": "Initial consultation"
       }
     ],
     "reasonCode": [
@@ -5696,7 +6713,17 @@
         ],
         "text": "Persistent cough"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000094"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -5743,7 +6770,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/5341553e-7ae0-46a5-b5d5-742342204aab"
+        "reference": "Appointment/5341553e-7ae0-46a5-b5d5-742342204aab",
+        "display": "Routine checkup"
       }
     ],
     "reasonCode": [
@@ -5757,7 +6785,17 @@
         ],
         "text": "Headache"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000095"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -5804,7 +6842,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/9f4f49ef-7d93-46d9-8dbb-c1bb2f896775"
+        "reference": "Appointment/9f4f49ef-7d93-46d9-8dbb-c1bb2f896775",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -5818,7 +6857,17 @@
         ],
         "text": "Fatigue and weakness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000096"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -5865,7 +6914,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/18e4ef8a-cd48-43dc-889b-4f823159e2fb"
+        "reference": "Appointment/18e4ef8a-cd48-43dc-889b-4f823159e2fb",
+        "display": "Diagnostic test review"
       }
     ],
     "reasonCode": [
@@ -5879,7 +6929,17 @@
         ],
         "text": "Abdominal pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000097"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -5926,7 +6986,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/91efed13-23c4-472f-a430-b3862842a4bd"
+        "reference": "Appointment/91efed13-23c4-472f-a430-b3862842a4bd",
+        "display": "Diagnostic test review"
       }
     ],
     "reasonCode": [
@@ -5940,7 +7001,17 @@
         ],
         "text": "Joint pain and stiffness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000098"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -5987,7 +7058,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/8e86820e-0ee9-440c-8844-a86e0aa5e503"
+        "reference": "Appointment/8e86820e-0ee9-440c-8844-a86e0aa5e503",
+        "display": "Treatment follow-up"
       }
     ],
     "reasonCode": [
@@ -6001,7 +7073,17 @@
         ],
         "text": "Lower back pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000099"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -6057,7 +7139,17 @@
         ],
         "text": "Palpitations"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000100"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -6113,7 +7205,17 @@
         ],
         "text": "Nausea and vomiting"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000101"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -6160,7 +7262,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/4b62fff2-6d29-4cfc-aaf8-ef6025c38cff"
+        "reference": "Appointment/4b62fff2-6d29-4cfc-aaf8-ef6025c38cff",
+        "display": "Routine checkup"
       }
     ],
     "reasonCode": [
@@ -6174,7 +7277,17 @@
         ],
         "text": "Dizziness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000102"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -6221,7 +7334,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/37a849bb-720a-4795-ba56-89299f3ad679"
+        "reference": "Appointment/37a849bb-720a-4795-ba56-89299f3ad679",
+        "display": "Initial consultation"
       }
     ],
     "reasonCode": [
@@ -6235,7 +7349,17 @@
         ],
         "text": "Fever with chills"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000103"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -6282,7 +7406,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/4c138b0f-047b-4869-8d54-412be852b20d"
+        "reference": "Appointment/4c138b0f-047b-4869-8d54-412be852b20d",
+        "display": "Routine checkup"
       }
     ],
     "reasonCode": [
@@ -6296,7 +7421,17 @@
         ],
         "text": "Follow-up consultation"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000104"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -6343,7 +7478,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/4bf9ab93-e794-418b-aac0-d20d11e0e4d1"
+        "reference": "Appointment/4bf9ab93-e794-418b-aac0-d20d11e0e4d1",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -6357,7 +7493,17 @@
         ],
         "text": "Routine health check"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000105"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -6404,7 +7550,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/564593d8-8bfa-44ac-aa6b-c5decf7c285f"
+        "reference": "Appointment/564593d8-8bfa-44ac-aa6b-c5decf7c285f",
+        "display": "Diagnostic test review"
       }
     ],
     "reasonCode": [
@@ -6418,7 +7565,17 @@
         ],
         "text": "Swelling in legs"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000106"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -6465,7 +7622,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/fda7b11c-d94c-4ca0-b266-9f01411adc59"
+        "reference": "Appointment/fda7b11c-d94c-4ca0-b266-9f01411adc59",
+        "display": "Initial consultation"
       }
     ],
     "reasonCode": [
@@ -6479,7 +7637,17 @@
         ],
         "text": "Difficulty breathing"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000107"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -6535,7 +7703,17 @@
         ],
         "text": "Chest tightness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000108"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -6582,7 +7760,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/549ea47f-797e-4a33-92cf-1fbadc16fdf5"
+        "reference": "Appointment/549ea47f-797e-4a33-92cf-1fbadc16fdf5",
+        "display": "Routine checkup"
       }
     ],
     "reasonCode": [
@@ -6596,7 +7775,17 @@
         ],
         "text": "Shortness of breath"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000109"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -6643,7 +7832,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/36b4a6f6-4159-4201-8c04-afebad2f791e"
+        "reference": "Appointment/36b4a6f6-4159-4201-8c04-afebad2f791e",
+        "display": "Treatment follow-up"
       }
     ],
     "reasonCode": [
@@ -6657,7 +7847,17 @@
         ],
         "text": "Chest pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000110"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -6704,7 +7904,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/849b3867-5dff-439c-af0e-32c284848bf3"
+        "reference": "Appointment/849b3867-5dff-439c-af0e-32c284848bf3",
+        "display": "Treatment follow-up"
       }
     ],
     "reasonCode": [
@@ -6718,7 +7919,17 @@
         ],
         "text": "Fever"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000111"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -6765,7 +7976,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/33591005-c587-413d-b9b3-ba86c5552668"
+        "reference": "Appointment/33591005-c587-413d-b9b3-ba86c5552668",
+        "display": "Routine checkup"
       }
     ],
     "reasonCode": [
@@ -6779,7 +7991,17 @@
         ],
         "text": "Persistent cough"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000112"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -6835,7 +8057,17 @@
         ],
         "text": "Headache"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000113"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -6882,7 +8114,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/1a539a93-d89e-4bfc-9da1-1bb287dad193"
+        "reference": "Appointment/1a539a93-d89e-4bfc-9da1-1bb287dad193",
+        "display": "Treatment follow-up"
       }
     ],
     "reasonCode": [
@@ -6896,7 +8129,17 @@
         ],
         "text": "Fatigue and weakness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000114"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -6943,7 +8186,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/30764604-6acd-4074-b6ee-b9a00a818914"
+        "reference": "Appointment/30764604-6acd-4074-b6ee-b9a00a818914",
+        "display": "Routine checkup"
       }
     ],
     "reasonCode": [
@@ -6957,7 +8201,17 @@
         ],
         "text": "Abdominal pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000115"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -7004,7 +8258,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/63a5a91f-3529-44c5-9aa6-aef7bd9ee3c2"
+        "reference": "Appointment/63a5a91f-3529-44c5-9aa6-aef7bd9ee3c2",
+        "display": "Diagnostic test review"
       }
     ],
     "reasonCode": [
@@ -7018,7 +8273,17 @@
         ],
         "text": "Joint pain and stiffness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000116"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -7065,7 +8330,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/02e657a3-2263-4497-abd4-41f14d33b915"
+        "reference": "Appointment/02e657a3-2263-4497-abd4-41f14d33b915",
+        "display": "Treatment follow-up"
       }
     ],
     "reasonCode": [
@@ -7079,7 +8345,17 @@
         ],
         "text": "Lower back pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000117"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -7126,7 +8402,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/19f36109-d1b1-4c94-8150-0715bd37f10d"
+        "reference": "Appointment/19f36109-d1b1-4c94-8150-0715bd37f10d",
+        "display": "Routine checkup"
       }
     ],
     "reasonCode": [
@@ -7140,7 +8417,17 @@
         ],
         "text": "Palpitations"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000118"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -7187,7 +8474,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/567f2567-3a6e-4e89-be94-db3f867ef728"
+        "reference": "Appointment/567f2567-3a6e-4e89-be94-db3f867ef728",
+        "display": "Routine checkup"
       }
     ],
     "reasonCode": [
@@ -7201,7 +8489,17 @@
         ],
         "text": "Nausea and vomiting"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000119"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -7257,7 +8555,17 @@
         ],
         "text": "Dizziness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000120"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -7304,7 +8612,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/953120c0-6f87-485d-9fa3-aa726caa0697"
+        "reference": "Appointment/953120c0-6f87-485d-9fa3-aa726caa0697",
+        "display": "Initial consultation"
       }
     ],
     "reasonCode": [
@@ -7318,7 +8627,17 @@
         ],
         "text": "Fever with chills"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000121"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -7365,7 +8684,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/3c1e7a6f-c066-4167-a9dd-de9d7faa281b"
+        "reference": "Appointment/3c1e7a6f-c066-4167-a9dd-de9d7faa281b",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -7379,7 +8699,17 @@
         ],
         "text": "Follow-up consultation"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000122"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -7426,7 +8756,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/1b03516b-515d-4918-9701-4a54b5746884"
+        "reference": "Appointment/1b03516b-515d-4918-9701-4a54b5746884",
+        "display": "Diagnostic test review"
       }
     ],
     "reasonCode": [
@@ -7440,7 +8771,17 @@
         ],
         "text": "Routine health check"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000123"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -7487,7 +8828,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/2d761f1a-46d4-445f-806c-ba6911bdfe78"
+        "reference": "Appointment/2d761f1a-46d4-445f-806c-ba6911bdfe78",
+        "display": "Treatment follow-up"
       }
     ],
     "reasonCode": [
@@ -7501,7 +8843,17 @@
         ],
         "text": "Swelling in legs"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000124"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -7557,7 +8909,17 @@
         ],
         "text": "Difficulty breathing"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000125"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -7604,7 +8966,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/0efabf7b-dbb6-4873-a536-3e9973b88cab"
+        "reference": "Appointment/0efabf7b-dbb6-4873-a536-3e9973b88cab",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -7618,7 +8981,17 @@
         ],
         "text": "Chest tightness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000126"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -7665,7 +9038,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/9b033d33-86ca-4ebe-b2b8-24c7801e8e41"
+        "reference": "Appointment/9b033d33-86ca-4ebe-b2b8-24c7801e8e41",
+        "display": "Treatment follow-up"
       }
     ],
     "reasonCode": [
@@ -7679,7 +9053,17 @@
         ],
         "text": "Shortness of breath"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000127"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -7735,7 +9119,17 @@
         ],
         "text": "Chest pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000128"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -7782,7 +9176,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/2b694175-1460-4c17-a4ab-f27dd5ea0acc"
+        "reference": "Appointment/2b694175-1460-4c17-a4ab-f27dd5ea0acc",
+        "display": "Initial consultation"
       }
     ],
     "reasonCode": [
@@ -7796,7 +9191,17 @@
         ],
         "text": "Fever"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000129"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -7843,7 +9248,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/514d951b-14d7-446b-8953-07ea7b73523e"
+        "reference": "Appointment/514d951b-14d7-446b-8953-07ea7b73523e",
+        "display": "Diagnostic test review"
       }
     ],
     "reasonCode": [
@@ -7857,7 +9263,17 @@
         ],
         "text": "Persistent cough"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000130"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -7904,7 +9320,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/6c8cc7bf-71d5-4372-a6fe-a091100b7653"
+        "reference": "Appointment/6c8cc7bf-71d5-4372-a6fe-a091100b7653",
+        "display": "Routine checkup"
       }
     ],
     "reasonCode": [
@@ -7918,7 +9335,17 @@
         ],
         "text": "Headache"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000131"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -7965,7 +9392,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/05f719ab-273b-47f4-b1ad-aea77d756edb"
+        "reference": "Appointment/05f719ab-273b-47f4-b1ad-aea77d756edb",
+        "display": "Initial consultation"
       }
     ],
     "reasonCode": [
@@ -7979,7 +9407,17 @@
         ],
         "text": "Fatigue and weakness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000132"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -8026,7 +9464,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/2bb33dc7-536f-46a7-a4c8-2a8b6772f75b"
+        "reference": "Appointment/2bb33dc7-536f-46a7-a4c8-2a8b6772f75b",
+        "display": "Initial consultation"
       }
     ],
     "reasonCode": [
@@ -8040,7 +9479,17 @@
         ],
         "text": "Abdominal pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000133"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -8087,7 +9536,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/ba87a354-32a4-4115-a9bd-ef8942b4a991"
+        "reference": "Appointment/ba87a354-32a4-4115-a9bd-ef8942b4a991",
+        "display": "Routine checkup"
       }
     ],
     "reasonCode": [
@@ -8101,7 +9551,17 @@
         ],
         "text": "Joint pain and stiffness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000134"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -8148,7 +9608,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/02b42d8d-0f6c-474b-979a-51799e6c55ec"
+        "reference": "Appointment/02b42d8d-0f6c-474b-979a-51799e6c55ec",
+        "display": "Initial consultation"
       }
     ],
     "reasonCode": [
@@ -8162,7 +9623,17 @@
         ],
         "text": "Lower back pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000135"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -8218,7 +9689,17 @@
         ],
         "text": "Palpitations"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000136"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -8265,7 +9746,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/2fc30d04-7e66-4b11-a9d7-7534d906ed7a"
+        "reference": "Appointment/2fc30d04-7e66-4b11-a9d7-7534d906ed7a",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -8279,7 +9761,17 @@
         ],
         "text": "Nausea and vomiting"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000137"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -8335,7 +9827,17 @@
         ],
         "text": "Dizziness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000138"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -8382,7 +9884,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/7de80965-0408-4bec-a2a0-93b468c88a6c"
+        "reference": "Appointment/7de80965-0408-4bec-a2a0-93b468c88a6c",
+        "display": "Treatment follow-up"
       }
     ],
     "reasonCode": [
@@ -8396,7 +9899,17 @@
         ],
         "text": "Fever with chills"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000139"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -8443,7 +9956,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/a4926031-6879-432a-994e-c401ae4c41b9"
+        "reference": "Appointment/a4926031-6879-432a-994e-c401ae4c41b9",
+        "display": "Treatment follow-up"
       }
     ],
     "reasonCode": [
@@ -8457,7 +9971,17 @@
         ],
         "text": "Follow-up consultation"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000140"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -8504,7 +10028,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/ed886509-3ffe-4cfa-a28a-f871cb14f3d1"
+        "reference": "Appointment/ed886509-3ffe-4cfa-a28a-f871cb14f3d1",
+        "display": "Initial consultation"
       }
     ],
     "reasonCode": [
@@ -8518,7 +10043,17 @@
         ],
         "text": "Routine health check"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000141"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -8565,7 +10100,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/0aa0dd3f-21a6-4d17-8a5b-46c9333a9522"
+        "reference": "Appointment/0aa0dd3f-21a6-4d17-8a5b-46c9333a9522",
+        "display": "Diagnostic test review"
       }
     ],
     "reasonCode": [
@@ -8579,7 +10115,17 @@
         ],
         "text": "Swelling in legs"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000142"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -8626,7 +10172,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/746b9d1c-f576-4209-a522-5e92bb98553c"
+        "reference": "Appointment/746b9d1c-f576-4209-a522-5e92bb98553c",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -8640,7 +10187,17 @@
         ],
         "text": "Difficulty breathing"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000143"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -8687,7 +10244,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/a02f6937-19de-4a86-a076-76a36f264e9b"
+        "reference": "Appointment/a02f6937-19de-4a86-a076-76a36f264e9b",
+        "display": "Diagnostic test review"
       }
     ],
     "reasonCode": [
@@ -8701,7 +10259,17 @@
         ],
         "text": "Chest tightness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000144"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -8748,7 +10316,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/1e34018b-1f2e-4c9a-8c92-88bea5dd221e"
+        "reference": "Appointment/1e34018b-1f2e-4c9a-8c92-88bea5dd221e",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -8762,7 +10331,17 @@
         ],
         "text": "Shortness of breath"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000145"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -8818,7 +10397,17 @@
         ],
         "text": "Chest pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000146"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -8865,7 +10454,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/7d1f2ac8-7912-4e57-8ff3-c8947d8f43c7"
+        "reference": "Appointment/7d1f2ac8-7912-4e57-8ff3-c8947d8f43c7",
+        "display": "Diagnostic test review"
       }
     ],
     "reasonCode": [
@@ -8879,7 +10469,17 @@
         ],
         "text": "Fever"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000147"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -8935,7 +10535,17 @@
         ],
         "text": "Persistent cough"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000148"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -8982,7 +10592,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/e13ef65b-e950-4d60-9499-9313046f2779"
+        "reference": "Appointment/e13ef65b-e950-4d60-9499-9313046f2779",
+        "display": "Routine checkup"
       }
     ],
     "reasonCode": [
@@ -8996,7 +10607,17 @@
         ],
         "text": "Headache"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000149"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -9043,7 +10664,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/5990b3b0-6282-4eed-9eb6-45b82b124762"
+        "reference": "Appointment/5990b3b0-6282-4eed-9eb6-45b82b124762",
+        "display": "Routine checkup"
       }
     ],
     "reasonCode": [
@@ -9057,7 +10679,17 @@
         ],
         "text": "Fatigue and weakness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000150"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -9104,7 +10736,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/ed5a3402-c479-4f09-ae17-b03742227f9b"
+        "reference": "Appointment/ed5a3402-c479-4f09-ae17-b03742227f9b",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -9118,7 +10751,17 @@
         ],
         "text": "Abdominal pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000151"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -9165,7 +10808,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/841a10c5-d408-495c-81ee-3c3e4860776f"
+        "reference": "Appointment/841a10c5-d408-495c-81ee-3c3e4860776f",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -9179,7 +10823,17 @@
         ],
         "text": "Joint pain and stiffness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000152"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -9226,7 +10880,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/707529a4-075c-448e-982a-de37597450a0"
+        "reference": "Appointment/707529a4-075c-448e-982a-de37597450a0",
+        "display": "Treatment follow-up"
       }
     ],
     "reasonCode": [
@@ -9240,7 +10895,17 @@
         ],
         "text": "Lower back pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000153"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -9287,7 +10952,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/f519d1de-eb1d-44da-9826-2344f246405d"
+        "reference": "Appointment/f519d1de-eb1d-44da-9826-2344f246405d",
+        "display": "Routine checkup"
       }
     ],
     "reasonCode": [
@@ -9301,7 +10967,17 @@
         ],
         "text": "Palpitations"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000154"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -9348,7 +11024,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/140530eb-4044-4833-97b7-43a9b0b5d9c4"
+        "reference": "Appointment/140530eb-4044-4833-97b7-43a9b0b5d9c4",
+        "display": "Treatment follow-up"
       }
     ],
     "reasonCode": [
@@ -9362,7 +11039,17 @@
         ],
         "text": "Nausea and vomiting"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000155"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -9409,7 +11096,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/f5c7174b-276a-4ed6-a7cd-52ffd571cdf7"
+        "reference": "Appointment/f5c7174b-276a-4ed6-a7cd-52ffd571cdf7",
+        "display": "Diagnostic test review"
       }
     ],
     "reasonCode": [
@@ -9423,7 +11111,17 @@
         ],
         "text": "Dizziness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000156"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -9470,7 +11168,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/553a7e42-8b3e-4504-8806-2e4b14d0aa57"
+        "reference": "Appointment/553a7e42-8b3e-4504-8806-2e4b14d0aa57",
+        "display": "Treatment follow-up"
       }
     ],
     "reasonCode": [
@@ -9484,7 +11183,17 @@
         ],
         "text": "Fever with chills"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000157"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -9540,7 +11249,17 @@
         ],
         "text": "Follow-up consultation"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000158"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -9596,7 +11315,17 @@
         ],
         "text": "Routine health check"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000159"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -9643,7 +11372,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/125f9f83-cedb-45ab-953f-4ff9997ad981"
+        "reference": "Appointment/125f9f83-cedb-45ab-953f-4ff9997ad981",
+        "display": "Initial consultation"
       }
     ],
     "reasonCode": [
@@ -9657,7 +11387,17 @@
         ],
         "text": "Swelling in legs"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000160"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -9704,7 +11444,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/32f4d421-7176-430e-a660-4d063e774218"
+        "reference": "Appointment/32f4d421-7176-430e-a660-4d063e774218",
+        "display": "Treatment follow-up"
       }
     ],
     "reasonCode": [
@@ -9718,7 +11459,17 @@
         ],
         "text": "Difficulty breathing"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000161"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -9774,7 +11525,17 @@
         ],
         "text": "Chest tightness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000162"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -9821,7 +11582,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/c317bdd5-6176-49a0-9bf2-95de1f0fb2d2"
+        "reference": "Appointment/c317bdd5-6176-49a0-9bf2-95de1f0fb2d2",
+        "display": "Initial consultation"
       }
     ],
     "reasonCode": [
@@ -9835,7 +11597,17 @@
         ],
         "text": "Shortness of breath"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000163"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -9882,7 +11654,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/903062bf-b5b5-4522-8c97-e632d6becf4e"
+        "reference": "Appointment/903062bf-b5b5-4522-8c97-e632d6becf4e",
+        "display": "Routine checkup"
       }
     ],
     "reasonCode": [
@@ -9896,7 +11669,17 @@
         ],
         "text": "Chest pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000164"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -9943,7 +11726,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/000a80d3-da5f-4b88-9ba5-159d386f151e"
+        "reference": "Appointment/000a80d3-da5f-4b88-9ba5-159d386f151e",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -9957,7 +11741,17 @@
         ],
         "text": "Fever"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000165"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -10004,7 +11798,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/98027d7d-dc87-45b1-8ead-e909caf02d4d"
+        "reference": "Appointment/98027d7d-dc87-45b1-8ead-e909caf02d4d",
+        "display": "Treatment follow-up"
       }
     ],
     "reasonCode": [
@@ -10018,7 +11813,17 @@
         ],
         "text": "Persistent cough"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000166"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -10065,7 +11870,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/34cf3a23-3598-4fff-9497-329ad62db93d"
+        "reference": "Appointment/34cf3a23-3598-4fff-9497-329ad62db93d",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -10079,7 +11885,17 @@
         ],
         "text": "Headache"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000167"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -10126,7 +11942,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/9bce599b-649f-49e3-9697-6743ffc1c5da"
+        "reference": "Appointment/9bce599b-649f-49e3-9697-6743ffc1c5da",
+        "display": "Routine checkup"
       }
     ],
     "reasonCode": [
@@ -10140,7 +11957,17 @@
         ],
         "text": "Fatigue and weakness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000168"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -10187,7 +12014,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/90be3b72-dedd-4392-8c6c-92e25afc419e"
+        "reference": "Appointment/90be3b72-dedd-4392-8c6c-92e25afc419e",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -10201,7 +12029,17 @@
         ],
         "text": "Abdominal pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000169"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -10248,7 +12086,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/5c035ebc-6ea8-4266-b283-38f05128b888"
+        "reference": "Appointment/5c035ebc-6ea8-4266-b283-38f05128b888",
+        "display": "Initial consultation"
       }
     ],
     "reasonCode": [
@@ -10262,7 +12101,17 @@
         ],
         "text": "Joint pain and stiffness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000170"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -10309,7 +12158,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/88df9225-b7a7-4f1c-aed4-03c2ddaee3b4"
+        "reference": "Appointment/88df9225-b7a7-4f1c-aed4-03c2ddaee3b4",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -10323,7 +12173,17 @@
         ],
         "text": "Lower back pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000171"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -10370,7 +12230,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/c2403bfd-c129-4030-a0be-47d1bee6cac2"
+        "reference": "Appointment/c2403bfd-c129-4030-a0be-47d1bee6cac2",
+        "display": "Initial consultation"
       }
     ],
     "reasonCode": [
@@ -10384,7 +12245,17 @@
         ],
         "text": "Palpitations"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000172"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -10431,7 +12302,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/f21af38f-a5d1-41fa-b556-c96d544c03b1"
+        "reference": "Appointment/f21af38f-a5d1-41fa-b556-c96d544c03b1",
+        "display": "Routine checkup"
       }
     ],
     "reasonCode": [
@@ -10445,7 +12317,17 @@
         ],
         "text": "Nausea and vomiting"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000173"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -10492,7 +12374,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/2c2871a9-c8e4-40a8-a5ce-84560236ae02"
+        "reference": "Appointment/2c2871a9-c8e4-40a8-a5ce-84560236ae02",
+        "display": "Initial consultation"
       }
     ],
     "reasonCode": [
@@ -10506,7 +12389,17 @@
         ],
         "text": "Dizziness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000174"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -10553,7 +12446,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/e78ebf69-99e3-440f-a866-42d2a189a1f5"
+        "reference": "Appointment/e78ebf69-99e3-440f-a866-42d2a189a1f5",
+        "display": "Routine checkup"
       }
     ],
     "reasonCode": [
@@ -10567,7 +12461,17 @@
         ],
         "text": "Fever with chills"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000175"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -10614,7 +12518,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/1c101b0e-336c-477d-8dcb-5b97e3629298"
+        "reference": "Appointment/1c101b0e-336c-477d-8dcb-5b97e3629298",
+        "display": "Diagnostic test review"
       }
     ],
     "reasonCode": [
@@ -10628,7 +12533,17 @@
         ],
         "text": "Follow-up consultation"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000176"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -10675,7 +12590,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/abb23055-2796-4d49-a8df-efa4399bb787"
+        "reference": "Appointment/abb23055-2796-4d49-a8df-efa4399bb787",
+        "display": "Diagnostic test review"
       }
     ],
     "reasonCode": [
@@ -10689,7 +12605,17 @@
         ],
         "text": "Routine health check"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000177"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -10736,7 +12662,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/4063d802-749d-4136-81e9-b827691594a5"
+        "reference": "Appointment/4063d802-749d-4136-81e9-b827691594a5",
+        "display": "Initial consultation"
       }
     ],
     "reasonCode": [
@@ -10750,7 +12677,17 @@
         ],
         "text": "Swelling in legs"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000178"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -10797,7 +12734,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/92ad4624-9456-49ac-8276-193c6251c8e3"
+        "reference": "Appointment/92ad4624-9456-49ac-8276-193c6251c8e3",
+        "display": "Treatment follow-up"
       }
     ],
     "reasonCode": [
@@ -10811,7 +12749,17 @@
         ],
         "text": "Difficulty breathing"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000179"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -10858,7 +12806,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/138d86ab-c57d-463e-b38d-ed027065c0a3"
+        "reference": "Appointment/138d86ab-c57d-463e-b38d-ed027065c0a3",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -10872,7 +12821,17 @@
         ],
         "text": "Chest tightness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000180"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -10919,7 +12878,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/bc589d3c-7f69-4822-9bac-888a549271bc"
+        "reference": "Appointment/bc589d3c-7f69-4822-9bac-888a549271bc",
+        "display": "Initial consultation"
       }
     ],
     "reasonCode": [
@@ -10933,7 +12893,17 @@
         ],
         "text": "Shortness of breath"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000181"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -10980,7 +12950,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/8788e267-8e71-4487-bedf-bffd657f4576"
+        "reference": "Appointment/8788e267-8e71-4487-bedf-bffd657f4576",
+        "display": "Initial consultation"
       }
     ],
     "reasonCode": [
@@ -10994,7 +12965,17 @@
         ],
         "text": "Chest pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000182"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -11041,7 +13022,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/1b929d94-4971-4a7f-b458-8a6c66033c10"
+        "reference": "Appointment/1b929d94-4971-4a7f-b458-8a6c66033c10",
+        "display": "Initial consultation"
       }
     ],
     "reasonCode": [
@@ -11055,7 +13037,17 @@
         ],
         "text": "Fever"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000183"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -11102,7 +13094,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/065ac92d-bf72-4f93-8f0d-e6a305001533"
+        "reference": "Appointment/065ac92d-bf72-4f93-8f0d-e6a305001533",
+        "display": "Initial consultation"
       }
     ],
     "reasonCode": [
@@ -11116,7 +13109,17 @@
         ],
         "text": "Persistent cough"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000184"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -11163,7 +13166,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/94e7a120-7746-4b5b-99a6-c4f98f705e84"
+        "reference": "Appointment/94e7a120-7746-4b5b-99a6-c4f98f705e84",
+        "display": "Treatment follow-up"
       }
     ],
     "reasonCode": [
@@ -11177,7 +13181,17 @@
         ],
         "text": "Headache"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000185"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -11233,7 +13247,17 @@
         ],
         "text": "Fatigue and weakness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000186"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -11280,7 +13304,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/ceccb3de-021e-4a0a-955c-fac0b0076ac0"
+        "reference": "Appointment/ceccb3de-021e-4a0a-955c-fac0b0076ac0",
+        "display": "Diagnostic test review"
       }
     ],
     "reasonCode": [
@@ -11294,7 +13319,17 @@
         ],
         "text": "Abdominal pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000187"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -11341,7 +13376,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/a487f3ea-8be6-4a92-91d2-019f342ae3ae"
+        "reference": "Appointment/a487f3ea-8be6-4a92-91d2-019f342ae3ae",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -11355,7 +13391,17 @@
         ],
         "text": "Joint pain and stiffness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000188"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -11402,7 +13448,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/7da2d718-486a-45c5-bd7a-c81245256bf7"
+        "reference": "Appointment/7da2d718-486a-45c5-bd7a-c81245256bf7",
+        "display": "Initial consultation"
       }
     ],
     "reasonCode": [
@@ -11416,7 +13463,17 @@
         ],
         "text": "Lower back pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000189"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -11463,7 +13520,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/7e5a9262-46d5-4108-bfe4-aa71aa20c1a6"
+        "reference": "Appointment/7e5a9262-46d5-4108-bfe4-aa71aa20c1a6",
+        "display": "Treatment follow-up"
       }
     ],
     "reasonCode": [
@@ -11477,7 +13535,17 @@
         ],
         "text": "Palpitations"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000190"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -11533,7 +13601,17 @@
         ],
         "text": "Nausea and vomiting"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000191"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -11580,7 +13658,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/4ea94086-302c-43ca-87ce-e2c63ea6a3e8"
+        "reference": "Appointment/4ea94086-302c-43ca-87ce-e2c63ea6a3e8",
+        "display": "Treatment follow-up"
       }
     ],
     "reasonCode": [
@@ -11594,7 +13673,17 @@
         ],
         "text": "Dizziness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000192"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -11641,7 +13730,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/0d3a957c-1e84-46b7-ac7b-fabccb122865"
+        "reference": "Appointment/0d3a957c-1e84-46b7-ac7b-fabccb122865",
+        "display": "Diagnostic test review"
       }
     ],
     "reasonCode": [
@@ -11655,7 +13745,17 @@
         ],
         "text": "Fever with chills"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000193"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -11702,7 +13802,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/7600f314-d070-463f-aea1-234652124515"
+        "reference": "Appointment/7600f314-d070-463f-aea1-234652124515",
+        "display": "Treatment follow-up"
       }
     ],
     "reasonCode": [
@@ -11716,7 +13817,17 @@
         ],
         "text": "Follow-up consultation"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000194"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -11763,7 +13874,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/fbcc3958-0bdd-479d-84a7-5fcb3a1c7ee8"
+        "reference": "Appointment/fbcc3958-0bdd-479d-84a7-5fcb3a1c7ee8",
+        "display": "Initial consultation"
       }
     ],
     "reasonCode": [
@@ -11777,7 +13889,17 @@
         ],
         "text": "Routine health check"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000195"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -11824,7 +13946,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/108cc924-9db6-4fee-b5c3-63c3bc55e540"
+        "reference": "Appointment/108cc924-9db6-4fee-b5c3-63c3bc55e540",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -11838,7 +13961,17 @@
         ],
         "text": "Swelling in legs"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000196"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -11894,7 +14027,17 @@
         ],
         "text": "Difficulty breathing"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000197"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -11941,7 +14084,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/d63eefce-0928-4425-860c-eb871aacbe1e"
+        "reference": "Appointment/d63eefce-0928-4425-860c-eb871aacbe1e",
+        "display": "Diagnostic test review"
       }
     ],
     "reasonCode": [
@@ -11955,7 +14099,17 @@
         ],
         "text": "Chest tightness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000198"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -12002,7 +14156,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/dc19defa-50c6-4ed9-8cf4-cb9a6c4ec872"
+        "reference": "Appointment/dc19defa-50c6-4ed9-8cf4-cb9a6c4ec872",
+        "display": "Routine checkup"
       }
     ],
     "reasonCode": [
@@ -12016,7 +14171,17 @@
         ],
         "text": "Shortness of breath"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000199"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -12063,7 +14228,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/1c4996a3-f0f6-40da-9648-bd3e6a85f01d"
+        "reference": "Appointment/1c4996a3-f0f6-40da-9648-bd3e6a85f01d",
+        "display": "Initial consultation"
       }
     ],
     "reasonCode": [
@@ -12077,7 +14243,17 @@
         ],
         "text": "Chest pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000200"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -12124,7 +14300,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/fd31eece-54ce-438f-a509-68abffe6ee8b"
+        "reference": "Appointment/fd31eece-54ce-438f-a509-68abffe6ee8b",
+        "display": "Treatment follow-up"
       }
     ],
     "reasonCode": [
@@ -12138,7 +14315,17 @@
         ],
         "text": "Fever"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000201"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -12189,7 +14376,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/7594daf1-c3bf-4c30-b812-837edd274ac8"
+        "reference": "Appointment/7594daf1-c3bf-4c30-b812-837edd274ac8",
+        "display": "Routine check-up"
       }
     ],
     "reasonCode": [
@@ -12203,7 +14391,17 @@
         ],
         "text": "Persistent cough"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000202"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -12254,7 +14452,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/6186354f-993f-44a8-8835-d7f1b6428e26"
+        "reference": "Appointment/6186354f-993f-44a8-8835-d7f1b6428e26",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -12268,7 +14467,17 @@
         ],
         "text": "Headache"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000203"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -12319,7 +14528,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/a0db3116-caa8-4475-871a-52c0f3de2593"
+        "reference": "Appointment/a0db3116-caa8-4475-871a-52c0f3de2593",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -12333,7 +14543,17 @@
         ],
         "text": "Fatigue and weakness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000204"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -12384,7 +14604,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/1df371f7-c058-4d03-b646-b12431b7dd5b"
+        "reference": "Appointment/1df371f7-c058-4d03-b646-b12431b7dd5b",
+        "display": "Post-surgery follow-up"
       }
     ],
     "reasonCode": [
@@ -12398,7 +14619,17 @@
         ],
         "text": "Abdominal pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000205"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -12449,7 +14680,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/2d43ff55-b497-4640-9798-2b4f094565d6"
+        "reference": "Appointment/2d43ff55-b497-4640-9798-2b4f094565d6",
+        "display": "Chronic disease management"
       }
     ],
     "reasonCode": [
@@ -12463,7 +14695,17 @@
         ],
         "text": "Joint pain and stiffness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000206"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -12514,7 +14756,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/3af588e1-80f9-4288-acb2-00684a2a2f9c"
+        "reference": "Appointment/3af588e1-80f9-4288-acb2-00684a2a2f9c",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -12528,7 +14771,17 @@
         ],
         "text": "Lower back pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000207"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -12579,7 +14832,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/16c93341-6753-42f2-92f0-93a5f9cf2ae1"
+        "reference": "Appointment/16c93341-6753-42f2-92f0-93a5f9cf2ae1",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -12593,7 +14847,17 @@
         ],
         "text": "Palpitations"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000208"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -12644,7 +14908,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/a251f1cf-b870-4f21-b865-e5636de83a98"
+        "reference": "Appointment/a251f1cf-b870-4f21-b865-e5636de83a98",
+        "display": "Annual physical exam"
       }
     ],
     "reasonCode": [
@@ -12658,7 +14923,17 @@
         ],
         "text": "Nausea and vomiting"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000209"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -12709,7 +14984,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/e92ca4ac-d977-41ee-8179-53563aa7290a"
+        "reference": "Appointment/e92ca4ac-d977-41ee-8179-53563aa7290a",
+        "display": "Consultation visit"
       }
     ],
     "reasonCode": [
@@ -12723,7 +14999,17 @@
         ],
         "text": "Dizziness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000210"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -12774,7 +15060,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/f19e7ef8-1a8c-4a73-8d2d-485e2ed93a4f"
+        "reference": "Appointment/f19e7ef8-1a8c-4a73-8d2d-485e2ed93a4f",
+        "display": "Annual physical exam"
       }
     ],
     "reasonCode": [
@@ -12788,7 +15075,17 @@
         ],
         "text": "Fever with chills"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000211"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -12839,7 +15136,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/d7a28ab4-07e8-4e58-8b8c-4bb30c73513d"
+        "reference": "Appointment/d7a28ab4-07e8-4e58-8b8c-4bb30c73513d",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -12853,7 +15151,17 @@
         ],
         "text": "Follow-up consultation"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000212"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -12904,7 +15212,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/24235283-b6de-4a32-a61f-c1728f84e984"
+        "reference": "Appointment/24235283-b6de-4a32-a61f-c1728f84e984",
+        "display": "Routine check-up"
       }
     ],
     "reasonCode": [
@@ -12918,7 +15227,17 @@
         ],
         "text": "Routine health check"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000213"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -12969,7 +15288,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/ba6300c5-e69b-4ec7-b7ea-71c9879f5d74"
+        "reference": "Appointment/ba6300c5-e69b-4ec7-b7ea-71c9879f5d74",
+        "display": "Annual physical exam"
       }
     ],
     "reasonCode": [
@@ -12983,7 +15303,17 @@
         ],
         "text": "Swelling in legs"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000214"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -13034,7 +15364,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/4a891d45-d92f-4b87-b93d-0e0b907a99f1"
+        "reference": "Appointment/4a891d45-d92f-4b87-b93d-0e0b907a99f1",
+        "display": "Consultation visit"
       }
     ],
     "reasonCode": [
@@ -13048,7 +15379,17 @@
         ],
         "text": "Difficulty breathing"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000215"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -13099,7 +15440,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/2820b83b-c732-40d4-ae72-fabcb926befb"
+        "reference": "Appointment/2820b83b-c732-40d4-ae72-fabcb926befb",
+        "display": "Post-surgery follow-up"
       }
     ],
     "reasonCode": [
@@ -13113,7 +15455,17 @@
         ],
         "text": "Chest tightness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000216"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -13164,7 +15516,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/80f62114-7878-42df-b2d3-93d68d24c9e2"
+        "reference": "Appointment/80f62114-7878-42df-b2d3-93d68d24c9e2",
+        "display": "Chronic disease management"
       }
     ],
     "reasonCode": [
@@ -13178,7 +15531,17 @@
         ],
         "text": "Shortness of breath"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000217"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -13229,7 +15592,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/ab7a1c53-979f-4ae8-a790-c021a8cea199"
+        "reference": "Appointment/ab7a1c53-979f-4ae8-a790-c021a8cea199",
+        "display": "Consultation visit"
       }
     ],
     "reasonCode": [
@@ -13243,7 +15607,17 @@
         ],
         "text": "Chest pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000218"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -13294,7 +15668,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/43eefa88-3190-4065-9af1-459acf3bb048"
+        "reference": "Appointment/43eefa88-3190-4065-9af1-459acf3bb048",
+        "display": "Consultation visit"
       }
     ],
     "reasonCode": [
@@ -13308,7 +15683,17 @@
         ],
         "text": "Fever"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000219"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -13359,7 +15744,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/bcb7e464-352d-426e-b1bc-0659951e26a1"
+        "reference": "Appointment/bcb7e464-352d-426e-b1bc-0659951e26a1",
+        "display": "Consultation visit"
       }
     ],
     "reasonCode": [
@@ -13373,7 +15759,17 @@
         ],
         "text": "Persistent cough"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000220"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -13424,7 +15820,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/382f7926-f6b3-4d02-a4e6-b03f2e82683c"
+        "reference": "Appointment/382f7926-f6b3-4d02-a4e6-b03f2e82683c",
+        "display": "Chronic disease management"
       }
     ],
     "reasonCode": [
@@ -13438,7 +15835,17 @@
         ],
         "text": "Headache"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000221"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -13489,7 +15896,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/1df7e188-1d77-4f08-bff9-d1b1e64d080b"
+        "reference": "Appointment/1df7e188-1d77-4f08-bff9-d1b1e64d080b",
+        "display": "Consultation visit"
       }
     ],
     "reasonCode": [
@@ -13503,7 +15911,17 @@
         ],
         "text": "Fatigue and weakness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000222"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -13554,7 +15972,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/9a46fb14-a6cf-4db6-b4be-d96137b382b2"
+        "reference": "Appointment/9a46fb14-a6cf-4db6-b4be-d96137b382b2",
+        "display": "Post-surgery follow-up"
       }
     ],
     "reasonCode": [
@@ -13568,7 +15987,17 @@
         ],
         "text": "Abdominal pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000223"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -13619,7 +16048,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/3504aefa-99ab-4e8d-a1ba-92bb4de02a79"
+        "reference": "Appointment/3504aefa-99ab-4e8d-a1ba-92bb4de02a79",
+        "display": "Annual physical exam"
       }
     ],
     "reasonCode": [
@@ -13633,7 +16063,17 @@
         ],
         "text": "Joint pain and stiffness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000224"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -13684,7 +16124,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/075050a9-b8b8-4e86-8dbe-f1c027bca814"
+        "reference": "Appointment/075050a9-b8b8-4e86-8dbe-f1c027bca814",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -13698,7 +16139,17 @@
         ],
         "text": "Lower back pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000225"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -13749,7 +16200,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/ee34f284-14a3-4cf0-bfb0-a9b4a709040d"
+        "reference": "Appointment/ee34f284-14a3-4cf0-bfb0-a9b4a709040d",
+        "display": "Annual physical exam"
       }
     ],
     "reasonCode": [
@@ -13763,7 +16215,17 @@
         ],
         "text": "Palpitations"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000226"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -13814,7 +16276,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/d3ae1e18-91f4-427f-99d2-bca9600656f8"
+        "reference": "Appointment/d3ae1e18-91f4-427f-99d2-bca9600656f8",
+        "display": "Annual physical exam"
       }
     ],
     "reasonCode": [
@@ -13828,7 +16291,17 @@
         ],
         "text": "Nausea and vomiting"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000227"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -13879,7 +16352,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/fc0515b9-cbb9-4173-9a90-d2a98fa422eb"
+        "reference": "Appointment/fc0515b9-cbb9-4173-9a90-d2a98fa422eb",
+        "display": "Routine check-up"
       }
     ],
     "reasonCode": [
@@ -13893,7 +16367,17 @@
         ],
         "text": "Dizziness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000228"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -13944,7 +16428,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/83a12009-392b-4e9c-88b4-1f9d4fdf3988"
+        "reference": "Appointment/83a12009-392b-4e9c-88b4-1f9d4fdf3988",
+        "display": "Annual physical exam"
       }
     ],
     "reasonCode": [
@@ -13958,7 +16443,17 @@
         ],
         "text": "Fever with chills"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000229"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -14009,7 +16504,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/c3088650-a591-45d4-8883-c7531d0fc3d0"
+        "reference": "Appointment/c3088650-a591-45d4-8883-c7531d0fc3d0",
+        "display": "Routine check-up"
       }
     ],
     "reasonCode": [
@@ -14023,7 +16519,17 @@
         ],
         "text": "Follow-up consultation"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000230"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -14074,7 +16580,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/372affe9-2773-47f3-8fed-ea9a5259e9e6"
+        "reference": "Appointment/372affe9-2773-47f3-8fed-ea9a5259e9e6",
+        "display": "Post-surgery follow-up"
       }
     ],
     "reasonCode": [
@@ -14088,7 +16595,17 @@
         ],
         "text": "Routine health check"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000231"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -14139,7 +16656,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/c0d634e8-4cea-4ba3-906f-236cdbf12671"
+        "reference": "Appointment/c0d634e8-4cea-4ba3-906f-236cdbf12671",
+        "display": "Post-surgery follow-up"
       }
     ],
     "reasonCode": [
@@ -14153,7 +16671,17 @@
         ],
         "text": "Swelling in legs"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000232"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -14204,7 +16732,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/e29d0776-1a81-4f6b-aca4-5ca71c3896ed"
+        "reference": "Appointment/e29d0776-1a81-4f6b-aca4-5ca71c3896ed",
+        "display": "Chronic disease management"
       }
     ],
     "reasonCode": [
@@ -14218,7 +16747,17 @@
         ],
         "text": "Difficulty breathing"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000233"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -14269,7 +16808,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/9bfbd106-3ce2-47d2-86aa-2fb33745faef"
+        "reference": "Appointment/9bfbd106-3ce2-47d2-86aa-2fb33745faef",
+        "display": "Routine check-up"
       }
     ],
     "reasonCode": [
@@ -14283,7 +16823,17 @@
         ],
         "text": "Chest tightness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000234"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -14334,7 +16884,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/9216902f-da73-4732-b6b8-2368f0a714ea"
+        "reference": "Appointment/9216902f-da73-4732-b6b8-2368f0a714ea",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -14348,7 +16899,17 @@
         ],
         "text": "Shortness of breath"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000235"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -14399,7 +16960,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/831e39dd-99b4-48c9-8d1a-19ab0b84bb02"
+        "reference": "Appointment/831e39dd-99b4-48c9-8d1a-19ab0b84bb02",
+        "display": "Chronic disease management"
       }
     ],
     "reasonCode": [
@@ -14413,7 +16975,17 @@
         ],
         "text": "Chest pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000236"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -14464,7 +17036,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/e01bc986-522b-44dd-9963-d4e0dd79a5aa"
+        "reference": "Appointment/e01bc986-522b-44dd-9963-d4e0dd79a5aa",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -14478,7 +17051,17 @@
         ],
         "text": "Fever"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000237"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -14529,7 +17112,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/d4a1bfe9-0d88-4c2c-a658-6615963e3986"
+        "reference": "Appointment/d4a1bfe9-0d88-4c2c-a658-6615963e3986",
+        "display": "Consultation visit"
       }
     ],
     "reasonCode": [
@@ -14543,7 +17127,17 @@
         ],
         "text": "Persistent cough"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000238"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -14594,7 +17188,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/8588d3f1-ae12-44f7-9fc1-710f22a34462"
+        "reference": "Appointment/8588d3f1-ae12-44f7-9fc1-710f22a34462",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -14608,7 +17203,17 @@
         ],
         "text": "Headache"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000239"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -14659,7 +17264,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/7873887d-621b-49be-987a-371752e18253"
+        "reference": "Appointment/7873887d-621b-49be-987a-371752e18253",
+        "display": "Annual physical exam"
       }
     ],
     "reasonCode": [
@@ -14673,7 +17279,17 @@
         ],
         "text": "Fatigue and weakness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000240"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -14724,7 +17340,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/a900fbbc-724a-4692-86d4-3dce3eac79e5"
+        "reference": "Appointment/a900fbbc-724a-4692-86d4-3dce3eac79e5",
+        "display": "Routine check-up"
       }
     ],
     "reasonCode": [
@@ -14738,7 +17355,17 @@
         ],
         "text": "Abdominal pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000241"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -14789,7 +17416,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/fd6190ad-f169-4651-899a-c6014510a839"
+        "reference": "Appointment/fd6190ad-f169-4651-899a-c6014510a839",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -14803,7 +17431,17 @@
         ],
         "text": "Joint pain and stiffness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000242"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -14854,7 +17492,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/26e3cfa1-fdfe-4801-9705-f378af8deb08"
+        "reference": "Appointment/26e3cfa1-fdfe-4801-9705-f378af8deb08",
+        "display": "Chronic disease management"
       }
     ],
     "reasonCode": [
@@ -14868,7 +17507,17 @@
         ],
         "text": "Lower back pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000243"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -14919,7 +17568,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/71bf8d6b-a1ac-4682-90b4-611cc4b78f3e"
+        "reference": "Appointment/71bf8d6b-a1ac-4682-90b4-611cc4b78f3e",
+        "display": "Chronic disease management"
       }
     ],
     "reasonCode": [
@@ -14933,7 +17583,17 @@
         ],
         "text": "Palpitations"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000244"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -14984,7 +17644,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/4f94225f-2fc4-413c-9113-a5c30bbcdc60"
+        "reference": "Appointment/4f94225f-2fc4-413c-9113-a5c30bbcdc60",
+        "display": "Consultation visit"
       }
     ],
     "reasonCode": [
@@ -14998,7 +17659,17 @@
         ],
         "text": "Nausea and vomiting"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000245"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -15049,7 +17720,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/1543f262-33a3-4e5b-8865-b108e4331640"
+        "reference": "Appointment/1543f262-33a3-4e5b-8865-b108e4331640",
+        "display": "Consultation visit"
       }
     ],
     "reasonCode": [
@@ -15063,7 +17735,17 @@
         ],
         "text": "Dizziness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000246"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -15114,7 +17796,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/635dc346-8689-428b-9170-eede6f15b716"
+        "reference": "Appointment/635dc346-8689-428b-9170-eede6f15b716",
+        "display": "Routine check-up"
       }
     ],
     "reasonCode": [
@@ -15128,7 +17811,17 @@
         ],
         "text": "Fever with chills"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000247"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -15179,7 +17872,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/489c4660-c029-4099-8ce0-85f33c2451ae"
+        "reference": "Appointment/489c4660-c029-4099-8ce0-85f33c2451ae",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -15193,7 +17887,17 @@
         ],
         "text": "Follow-up consultation"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000248"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -15244,7 +17948,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/0de0113a-56df-4cda-af16-b5bf3bdc780e"
+        "reference": "Appointment/0de0113a-56df-4cda-af16-b5bf3bdc780e",
+        "display": "Consultation visit"
       }
     ],
     "reasonCode": [
@@ -15258,7 +17963,17 @@
         ],
         "text": "Routine health check"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000249"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -15309,7 +18024,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/84e5f4c7-977c-4318-91ff-4f44c57ecd2a"
+        "reference": "Appointment/84e5f4c7-977c-4318-91ff-4f44c57ecd2a",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -15323,7 +18039,17 @@
         ],
         "text": "Swelling in legs"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000250"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -15374,7 +18100,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/4376337d-81e1-4f15-a4ed-0c7f368f54e8"
+        "reference": "Appointment/4376337d-81e1-4f15-a4ed-0c7f368f54e8",
+        "display": "Annual physical exam"
       }
     ],
     "reasonCode": [
@@ -15388,7 +18115,17 @@
         ],
         "text": "Difficulty breathing"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000251"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -15439,7 +18176,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/d2eb86a7-34b3-4a9e-b37a-933dde0053bd"
+        "reference": "Appointment/d2eb86a7-34b3-4a9e-b37a-933dde0053bd",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -15453,7 +18191,17 @@
         ],
         "text": "Chest tightness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000252"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -15504,7 +18252,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/d337ed60-4823-4b94-b855-9985b16e43ac"
+        "reference": "Appointment/d337ed60-4823-4b94-b855-9985b16e43ac",
+        "display": "Post-surgery follow-up"
       }
     ],
     "reasonCode": [
@@ -15518,7 +18267,17 @@
         ],
         "text": "Shortness of breath"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000253"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -15569,7 +18328,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/31320c53-e5d7-42f1-a49a-bb3438748426"
+        "reference": "Appointment/31320c53-e5d7-42f1-a49a-bb3438748426",
+        "display": "Chronic disease management"
       }
     ],
     "reasonCode": [
@@ -15583,7 +18343,17 @@
         ],
         "text": "Chest pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000254"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -15634,7 +18404,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/b57cfd71-7f7b-4d25-b638-fcdcc34c6cd7"
+        "reference": "Appointment/b57cfd71-7f7b-4d25-b638-fcdcc34c6cd7",
+        "display": "Post-surgery follow-up"
       }
     ],
     "reasonCode": [
@@ -15648,7 +18419,17 @@
         ],
         "text": "Fever"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000255"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -15699,7 +18480,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/06a2720a-fed0-4974-a207-bb70027e0756"
+        "reference": "Appointment/06a2720a-fed0-4974-a207-bb70027e0756",
+        "display": "Annual physical exam"
       }
     ],
     "reasonCode": [
@@ -15713,7 +18495,17 @@
         ],
         "text": "Persistent cough"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000256"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -15764,7 +18556,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/cec73bb7-2966-430b-b1fd-275975eadce1"
+        "reference": "Appointment/cec73bb7-2966-430b-b1fd-275975eadce1",
+        "display": "Annual physical exam"
       }
     ],
     "reasonCode": [
@@ -15778,7 +18571,17 @@
         ],
         "text": "Headache"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000257"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -15829,7 +18632,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/5ce63dc0-c48f-4053-8122-1ab16276d017"
+        "reference": "Appointment/5ce63dc0-c48f-4053-8122-1ab16276d017",
+        "display": "Consultation visit"
       }
     ],
     "reasonCode": [
@@ -15843,7 +18647,17 @@
         ],
         "text": "Fatigue and weakness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000258"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -15894,7 +18708,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/cd2269cf-9451-44da-95e2-601832d7f16b"
+        "reference": "Appointment/cd2269cf-9451-44da-95e2-601832d7f16b",
+        "display": "Routine check-up"
       }
     ],
     "reasonCode": [
@@ -15908,7 +18723,17 @@
         ],
         "text": "Abdominal pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000259"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -15959,7 +18784,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/ec2c9479-561a-488a-99d4-0857080d4aa9"
+        "reference": "Appointment/ec2c9479-561a-488a-99d4-0857080d4aa9",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -15973,7 +18799,17 @@
         ],
         "text": "Joint pain and stiffness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000260"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -16024,7 +18860,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/21d67180-a522-4d5c-9367-f589c503c0fd"
+        "reference": "Appointment/21d67180-a522-4d5c-9367-f589c503c0fd",
+        "display": "Consultation visit"
       }
     ],
     "reasonCode": [
@@ -16038,7 +18875,17 @@
         ],
         "text": "Lower back pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000261"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -16089,7 +18936,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/ea2bb334-51fe-4a82-8949-3ce5e7b7eb6f"
+        "reference": "Appointment/ea2bb334-51fe-4a82-8949-3ce5e7b7eb6f",
+        "display": "Post-surgery follow-up"
       }
     ],
     "reasonCode": [
@@ -16103,7 +18951,17 @@
         ],
         "text": "Palpitations"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000262"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -16154,7 +19012,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/ed0509d9-6783-43ff-a830-48cf1d77814b"
+        "reference": "Appointment/ed0509d9-6783-43ff-a830-48cf1d77814b",
+        "display": "Chronic disease management"
       }
     ],
     "reasonCode": [
@@ -16168,7 +19027,17 @@
         ],
         "text": "Nausea and vomiting"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000263"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -16219,7 +19088,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/462b6037-50f5-4143-95f8-78a15dd6d6fc"
+        "reference": "Appointment/462b6037-50f5-4143-95f8-78a15dd6d6fc",
+        "display": "Consultation visit"
       }
     ],
     "reasonCode": [
@@ -16233,7 +19103,17 @@
         ],
         "text": "Dizziness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000264"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -16284,7 +19164,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/b2d7241a-ea38-4965-a8c1-61f91bba4c70"
+        "reference": "Appointment/b2d7241a-ea38-4965-a8c1-61f91bba4c70",
+        "display": "Routine check-up"
       }
     ],
     "reasonCode": [
@@ -16298,7 +19179,17 @@
         ],
         "text": "Fever with chills"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000265"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -16349,7 +19240,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/435dc71c-f813-4328-aa70-4a7646d30ca0"
+        "reference": "Appointment/435dc71c-f813-4328-aa70-4a7646d30ca0",
+        "display": "Post-surgery follow-up"
       }
     ],
     "reasonCode": [
@@ -16363,7 +19255,17 @@
         ],
         "text": "Follow-up consultation"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000266"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -16414,7 +19316,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/3c5c96f5-2dc4-4bb7-ad69-e3d8687a423f"
+        "reference": "Appointment/3c5c96f5-2dc4-4bb7-ad69-e3d8687a423f",
+        "display": "Annual physical exam"
       }
     ],
     "reasonCode": [
@@ -16428,7 +19331,17 @@
         ],
         "text": "Routine health check"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000267"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -16479,7 +19392,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/5e720c68-af81-4f4d-a701-387707a43162"
+        "reference": "Appointment/5e720c68-af81-4f4d-a701-387707a43162",
+        "display": "Chronic disease management"
       }
     ],
     "reasonCode": [
@@ -16493,7 +19407,17 @@
         ],
         "text": "Swelling in legs"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000268"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -16544,7 +19468,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/3884b6e1-b056-4f73-97a3-c1f56522db2d"
+        "reference": "Appointment/3884b6e1-b056-4f73-97a3-c1f56522db2d",
+        "display": "Consultation visit"
       }
     ],
     "reasonCode": [
@@ -16558,7 +19483,17 @@
         ],
         "text": "Difficulty breathing"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000269"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -16609,7 +19544,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/4051c4e4-e4de-480e-bda4-5681d1b67297"
+        "reference": "Appointment/4051c4e4-e4de-480e-bda4-5681d1b67297",
+        "display": "Routine check-up"
       }
     ],
     "reasonCode": [
@@ -16623,7 +19559,17 @@
         ],
         "text": "Chest tightness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000270"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -16674,7 +19620,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/6ab8e48c-2b28-4c1c-b78e-13cd4394fcd4"
+        "reference": "Appointment/6ab8e48c-2b28-4c1c-b78e-13cd4394fcd4",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -16688,7 +19635,17 @@
         ],
         "text": "Shortness of breath"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000271"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -16739,7 +19696,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/09486c5b-73b3-4b05-8627-4774dd5dfee0"
+        "reference": "Appointment/09486c5b-73b3-4b05-8627-4774dd5dfee0",
+        "display": "Chronic disease management"
       }
     ],
     "reasonCode": [
@@ -16753,7 +19711,17 @@
         ],
         "text": "Chest pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000272"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -16804,7 +19772,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/0f625fc3-e2fc-4ffc-bfb9-d7bc5bf23052"
+        "reference": "Appointment/0f625fc3-e2fc-4ffc-bfb9-d7bc5bf23052",
+        "display": "Annual physical exam"
       }
     ],
     "reasonCode": [
@@ -16818,7 +19787,17 @@
         ],
         "text": "Fever"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000273"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -16869,7 +19848,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/443155c2-73d3-48e9-8c45-63191eb37906"
+        "reference": "Appointment/443155c2-73d3-48e9-8c45-63191eb37906",
+        "display": "Post-surgery follow-up"
       }
     ],
     "reasonCode": [
@@ -16883,7 +19863,17 @@
         ],
         "text": "Persistent cough"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000274"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -16934,7 +19924,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/99ac5504-2817-4f3c-af3b-5ca9fbf790db"
+        "reference": "Appointment/99ac5504-2817-4f3c-af3b-5ca9fbf790db",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -16948,7 +19939,17 @@
         ],
         "text": "Headache"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000275"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -16999,7 +20000,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/12c5b56f-a152-449d-b62b-a0024964fdaa"
+        "reference": "Appointment/12c5b56f-a152-449d-b62b-a0024964fdaa",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -17013,7 +20015,17 @@
         ],
         "text": "Fatigue and weakness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000276"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -17064,7 +20076,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/cbcf456d-45ba-4d46-9793-367ff6633c8e"
+        "reference": "Appointment/cbcf456d-45ba-4d46-9793-367ff6633c8e",
+        "display": "Chronic disease management"
       }
     ],
     "reasonCode": [
@@ -17078,7 +20091,17 @@
         ],
         "text": "Abdominal pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000277"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -17129,7 +20152,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/2e1fc42c-ef18-4cfe-9616-8658da5fb122"
+        "reference": "Appointment/2e1fc42c-ef18-4cfe-9616-8658da5fb122",
+        "display": "Post-surgery follow-up"
       }
     ],
     "reasonCode": [
@@ -17143,7 +20167,17 @@
         ],
         "text": "Joint pain and stiffness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000278"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -17194,7 +20228,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/1b2f1b3e-e620-4f00-9d4e-2ebe9ecce265"
+        "reference": "Appointment/1b2f1b3e-e620-4f00-9d4e-2ebe9ecce265",
+        "display": "Post-surgery follow-up"
       }
     ],
     "reasonCode": [
@@ -17208,7 +20243,17 @@
         ],
         "text": "Lower back pain"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000279"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -17259,7 +20304,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/ba8824c6-aa06-464a-b988-264676e55536"
+        "reference": "Appointment/ba8824c6-aa06-464a-b988-264676e55536",
+        "display": "Chronic disease management"
       }
     ],
     "reasonCode": [
@@ -17273,7 +20319,17 @@
         ],
         "text": "Palpitations"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000280"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -17324,7 +20380,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/bf4ceb65-35c8-416f-bc18-28db7b651f4d"
+        "reference": "Appointment/bf4ceb65-35c8-416f-bc18-28db7b651f4d",
+        "display": "Consultation visit"
       }
     ],
     "reasonCode": [
@@ -17338,7 +20395,17 @@
         ],
         "text": "Nausea and vomiting"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000281"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -17389,7 +20456,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/6676692d-1418-4f51-9a04-d17be85d5466"
+        "reference": "Appointment/6676692d-1418-4f51-9a04-d17be85d5466",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -17403,7 +20471,17 @@
         ],
         "text": "Dizziness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000282"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -17454,7 +20532,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/eb41cdd2-0110-4eb9-8031-e31788a5de3c"
+        "reference": "Appointment/eb41cdd2-0110-4eb9-8031-e31788a5de3c",
+        "display": "Annual physical exam"
       }
     ],
     "reasonCode": [
@@ -17468,7 +20547,17 @@
         ],
         "text": "Fever with chills"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000283"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/aa7cdd17-6330-48b4-aef2-cc072c3acf3c",
+      "display": "CityCare Hospital - North Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -17519,7 +20608,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/23d2e730-bad3-42e9-a97b-27c144c507db"
+        "reference": "Appointment/23d2e730-bad3-42e9-a97b-27c144c507db",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -17533,7 +20623,17 @@
         ],
         "text": "Follow-up consultation"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000284"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -17584,7 +20684,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/2e9ee2c5-e483-4ffd-a7f7-98ec93d0adba"
+        "reference": "Appointment/2e9ee2c5-e483-4ffd-a7f7-98ec93d0adba",
+        "display": "Chronic disease management"
       }
     ],
     "reasonCode": [
@@ -17598,7 +20699,17 @@
         ],
         "text": "Routine health check"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000285"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -17649,7 +20760,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/d7c1cfe0-22f0-471f-838e-5e7556c2331d"
+        "reference": "Appointment/d7c1cfe0-22f0-471f-838e-5e7556c2331d",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -17663,7 +20775,17 @@
         ],
         "text": "Swelling in legs"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000286"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/bd18f867-3120-4a04-96c1-743bf43c7954",
+      "display": "CityCare Hospital - South Branch"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -17714,7 +20836,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/d2c417fe-4f6e-407d-a521-7b2e25c2b19a"
+        "reference": "Appointment/d2c417fe-4f6e-407d-a521-7b2e25c2b19a",
+        "display": "Annual physical exam"
       }
     ],
     "reasonCode": [
@@ -17728,7 +20851,17 @@
         ],
         "text": "Difficulty breathing"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000287"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -17779,7 +20912,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/03f88799-aa5a-4aea-8a6f-c309a1c2e711"
+        "reference": "Appointment/03f88799-aa5a-4aea-8a6f-c309a1c2e711",
+        "display": "Post-surgery follow-up"
       }
     ],
     "reasonCode": [
@@ -17793,7 +20927,17 @@
         ],
         "text": "Chest tightness"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000288"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/34c95d53-17b0-4985-855e-5db90d67c161",
+      "display": "CityCare Hospital"
+    }
   },
   {
     "resourceType": "Encounter",
@@ -17844,7 +20988,8 @@
     },
     "appointment": [
       {
-        "reference": "Appointment/485ed6f6-4ec0-4bbe-b46e-59401e070a0e"
+        "reference": "Appointment/485ed6f6-4ec0-4bbe-b46e-59401e070a0e",
+        "display": "Follow-up appointment"
       }
     ],
     "reasonCode": [
@@ -17858,6 +21003,16 @@
         ],
         "text": "Shortness of breath"
       }
-    ]
+    ],
+    "identifier": [
+      {
+        "system": "http://hospital.com/encounter-id",
+        "value": "CON-000289"
+      }
+    ],
+    "serviceProvider": {
+      "reference": "Organization/060d2e89-6523-40c1-bbe5-7a45a3a3fe86",
+      "display": "Metro General Hospital"
+    }
   }
 ]

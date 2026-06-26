@@ -6,6 +6,26 @@ import { InfoBar, MedplumLink, useResource } from '@medplum/react';
 import type { JSX, ReactNode } from 'react';
 import { getResourceTypeDisplayName } from '../utils';
 
+const IDENTIFIER_SYSTEM_LABELS: Record<string, string> = {
+  'http://hospital.com/organization-id':       'Organization ID',
+  'http://hospital.com/patient-id':            'Patient ID',
+  'http://hospital.example.com/patient-id':    'Patient ID',
+  'http://hospital.com/appointment-id':        'Appointment ID',
+  'http://hospital.com/encounter-id':          'Consultation ID',
+  'http://hospital.com/condition-id':          'Diagnosis ID',
+  'http://hospital.com/diagnostic-report-id': 'Report ID',
+  'http://medical-council.example.com':        'Doctor ID',
+  'http://nursing-council.example.com':        'Nurse ID',
+  'http://lab-council.example.com':            'Practitioner ID',
+};
+
+const HIDE_TYPE_IN_HEADER = new Set(['Condition']);
+
+function identifierLabel(system: string | undefined): string {
+  if (!system) return 'ID';
+  return IDENTIFIER_SYSTEM_LABELS[system] ?? system;
+}
+
 export interface ResourceHeaderProps {
   readonly resource: Resource | Reference;
 }
@@ -16,14 +36,15 @@ export function ResourceHeader(props: ResourceHeaderProps): JSX.Element | null {
     return null;
   }
 
-  const entries: { key: string; value: string | ReactNode | undefined }[] = [
-    {
+  const entries: { key: string; value: string | ReactNode | undefined }[] = [];
+  if (!HIDE_TYPE_IN_HEADER.has(resource.resourceType)) {
+    entries.push({
       key: 'Type',
       value: (
         <MedplumLink to={`/${resource.resourceType}`}>{getResourceTypeDisplayName(resource.resourceType)}</MedplumLink>
       ),
-    },
-  ];
+    });
+  }
 
   function addEntry(key: string | undefined, value: string | undefined): void {
     if (key && value) {
@@ -32,8 +53,8 @@ export function ResourceHeader(props: ResourceHeaderProps): JSX.Element | null {
   }
 
   function addIdentifier(identifier: Identifier | undefined): void {
-    if (identifier) {
-      addEntry(identifier.system, identifier.value);
+    if (identifier?.value) {
+      addEntry(identifierLabel(identifier.system), identifier.value);
     }
   }
 

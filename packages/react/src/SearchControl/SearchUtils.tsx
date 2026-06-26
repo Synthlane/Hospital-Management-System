@@ -1,6 +1,7 @@
 // SPDX-FileCopyrightText: Copyright Orangebot, Inc. and Medplum contributors
 // SPDX-License-Identifier: Apache-2.0
 import { Text } from '@mantine/core';
+import { StatusBadge } from '../StatusBadge/StatusBadge';
 import type { Filter, InternalSchemaElement, SearchRequest } from '@medplum/core';
 import {
   capitalize,
@@ -509,6 +510,8 @@ const RESOURCE_FIELD_DISPLAY_NAMES: Record<string, Record<string, string>> = {
   },
   Condition: {
     code: 'Diagnosis',
+    clinicalStatus: 'Status',
+    severity: 'Severity',
   },
   Procedure: {
     code: 'Procedure',
@@ -597,6 +600,20 @@ export function renderValue(resource: Resource, field: SearchControlField): stri
       />
     ));
     return <>{displays}</>;
+  }
+
+  if (resource.resourceType === 'Condition' && key === 'clinicalStatus') {
+    const code = (resource as unknown as Record<string, { coding?: { code?: string }[] }>).clinicalStatus?.coding?.[0]?.code;
+    if (!code) return <Text c="dimmed">—</Text>;
+    const color = code === 'active' ? 'green' : code === 'resolved' ? 'gray' : 'blue';
+    return <StatusBadge status={code} color={color} />;
+  }
+
+  if (resource.resourceType === 'Condition' && key === 'severity') {
+    const text = (resource as unknown as Record<string, { text?: string }>).severity?.text;
+    if (!text) return <Text c="dimmed">—</Text>;
+    const colorMap: Record<string, string> = { Mild: 'yellow', Moderate: 'orange', Severe: 'red' };
+    return <StatusBadge status={text} color={colorMap[text] ?? 'gray'} />;
   }
 
   // Condition.onsetDateTime: Priority 1 path check ('Condition.onsetDateTime' !== 'Condition.onset[x]') fails.

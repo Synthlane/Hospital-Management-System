@@ -69,6 +69,10 @@ export function getDefaultFields(resourceType: string): string[] {
     // Evict the stale cache entry so the correct default ('patient') loads instead.
     if (resourceType === 'Appointment' && lastSearch.fields.includes('subject')) {
       localStorage.removeItem(`${resourceType}-defaultSearch`);
+    } else if (resourceType === 'Condition' &&
+      (lastSearch.fields.includes('category') ||
+       (lastSearch.fields.includes('severity') && lastSearch.fields[lastSearch.fields.length - 1] !== 'severity'))) {
+      localStorage.removeItem(`${resourceType}-defaultSearch`);
     } else {
       return lastSearch.fields;
     }
@@ -115,7 +119,7 @@ export function getDefaultFields(resourceType: string): string[] {
       fields.push('id', '_lastUpdated', 'name', 'title', 'status');
       break;
     case 'Condition':
-      fields.push('subject', 'code', 'category', 'clinicalStatus', 'onsetDateTime');
+      fields.push('subject', 'code', 'clinicalStatus', 'onsetDateTime', 'severity');
       break;
     case 'Device':
       fields.push('id', '_lastUpdated', 'manufacturer', 'deviceName', 'patient');

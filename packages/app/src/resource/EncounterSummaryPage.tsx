@@ -1,6 +1,6 @@
 // SPDX-FileCopyrightText: Copyright Orangebot, Inc. and Medplum contributors
 // SPDX-License-Identifier: Apache-2.0
-import { Badge, Card, Divider, Grid, Group, Loader, Paper, SimpleGrid, Stack, Text, Title } from '@mantine/core';
+import { Badge, Card, Divider, Group, Loader, Paper, ScrollArea, SimpleGrid, Stack, Text, Title } from '@mantine/core';
 import type { Condition, Encounter, Observation, Procedure, ServiceRequest } from '@medplum/fhirtypes';
 import { useMedplum, useResource } from '@medplum/react';
 import type { JSX } from 'react';
@@ -114,16 +114,18 @@ export function EncounterSummaryPage(): JSX.Element {
   const [vitals, setVitals] = useState<Observation[]>([]);
   const [loading, setLoading] = useState(true);
 
+  const patientId = (encounter as Encounter | undefined)?.subject?.reference?.split('/')?.[1];
+
   useEffect(() => {
-    if (!id) return;
+    if (!id || !patientId) return;
 
     async function load(): Promise<void> {
       setLoading(true);
       try {
         const [condB, srB, procB, vitalB] = await Promise.all([
-          medplum.search('Condition', `encounter=Encounter/${id}&_count=20`),
-          medplum.search('ServiceRequest', `encounter=Encounter/${id}&_count=20`),
-          medplum.search('Procedure', `encounter=Encounter/${id}&_count=20`),
+          medplum.search('Condition', `subject=Patient/${patientId}&_count=50`),
+          medplum.search('ServiceRequest', `subject=Patient/${patientId}&_count=50`),
+          medplum.search('Procedure', `subject=Patient/${patientId}&_count=50`),
           medplum.search('Observation', `encounter=Encounter/${id}&category=vital-signs&_count=20`),
         ]);
         setConditions((condB.entry ?? []).map((e) => e.resource as Condition));
@@ -143,9 +145,9 @@ export function EncounterSummaryPage(): JSX.Element {
       }
     }
     load().catch(console.error);
-  }, [medplum, id]);
+  }, [medplum, id, patientId]);
 
-  if (loading || !encounter) {
+  if (loading || !encounter || !patientId) {
     return (
       <Stack align="center" py="xl" gap="sm">
         <Loader />
@@ -170,6 +172,7 @@ export function EncounterSummaryPage(): JSX.Element {
     : '';
   const encClass = enc.class?.display ?? enc.class?.code ?? '—';
   const encStatus = enc.status;
+  const encId = enc.identifier?.[0]?.value;
 
   // Chief complaints from Encounter.reasonCode
   const complaints: string[] = (enc.reasonCode ?? []).map(
@@ -190,6 +193,7 @@ export function EncounterSummaryPage(): JSX.Element {
             )}
           </Stack>
           <Group gap="sm">
+            {encId && <Text size="xs" c="dimmed" ff="monospace">{encId}</Text>}
             <Badge color="teal" variant="light">{encClass}</Badge>
             {statusBadge(encStatus, { finished: 'green', planned: 'blue', 'in-progress': 'orange', cancelled: 'gray' })}
           </Group>
@@ -263,39 +267,78 @@ export function EncounterSummaryPage(): JSX.Element {
         )}
       </Card>
 
-      {/* Clinical Boxes */}
-      <Grid gutter="md">
-        {/* Diagnoses */}
-        <Grid.Col span={{ base: 12, md: 6 }}>
-          <Card withBorder radius="md" h="100%">
-            <Title order={5} mb="sm">Diagnoses</Title>
+      {/* Clinical Boxes — fixed-height CSS grid so both columns are always the same height */}
+      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16, height: 320 }}>
+        {/* Left column: Diagnoses + Procedures stacked, each filling half */}
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 16, minHeight: 0 }}>
+          <Card withBorder radius="md" style={{ flex: 1, display: 'flex', flexDirection: 'column', minHeight: 0 }}>
+            <Group justify="space-between" mb="sm">
+              <Title order={5}>Diagnoses</Title>
+              <Text size="xs" c="blue" component={Link} to={`/Condition?subject=Patient/${patientId}`}>
+                View all →
+              </Text>
+            </Group>
             <Divider mb="sm" />
-            {conditions.length === 0 ? (
-              <Text size="sm" c="dimmed">No diagnoses recorded for this visit</Text>
-            ) : (
-              <Stack gap="xs">
-                {conditions.map((cond) => {
-                  const name = cond.code?.text ?? cond.code?.coding?.[0]?.display ?? 'Unknown';
-                  const status = cond.clinicalStatus?.coding?.[0]?.code;
-                  return (
-                    <Group key={cond.id} justify="space-between">
-                      <Text size="sm">{name}</Text>
-                      {statusBadge(status, { active: 'green', resolved: 'gray', inactive: 'gray' })}
-                    </Group>
-                  );
-                })}
-              </Stack>
-            )}
+            <ScrollArea style={{ flex: 1, minHeight: 0 }}>
+              {conditions.length === 0 ? (
+                <Text size="sm" c="dimmed">No diagnoses recorded</Text>
+              ) : (
+                <Stack gap="xs">
+                  {conditions.map((cond) => {
+                    const name = cond.code?.text ?? cond.code?.coding?.[0]?.display ?? 'Unknown';
+                    const status = cond.clinicalStatus?.coding?.[0]?.code;
+                    return (
+                      <Group key={cond.id} justify="space-between">
+                        <Text size="sm">{name}</Text>
+                        {statusBadge(status, { active: 'green', resolved: 'gray', inactive: 'gray' })}
+                      </Group>
+                    );
+                  })}
+                </Stack>
+              )}
+            </ScrollArea>
           </Card>
-        </Grid.Col>
 
-        {/* Lab Orders */}
-        <Grid.Col span={{ base: 12, md: 6 }}>
-          <Card withBorder radius="md" h="100%">
-            <Title order={5} mb="sm">Lab Orders</Title>
+          <Card withBorder radius="md" style={{ flex: 1, display: 'flex', flexDirection: 'column', minHeight: 0 }}>
+            <Group justify="space-between" mb="sm">
+              <Title order={5}>Procedures Performed</Title>
+              <Text size="xs" c="blue" component={Link} to={`/Procedure?subject=Patient/${patientId}`}>
+                View all →
+              </Text>
+            </Group>
             <Divider mb="sm" />
+            <ScrollArea style={{ flex: 1, minHeight: 0 }}>
+              {procedures.length === 0 ? (
+                <Text size="sm" c="dimmed">No procedures recorded</Text>
+              ) : (
+                <Stack gap="xs">
+                  {procedures.map((proc) => {
+                    const name = proc.code?.text ?? proc.code?.coding?.[0]?.display ?? 'Unknown Procedure';
+                    return (
+                      <Group key={proc.id} justify="space-between">
+                        <Text size="sm">{name}</Text>
+                        {statusBadge(proc.status, { completed: 'green', 'in-progress': 'orange', 'not-done': 'gray' })}
+                      </Group>
+                    );
+                  })}
+                </Stack>
+              )}
+            </ScrollArea>
+          </Card>
+        </div>
+
+        {/* Right column: Lab Orders filling full height */}
+        <Card withBorder radius="md" style={{ display: 'flex', flexDirection: 'column', minHeight: 0 }}>
+          <Group justify="space-between" mb="sm">
+            <Title order={5}>Lab Orders</Title>
+            <Text size="xs" c="blue" component={Link} to={`/ServiceRequest?subject=Patient/${patientId}`}>
+              View all →
+            </Text>
+          </Group>
+          <Divider mb="sm" />
+          <ScrollArea style={{ flex: 1, minHeight: 0 }}>
             {serviceRequests.length === 0 ? (
-              <Text size="sm" c="dimmed">No lab orders placed in this visit</Text>
+              <Text size="sm" c="dimmed">No lab orders placed</Text>
             ) : (
               <Stack gap="xs">
                 {serviceRequests.map((sr) => {
@@ -311,32 +354,9 @@ export function EncounterSummaryPage(): JSX.Element {
                 })}
               </Stack>
             )}
-          </Card>
-        </Grid.Col>
-
-        {/* Procedures */}
-        <Grid.Col span={{ base: 12, md: 6 }}>
-          <Card withBorder radius="md" h="100%">
-            <Title order={5} mb="sm">Procedures Performed</Title>
-            <Divider mb="sm" />
-            {procedures.length === 0 ? (
-              <Text size="sm" c="dimmed">No procedures recorded for this visit</Text>
-            ) : (
-              <Stack gap="xs">
-                {procedures.map((proc) => {
-                  const name = proc.code?.text ?? proc.code?.coding?.[0]?.display ?? 'Unknown Procedure';
-                  return (
-                    <Group key={proc.id} justify="space-between">
-                      <Text size="sm">{name}</Text>
-                      {statusBadge(proc.status, { completed: 'green', 'in-progress': 'orange', 'not-done': 'gray' })}
-                    </Group>
-                  );
-                })}
-              </Stack>
-            )}
-          </Card>
-        </Grid.Col>
-      </Grid>
+          </ScrollArea>
+        </Card>
+      </div>
     </Stack>
   );
 }

@@ -169,7 +169,7 @@ export function ResourcePage(): JSX.Element | null {
         <Paper>
           {patient && <PatientHeader patient={patient} />}
           {specimen && <SpecimenHeader specimen={specimen} />}
-          {resourceType !== 'Patient' && <ResourceHeader resource={reference} />}
+          {resourceType !== 'Patient' && resourceType !== 'Encounter' && <ResourceHeader resource={reference} />}
           <ScrollArea>
             <Tabs value={currentTab.toLowerCase()} onChange={onTabChange}>
               <Tabs.List style={{ whiteSpace: 'nowrap', flexWrap: 'nowrap' }}>

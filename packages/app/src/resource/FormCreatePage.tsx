@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 import { Stack, Text } from '@mantine/core';
 import { addProfileToResource } from '@medplum/core';
-import type { OperationOutcome, Patient, Resource } from '@medplum/fhirtypes';
+import type { OperationOutcome, Resource } from '@medplum/fhirtypes';
 import type { SupportedProfileStructureDefinition } from '@medplum/react';
 import { Document, ResourceForm } from '@medplum/react';
 import type { JSX } from 'react';
@@ -12,12 +12,19 @@ import { ProfileTabs } from './ProfileTabs';
 import { useCreateResource } from './useCreateResource';
 import { cleanResource } from './utils';
 
-const PATIENT_ID_SYSTEM = 'http://hospital.com/patient-id';
+// Resource types that receive a system-assigned identifier on creation.
+const AUTO_ID_CONFIG: Record<string, { system: string; prefix: string }> = {
+  Patient:      { system: 'http://hospital.com/patient-id',      prefix: 'PAT' },
+  Organization: { system: 'http://hospital.com/organization-id', prefix: 'ORG' },
+  Appointment:  { system: 'http://hospital.com/appointment-id',  prefix: 'APT' },
+  Encounter:    { system: 'http://hospital.com/encounter-id',    prefix: 'CON' },
+  Condition:        { system: 'http://hospital.com/condition-id',          prefix: 'DGN' },
+  DiagnosticReport: { system: 'http://hospital.com/diagnostic-report-id',  prefix: 'RPT' },
+};
 
-// Uses the last 6 digits of the millisecond timestamp — unique enough for any
-// realistic patient volume and requires zero database round-trips.
-function generatePatientId(): string {
-  return `PAT-${String(Date.now()).slice(-6)}`;
+// Last 6 digits of the ms timestamp — unique enough for realistic volumes, no DB round-trip.
+function generateId(prefix: string): string {
+  return `${prefix}-${String(Date.now()).slice(-6)}`;
 }
 
 export function FormCreatePage(): JSX.Element {
@@ -28,17 +35,14 @@ export function FormCreatePage(): JSX.Element {
   const [currentProfile, setCurrentProfile] = useState<SupportedProfileStructureDefinition | undefined>();
 
   const isProfilesPage = location.pathname.toLowerCase().endsWith('profiles');
-  const isPatient = resourceType === 'Patient';
+  const autoId = AUTO_ID_CONFIG[resourceType ?? ''];
 
   // Generate once per form session so the same ID is shown and submitted.
-  const patientDefaultValue = useMemo<Resource>(() => {
-    if (!isPatient) return defaultValue;
-    return {
-      ...defaultValue,
-      identifier: [{ system: PATIENT_ID_SYSTEM, value: generatePatientId() }],
-    } as Patient;
+  const seededDefaultValue = useMemo<Resource>(() => {
+    if (!autoId) return defaultValue;
+    return { ...defaultValue, identifier: [{ system: autoId.system, value: generateId(autoId.prefix) }] } as Resource;
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [isPatient]); // intentionally omit defaultValue — we only want one stable ID per form open
+  }, [resourceType]); // intentionally omit defaultValue — one stable ID per form open
 
   const onProfileSubmit = useCallback(
     (resource: Resource): void => {
@@ -55,10 +59,10 @@ export function FormCreatePage(): JSX.Element {
     return (
       <Document>
         <ResourceForm
-          defaultValue={isPatient ? patientDefaultValue : defaultValue}
+          defaultValue={seededDefaultValue}
           onSubmit={handleSubmit}
           outcome={outcome}
-          readonlyFields={isPatient ? ['identifier'] : undefined}
+          readonlyFields={autoId ? ['identifier'] : undefined}
         />
       </Document>
     );
